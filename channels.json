@@ -1,0 +1,96 @@
+{
+    "SiNAVM": [
+        "vmess",
+        "vless",
+        "trojan",
+        "ss",
+        "tuic",
+        "hy2"
+    ],
+    "VPNCUSTOMIZE": [
+        "vless"
+    ],
+    "azadi_az_inja_migzare": [
+        "vmess",
+        "vless",
+        "ss",
+        "tuic",
+        "hy2"
+    ],
+    "DirectVPN": [
+        "vmess",
+        "vless",
+        "trojan"
+    ],
+    "v2ray_outlineir": [
+        "vmess",
+        "vless"
+    ],
+    "DeamNet_Proxy": [
+        "vmess",
+        "vless",
+        "ss"
+    ],
+    "oneclickvpnkeys": [
+        "vmess",
+        "vless",
+        "trojan"
+    ],
+    "Outline_Vpn": [
+        "vless"
+    ],
+    "customv2ray": [
+        "vmess",
+        "vless"
+    ],
+    "vmessorg": [
+        "vmess",
+        "vless"
+    ],
+    "ShadowProxy66": [
+        "vmess",
+        "vless",
+        "trojan",
+        "ss"
+    ],
+    "sinavm": [
+        "vless"
+    ],
+    "GozargahVPN": [
+        "vless"
+    ],
+    "Gp_Config": [
+        "vmess",
+        "vless",
+        "trojan",
+        "ss"
+    ],
+    "V2FETCH": [
+        "vless"
+    ],
+    "TEHRANARGO": [
+        "vless",
+        "trojan"
+    ],
+    "meli_proxyy": [
+        "vmess",
+        "vless",
+        "trojan",
+        "ss",
+        "tuic",
+        "hy2"
+    ],
+    "ArV2ray": [
+        "vless"
+    ],
+    "OpenSSTPVpn": [
+        "vless",
+        "vmess",
+        "ss"
+    ],
+    "redfree8": [
+        "vmess",
+        "vless",
+        "trojan"
+    ]
+}
