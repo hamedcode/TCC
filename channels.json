@@ -10,6 +10,9 @@
     "VPNCUSTOMIZE": [
         "vless"
     ],
+    "AzadNet": [
+        "vless"
+    ],
     "azadi_az_inja_migzare": [
         "vmess",
         "vless",
