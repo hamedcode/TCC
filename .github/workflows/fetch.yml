@@ -1,0 +1,36 @@
+ # .github/workflows/fetch.yml
+name: Fetch Telegram Configs
+
+on:
+  schedule:
+    # هر ۸ ساعت: دقیقه صفر ساعت‌های ۰،۸،۱۶
+    - cron: '0 */8 * * *'
+  workflow_dispatch:  # امکان اجرای دستی هم فراهم می‌کند
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fetch script
+        run: python fetch_configs.py
+
+      - name: Commit and push output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output.txt
+          git commit -m "Auto-update configs $(date -u +"%Y-%m-%dT%H:%M:%SZ")" || echo "No changes to commit"
+          git push
+
