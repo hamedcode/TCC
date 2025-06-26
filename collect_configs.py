@@ -53,33 +53,37 @@ def main():
     with app:
         for ch in channels:
             try:
-                print(f"Reading from {ch}")
+                print(f"📡 Checking {ch}")
                 configs = []
                 for msg in app.get_chat_history(ch, limit=100):
                     if not msg.date or not is_today(msg.date):
                         continue
-                    if msg.text:
-                        configs += extract_configs(msg.text)
+                    content = msg.text or msg.caption
+                    if content:
+                        found = extract_configs(content)
+                        if found:
+                            print(f"  ✅ Found {len(found)} configs in a message.")
+                            configs += found
                 if configs:
                     filename = ch.replace("@", "") + ".txt"
                     with open(f"output/{filename}", "w", encoding="utf-8") as f:
                         f.write("\n".join(sorted(set(configs))))
-                    print(f"Saved {len(configs)} configs to output/{filename}")
                     all_configs.update(configs)
+                    print(f"💾 Saved {len(configs)} configs from {ch}")
                 else:
-                    print(f"No configs found today in {ch}")
+                    print(f"⚠ No configs found today in {ch}")
             except Exception as e:
-                print(f"Error reading {ch}: {e}")
+                print(f"❌ Error reading {ch}: {e}")
 
-    # ذخیره فایل کلی
+    # ذخیره نهایی همه کانفیگ‌ها
     with open("all_configs.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(sorted(all_configs)))
-    print(f"✅ Total {len(all_configs)} configs written to all_configs.txt")
+    print(f"✅ Total {len(all_configs)} configs saved in all_configs.txt")
 
-    # 🟩 ریست کردن ایندکس
+    # ریست ایندکس
     with open("last_index.txt", "w") as f:
         f.write("0")
-    print("✅ last_index.txt reset to 0")
+    print("🔁 Index reset to 0")
 
 if __name__ == "__main__":
     main()
