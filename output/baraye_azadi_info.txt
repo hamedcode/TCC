@@ -1,0 +1,2 @@
+ss://0c8901be-e521-46d9-b967-d97c2b114945@speedtest.net:80?encryption=none&security=none&fp=chrome&type=xhttp&host=forchannel.global.ssl.fastly.net&path=%2Fazadi%3Fed%3D2560&mode=auto#%40Baraye_azadi_info%2FGermany%F0%9F%87%A9%F0%9F%87%AA
+vless://0c8901be-e521-46d9-b967-d97c2b114945@speedtest.net:80?encryption=none&security=none&fp=chrome&type=xhttp&host=forchannel.global.ssl.fastly.net&path=%2Fazadi%3Fed%3D2560&mode=auto#%40Baraye_azadi_info%2FGermany%F0%9F%87%A9%F0%9F%87%AA
