@@ -5,7 +5,6 @@ import base64
 import datetime
 from pyrogram import Client
 
-# 🔐 بازسازی فایل session از Secret
 def restore_session():
     if not os.path.exists("pyrogram_config_collector.session"):
         session_data = os.getenv("PYROGRAM_SESSION_B64")
@@ -16,12 +15,10 @@ def restore_session():
 
 restore_session()
 
-# خواندن API ID و HASH از Secrets
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 SESSION_NAME = "pyrogram_config_collector"
 
-# الگوهای کانفیگ
 CONFIG_PATTERNS = [
     r"(vmess://[^\s]+)",
     r"(vless://[^\s]+)",
@@ -74,11 +71,10 @@ def main():
             except Exception as e:
                 print(f"Error reading {ch}: {e}")
 
-    # ذخیره همه کانفیگ‌ها در فایل all_configs.txt
-    if all_configs:
-        with open("all_configs.txt", "w", encoding="utf-8") as f:
-            f.write("\n".join(sorted(all_configs)))
-        print(f"Saved total {len(all_configs)} configs to all_configs.txt")
+    # ذخیره فایل کلی all_configs.txt
+    with open("all_configs.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(sorted(all_configs)))
+    print(f"✅ Total {len(all_configs)} configs written to all_configs.txt")
 
 if __name__ == "__main__":
     main()
