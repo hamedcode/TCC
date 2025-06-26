@@ -1,18 +1,16 @@
- # .github/workflows/fetch.yml
-name: Fetch Telegram Configs
+name: Collect Telegram Configs
 
 on:
   schedule:
-    # هر ۸ ساعت: دقیقه صفر ساعت‌های ۰،۸،۱۶
-    - cron: '0 */8 * * *'
-  workflow_dispatch:  # امکان اجرای دستی هم فراهم می‌کند
+    - cron: '0 */8 * * *'  # هر ۸ ساعت
+  workflow_dispatch:  # اجرای دستی
 
 jobs:
-  fetch:
+  run-script:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -23,14 +21,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run fetch script
-        run: python fetch_configs.py
+      - name: Run script
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: python collect_configs.py
 
       - name: Commit and push output
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output.txt
-          git commit -m "Auto-update configs $(date -u +"%Y-%m-%dT%H:%M:%SZ")" || echo "No changes to commit"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git add output/
+          git commit -m "Auto update configs [$(date -u)]" || echo "No changes"
           git push
-
