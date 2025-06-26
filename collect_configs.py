@@ -71,10 +71,15 @@ def main():
             except Exception as e:
                 print(f"Error reading {ch}: {e}")
 
-    # ذخیره فایل کلی all_configs.txt
+    # ذخیره فایل کلی
     with open("all_configs.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(sorted(all_configs)))
     print(f"✅ Total {len(all_configs)} configs written to all_configs.txt")
+
+    # 🟩 ریست کردن ایندکس
+    with open("last_index.txt", "w") as f:
+        f.write("0")
+    print("✅ last_index.txt reset to 0")
 
 if __name__ == "__main__":
     main()
