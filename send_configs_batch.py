@@ -1,5 +1,4 @@
 import os
-import time
 import requests
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
@@ -15,40 +14,47 @@ index_file = "last_index.txt"
 with open(all_file, "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
-# خواندن اولین عدد معتبر از فایل ایندکس
+# خواندن اندیس آخرین ارسال
 last_index = 0
 if os.path.exists(index_file):
     with open(index_file, "r") as idx_file:
         for line in idx_file:
-            line = line.strip()
-            if line.isdigit():
-                last_index = int(line)
+            if line.strip().isdigit():
+                last_index = int(line.strip())
                 break
 
-# محدوده ارسال
 batch_size = 5
 end_index = min(last_index + batch_size, len(lines))
 
-print(f"Total configs: {len(lines)} | Sending lines {last_index + 1} to {end_index}")
-
 if last_index >= len(lines):
-    print("✅ Nothing to send. All configs already sent.")
+    print("✅ همه کانفیگ‌ها قبلاً ارسال شده.")
 else:
-    # ارسال
-    for i in range(last_index, end_index):
-        config = lines[i]
-        print(f"Sending [{i+1}/{len(lines)}]: {config[:50]}...")
-        res = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", data={
-            "chat_id": CHAT_ID,
-            "text": config
-        })
-        if res.status_code != 200:
-            print(f"❌ Failed: {res.text}")
-        else:
-            print("✅ Sent.")
+    batch = lines[last_index:end_index]
 
-    # ذخیره اندیس جدید (فقط یک عدد)
+    # ساخت پیام با قالب مناسب
+    message_lines = [
+        "🚀 ۵ کانفیگ جدید از تلگرام امروز:",
+        "",
+    ]
+    for i, cfg in enumerate(batch, start=1):
+        message_lines.append(f"{i}. `{cfg}`")
+
+    message = "\n".join(message_lines)
+
+    # ارسال به تلگرام با Markdown
+    res = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", data={
+        "chat_id": CHAT_ID,
+        "text": message,
+        "parse_mode": "Markdown"
+    })
+
+    if res.status_code != 200:
+        print(f"❌ ارسال با خطا مواجه شد: {res.text}")
+    else:
+        print("✅ پیام با موفقیت ارسال شد.")
+
+    # ذخیره اندیس جدید
     with open(index_file, "w") as idx_file:
         idx_file.write(str(end_index))
 
-    print(f"✅ Finished sending {end_index - last_index} configs.")
+    print(f"✅ اندیس جدید: {end_index}")
