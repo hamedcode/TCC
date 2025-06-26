@@ -1,5 +1,6 @@
 import os
 import requests
+from datetime import datetime, timedelta
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHANNEL_ID")
@@ -31,30 +32,39 @@ if last_index >= len(lines):
 else:
     batch = lines[last_index:end_index]
 
-    # ساخت پیام با قالب مناسب
-    message_lines = [
-        "🚀 ۵ کانفیگ جدید از تلگرام امروز:",
-        "",
-    ]
-    for i, cfg in enumerate(batch, start=1):
-        message_lines.append(f"{i}. `{cfg}`")
+    # -------------------- اطلاعات بالا --------------------
+    tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
+    time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
 
-    message = "\n".join(message_lines)
+    # تخمین پرچم از کلمات کلیدی در دامنه
+    flags = []
+    country_map = {
+        "iran": "🇮🇷",
+        "ir": "🇮🇷",
+        "de": "🇩🇪",
+        "us": "🇺🇸",
+        "nl": "🇳🇱",
+        "fr": "🇫🇷",
+        "uk": "🇬🇧",
+        "sg": "🇸🇬",
+        "ca": "🇨🇦",
+        "ru": "🇷🇺",
+        "tr": "🇹🇷"
+    }
 
-    # ارسال به تلگرام با Markdown
-    res = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", data={
-        "chat_id": CHAT_ID,
-        "text": message,
-        "parse_mode": "Markdown"
-    })
+    for cfg in batch:
+        for key, flag in country_map.items():
+            if key in cfg.lower():
+                flags.append(flag)
 
-    if res.status_code != 200:
-        print(f"❌ ارسال با خطا مواجه شد: {res.text}")
-    else:
-        print("✅ پیام با موفقیت ارسال شد.")
+    unique_flags = sorted(set(flags))
 
-    # ذخیره اندیس جدید
-    with open(index_file, "w") as idx_file:
-        idx_file.write(str(end_index))
+    # توضیح خلاصه
+    summary = f"{len(batch)} کانفیگ جدید مناسب کاربران ایرانی با انواع vmess، ss، trojan"
+    if unique_flags:
+        summary += f"\nکشورها: {' '.join(unique_flags)}"
 
-    print(f"✅ اندیس جدید: {end_index}")
+    # پیام نهایی با بلوک کپی
+    message = f"""📦 کانفیگ‌های جدید - {time_str}
+{summary}
+
