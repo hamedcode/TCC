@@ -1,31 +1,24 @@
-# Telegram Configs Collector
+# Telegram Config Collector (via Pyrogram + GitHub Actions)
 
-این پروژه به صورت ساده کانفیگ‌های پروکسی (vmess, vless, trojan, ss, tuic, hy2) را از لیست کانال‌های تلگرام در فایل `channels.json` جمع‌آوری کرده و خروجی همه کانفیگ‌ها را در `output.txt` ذخیره می‌کند.
+این پروژه کانفیگ‌های پروکسی (vmess, vless, ss, trojan و ...) را از کانال‌های عمومی تلگرام استخراج می‌کند.
 
-## شروع به کار
+## مراحل راه‌اندازی:
 
-1. ایجاد محیط مجازی (اختیاری):
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-2. نصب پیش‌نیازها:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. اجرای اسکریپت:
-   ```bash
-   python fetch_configs.py
-   ```
-4. کانفیگ‌های جمع‌آوری شده در `output.txt` ذخیره می‌شوند.
+1. مقادیر زیر را از [https://my.telegram.org](https://my.telegram.org) دریافت کن:
+   - API_ID
+   - API_HASH
+2. یک بات از [@BotFather](https://t.me/BotFather) بساز و توکنش رو بگیر.
+3. این مقادیر را در بخش:
+   **Settings → Secrets and Variables → Actions → New Repository Secret** وارد کن:
+   - `API_ID`
+   - `API_HASH`
+   - `BOT_TOKEN`
 
-## فایل‌ها
+## اجرا در GitHub Actions
 
-- **channels.json**: لیست کانال‌های تلگرام و پروتکل‌های مدنظر.
-- **fetch_configs.py**: اسکریپت اصلی برای جمع‌آوری کانفیگ‌ها.
-- **requirements.txt**: وابستگی‌های پروژه.
-- **output.txt**: خروجی کانفیگ‌های جمع‌آوری شده (در اجرا ایجاد می‌شود).
+- این پروژه هر ۸ ساعت اجرا شده و آخرین کانفیگ‌ها را در پوشه `output/` به‌روزرسانی می‌کند.
+- برای اجرای دستی نیز از تب **Actions** استفاده کنید.
 
-## ویرایش لیست کانال‌ها
+## خروجی
 
-برای اضافه کردن یا حذف کانال‌ها، فایل `channels.json` را ویرایش کنید.
+در پوشه `output/` برای هر کانال یک فایل `.txt` شامل کانفیگ‌ها ذخیره می‌شود.
