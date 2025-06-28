@@ -1,6 +1,0 @@
-ss://064ba335-b5f7-4bd8-83b7-81255581b220@185.29.223.151:2083/?type=tcp&security=none#@ansel_team-t2
-ss://2e6b161a-d82d-4775-bdd3-79eafcdfaf44@95.142.45.7:30897/?type=tcp&security=none#@Ansel_Team
-ss://fca39ac9-247e-45d7-8be1-078ff39a9756@94.156.11.192:26268/?type=tcp&security=none#@Ansel_Team
-vless://064ba335-b5f7-4bd8-83b7-81255581b220@185.29.223.151:2083/?type=tcp&security=none#@ansel_team-t2
-vless://2e6b161a-d82d-4775-bdd3-79eafcdfaf44@95.142.45.7:30897/?type=tcp&security=none#@Ansel_Team
-vless://fca39ac9-247e-45d7-8be1-078ff39a9756@94.156.11.192:26268/?type=tcp&security=none#@Ansel_Team
