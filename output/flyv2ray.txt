@@ -1,6 +1,0 @@
-ss://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.210:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40flyv2ray
-ss://2eaef053-5fd6-4def-b234-d760690355ff@91.99.162.239:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40flyv2ray
-ss://f6232313-e4bc-4861-834d-85fd98ba642a@mci.dl101movis.ir:80?mode=auto&path=%2F&security=none&encryption=none&host=bahbahbahvpn.ir&type=xhttp#%40flyv2ray
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.210:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40flyv2ray
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.162.239:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40flyv2ray
-vless://f6232313-e4bc-4861-834d-85fd98ba642a@mci.dl101movis.ir:80?mode=auto&path=%2F&security=none&encryption=none&host=bahbahbahvpn.ir&type=xhttp#%40flyv2ray
