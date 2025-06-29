@@ -1,8 +1,10 @@
 import os
-import requests
-from datetime import datetime, timedelta
-from urllib.parse import urlparse
 import re
+import requests
+import base64
+import json
+from datetime import datetime, timedelta
+from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
@@ -10,10 +12,12 @@ CHANNEL_ID = os.getenv("CHANNEL_ID")
 if not BOT_TOKEN or not CHANNEL_ID:
     raise Exception("BOT_TOKEN or CHANNEL_ID is not set in secrets")
 
+REPLACE_TAG = "@Config724"
+
 all_file = "all_configs.txt"
 index_file = "last_index.txt"
 
-# خواندن همه کانفیگ‌ها
+# خواندن کانفیگ‌ها
 with open(all_file, "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
@@ -39,40 +43,54 @@ batch = lines[last_index:end_index]
 tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
 time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
 
-# لیست پرچم‌ها
+# پرچم‌ها، پروتکل‌ها، پورت‌ها
 country_flags = {
-    "ir": "🇮🇷", "iran": "🇮🇷",
-    "de": "🇩🇪", "germany": "🇩🇪",
-    "us": "🇺🇸", "usa": "🇺🇸", "america": "🇺🇸",
-    "nl": "🇳🇱", "netherlands": "🇳🇱",
-    "fr": "🇫🇷", "france": "🇫🇷",
-    "uk": "🇬🇧", "gb": "🇬🇧", "london": "🇬🇧",
-    "ru": "🇷🇺", "russia": "🇷🇺",
-    "sg": "🇸🇬", "singapore": "🇸🇬",
-    "ca": "🇨🇦", "canada": "🇨🇦",
-    "tr": "🇹🇷", "turkey": "🇹🇷",
-    "jp": "🇯🇵", "japan": "🇯🇵",
-    "kr": "🇰🇷", "korea": "🇰🇷",
-    "hk": "🇭🇰", "hongkong": "🇭🇰",
-    "in": "🇮🇳", "india": "🇮🇳",
-    "br": "🇧🇷", "brazil": "🇧🇷",
-    "th": "🇹🇭", "thailand": "🇹🇭",
-    "vn": "🇻🇳", "vietnam": "🇻🇳",
-    "sa": "🇸🇦", "ksa": "🇸🇦", "arabia": "🇸🇦",
-    "sy": "🇸🇾", "syria": "🇸🇾"
+    "ir": "🇮🇷", "iran": "🇮🇷", "de": "🇩🇪", "germany": "🇩🇪",
+    "us": "🇺🇸", "usa": "🇺🇸", "nl": "🇳🇱", "fr": "🇫🇷", "uk": "🇬🇧",
+    "ru": "🇷🇺", "sg": "🇸🇬", "ca": "🇨🇦", "tr": "🇹🇷", "jp": "🇯🇵",
+    "kr": "🇰🇷", "hk": "🇭🇰", "in": "🇮🇳", "br": "🇧🇷", "th": "🇹🇭",
+    "vn": "🇻🇳", "sa": "🇸🇦", "sy": "🇸🇾"
 }
-
 flags = []
 protocols = set()
 ports = set()
 
-def replace_channel_tag(text, new_tag="@Config724"):
-    return re.sub(r"@[\w\d_]+", new_tag, text)
+def update_tag_safe(cfg):
+    if cfg.startswith("vmess://"):
+        try:
+            raw = cfg.replace("vmess://", "")
+            padded = raw + '=' * (-len(raw) % 4)
+            decoded = base64.urlsafe_b64decode(padded.encode()).decode()
+            data = json.loads(decoded)
+            if "ps" in data:
+                data["ps"] = re.sub(r"@[\w\d_]+", REPLACE_TAG, data["ps"])
+            encoded = base64.urlsafe_b64encode(json.dumps(data, separators=(',', ':')).encode()).decode().rstrip("=")
+            return "vmess://" + encoded
+        except:
+            return cfg
+    elif any(cfg.startswith(proto) for proto in ["vless://", "trojan://", "ss://", "hy2://", "tuic://"]):
+        try:
+            parsed = urlparse(cfg)
+            tag = parsed.fragment
+            new_tag = re.sub(r"@[\w\d_]+", REPLACE_TAG, tag)
+            rebuilt = urlunparse((
+                parsed.scheme,
+                parsed.netloc,
+                parsed.path,
+                parsed.params,
+                parsed.query,
+                new_tag
+            ))
+            return rebuilt
+        except:
+            return cfg
+    else:
+        return cfg
 
 cleaned_batch = []
 for cfg in batch:
-    cleaned = replace_channel_tag(cfg)
-    cleaned_batch.append(cleaned)
+    safe_cfg = update_tag_safe(cfg)
+    cleaned_batch.append(safe_cfg)
 
     proto = cfg.split("://")[0]
     protocols.add(proto)
