@@ -2,6 +2,7 @@ import os
 import requests
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
+import re
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
@@ -65,38 +66,39 @@ flags = []
 protocols = set()
 ports = set()
 
+def replace_channel_tag(text, new_tag="@Config724"):
+    return re.sub(r"@[\w\d_]+", new_tag, text)
+
+cleaned_batch = []
 for cfg in batch:
-    # پروتکل
+    cleaned = replace_channel_tag(cfg)
+    cleaned_batch.append(cleaned)
+
     proto = cfg.split("://")[0]
     protocols.add(proto)
 
-    # پورت
     try:
         parsed = urlparse(cfg)
         host_port = parsed.netloc.split("@")[-1]
         if ':' in host_port:
             ports.add(host_port.split(":")[-1])
+        for key, flag in country_flags.items():
+            if key in cfg.lower():
+                flags.append(flag)
     except:
-        pass
+        continue
 
-    # پرچم
-    for key, flag in country_flags.items():
-        if key in cfg.lower():
-            flags.append(flag)
-
-# نمایش اطلاعات
 flags = sorted(set(flags))
 protocol_str = "، ".join(sorted(protocols))
 port_str = "، ".join(sorted(ports))
 
-summary = f"{len(batch)} کانفیگ جدید با پروتکل‌های {protocol_str}"
+summary = f"{len(cleaned_batch)} کانفیگ جدید با پروتکل‌های {protocol_str}"
 if port_str:
     summary += f" و پورت‌های {port_str}"
 if flags:
     summary += f"\n🌍 کشورها: {' '.join(flags)}"
 
-# ساخت پیام نهایی
-configs_text = "\n".join(batch)
+configs_text = "\n".join(cleaned_batch)
 message = (
     f"📦 کانفیگ‌های جدید - {time_str}\n\n"
     f"{summary}\n\n"
