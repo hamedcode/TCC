@@ -1,0 +1,2 @@
+ss://Anty_Vpn-Anty_Vpn@cvvmtfin.fekoli.com:2095?type=tcp&security=reality&pbk=277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M&fp=chrome&sni=yahoo.com&sid=f2&spx=%2F#%40Anty_Vpn%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
+vless://Anty_Vpn-Anty_Vpn@cvvmtfin.fekoli.com:2095?type=tcp&security=reality&pbk=277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M&fp=chrome&sni=yahoo.com&sid=f2&spx=%2F#%40Anty_Vpn%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
