@@ -1,4 +1,0 @@
-ss://12c67119-d240-4c0b-9704-33db37020455@188.227.84.128:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
-ss://30ef1866-18f3-4641-9eda-04131f0c6259@188.227.84.154:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
-vless://12c67119-d240-4c0b-9704-33db37020455@188.227.84.128:8443?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
-vless://30ef1866-18f3-4641-9eda-04131f0c6259@188.227.84.154:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
