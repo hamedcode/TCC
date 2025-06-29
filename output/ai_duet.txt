@@ -1,0 +1,13 @@
+ss://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.14:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
+ss://609cbb2a-8bd3-4c3d-ad54-220863b5d670@95.38.104.119:1919?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
+ss://9c97ace1-30f7-4276-bdc4-9ffdc6607b10@151.101.3.8:80?path=%2F%40SvnProBot%3Fed%3D2560&security=none&encryption=none&host=Aeza.net&type=ws#%40ai_duet%20%E2%80%A2%20%40v2rayngsupbot
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@4.223.100.248:48172#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
+ss://aa188240-cf10-4df6-9543-5223800891be@srv3.amazon-osishop.ir:8880?security=none&encryption=none&host=eN.TwiTtER.cOM.%3A8880&headerType=http&type=tcp#%40ai_duet%20%E2%80%A2%20%40v2rayngsupbot
+ss://ae48f95d-9b6a-454b-849b-2ecf7922487b@v3.fandogh4.ir:2053?path=%2FC7OSXPN9yV234T1Y%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dash.beginnertopro.ir&fp=firefox&type=ws&sni=dash.beginnertopro.ir#%F0%9F%94%90%40ai_duet
+ss://ccd5d8c4-634c-46bc-8f7a-5be3b8649858@85.133.215.188:3311?mode=gun&security=none&encryption=none&type=grpc#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
+vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.14:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
+vless://609cbb2a-8bd3-4c3d-ad54-220863b5d670@95.38.104.119:1919?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
+vless://9c97ace1-30f7-4276-bdc4-9ffdc6607b10@151.101.3.8:80?path=%2F%40SvnProBot%3Fed%3D2560&security=none&encryption=none&host=Aeza.net&type=ws#%40ai_duet%20%E2%80%A2%20%40v2rayngsupbot
+vless://aa188240-cf10-4df6-9543-5223800891be@srv3.amazon-osishop.ir:8880?security=none&encryption=none&host=eN.TwiTtER.cOM.%3A8880&headerType=http&type=tcp#%40ai_duet%20%E2%80%A2%20%40v2rayngsupbot
+vless://ae48f95d-9b6a-454b-849b-2ecf7922487b@v3.fandogh4.ir:2053?path=%2FC7OSXPN9yV234T1Y%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dash.beginnertopro.ir&fp=firefox&type=ws&sni=dash.beginnertopro.ir#%F0%9F%94%90%40ai_duet
+vless://ccd5d8c4-634c-46bc-8f7a-5be3b8649858@85.133.215.188:3311?mode=gun&security=none&encryption=none&type=grpc#%40ai_duet%20%40v2rayngsupbot%F0%9F%9B%A1%EF%B8%8F
