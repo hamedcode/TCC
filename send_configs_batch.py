@@ -6,54 +6,34 @@ import requests
 import base64
 from datetime import datetime, timedelta
 from urllib.parse import urlparse, urlunparse
-import ipaddress
+import geoip2.database
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
+MMDB_PATH = "GeoLite2-Country.mmdb"
 
 if not BOT_TOKEN or not CHANNEL_ID:
-    raise Exception("BOT_TOKEN or CHANNEL_ID is not set.")
+    raise Exception("BOT_TOKEN or CHANNEL_ID not set")
+
+if not os.path.exists(MMDB_PATH):
+    raise FileNotFoundError(f"❌ فایل GeoIP ({MMDB_PATH}) یافت نشد. لطفاً آن را در ریشه پروژه قرار دهید.")
 
 REPLACE_TAG = "@Config724"
-IP_DB_PATH = "ip2country_full.json"
 
-# بارگذاری دیتابیس IP به کشور
-with open(IP_DB_PATH, "r") as f:
-    ip_db = json.load(f)
+reader = geoip2.database.Reader(MMDB_PATH)
 
-country_names = {
-    "IR": "Iran", "DE": "Germany", "US": "United States", "FR": "France",
-    "SG": "Singapore", "NL": "Netherlands", "RU": "Russia", "CA": "Canada",
-    "TR": "Turkey", "JP": "Japan", "GB": "United Kingdom", "HK": "Hong Kong",
-    "CN": "China", "IN": "India", "KR": "South Korea", "AE": "UAE",
-    "SE": "Sweden", "IT": "Italy", "ES": "Spain", "PL": "Poland", "RO": "Romania",
-    "UA": "Ukraine", "BR": "Brazil", "ID": "Indonesia", "VN": "Vietnam",
-    "MY": "Malaysia", "TH": "Thailand", "AU": "Australia", "KZ": "Kazakhstan",
-    "FI": "Finland", "NO": "Norway", "DK": "Denmark", "CH": "Switzerland",
-    "BE": "Belgium", "AT": "Austria", "CZ": "Czech Republic", "SK": "Slovakia",
-    "HU": "Hungary", "GR": "Greece", "BG": "Bulgaria", "IL": "Israel",
-    "SA": "Saudi Arabia", "PK": "Pakistan", "AF": "Afghanistan", "IQ": "Iraq",
-    "SY": "Syria", "YE": "Yemen", "MA": "Morocco", "EG": "Egypt", "ZA": "South Africa"
-}
-
-def country_code_to_flag(code):
-    return ''.join([chr(0x1F1E6 + ord(c.upper()) - 65) for c in code]) if code != "ZZ" else "🏳️"
-
-def get_country_code(ip):
+def get_country_info(ip):
     try:
-        ip_addr = ipaddress.IPv4Address(ip)
-        for code, ranges in ip_db.items():
-            for net in ranges:
-                if ip_addr in ipaddress.IPv4Network(net):
-                    return code
+        resp = reader.country(ip)
+        code = resp.country.iso_code or "ZZ"
+        name = resp.country.name or "Unknown"
+        flag = ''.join([chr(0x1F1E6 + ord(c) - 65) for c in code.upper()]) if code != "ZZ" else "🏳️"
+        return flag, name
     except:
-        pass
-    return "ZZ"
+        return "🏳️", "Unknown"
 
 def build_tag(ip):
-    code = get_country_code(ip)
-    name = country_names.get(code, "Unknown")
-    flag = country_code_to_flag(code)
+    flag, name = get_country_info(ip)
     date = datetime.now().strftime("%m/%d")
     return f"{flag} {name} - {date} {REPLACE_TAG}"
 
@@ -83,7 +63,7 @@ def update_tag(cfg):
             host = parsed.hostname or "8.8.8.8"
             ip = resolve_ip(host)
             new_tag = build_tag(ip)
-            new_cfg = urlunparse((
+            return urlunparse((
                 parsed.scheme,
                 parsed.netloc,
                 parsed.path,
@@ -91,7 +71,6 @@ def update_tag(cfg):
                 parsed.query,
                 new_tag
             ))
-            return new_cfg
         except:
             return cfg
     else:
@@ -101,11 +80,11 @@ def update_tag(cfg):
 with open("all_configs.txt", "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
-# خواندن اندیس قبلی
+# خواندن ایندکس
 last_index = 0
 if os.path.exists("last_index.txt"):
-    with open("last_index.txt", "r") as idx_file:
-        for line in idx_file:
+    with open("last_index.txt", "r") as f:
+        for line in f:
             if line.strip().isdigit():
                 last_index = int(line.strip())
                 break
@@ -123,7 +102,7 @@ cleaned_batch = [update_tag(cfg) for cfg in batch]
 tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
 time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
 
-# آمار
+# آمار خلاصه
 proto_set, port_set, flag_set = set(), set(), set()
 for cfg in batch:
     proto_set.add(cfg.split("://")[0])
@@ -131,9 +110,9 @@ for cfg in batch:
         parsed = urlparse(cfg)
         if parsed.port:
             port_set.add(str(parsed.port))
-        host = parsed.hostname or ""
-        code = get_country_code(resolve_ip(host))
-        flag_set.add(country_code_to_flag(code))
+        ip = resolve_ip(parsed.hostname or "8.8.8.8")
+        flag, _ = get_country_info(ip)
+        flag_set.add(flag)
     except:
         continue
 
@@ -162,6 +141,6 @@ if res.status_code != 200:
 else:
     print("✅ پیام ارسال شد.")
 
-# ذخیره اندیس جدید
+# ذخیره ایندکس جدید
 with open("last_index.txt", "w") as f:
     f.write(str(end_index))
