@@ -1,69 +1,78 @@
 import os
 import re
+import json
+import socket
 import requests
 import base64
-import json
 from datetime import datetime, timedelta
-from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+from urllib.parse import urlparse, urlunparse
+import ipaddress
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 if not BOT_TOKEN or not CHANNEL_ID:
-    raise Exception("BOT_TOKEN or CHANNEL_ID is not set in secrets")
+    raise Exception("BOT_TOKEN or CHANNEL_ID is not set.")
 
 REPLACE_TAG = "@Config724"
+IP_DB_PATH = "ip2country_full.json"
 
-all_file = "all_configs.txt"
-index_file = "last_index.txt"
+# بارگذاری دیتابیس IP به کشور
+with open(IP_DB_PATH, "r") as f:
+    ip_db = json.load(f)
 
-# خواندن کانفیگ‌ها
-with open(all_file, "r", encoding="utf-8") as f:
-    lines = [line.strip() for line in f if line.strip()]
-
-# اندیس قبلی
-last_index = 0
-if os.path.exists(index_file):
-    with open(index_file, "r") as idx_file:
-        for line in idx_file:
-            if line.strip().isdigit():
-                last_index = int(line.strip())
-                break
-
-batch_size = 5
-end_index = min(last_index + batch_size, len(lines))
-
-if last_index >= len(lines):
-    print("✅ همه کانفیگ‌ها ارسال شده.")
-    exit(0)
-
-batch = lines[last_index:end_index]
-
-# زمان تهران
-tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
-time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
-
-# پرچم‌ها، پروتکل‌ها، پورت‌ها
-country_flags = {
-    "ir": "🇮🇷", "iran": "🇮🇷", "de": "🇩🇪", "germany": "🇩🇪",
-    "us": "🇺🇸", "usa": "🇺🇸", "nl": "🇳🇱", "fr": "🇫🇷", "uk": "🇬🇧",
-    "ru": "🇷🇺", "sg": "🇸🇬", "ca": "🇨🇦", "tr": "🇹🇷", "jp": "🇯🇵",
-    "kr": "🇰🇷", "hk": "🇭🇰", "in": "🇮🇳", "br": "🇧🇷", "th": "🇹🇭",
-    "vn": "🇻🇳", "sa": "🇸🇦", "sy": "🇸🇾"
+country_names = {
+    "IR": "Iran", "DE": "Germany", "US": "United States", "FR": "France",
+    "SG": "Singapore", "NL": "Netherlands", "RU": "Russia", "CA": "Canada",
+    "TR": "Turkey", "JP": "Japan", "GB": "United Kingdom", "HK": "Hong Kong",
+    "CN": "China", "IN": "India", "KR": "South Korea", "AE": "UAE",
+    "SE": "Sweden", "IT": "Italy", "ES": "Spain", "PL": "Poland", "RO": "Romania",
+    "UA": "Ukraine", "BR": "Brazil", "ID": "Indonesia", "VN": "Vietnam",
+    "MY": "Malaysia", "TH": "Thailand", "AU": "Australia", "KZ": "Kazakhstan",
+    "FI": "Finland", "NO": "Norway", "DK": "Denmark", "CH": "Switzerland",
+    "BE": "Belgium", "AT": "Austria", "CZ": "Czech Republic", "SK": "Slovakia",
+    "HU": "Hungary", "GR": "Greece", "BG": "Bulgaria", "IL": "Israel",
+    "SA": "Saudi Arabia", "PK": "Pakistan", "AF": "Afghanistan", "IQ": "Iraq",
+    "SY": "Syria", "YE": "Yemen", "MA": "Morocco", "EG": "Egypt", "ZA": "South Africa"
 }
-flags = []
-protocols = set()
-ports = set()
 
-def update_tag_safe(cfg):
+def country_code_to_flag(code):
+    return ''.join([chr(0x1F1E6 + ord(c.upper()) - 65) for c in code]) if code != "ZZ" else "🏳️"
+
+def get_country_code(ip):
+    try:
+        ip_addr = ipaddress.IPv4Address(ip)
+        for code, ranges in ip_db.items():
+            for net in ranges:
+                if ip_addr in ipaddress.IPv4Network(net):
+                    return code
+    except:
+        pass
+    return "ZZ"
+
+def build_tag(ip):
+    code = get_country_code(ip)
+    name = country_names.get(code, "Unknown")
+    flag = country_code_to_flag(code)
+    date = datetime.now().strftime("%m/%d")
+    return f"{flag} {name} - {date} {REPLACE_TAG}"
+
+def resolve_ip(host):
+    try:
+        return socket.gethostbyname(host)
+    except:
+        return host
+
+def update_tag(cfg):
     if cfg.startswith("vmess://"):
         try:
             raw = cfg.replace("vmess://", "")
             padded = raw + '=' * (-len(raw) % 4)
             decoded = base64.urlsafe_b64decode(padded.encode()).decode()
             data = json.loads(decoded)
-            if "ps" in data:
-                data["ps"] = re.sub(r"@[\w\d_]+", REPLACE_TAG, data["ps"])
+            host = data.get("add", "")
+            ip = resolve_ip(host)
+            data["ps"] = build_tag(ip)
             encoded = base64.urlsafe_b64encode(json.dumps(data, separators=(',', ':')).encode()).decode().rstrip("=")
             return "vmess://" + encoded
         except:
@@ -71,9 +80,10 @@ def update_tag_safe(cfg):
     elif any(cfg.startswith(proto) for proto in ["vless://", "trojan://", "ss://", "hy2://", "tuic://"]):
         try:
             parsed = urlparse(cfg)
-            tag = parsed.fragment
-            new_tag = re.sub(r"@[\w\d_]+", REPLACE_TAG, tag)
-            rebuilt = urlunparse((
+            host = parsed.hostname or "8.8.8.8"
+            ip = resolve_ip(host)
+            new_tag = build_tag(ip)
+            new_cfg = urlunparse((
                 parsed.scheme,
                 parsed.netloc,
                 parsed.path,
@@ -81,40 +91,57 @@ def update_tag_safe(cfg):
                 parsed.query,
                 new_tag
             ))
-            return rebuilt
+            return new_cfg
         except:
             return cfg
     else:
         return cfg
 
-cleaned_batch = []
+# خواندن کانفیگ‌ها
+with open("all_configs.txt", "r", encoding="utf-8") as f:
+    lines = [line.strip() for line in f if line.strip()]
+
+# خواندن اندیس قبلی
+last_index = 0
+if os.path.exists("last_index.txt"):
+    with open("last_index.txt", "r") as idx_file:
+        for line in idx_file:
+            if line.strip().isdigit():
+                last_index = int(line.strip())
+                break
+
+batch_size = 5
+end_index = min(last_index + batch_size, len(lines))
+if last_index >= len(lines):
+    print("✅ همه کانفیگ‌ها ارسال شده.")
+    exit(0)
+
+batch = lines[last_index:end_index]
+cleaned_batch = [update_tag(cfg) for cfg in batch]
+
+# زمان تهران
+tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
+time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
+
+# آمار
+proto_set, port_set, flag_set = set(), set(), set()
 for cfg in batch:
-    safe_cfg = update_tag_safe(cfg)
-    cleaned_batch.append(safe_cfg)
-
-    proto = cfg.split("://")[0]
-    protocols.add(proto)
-
+    proto_set.add(cfg.split("://")[0])
     try:
         parsed = urlparse(cfg)
-        host_port = parsed.netloc.split("@")[-1]
-        if ':' in host_port:
-            ports.add(host_port.split(":")[-1])
-        for key, flag in country_flags.items():
-            if key in cfg.lower():
-                flags.append(flag)
+        if parsed.port:
+            port_set.add(str(parsed.port))
+        host = parsed.hostname or ""
+        code = get_country_code(resolve_ip(host))
+        flag_set.add(country_code_to_flag(code))
     except:
         continue
 
-flags = sorted(set(flags))
-protocol_str = "، ".join(sorted(protocols))
-port_str = "، ".join(sorted(ports))
-
-summary = f"{len(cleaned_batch)} کانفیگ جدید با پروتکل‌های {protocol_str}"
-if port_str:
-    summary += f" و پورت‌های {port_str}"
-if flags:
-    summary += f"\n🌍 کشورها: {' '.join(flags)}"
+summary = f"{len(cleaned_batch)} کانفیگ جدید با پروتکل‌های {'، '.join(sorted(proto_set))}"
+if port_set:
+    summary += f" و پورت‌های {'، '.join(sorted(port_set))}"
+if flag_set:
+    summary += f"\n🌍 کشورها: {' '.join(sorted(flag_set))}"
 
 configs_text = "\n".join(cleaned_batch)
 message = (
@@ -135,7 +162,6 @@ if res.status_code != 200:
 else:
     print("✅ پیام ارسال شد.")
 
-with open(index_file, "w") as idx_file:
-    idx_file.write(str(end_index))
-
-print(f"✅ اندیس جدید: {end_index}")
+# ذخیره اندیس جدید
+with open("last_index.txt", "w") as f:
+    f.write(str(end_index))
