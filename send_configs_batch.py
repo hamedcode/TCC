@@ -1,5 +1,4 @@
 import os
-import re
 import json
 import socket
 import requests
@@ -11,14 +10,13 @@ import geoip2.database
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 MMDB_PATH = "GeoLite2-Country.mmdb"
+REPLACE_TAG = "@Config724"
 
 if not BOT_TOKEN or not CHANNEL_ID:
     raise Exception("BOT_TOKEN or CHANNEL_ID not set")
 
 if not os.path.exists(MMDB_PATH):
     raise FileNotFoundError(f"❌ فایل GeoIP ({MMDB_PATH}) یافت نشد. لطفاً آن را در ریشه پروژه قرار دهید.")
-
-REPLACE_TAG = "@Config724"
 
 reader = geoip2.database.Reader(MMDB_PATH)
 
@@ -91,6 +89,7 @@ if os.path.exists("last_index.txt"):
 
 batch_size = 5
 end_index = min(last_index + batch_size, len(lines))
+
 if last_index >= len(lines):
     print("✅ همه کانفیگ‌ها ارسال شده.")
     exit(0)
@@ -102,7 +101,7 @@ cleaned_batch = [update_tag(cfg) for cfg in batch]
 tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
 time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
 
-# آمار خلاصه
+# آمار
 proto_set, port_set, flag_set = set(), set(), set()
 for cfg in batch:
     proto_set.add(cfg.split("://")[0])
@@ -123,11 +122,12 @@ if flag_set:
     summary += f"\n🌍 کشورها: {' '.join(sorted(flag_set))}"
 
 configs_text = "\n".join(cleaned_batch)
+
 message = (
     f"📦 کانفیگ‌های جدید - {time_str}\n\n"
     f"{summary}\n\n"
-    f"```text\n{configs_text}\n```\n\n"
-    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ ها توی هر منطقه فرق داره "
+    f"```text\n{configs_text}\n```\n"
+    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره.\n"
     f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
 )
 
