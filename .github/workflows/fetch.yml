@@ -3,7 +3,7 @@ name: Fetch Telegram Configs
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */8 * * *'  # هر ۸ ساعت یک‌بار
+    - cron: '0 */8 * * *'  # اجرا هر ۸ ساعت
 
 jobs:
   fetch:
@@ -21,10 +21,14 @@ jobs:
     - name: Install telethon
       run: pip install telethon
 
+    - name: Restore session from secret
+      run: echo "${{ secrets.PYROGRAM_SESSION_B64 }}" | base64 -d > pyrogram_config_collector.session
+
     - name: Run config collector
       env:
         API_ID: ${{ secrets.API_ID }}
         API_HASH: ${{ secrets.API_HASH }}
+        PYROGRAM_SESSION_B64: ${{ secrets.PYROGRAM_SESSION_B64 }}
       run: python collect_configs.py
 
     - name: Commit updated configs
