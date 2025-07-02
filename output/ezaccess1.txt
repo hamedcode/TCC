@@ -1,2 +1,2 @@
-vmess://27357095-f7b5-4360-bccb-5eba805c7736@188.114.98.0:443?encryption=auto&security=tls&serviceName=argo&sni=srmn.cfiqrk.net&type=grpc#ArgoVPN
 ss://27357095-f7b5-4360-bccb-5eba805c7736@188.114.98.0:443?encryption=auto&security=tls&serviceName=argo&sni=srmn.cfiqrk.net&type=grpc#ArgoVPN
+vmess://27357095-f7b5-4360-bccb-5eba805c7736@188.114.98.0:443?encryption=auto&security=tls&serviceName=argo&sni=srmn.cfiqrk.net&type=grpc#ArgoVPN
