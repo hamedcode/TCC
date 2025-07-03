@@ -1,0 +1,2 @@
+vless://f7e7a44c-e709-43d6-9210-81a64296823f@188.227.84.154:8443?security=&type=tcp&path=/&headerType=http&host=zula.ir&encryption=none#%F0%9F%87%B3%F0%9F%87%B1@antimeli-AllNet-NL%F0%9F%94%A5
+ss://f7e7a44c-e709-43d6-9210-81a64296823f@188.227.84.154:8443?security=&type=tcp&path=/&headerType=http&host=zula.ir&encryption=none#%F0%9F%87%B3%F0%9F%87%B1@antimeli-AllNet-NL%F0%9F%94%A5
