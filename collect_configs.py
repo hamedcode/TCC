@@ -14,11 +14,11 @@ SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
 if not all([API_ID, API_HASH, SESSION_B64]):
     raise Exception("❌ محیط اجرا فاقد API_ID یا API_HASH یا PYROGRAM_SESSION_B64 است.")
 
-# بازیابی فایل session از secret
+# بازسازی فایل سشن از secret
 with open(f"{SESSION_NAME}.session", "wb") as f:
     f.write(base64.b64decode(SESSION_B64))
 
-# فایل‌ها و مسیرها
+# مسیر فایل‌ها
 CHANNEL_FILE = "channels.json"
 OUTPUT_DIR = "output"
 ALL_CONFIGS_FILE = "all_configs.txt"
@@ -47,10 +47,8 @@ def extract_configs_from_text(text):
 
     return list(set(found))
 
-# بررسی پیام‌های ۸ ساعت اخیر
 cutoff_time = datetime.utcnow() - timedelta(hours=8)
 
-# خواندن کانال‌ها
 with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
     channels = json.load(f)
 
@@ -66,8 +64,10 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
             for msg in messages:
                 if msg.date < cutoff_time:
                     continue
-                if msg.text:
-                    configs += extract_configs_from_text(msg.text)
+
+                content = msg.text or msg.caption
+                if content:
+                    configs += extract_configs_from_text(content)
 
             configs = list(set(configs))
 
@@ -83,7 +83,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
         except Exception as e:
             print(f"❌ خطا در {channel}: {e}")
 
-# نوشتن فایل all_configs.txt
+# فایل نهایی
 if all_configs:
     with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(list(set(all_configs))))
