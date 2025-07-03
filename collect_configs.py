@@ -2,10 +2,11 @@ import os
 import json
 import base64
 import re
+import shutil
 from datetime import datetime, timedelta
 from pyrogram import Client
 
-# تنظیمات
+# تنظیمات پایه
 SESSION_NAME = "pyrogram_config_collector"
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
@@ -14,18 +15,20 @@ SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
 if not all([API_ID, API_HASH, SESSION_B64]):
     raise Exception("❌ محیط اجرا فاقد API_ID یا API_HASH یا PYROGRAM_SESSION_B64 است.")
 
-# بازسازی فایل سشن از secret
+# بازسازی فایل session از Secret
 with open(f"{SESSION_NAME}.session", "wb") as f:
     f.write(base64.b64decode(SESSION_B64))
 
-# مسیر فایل‌ها
+# مسیر فایل‌ها و کانفیگ‌ها
 CHANNEL_FILE = "channels.json"
 OUTPUT_DIR = "output"
 ALL_CONFIGS_FILE = "all_configs.txt"
 CONFIG_PROTOCOLS = ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "tuic://"]
 
-if not os.path.exists(OUTPUT_DIR):
-    os.makedirs(OUTPUT_DIR)
+# 🧹 حذف کامل پوشه output و ساخت مجدد
+if os.path.exists(OUTPUT_DIR):
+    shutil.rmtree(OUTPUT_DIR)
+os.makedirs(OUTPUT_DIR)
 
 def extract_configs_from_text(text):
     found = []
@@ -34,7 +37,7 @@ def extract_configs_from_text(text):
     for proto in CONFIG_PROTOCOLS:
         found += re.findall(f"{proto}[^\s]+", text)
 
-    # base64 های طولانی
+    # بررسی base64
     base64_candidates = re.findall(r"[A-Za-z0-9+/=]{200,}", text)
     for b64 in base64_candidates:
         try:
@@ -47,8 +50,10 @@ def extract_configs_from_text(text):
 
     return list(set(found))
 
+# زمان بررسی پست‌ها (۸ ساعت اخیر)
 cutoff_time = datetime.utcnow() - timedelta(hours=8)
 
+# خواندن لیست کانال‌ها
 with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
     channels = json.load(f)
 
@@ -64,7 +69,6 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
             for msg in messages:
                 if msg.date < cutoff_time:
                     continue
-
                 content = msg.text or msg.caption
                 if content:
                     configs += extract_configs_from_text(content)
@@ -83,7 +87,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
         except Exception as e:
             print(f"❌ خطا در {channel}: {e}")
 
-# فایل نهایی
+# ساخت فایل نهایی
 if all_configs:
     with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(list(set(all_configs))))
