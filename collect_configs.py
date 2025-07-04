@@ -6,7 +6,7 @@ import shutil
 from datetime import datetime, timedelta
 from pyrogram import Client
 
-# تنظیمات پایه
+# ⚙️ تنظیمات پایه
 SESSION_NAME = "pyrogram_config_collector"
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
@@ -15,45 +15,46 @@ SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
 if not all([API_ID, API_HASH, SESSION_B64]):
     raise Exception("❌ محیط اجرا فاقد API_ID یا API_HASH یا PYROGRAM_SESSION_B64 است.")
 
-# بازسازی فایل session از Secret
+# 📦 بازسازی فایل سشن
 with open(f"{SESSION_NAME}.session", "wb") as f:
     f.write(base64.b64decode(SESSION_B64))
 
-# مسیر فایل‌ها و کانفیگ‌ها
+# 📁 مسیر فایل‌ها
 CHANNEL_FILE = "channels.json"
 OUTPUT_DIR = "output"
 ALL_CONFIGS_FILE = "all_configs.txt"
 CONFIG_PROTOCOLS = ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "tuic://"]
 
-# 🧹 حذف کامل پوشه output و ساخت مجدد
+# 🧹 پاک کردن پوشه output
 if os.path.exists(OUTPUT_DIR):
     shutil.rmtree(OUTPUT_DIR)
 os.makedirs(OUTPUT_DIR)
 
+# 🔍 استخراج کانفیگ‌ها از متن
 def extract_configs_from_text(text):
     found = []
 
-    # لینک‌های مستقیم
+    # 1. لینک‌های مستقیم
     for proto in CONFIG_PROTOCOLS:
         found += re.findall(f"{proto}[^\s]+", text)
 
-    # بررسی base64
-    base64_candidates = re.findall(r"[A-Za-z0-9+/=]{200,}", text)
-    for b64 in base64_candidates:
-        try:
-            padded = b64 + "=" * (-len(b64) % 4)
-            decoded = base64.b64decode(padded).decode("utf-8")
-            for proto in CONFIG_PROTOCOLS:
-                found += re.findall(f"{proto}[^\s]+", decoded)
-        except:
-            continue
+    # 2. بررسی همه خطوط به عنوان base64 احتمالی
+    for line in text.splitlines():
+        line = line.strip()
+        if len(line) > 20 and all(c in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=" for c in line):
+            try:
+                decoded = base64.b64decode(line + "=" * (-len(line) % 4)).decode("utf-8")
+                for proto in CONFIG_PROTOCOLS:
+                    found += re.findall(f"{proto}[^\s]+", decoded)
+            except:
+                continue
 
     return list(set(found))
 
-# زمان بررسی پست‌ها (۸ ساعت اخیر)
+# 🕒 پیام‌های ۸ ساعت اخیر
 cutoff_time = datetime.utcnow() - timedelta(hours=8)
 
-# خواندن لیست کانال‌ها
+# 📥 بارگذاری لیست کانال‌ها
 with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
     channels = json.load(f)
 
@@ -61,7 +62,7 @@ all_configs = []
 
 with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
     for channel in channels:
-        print(f"📥 بررسی کانال: {channel}")
+        print(f"📥 بررسی کانال یا گروه: {channel}")
         try:
             messages = app.get_chat_history(channel, limit=30)
             configs = []
@@ -77,7 +78,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
 
             if configs:
                 all_configs += configs
-                output_path = os.path.join(OUTPUT_DIR, channel.replace("@", "") + ".txt")
+                output_path = os.path.join(OUTPUT_DIR, channel.replace("@", "").replace("-", "") + ".txt")
                 with open(output_path, "w", encoding="utf-8") as f:
                     f.write("\n".join(configs))
                 print(f"✅ {len(configs)} کانفیگ از {channel} ذخیره شد.")
@@ -87,7 +88,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
         except Exception as e:
             print(f"❌ خطا در {channel}: {e}")
 
-# ساخت فایل نهایی
+# ✏️ ساخت فایل all_configs.txt
 if all_configs:
     with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(list(set(all_configs))))
