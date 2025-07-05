@@ -87,7 +87,7 @@ if os.path.exists("last_index.txt"):
                 last_index = int(line.strip())
                 break
 
-batch_size = 5
+batch_size = 10
 end_index = min(last_index + batch_size, len(lines))
 
 if last_index >= len(lines):
