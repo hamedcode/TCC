@@ -81,7 +81,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 if msg.date < cutoff_time:
                     continue
 
-                # دریافت نسخه کامل پیام
+                # دریافت کامل پیام
                 try:
                     full_msg = app.get_messages(msg.chat.id, msg.id)
                     content = full_msg.text or full_msg.caption
@@ -91,10 +91,8 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 if not content:
                     continue
 
-                # 🐞 نمایش متن برای دیباگ
-                if "@AchaVPN" in channel:
-                    print("🧾 محتوای پیام @AchaVPN:")
-                    print(content)
+                # 🐞 چاپ محتوای همه پیام‌ها برای دیباگ
+                print(f"📩 پیام از {channel}:\n{content}")
 
                 configs += extract_configs_from_text(content)
 
