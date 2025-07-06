@@ -24,7 +24,7 @@ ALL_CONFIGS_FILE = "all_configs.txt"
 INDEX_FILE = "last_index.txt"
 CONFIG_PROTOCOLS = ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "tuic://"]
 
-# پاک کردن پوشه output
+# پاکسازی پوشه output
 try:
     if os.path.exists(OUTPUT_DIR):
         shutil.rmtree(OUTPUT_DIR)
@@ -33,24 +33,34 @@ try:
 except Exception as e:
     print(f"❌ خطا در حذف output/: {e}")
 
-# تابع استخراج کانفیگ‌ها
+# تابع نهایی استخراج کانفیگ‌ها
 def extract_configs_from_text(text):
     found = []
 
-    # لینک مستقیم
+    # 1. لینک‌های مستقیم
     for proto in CONFIG_PROTOCOLS:
         found += re.findall(f"{proto}[^\s]+", text)
 
-    # بررسی رشته‌های base64
-    base64_candidates = re.findall(r"[A-Za-z0-9+/=]{30,}", text)
-    for b64 in base64_candidates:
-        try:
-            padded = b64 + "=" * (-len(b64) % 4)
-            decoded = base64.b64decode(padded).decode("utf-8")
-            for proto in CONFIG_PROTOCOLS:
-                found += re.findall(f"{proto}[^\s]+", decoded)
-        except:
-            continue
+    # 2. بررسی خط‌به‌خط برای base64 یا کانفیگ مستقیم
+    lines = text.splitlines()
+    for line in lines:
+        line = line.strip()
+
+        # کانفیگ مستقیم
+        for proto in CONFIG_PROTOCOLS:
+            if proto in line:
+                found.append(line)
+                continue
+
+        # بررسی base64
+        if len(line) >= 30 and re.fullmatch(r"[A-Za-z0-9+/=]+", line):
+            try:
+                padded = line + "=" * (-len(line) % 4)
+                decoded = base64.b64decode(padded).decode("utf-8")
+                for proto in CONFIG_PROTOCOLS:
+                    found += re.findall(f"{proto}[^\s]+", decoded)
+            except:
+                continue
 
     return list(set(found))
 
@@ -72,7 +82,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 if msg.date < cutoff_time:
                     continue
 
-                # دریافت کامل پیام برای دسترسی به caption کامل
+                # دریافت کامل پیام برای captionهای بلند
                 try:
                     full_msg = app.get_messages(msg.chat.id, msg.id)
                     content = full_msg.text or full_msg.caption
