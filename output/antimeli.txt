@@ -1,2 +1,2 @@
-vless://7e38ef07-350d-41f3-8314-b21543d4b950@188.227.84.154:8443?security=&type=tcp&path=/&headerType=http&host=zula.ir&encryption=none#%F0%9F%87%B3%F0%9F%87%B1@antimeli-AllNet-NL%F0%9F%94%A5
-ss://7e38ef07-350d-41f3-8314-b21543d4b950@188.227.84.154:8443?security=&type=tcp&path=/&headerType=http&host=zula.ir&encryption=none#%F0%9F%87%B3%F0%9F%87%B1@antimeli-AllNet-NL%F0%9F%94%A5
+ss://8d3b1d2b-abd7-4806-82a6-4d09e8eda510@188.227.84.154:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
+vless://8d3b1d2b-abd7-4806-82a6-4d09e8eda510@188.227.84.154:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
