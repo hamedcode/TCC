@@ -14,7 +14,6 @@ SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
 if not all([API_ID, API_HASH, SESSION_B64]):
     raise Exception("API_ID, API_HASH یا PYROGRAM_SESSION_B64 تعریف نشده است.")
 
-# بازسازی فایل سشن
 with open(f"{SESSION_NAME}.session", "wb") as f:
     f.write(base64.b64decode(SESSION_B64))
 
@@ -82,15 +81,22 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 if msg.date < cutoff_time:
                     continue
 
-                # دریافت کامل پیام برای captionهای بلند
+                # دریافت نسخه کامل پیام
                 try:
                     full_msg = app.get_messages(msg.chat.id, msg.id)
                     content = full_msg.text or full_msg.caption
                 except:
                     content = msg.text or msg.caption
 
-                if content:
-                    configs += extract_configs_from_text(content)
+                if not content:
+                    continue
+
+                # 🐞 نمایش متن برای دیباگ
+                if "@AchaVPN" in channel:
+                    print("🧾 محتوای پیام @AchaVPN:")
+                    print(content)
+
+                configs += extract_configs_from_text(content)
 
             configs = list(set(configs))
 
