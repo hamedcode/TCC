@@ -1,9 +1,9 @@
-name: Send Telegram Batch
+name: Send Telegram Configs
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
 
 jobs:
   send:
@@ -16,18 +16,18 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'  # ✅ حواست باشه رشته باشه (داخل کوتیشن)
+        python-version: "3.10"
 
-    - name: Install geoip2
-      run: pip install geoip2
+    - name: Install dependencies
+      run: pip install pyrogram tgcrypto
 
-    - name: Run script to send batch configs
+    - name: Run sender script
       env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
       run: python send_configs_batch.py
 
-    - name: Commit updated index
+    - name: Commit last_index.txt
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions@users.noreply.github.com"
