@@ -1,4 +1,2 @@
-vless://f7989975-35fd-4bdb-b636-fbd4327e9006@fl-vip.digitalldns.net:8080?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%40flyv2ray
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fupload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#Telegram%20%3A%20%20%40flyv2ray
-ss://f7989975-35fd-4bdb-b636-fbd4327e9006@fl-vip.digitalldns.net:8080?security=none&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%40flyv2ray
-ss://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2Fupload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#Telegram%20%3A%20%20%40flyv2ray
+ss://dc44076c-fb1a-48ba-8e79-ec913f345576@mtn.venzo.com.tr:2095?path=%2Fhu%3Fed%3D2095&security=none&encryption=none&host=0ost.amazon-osishop.ir&type=httpupgrade#%40flyv2ray%F0%9F%8C%9F
+vless://dc44076c-fb1a-48ba-8e79-ec913f345576@mtn.venzo.com.tr:2095?path=%2Fhu%3Fed%3D2095&security=none&encryption=none&host=0ost.amazon-osishop.ir&type=httpupgrade#%40flyv2ray%F0%9F%8C%9F
