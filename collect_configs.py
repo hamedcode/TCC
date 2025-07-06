@@ -32,26 +32,22 @@ try:
 except Exception as e:
     print(f"❌ خطا در حذف output/: {e}")
 
-# تابع نهایی استخراج کانفیگ‌ها
+# تابع استخراج کانفیگ‌ها
 def extract_configs_from_text(text):
     found = []
 
-    # 1. لینک‌های مستقیم
     for proto in CONFIG_PROTOCOLS:
         found += re.findall(f"{proto}[^\s]+", text)
 
-    # 2. بررسی خط‌به‌خط برای base64 یا کانفیگ مستقیم
     lines = text.splitlines()
     for line in lines:
         line = line.strip()
 
-        # کانفیگ مستقیم
         for proto in CONFIG_PROTOCOLS:
             if proto in line:
                 found.append(line)
                 continue
 
-        # بررسی base64
         if len(line) >= 30 and re.fullmatch(r"[A-Za-z0-9+/=]+", line):
             try:
                 padded = line + "=" * (-len(line) % 4)
@@ -81,18 +77,9 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 if msg.date < cutoff_time:
                     continue
 
-                # دریافت کامل پیام
-                try:
-                    full_msg = app.get_messages(msg.chat.id, msg.id)
-                    content = full_msg.text or full_msg.caption or ""
-                except:
-                    content = msg.text or msg.caption or ""
-
-                if not content.strip():
+                content = msg.text or msg.caption
+                if not content:
                     continue
-
-                # لاگ گرفتن برای دیباگ دقیق
-                print(f"📩 پیام {msg.id} از {channel} در {msg.date}:\n{content}\n---")
 
                 configs += extract_configs_from_text(content)
 
@@ -109,7 +96,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
         except Exception as e:
             print(f"❌ خطا در {channel}: {e}")
 
-# ساخت فایل all_configs.txt و ریست فایل اندکس
+# ذخیره‌ی فایل نهایی و ریست ایندکس
 with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(list(set(all_configs))))
 print(f"\n📦 فایل all_configs.txt با {len(all_configs)} کانفیگ نوشته شد.")
