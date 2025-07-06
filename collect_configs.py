@@ -14,6 +14,7 @@ SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
 if not all([API_ID, API_HASH, SESSION_B64]):
     raise Exception("API_ID, API_HASH یا PYROGRAM_SESSION_B64 تعریف نشده است.")
 
+# بازسازی فایل سشن
 with open(f"{SESSION_NAME}.session", "wb") as f:
     f.write(base64.b64decode(SESSION_B64))
 
@@ -23,7 +24,7 @@ ALL_CONFIGS_FILE = "all_configs.txt"
 INDEX_FILE = "last_index.txt"
 CONFIG_PROTOCOLS = ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "tuic://"]
 
-# 🧹 پاک کردن پوشه output
+# پاک کردن پوشه output
 try:
     if os.path.exists(OUTPUT_DIR):
         shutil.rmtree(OUTPUT_DIR)
@@ -32,15 +33,15 @@ try:
 except Exception as e:
     print(f"❌ خطا در حذف output/: {e}")
 
-# 🔍 تابع بهبودیافته استخراج کانفیگ
+# تابع استخراج کانفیگ‌ها
 def extract_configs_from_text(text):
     found = []
 
-    # 1. لینک‌های مستقیم
+    # لینک مستقیم
     for proto in CONFIG_PROTOCOLS:
         found += re.findall(f"{proto}[^\s]+", text)
 
-    # 2. Base64 candidates (حتی کوتاه‌ها)
+    # بررسی رشته‌های base64
     base64_candidates = re.findall(r"[A-Za-z0-9+/=]{30,}", text)
     for b64 in base64_candidates:
         try:
@@ -70,7 +71,14 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
             for msg in messages:
                 if msg.date < cutoff_time:
                     continue
-                content = msg.text or msg.caption
+
+                # دریافت کامل پیام برای دسترسی به caption کامل
+                try:
+                    full_msg = app.get_messages(msg.chat.id, msg.id)
+                    content = full_msg.text or full_msg.caption
+                except:
+                    content = msg.text or msg.caption
+
                 if content:
                     configs += extract_configs_from_text(content)
 
@@ -87,7 +95,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
         except Exception as e:
             print(f"❌ خطا در {channel}: {e}")
 
-# 📦 ساخت فایل all_configs.txt و ریست فایل اندکس
+# ساخت فایل all_configs.txt و ریست فایل اندکس
 with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(list(set(all_configs))))
 print(f"\n📦 فایل all_configs.txt با {len(all_configs)} کانفیگ نوشته شد.")
