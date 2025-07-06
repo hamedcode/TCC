@@ -74,7 +74,7 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
     for channel in channels:
         print(f"🔍 بررسی: {channel}")
         try:
-            messages = app.get_chat_history(channel, limit=30)
+            messages = app.get_chat_history(channel, limit=50)
             configs = []
 
             for msg in messages:
@@ -84,15 +84,15 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 # دریافت کامل پیام
                 try:
                     full_msg = app.get_messages(msg.chat.id, msg.id)
-                    content = full_msg.text or full_msg.caption
+                    content = full_msg.text or full_msg.caption or ""
                 except:
-                    content = msg.text or msg.caption
+                    content = msg.text or msg.caption or ""
 
-                if not content:
+                if not content.strip():
                     continue
 
-                # 🐞 چاپ محتوای همه پیام‌ها برای دیباگ
-                print(f"📩 پیام از {channel}:\n{content}")
+                # لاگ گرفتن برای دیباگ دقیق
+                print(f"📩 پیام {msg.id} از {channel} در {msg.date}:\n{content}\n---")
 
                 configs += extract_configs_from_text(content)
 
