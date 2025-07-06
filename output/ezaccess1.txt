@@ -1,6 +1,0 @@
-ss://5e251be5-4736-49ff-80cf-b41639949a4d@5.255.124.97:26066?path=%2F&security=none&encryption=none&host=%2FJOKERRVPNBIA_CHANEL%40JOKERRVPN&type=ws#Telegram%3A%40Ezaccess1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.192:8080#Telegram%3A%40Ezaccess1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.171:8080#Telegram%3A%40Ezaccess1
-vless://5e251be5-4736-49ff-80cf-b41639949a4d@5.255.124.97:26066?path=%2F&security=none&encryption=none&host=%2FJOKERRVPNBIA_CHANEL%40JOKERRVPN&type=ws#Telegram%3A%40Ezaccess1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#Telegram%3A%40Ezaccess1
-trojan://auto@nameless-term-9c25.vpnconnect202020.workers.dev:443?path=%2F&security=tls&host=nameless-term-9c25.vpnconnect202020.workers.dev&fp=chrome&type=ws&sni=nameless-term-9c25.vpnconnect202020.workers.dev#Telegram%3A%40Ezaccess1

@@ -1,2 +1,0 @@
-ss://505953c2-071a-47a1-950d-4c8e7609992e@gr.liteingshop.com:2082?security=none&encryption=none&headerType=none&type=tcp#%40Anty_Vpn%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%DB%8C%D8%AE%D8%A7%DB%8C%20%D8%B9%D8%B6%D9%88%20%D8%B4%D9%88
-vless://505953c2-071a-47a1-950d-4c8e7609992e@gr.liteingshop.com:2082?security=none&encryption=none&headerType=none&type=tcp#%40Anty_Vpn%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%DB%8C%D8%AE%D8%A7%DB%8C%20%D8%B9%D8%B6%D9%88%20%D8%B4%D9%88
