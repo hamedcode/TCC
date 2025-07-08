@@ -1,2 +1,0 @@
-vless://7f502367-c958-4e74-9ac7-1364406e69f5@65.109.191.147:70?security=&encryption=none&host=tgju.org&headerType=http&type=tcp#https://t.me/bombvpnn
-ss://7f502367-c958-4e74-9ac7-1364406e69f5@65.109.191.147:70?security=&encryption=none&host=tgju.org&headerType=http&type=tcp#https://t.me/bombvpnn
