@@ -1,0 +1,2 @@
+vless://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@91.99.137.1:8080?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%40AvaalVPN
+ss://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@91.99.137.1:8080?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%40AvaalVPN

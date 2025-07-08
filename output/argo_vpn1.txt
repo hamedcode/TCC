@@ -1,2 +1,0 @@
-trojan://trojan@109.234.211.66:8443?path=%2F&security=tls&host=store.timimi.dpdns.org&type=ws&sni=store.timimi.dpdns.org#Channel%20id%3A%20%40Argo_VPN1%20%F0%9F%87%AA%F0%9F%87%B8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1VFpud1BiMjNwUVMzOWxJdWNzcEp3@89.35.119.87:5904#Channel%20id%3A%20%40Argo_VPN1%20%F0%9F%87%B3%F0%9F%87%BF
