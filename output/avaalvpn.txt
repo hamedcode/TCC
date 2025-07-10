@@ -1,2 +1,0 @@
-ss://1dd65630-29e2-4333-9b92-43ea8ca7f4ce@91.99.182.86:500?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%40AvaalVPN
-vless://1dd65630-29e2-4333-9b92-43ea8ca7f4ce@91.99.182.86:500?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%40AvaalVPN
