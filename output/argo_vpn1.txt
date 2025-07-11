@@ -1,6 +1,2 @@
-ss://eyJhZGQiOiI5NC4xMzYuMTg1LjIzMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJiMDFjN2VmOS0zM2VjLTQxZjYtYmZiZi03N2RkYzRkMjE2NDkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwNTM0IiwicHMiOiJDaGFubmVsIGlkOiBAQXJnb19WUE4xIPCfh67wn4ezIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@66.81.247.82:80?path=%2FChannel&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws&sni=reedfree8mahsang2.redorg.ir#Channel%20id%3A%20%40Argo_VPN1
-vless://88b9da00-7a25-45ec-859b-14ad57a6bd2b@91.99.178.171:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#id%20Channel%20%3A%20%40Argo_VPN1%20%F0%9F%87%A9%F0%9F%87%AA
-ss://88b9da00-7a25-45ec-859b-14ad57a6bd2b@91.99.178.171:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#id%20Channel%20%3A%20%40Argo_VPN1%20%F0%9F%87%A9%F0%9F%87%AA
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@66.81.247.82:80?path=%2FChannel&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws&sni=reedfree8mahsang2.redorg.ir#Channel%20id%3A%20%40Argo_VPN1
-vmess://eyJhZGQiOiI5NC4xMzYuMTg1LjIzMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJiMDFjN2VmOS0zM2VjLTQxZjYtYmZiZi03N2RkYzRkMjE2NDkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwNTM0IiwicHMiOiJDaGFubmVsIGlkOiBAQXJnb19WUE4xIPCfh67wn4ezIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+ss://YWVzLTI1Ni1nY206cHNhbVNiSnE@109.107.159.246:17228#🇬🇧%20@Argo_VPN1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@216.173.70.187:57456#🇱🇻%20@Argo_VPN1
