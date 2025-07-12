@@ -1,2 +1,0 @@
-ss://cb024589-f32e-4022-b325-56ab0eeff33f@188.227.84.173:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
-vless://cb024589-f32e-4022-b325-56ab0eeff33f@188.227.84.173:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40antimeli-AllNet-NL%F0%9F%94%A5
