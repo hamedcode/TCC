@@ -1,7 +1,2 @@
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.85:8880?mode=gun&security=none&encryption=none&type=grpc#%E2%AD%90%EF%B8%8F%20Telegram%20%3D%20%40ARGO_VPN1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpseVc0THVEV0pnSERBbkMzWkRadHNW@81.19.141.45:443#🇩🇪%20@Argo_VPN1
-vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#%E2%AD%90%EF%B8%8F%20Telegram%20%3D%20%40ARGO_VPN1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.85:8880?mode=gun&security=none&encryption=none&type=grpc#%E2%AD%90%EF%B8%8F%20Telegram%20%3D%20%40ARGO_VPN1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==@54.238.207.188:8313#🇯🇵%20@Argo_VPN1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptMW5iV0hqY2pOSEpvOFhpWURvaFY4@188.166.235.86:64763#🇸🇬%20@Argo_VPN1
-ss://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#%E2%AD%90%EF%B8%8F%20Telegram%20%3D%20%40ARGO_VPN1
+ss://6c11247b-6078-461a-93d5-22e4df284e6d@104.21.36.57:443?path=%2Fwsv%2F6c11247b-6078-461a-93d5-22e4df284e6d&security=tls&encryption=none&host=mirror.fullmargintraders.com&type=ws&sni=mirror.fullmargintraders.com#Channel%20id%3A%20%40Argo_VPN1%20%F0%9F%87%A9%F0%9F%87%AA
+vless://6c11247b-6078-461a-93d5-22e4df284e6d@104.21.36.57:443?path=%2Fwsv%2F6c11247b-6078-461a-93d5-22e4df284e6d&security=tls&encryption=none&host=mirror.fullmargintraders.com&type=ws&sni=mirror.fullmargintraders.com#Channel%20id%3A%20%40Argo_VPN1%20%F0%9F%87%A9%F0%9F%87%AA
