@@ -1,2 +1,0 @@
-ss://77eb0a34-e172-48fa-8093-6c488664da44@fbi11.wizard2shop.com:8085?security=none&encryption=none&headerType=none&type=tcp#%E2%AD%90%EF%B8%8F%20Telegram%20%3D%20%40Argo_VPN1
-vless://77eb0a34-e172-48fa-8093-6c488664da44@fbi11.wizard2shop.com:8085?security=none&encryption=none&headerType=none&type=tcp#%E2%AD%90%EF%B8%8F%20Telegram%20%3D%20%40Argo_VPN1
