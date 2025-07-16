@@ -1,0 +1,4 @@
+vless://813d7c7e-d2ea-460f-9bf7-e6fa6a073b67@www.speedtest.net.cdn.cloudflare.net:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=TW.kKpopH4Zmc.ZUlaIr.orG&type=ws#TM%3A%20%40Argo_VPN1%20%F0%9F%87%AB%F0%9F%87%B7
+ss://813d7c7e-d2ea-460f-9bf7-e6fa6a073b67@www.speedtest.net.cdn.cloudflare.net:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=TW.kKpopH4Zmc.ZUlaIr.orG&type=ws#TM%3A%20%40Argo_VPN1%20%F0%9F%87%AB%F0%9F%87%B7
+vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#Channel%20id%3A%20%40Argo_VPN1%20%F0%9F%87%A8%F0%9F%87%A6
+ss://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#Channel%20id%3A%20%40Argo_VPN1%20%F0%9F%87%A8%F0%9F%87%A6
