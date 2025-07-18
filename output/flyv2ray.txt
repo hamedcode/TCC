@@ -1,8 +1,4 @@
-vless://64d6d0d4-3706-4837-b154-cda2816adcc5@CRazy-idENtity.onEEat.co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
-ss://edc0a710-b736-455a-a9f2-d26150e624b2@eNThuSIasTic-CeNTUrY.OneEAt.cO:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
-ss://64d6d0d4-3706-4837-b154-cda2816adcc5@CRazy-idENtity.onEEat.co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
-ss://5879d109-8c92-448a-801b-3f3989019934@104.18.26.90:443?path=%2FTelegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray%3Fed%3D2048&security=tls&encryption=none&host=tbs-80p.pages.dev&type=ws&sni=pages.dev#%40flyv2ray
-vless://5879d109-8c92-448a-801b-3f3989019934@104.18.26.90:443?path=%2FTelegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray%3Fed%3D2048&security=tls&encryption=none&host=tbs-80p.pages.dev&type=ws&sni=pages.dev#%40flyv2ray
-vless://edc0a710-b736-455a-a9f2-d26150e624b2@eNThuSIasTic-CeNTUrY.OneEAt.cO:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
-vless://7e74ff43-3a90-48b3-8372-7d92a045c2d4@LiGHT-PReseNce.oneEaT.Co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
-ss://7e74ff43-3a90-48b3-8372-7d92a045c2d4@LiGHT-PReseNce.oneEaT.Co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
+ss://f37de868-a167-46ea-b16a-798d3800d50e@www.speedtest.net:80?path=%2Fhamid%3Fed%3D1024&security=none&encryption=none&host=china.pwteam.ir&type=httpupgrade#Telegram%20%3A%20%40flyv2ray
+vless://f37de868-a167-46ea-b16a-798d3800d50e@www.speedtest.net:80?path=%2Fhamid%3Fed%3D1024&security=none&encryption=none&host=china.pwteam.ir&type=httpupgrade#Telegram%20%3A%20%40flyv2ray
+vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.210.16:8880?path=%2FTJhZjFeb0fQLVntH%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#Telegram%20%3A%20%40flyv2ray
+ss://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.210.16:8880?path=%2FTJhZjFeb0fQLVntH%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#Telegram%20%3A%20%40flyv2ray
