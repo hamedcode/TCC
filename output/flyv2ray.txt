@@ -1,4 +1,0 @@
-ss://f37de868-a167-46ea-b16a-798d3800d50e@www.speedtest.net:80?path=%2Fhamid%3Fed%3D1024&security=none&encryption=none&host=china.pwteam.ir&type=httpupgrade#Telegram%20%3A%20%40flyv2ray
-vless://f37de868-a167-46ea-b16a-798d3800d50e@www.speedtest.net:80?path=%2Fhamid%3Fed%3D1024&security=none&encryption=none&host=china.pwteam.ir&type=httpupgrade#Telegram%20%3A%20%40flyv2ray
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.210.16:8880?path=%2FTJhZjFeb0fQLVntH%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#Telegram%20%3A%20%40flyv2ray
-ss://e9979910-79d1-4621-a93c-b2a579c44ba7@104.25.210.16:8880?path=%2FTJhZjFeb0fQLVntH%3Fed%3D2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#Telegram%20%3A%20%40flyv2ray
