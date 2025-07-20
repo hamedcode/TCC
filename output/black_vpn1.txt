@@ -1,0 +1,2 @@
+vless://eec58f80-ae24-4754-8697-c03a67d43553@g.gpty999qed.ir:13157?security=none&encryption=none&headerType=none&type=tcp#BLACK_vpn%20-%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86
+ss://eec58f80-ae24-4754-8697-c03a67d43553@g.gpty999qed.ir:13157?security=none&encryption=none&headerType=none&type=tcp#BLACK_vpn%20-%20%3A%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86
