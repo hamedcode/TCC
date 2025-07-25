@@ -1,0 +1,2 @@
+vless://9e1f43cc-2816-4585-80ef-4836a5743990@116.202.98.213:19190?security=none&encryption=none&headerType=none&type=tcp#%40BLACK_VPN1
+ss://9e1f43cc-2816-4585-80ef-4836a5743990@116.202.98.213:19190?security=none&encryption=none&headerType=none&type=tcp#%40BLACK_VPN1
