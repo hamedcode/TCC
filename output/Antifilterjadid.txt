@@ -1,0 +1,4 @@
+ss://ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=hetzner-4.access.name.ng&type=ws&sni=hetzner-4.access.name.ng#CHTZ-9110715745
+vless://ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=hetzner-2.access.name.ng&type=ws&sni=hetzner-2.access.name.ng#CHTZ-57519263
+vless://ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=hetzner-4.access.name.ng&type=ws&sni=hetzner-4.access.name.ng#CHTZ-9110715745
+ss://ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=hetzner-2.access.name.ng&type=ws&sni=hetzner-2.access.name.ng#CHTZ-57519263
