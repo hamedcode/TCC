@@ -1,0 +1,2 @@
+ss://ef586c79-5805-4c38-dc7e-6c3295145692@sfs.ncidddia.site:28430?security=reality&encryption=none&pbk=lKUFSBupyH-VNp98pUGCk0ykUeKP5_agessCGbUi8Ck&fp=chrome&spx=%2F&type=grpc&sni=microsoft.com#%F0%9F%87%BA%F0%9F%87%B8-%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%3A%20%40BLACK_VPN1
+vless://ef586c79-5805-4c38-dc7e-6c3295145692@sfs.ncidddia.site:28430?security=reality&encryption=none&pbk=lKUFSBupyH-VNp98pUGCk0ykUeKP5_agessCGbUi8Ck&fp=chrome&spx=%2F&type=grpc&sni=microsoft.com#%F0%9F%87%BA%F0%9F%87%B8-%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%3A%20%40BLACK_VPN1
