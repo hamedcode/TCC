@@ -1,6 +1,0 @@
-vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-13.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-13-direct%20%20
-ss://43750da6-5020-4f24-b9be-df0507b9b19a@senatorrea-02.flightbean24.com:1370?security=reality&encryption=none&pbk=-yGe7KeDFSy8uzJ20PzuYfRwf0AgBmFhhi1ZzgiYBks&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=store.steampowered.com&sid=eaa704c0444c9c#TCP-REALITY-02%20%20
-ss://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-11.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-11-direct%20%20
-ss://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-13.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-13-direct%20%20
-vless://43750da6-5020-4f24-b9be-df0507b9b19a@senatorrea-02.flightbean24.com:1370?security=reality&encryption=none&pbk=-yGe7KeDFSy8uzJ20PzuYfRwf0AgBmFhhi1ZzgiYBks&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=store.steampowered.com&sid=eaa704c0444c9c#TCP-REALITY-02%20%20
-vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-11.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-11-direct%20%20

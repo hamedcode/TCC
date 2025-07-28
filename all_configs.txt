@@ -1,23 +1,8 @@
-vless://b131228a-b895-4237-ac4b-0edad7759468@65.109.221.186:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#%40flyv2ray
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#🇩🇪%20@Argo_VPN1
-vless://9bf8204e-76bb-4721-9e4a-218ed6d9ee4a@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%40flyv2ray
-ss://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-13.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-13-direct%20%20
-ss://telegram-id-Arfilter@172.66.40.99:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=eDp.SpEeDtEsT2029.CoM&fp=firefox&type=ws&sni=eDp.SpEeDtEsT2029.CoM#TLS3-ALL%20%7C%20%40ArV2ray
-vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-13.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-13-direct%20%20
-ss://9bf8204e-76bb-4721-9e4a-218ed6d9ee4a@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%40flyv2ray
-vless://cd307b67-8180-491c-ad97-5dfd74cb38de@91.99.234.153:2095?security=none&encryption=none&host=skyroom.online&headerType=http&type=tcp#de%F0%9F%87%A9%F0%9F%87%AA%F0%9F%9A%80ir%F0%9F%87%AE%F0%9F%87%B7%20%40Argo_VPN1
-trojan://telegram-id-directvpn@13.37.84.247:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel
-ss://cd307b67-8180-491c-ad97-5dfd74cb38de@91.99.234.153:2095?security=none&encryption=none&host=skyroom.online&headerType=http&type=tcp#de%F0%9F%87%A9%F0%9F%87%AA%F0%9F%9A%80ir%F0%9F%87%AE%F0%9F%87%B7%20%40Argo_VPN1
-trojan://telegram-id-directvpn@54.93.49.62:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel
-trojan://telegram-id-directvpn@13.36.11.189:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel
-ss://43750da6-5020-4f24-b9be-df0507b9b19a@senatorrea-02.flightbean24.com:1370?security=reality&encryption=none&pbk=-yGe7KeDFSy8uzJ20PzuYfRwf0AgBmFhhi1ZzgiYBks&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=store.steampowered.com&sid=eaa704c0444c9c#TCP-REALITY-02%20%20
-ss://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-11.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-11-direct%20%20
-vless://telegram-id-Arfilter@172.66.40.99:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=eDp.SpEeDtEsT2029.CoM&fp=firefox&type=ws&sni=eDp.SpEeDtEsT2029.CoM#TLS3-ALL%20%7C%20%40ArV2ray
-trojan://telegram-id-directvpn@54.93.49.62:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
-trojan://telegram-id-directvpn@13.37.84.247:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
-ss://b131228a-b895-4237-ac4b-0edad7759468@65.109.221.186:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#%40flyv2ray
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprVW5QMk5CMXhYajJ0RHRQaTAwYzQw@194.87.45.189:443#🇪🇸%20@Argo_VPN1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456?prefix%16%03%01%00%C2%A8%01%01#🇮🇳%20@Argo_VPN1
-vless://43750da6-5020-4f24-b9be-df0507b9b19a@senatorrea-02.flightbean24.com:1370?security=reality&encryption=none&pbk=-yGe7KeDFSy8uzJ20PzuYfRwf0AgBmFhhi1ZzgiYBks&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=store.steampowered.com&sid=eaa704c0444c9c#TCP-REALITY-02%20%20
-trojan://telegram-id-directvpn@13.36.11.189:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
-vless://70b6b341-b859-443a-baf0-08ceabe9d1a4@senatorws-11.flightbean24.com:2052?path=%2F&security=&encryption=none&type=ws#senatorws-11-direct%20%20
+trojan://telegram-id-directvpn@13.36.102.158:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel
+vless://9bf8204e-76bb-4721-9e4a-218ed6d9ee4a@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+trojan://telegram-id-directvpn@13.36.102.158:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+trojan://telegram-id-directvpn@51.44.225.112:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel
+trojan://telegram-id-directvpn@51.44.225.112:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+ss://9bf8204e-76bb-4721-9e4a-218ed6d9ee4a@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://9bf8204e-76bb-4721-9e4a-218ed6d9ee4a@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://9bf8204e-76bb-4721-9e4a-218ed6d9ee4a@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
