@@ -1,104 +1,160 @@
 import os
 import json
-import datetime
+import socket
 import requests
 import base64
+from datetime import datetime, timedelta
+from urllib.parse import urlparse, urlunparse
 import geoip2.database
-from urllib.parse import urlparse
 
-# تنظیمات اولیه
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHANNEL_ID = "@Config724"  # آیدی کانال با @
-GEOIP_DB_PATH = "GeoLite2-Country.mmdb"
-ALL_CONFIGS_FILE = "all_configs.txt"
-DAILY_SENT_FILE = "sent_configs_" + datetime.datetime.now().strftime("%Y-%m-%d") + ".txt"
-FLAGS = {
-    "IR": "🇮🇷", "DE": "🇩🇪", "US": "🇺🇸", "GB": "🇬🇧", "FR": "🇫🇷", "NL": "🇳🇱", "TR": "🇹🇷", "SE": "🇸🇪", "FI": "🇫🇮",
-    "RU": "🇷🇺", "SG": "🇸🇬", "IN": "🇮🇳", "CN": "🇨🇳", "JP": "🇯🇵", "CA": "🇨🇦", "NO": "🇳🇴", "AE": "🇦🇪", "CH": "🇨🇭"
-}
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
+MMDB_PATH = "GeoLite2-Country.mmdb"
+REPLACE_TAG = "@Config724"
 
-# استخراج دامنه از کانفیگ
-def extract_domain(config_line):
+if not BOT_TOKEN or not CHANNEL_ID:
+    raise Exception("BOT_TOKEN or CHANNEL_ID not set")
+
+if not os.path.exists(MMDB_PATH):
+    raise FileNotFoundError(f"❌ فایل GeoIP ({MMDB_PATH}) یافت نشد.")
+
+reader = geoip2.database.Reader(MMDB_PATH)
+
+def get_country_info(ip):
     try:
-        if config_line.startswith("vmess://"):
-            data = json.loads(base64.b64decode(config_line[8:] + "==").decode("utf-8"))
-            return data.get("add", "")
-        elif config_line.startswith("vless://") or config_line.startswith("trojan://"):
-            domain = config_line.split("@")[1].split(":")[0]
-            return domain
-        elif config_line.startswith("ss://"):
-            parts = config_line[5:].split("@")
-            if len(parts) == 2:
-                return parts[1].split(":")[0]
-        return ""
+        resp = reader.country(ip)
+        code = resp.country.iso_code or "ZZ"
+        name = resp.country.name or "Unknown"
+        flag = ''.join([chr(0x1F1E6 + ord(c) - 65) for c in code.upper()]) if code != "ZZ" else "🏳️"
+        return flag, name
     except:
-        return ""
+        return "🏳️", "Unknown"
 
-# گرفتن پرچم از روی آدرس IP یا دامنه
-def get_country_flag(domain):
+def build_tag(ip):
+    flag, name = get_country_info(ip)
+    date = datetime.now().strftime("%m/%d")
+    return f"{flag} {name} - {date} {REPLACE_TAG}"
+
+def resolve_ip(host):
     try:
-        reader = geoip2.database.Reader(GEOIP_DB_PATH)
-        ip = domain if domain.replace('.', '').isdigit() else socket.gethostbyname(domain)
-        response = reader.country(ip)
-        country_code = response.country.iso_code
-        return FLAGS.get(country_code, "")
+        return socket.gethostbyname(host)
     except:
-        return ""
+        return host
 
-# بارگذاری کانفیگ‌ها
-if not os.path.exists(ALL_CONFIGS_FILE):
-    print("فایل all_configs.txt یافت نشد.")
-    exit(1)
+def update_tag(cfg):
+    if cfg.startswith("vmess://"):
+        try:
+            raw = cfg.replace("vmess://", "")
+            padded = raw + '=' * (-len(raw) % 4)
+            decoded = base64.urlsafe_b64decode(padded.encode()).decode()
+            data = json.loads(decoded)
+            host = data.get("add", "")
+            ip = resolve_ip(host)
+            data["ps"] = build_tag(ip)
+            encoded = base64.urlsafe_b64encode(json.dumps(data, separators=(',', ':')).encode()).decode().rstrip("=")
+            return "vmess://" + encoded
+        except:
+            return cfg
+    elif any(cfg.startswith(proto) for proto in ["vless://", "trojan://", "ss://", "hy2://", "tuic://"]):
+        try:
+            parsed = urlparse(cfg)
+            host = parsed.hostname or "8.8.8.8"
+            ip = resolve_ip(host)
+            new_tag = build_tag(ip)
+            return urlunparse((
+                parsed.scheme,
+                parsed.netloc,
+                parsed.path,
+                parsed.params,
+                parsed.query,
+                new_tag
+            ))
+        except:
+            return cfg
+    else:
+        return cfg
 
-with open(ALL_CONFIGS_FILE, "r", encoding="utf-8") as f:
-    all_configs = [line.strip() for line in f if line.strip()]
+# خواندن لیست کانفیگ‌ها
+with open("all_configs.txt", "r", encoding="utf-8") as f:
+    lines = [line.strip() for line in f if line.strip()]
 
-# بارگذاری لیست ارسال‌شده‌های قبلی
-sent_configs = []
-if os.path.exists(DAILY_SENT_FILE):
-    with open(DAILY_SENT_FILE, "r", encoding="utf-8") as f:
-        sent_configs = [line.strip() for line in f if line.strip()]
+# خواندن آخرین ایندکس
+last_index = 0
+if os.path.exists("last_index.txt"):
+    with open("last_index.txt", "r") as f:
+        for line in f:
+            if line.strip().isdigit():
+                last_index = int(line.strip())
+                break
 
-# فیلتر کانفیگ‌های جدید
-new_configs = [cfg for cfg in all_configs if cfg not in sent_configs]
-if not new_configs:
-    print("کانفیگ جدیدی برای ارسال وجود ندارد.")
+batch_size = 10
+end_index = min(last_index + batch_size, len(lines))
+if last_index >= len(lines):
+    print("✅ همه کانفیگ‌ها ارسال شده.")
     exit(0)
 
-# ارسال کانفیگ‌ها (حداکثر ۱۰ عدد)
-configs_to_send = new_configs[:10]
-formatted_configs = []
-for cfg in configs_to_send:
-    domain = extract_domain(cfg)
-    flag = get_country_flag(domain)
-    remark = domain or "Unknown"
-    formatted_configs.append(f"{flag} `{remark}`\n{cfg}")
+batch = lines[last_index:end_index]
+cleaned_batch = [update_tag(cfg) for cfg in batch]
 
-# ساخت متن نهایی پست
-configs_text = "\n\n".join(formatted_configs)
-footer = (
-    f"```text\n{configs_text}\n```\n\n"
-    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها متفاوت است.\n"
+# زمان تهران
+tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
+time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
+today_str = tehran_time.strftime("%Y%m%d")
+yesterday_str = (tehran_time - timedelta(days=1)).strftime("%Y%m%d")
+sent_filename = f"sent_{today_str}.txt"
+
+# حذف فایل روز قبل اگر وجود داشت
+old_file = f"sent_{yesterday_str}.txt"
+if os.path.exists(old_file):
+    os.remove(old_file)
+
+# آمار پست
+proto_set, port_set, flag_set = set(), set(), set()
+for cfg in cleaned_batch:
+    proto_set.add(cfg.split("://")[0])
+    try:
+        parsed = urlparse(cfg)
+        if parsed.port:
+            port_set.add(str(parsed.port))
+        ip = resolve_ip(parsed.hostname or "8.8.8.8")
+        flag, _ = get_country_info(ip)
+        flag_set.add(flag)
+    except:
+        continue
+
+summary = f"{len(cleaned_batch)} کانفیگ جدید با پروتکل‌های {'، '.join(sorted(proto_set))}"
+if port_set:
+    summary += f" و پورت‌های {'، '.join(sorted(port_set))}"
+if flag_set:
+    summary += f"\n🌍 کشورها: {' '.join(sorted(flag_set))}"
+
+configs_text = "\n".join(cleaned_batch)
+
+message = (
+    f"📦 کانفیگ‌های جدید - {time_str}\n\n"
+    f"{summary}\n\n"
+    f"```text\n{configs_text}\n```\n"
+    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره.\n"
     f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
 )
 
 # ارسال به تلگرام
-TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-payload = {
+res = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", data={
     "chat_id": CHANNEL_ID,
-    "text": footer,
+    "text": message,
     "parse_mode": "Markdown"
-}
-response = requests.post(TELEGRAM_API, json=payload)
+})
 
-# لاگ وضعیت
-print("📤 وضعیت ارسال به تلگرام:", response.status_code)
-print("📩 پاسخ کامل تلگرام:", response.text)
-
-# ذخیره کانفیگ‌های ارسال‌شده
-if response.status_code == 200:
-    with open(DAILY_SENT_FILE, "a", encoding="utf-8") as f:
-        for cfg in configs_to_send:
-            f.write(cfg + "\n")
+if res.status_code == 200:
+    print("✅ پیام ارسال شد.")
 else:
-    print("⚠️ ارسال با خطا مواجه شد. اطلاعات بالا را بررسی کن.")
+    print(f"❌ ارسال ناموفق: {res.text}")
+
+# ذخیره ایندکس جدید
+with open("last_index.txt", "w") as f:
+    f.write(str(end_index))
+
+# ذخیره کانفیگ‌ها در فایل روزانه
+with open(sent_filename, "a", encoding="utf-8") as f:
+    for cfg in cleaned_batch:
+        f.write(cfg + "\n")
