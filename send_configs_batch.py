@@ -1,111 +1,134 @@
 import os
-import re
-import json
 import requests
-import datetime
+import json
 import base64
+import datetime
+import re
 import geoip2.database
-from urllib.parse import urlparse
+from collections import Counter
 
-# 🔧 تنظیمات
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHANNEL_ID = "@Config724"
+# ==== تنظیمات ====
 GEOIP_DB_PATH = "GeoLite2-Country.mmdb"
-CONFIGS_FILE = "all_configs.txt"
-INDEX_FILE = "last_index.txt"
-SEND_COUNT = 10
+ALL_CONFIGS_PATH = "all_configs.txt"
+CHANNEL_ID = "@Config724"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+SEND_LIMIT = 10  # تعداد کانفیگ برای هر بار ارسال
+# =================
 
-# 🌐 پرچم کشورها
-FLAGS = {
-    "IR": "🇮🇷", "DE": "🇩🇪", "US": "🇺🇸", "GB": "🇬🇧", "FR": "🇫🇷", "NL": "🇳🇱", "CA": "🇨🇦",
-    "RU": "🇷🇺", "CN": "🇨🇳", "JP": "🇯🇵", "AE": "🇦🇪", "IN": "🇮🇳", "TR": "🇹🇷", "SG": "🇸🇬",
-    "FI": "🇫🇮", "SE": "🇸🇪", "NO": "🇳🇴", "IT": "🇮🇹", "AT": "🇦🇹", "CH": "🇨🇭", "BE": "🇧🇪",
-    "PL": "🇵🇱", "UA": "🇺🇦", "ES": "🇪🇸", "KZ": "🇰🇿", "CZ": "🇨🇿", "RO": "🇷🇴", "TH": "🇹🇭"
-}
+def extract_domain(config):
+    ip_pattern = re.compile(r'"address"\s*:\s*"([^"]+)"')
+    sni_pattern = re.compile(r'"sni"\s*:\s*"([^"]+)"')
+    host_pattern = re.compile(r'"host"\s*:\s*"([^"]+)"')
+    domain_pattern = re.compile(r'@([\w.-]+)')
 
-def get_country_flag(ip):
+    for pattern in [ip_pattern, sni_pattern, host_pattern, domain_pattern]:
+        match = pattern.search(config)
+        if match:
+            return match.group(1)
+    return None
+
+def get_country_flag(domain, reader):
+    if not domain:
+        return "🏳️"
     try:
-        with geoip2.database.Reader(GEOIP_DB_PATH) as reader:
-            response = reader.country(ip)
-            code = response.country.iso_code
-            return FLAGS.get(code, "🏳️")
+        ip = domain
+        if not re.match(r"\d+\.\d+\.\d+\.\d+", domain):
+            ip = socket.gethostbyname(domain)
+        response = reader.country(ip)
+        country_code = response.country.iso_code or "UN"
+        return chr(0x1F1E6 + (ord(country_code[0]) - 65)) + chr(0x1F1E6 + (ord(country_code[1]) - 65))
     except:
         return "🏳️"
 
-def extract_domain(config):
-    # استخراج دامنه یا IP
-    try:
-        if config.startswith("vmess://"):
-            decoded = json.loads(base64.b64decode(config[8:] + "==="))
-            return decoded.get("add", "")
-        elif config.startswith("vless://") or config.startswith("trojan://") or config.startswith("ss://"):
-            match = re.search(r"@([\w\.-]+)", config)
-            return match.group(1) if match else ""
+def update_remark(config, flag):
+    today = datetime.datetime.now().strftime("%m/%d")
+    return re.sub(r'remark":\s*"([^"]*)"', f'remark": "{flag} | {today} 🌀{CHANNEL_ID}"', config)
+
+def summarize_configs(configs):
+    protocols = []
+    ports = []
+
+    for config in configs:
+        if "vmess://" in config:
+            protocols.append("vmess")
+        elif "vless://" in config:
+            protocols.append("vless")
+        elif "ss://" in config:
+            protocols.append("ss")
+        elif "trojan://" in config:
+            protocols.append("trojan")
+        elif "socks" in config:
+            protocols.append("socks")
+        elif "hysteria" in config.lower():
+            protocols.append("hysteria")
         else:
-            return ""
-    except:
-        return ""
+            protocols.append("other")
 
-def extract_protocol(config):
-    if config.startswith("vmess://"): return "vmess"
-    if config.startswith("vless://"): return "vless"
-    if config.startswith("ss://"): return "shadowsocks"
-    if config.startswith("trojan://"): return "trojan"
-    return "unknown"
+        port_match = re.search(r'"port"\s*:\s*"(\d+)"', config)
+        if port_match:
+            ports.append(port_match.group(1))
 
-# بررسی وجود فایل‌ها
-if not os.path.exists(CONFIGS_FILE):
-    print(f"⛔ فایل {CONFIGS_FILE} پیدا نشد.")
-    exit(1)
+    proto_summary = " | ".join(f"{k}:{v}" for k, v in Counter(protocols).items())
+    port_summary = " | ".join(f"{k}:{v}" for k, v in Counter(ports).items())
 
-if not os.path.exists(INDEX_FILE):
-    with open(INDEX_FILE, "w") as f:
-        f.write("0")
+    return f"🌐 پروتکل‌ها: {proto_summary}\n🔢 پورت‌ها: {port_summary}"
 
-# خواندن ایندکس
-with open(INDEX_FILE, "r") as f:
-    last_index = int(f.read().strip())
+def send_to_telegram(configs, summary_text):
+    config_text = "\n\n".join(configs)
+    message = (
+        f"🔥 {len(configs)} کانفیگ جدید آماده اتصال\n"
+        f"{summary_text}\n\n"
+        f"```text\n{config_text}\n```\n\n"
+        f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها در هر منطقه فرق دارد\n"
+        f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
+    )
 
-# خواندن کانفیگ‌ها
-with open(CONFIGS_FILE, "r", encoding="utf-8") as f:
-    all_configs = [line.strip() for line in f if line.strip()]
+    payload = {
+        "chat_id": CHANNEL_ID,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
 
-new_configs = all_configs[last_index:last_index + SEND_COUNT]
-if not new_configs:
-    print("📭 کانفیگ جدیدی برای ارسال وجود ندارد.")
-    exit(0)
+    response = requests.post(TELEGRAM_API, json=payload)
+    print("ارسال به تلگرام:", response.status_code)
 
-# تولید لیست با ریمارک جدید
-final_configs = []
-today = datetime.datetime.now().strftime("%m/%d")
-for cfg in new_configs:
-    domain = extract_domain(cfg)
-    ip = domain if re.match(r"\d+\.\d+\.\d+\.\d+", domain) else ""
-    flag = get_country_flag(ip) if ip else "🏳️"
-    proto = extract_protocol(cfg)
-    remark = f"{flag} {today} | {proto.upper()} | {CHANNEL_ID}"
-    if "remarks=" in cfg:
-        cfg = re.sub(r"remarks=[^&\n]+", f"remarks={remark}", cfg)
-    final_configs.append(cfg)
+def save_sent_configs(configs):
+    today = datetime.datetime.now().strftime("%Y%m%d")
+    filename = f"sent_{today}.txt"
 
-# ساخت پیام تلگرام
-configs_text = "\n".join(final_configs)
-message = (
-    f"```text\n{configs_text}\n```\n\n"
-    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ ها توی هر منطقه فرق داره\n"
-    f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
-)
+    # حذف فایل روز قبل
+    for file in os.listdir("."):
+        if file.startswith("sent_") and file.endswith(".txt") and file != filename:
+            os.remove(file)
 
-# ارسال به تلگرام
-url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-response = requests.post(url, data={
-    "chat_id": CHANNEL_ID,
-    "text": message,
-    "parse_mode": "Markdown"
-})
+    with open(filename, "a", encoding="utf-8") as f:
+        for config in configs:
+            f.write(config + "\n\n")
 
-print("✅ وضعیت ارسال:", response.status_code, response.text)
+# === اجرای اصلی ===
+if not os.path.exists(ALL_CONFIGS_PATH):
+    print("فایل all_configs.txt پیدا نشد.")
+    exit()
 
-# ذخیره ایندکس جدید
-with open(INDEX_FILE, "w") as f:
-    f.write(str(last_index + len(new_configs)))
+with open(ALL_CONFIGS_PATH, "r", encoding="utf-8") as f:
+    raw_configs = [c.strip() for c in f.read().split("\n\n") if c.strip()]
+
+raw_configs = raw_configs[:SEND_LIMIT]
+
+reader = geoip2.database.Reader(GEOIP_DB_PATH)
+processed_configs = []
+flags = []
+
+for config in raw_configs:
+    domain = extract_domain(config)
+    flag = get_country_flag(domain, reader)
+    flags.append(flag)
+    new_config = update_remark(config, flag)
+    processed_configs.append(new_config)
+
+reader.close()
+
+summary = summarize_configs(processed_configs)
+send_to_telegram(processed_configs, summary)
+save_sent_configs(processed_configs)
