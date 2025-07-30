@@ -1,123 +1,73 @@
 import os
 import json
-import base64
+import time
 import requests
 from datetime import datetime
-import geoip2.database
+from utils import get_country_flag, extract_domain_from_config
 
-# 🟢 کانفیگ‌ها
-API_URL = os.environ["API_URL"]
+# تنظیمات
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = os.environ["CHANNEL_ID"]
-DAILY_CONFIG_FILE = "daily_configs.txt"
-GEOIP_DB_PATH = "GeoLite2-City.mmdb"
+API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
+BATCH_SIZE = 10
+BATCH_INTERVAL = 60 * 30  # هر ۳۰ دقیقه
 
-def get_country_emoji(ip):
-    try:
-        with geoip2.database.Reader(GEOIP_DB_PATH) as reader:
-            response = reader.city(ip)
-            country_code = response.country.iso_code
-            if not country_code:
-                return "🏳️"
-            return "".join(chr(0x1F1E6 + ord(c) - ord('A')) for c in country_code.upper())
-    except Exception:
-        return "🏳️"
+# مسیر فایل کانفیگ‌ها
+CONFIGS_DIR = "output"
+INDEX_FILE = "last_index.txt"
+DAILY_FILE = f"sent_configs_{datetime.now().strftime('%Y-%m-%d')}.txt"
 
-def extract_ip_from_config(config_line):
-    if "vless://" in config_line or "vmess://" in config_line:
-        parts = config_line.split("@")
-        if len(parts) > 1:
-            ip_port = parts[1].split("?")[0]
-            return ip_port.split(":")[0]
-    elif "trojan://" in config_line:
-        parts = config_line.split("@")
-        if len(parts) > 1:
-            ip_port = parts[1].split("?")[0]
-            return ip_port.split(":")[0]
-    elif "ss://" in config_line:
-        try:
-            from urllib.parse import unquote
-            raw = config_line.split("ss://")[1].split("#")[0]
-            decoded = base64.urlsafe_b64decode(raw + '==').decode()
-            ip_port = decoded.split("@")[1]
-            return ip_port.split(":")[0]
-        except:
-            return ""
-    return ""
+# مقداردهی اولیه ایندکس
+if not os.path.exists(INDEX_FILE):
+    with open(INDEX_FILE, "w") as f:
+        f.write("0")
 
-def update_remarks(config):
-    ip = extract_ip_from_config(config)
-    country = get_country_emoji(ip)
+# دریافت کانفیگ‌ها
+with open(INDEX_FILE, "r") as f:
+    last_index = int(f.read().strip())
+
+config_files = sorted(os.listdir(CONFIGS_DIR))
+new_configs = config_files[last_index:last_index + BATCH_SIZE]
+
+# قالب‌سازی و ارسال
+configs_text = ""
+for filename in new_configs:
+    with open(os.path.join(CONFIGS_DIR, filename), "r", encoding="utf-8") as f:
+        config = f.read().strip()
+
+    # پردازش ریمارک: پرچم + تاریخ + آیدی کانال
+    domain = extract_domain_from_config(config)
+    flag = get_country_flag(domain)
     today = datetime.now().strftime("%m/%d")
-    return f"{country} {today} @Config724"
+    remark_line = f"{flag} {today} @Config724"
 
-def update_config_remarks(config):
-    try:
-        if '#' in config:
-            config, remark = config.split('#', 1)
-            new_remark = update_remarks(config)
-            return f"{config}#{new_remark}"
-        else:
-            return f"{config}#{update_remarks(config)}"
-    except Exception:
-        return config
+    # جایگزینی ریمارک در کانفیگ
+    config = replace_remark(config, remark_line)
 
-def read_configs():
-    configs = []
-    for root, _, files in os.walk("output"):
-        for file in files:
-            with open(os.path.join(root, file), "r", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if line:
-                        configs.append(line)
-    return configs
+    # اضافه کردن به دسته
+    configs_text += config + "\n"
 
-def reset_daily_file_if_needed():
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    if os.path.exists(DAILY_CONFIG_FILE):
-        with open(DAILY_CONFIG_FILE, "r", encoding="utf-8") as f:
-            first_line = f.readline().strip()
-            if not first_line.endswith(today_str):
-                os.remove(DAILY_CONFIG_FILE)
-
-def append_to_daily_file(text):
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    header = f"# کانفیگ‌های ارسال‌شده در {today_str}"
-    if not os.path.exists(DAILY_CONFIG_FILE):
-        with open(DAILY_CONFIG_FILE, "w", encoding="utf-8") as f:
-            f.write(header + "\n\n")
-    with open(DAILY_CONFIG_FILE, "a", encoding="utf-8") as f:
-        f.write(text + "\n\n")
-
-def send_to_telegram(text):
-    payload = {
-        "chat_id": CHANNEL_ID,
-        "text": text,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True
-    }
-    response = requests.post(f"{API_URL}/sendMessage", json=payload)
-    print(f"Telegram response: {response.text}")
-
-if __name__ == "__main__":
-    reset_daily_file_if_needed()
-    configs = read_configs()
-    if not configs:
-        print("⚠️ No configs to send.")
-        exit()
-
-    # فقط ۱۰ تای آخر
-    latest_configs = configs[-10:]
-    updated = [update_config_remarks(cfg) for cfg in latest_configs]
-    configs_text = "\n".join(updated)
-
-    # ذخیره در فایل روزانه
-    append_to_daily_file(configs_text)
-
-    # ارسال به تلگرام
-    final_message = (
-        f"<pre>\n{configs_text}\n</pre>\n\n"
-        f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره.\n"
-        f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
+# اگر کانفیگی برای ارسال هست
+if configs_text:
+    message = (
+        f"```text\n{configs_text}\n```\n\n"
+        f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره\n"
+        f"📡 برای دریافت بیشتر: @Config724"
     )
-    send_to_telegram(final_message)
+
+    response = requests.post(
+        f"{API_URL}/sendMessage",
+        data={
+            "chat_id": CHANNEL_ID,
+            "text": message,
+            "parse_mode": "Markdown"
+        }
+    )
+
+    # ذخیره کانفیگ‌ها در فایل روزانه
+    with open(DAILY_FILE, "a", encoding="utf-8") as f:
+        f.write(configs_text + "\n")
+
+    # بروزرسانی ایندکس
+    with open(INDEX_FILE, "w") as f:
+        f.write(str(last_index + len(new_configs)))
