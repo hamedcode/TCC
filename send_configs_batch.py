@@ -3,6 +3,7 @@ import json
 import socket
 import requests
 import base64
+import subprocess
 from datetime import datetime, timedelta
 from urllib.parse import urlparse, urlunparse
 import geoip2.database
@@ -90,7 +91,7 @@ if os.path.exists("last_index.txt"):
 batch_size = 10
 end_index = min(last_index + batch_size, len(lines))
 if last_index >= len(lines):
-    print("✅ همه کانفیگ‌ها ارسال شده.")
+    print("✅ همه کانفیگ‌ها قبلاً ارسال شده.")
     exit(0)
 
 batch = lines[last_index:end_index]
@@ -146,15 +147,22 @@ res = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", data
 })
 
 if res.status_code == 200:
-    print("✅ پیام ارسال شد.")
+    print("✅ پیام به تلگرام ارسال شد.")
+    
+    # ذخیره فایل روزانه
+    with open(sent_filename, "a", encoding="utf-8") as f:
+        for cfg in cleaned_batch:
+            f.write(cfg + "\n")
+
+    # آپدیت فایل ایندکس
+    with open("last_index.txt", "w") as f:
+        f.write(str(end_index))
+
+    # افزودن به git
+    subprocess.run(["git", "config", "--global", "user.email", "actions@github.com"])
+    subprocess.run(["git", "config", "--global", "user.name", "GitHub Actions"])
+    subprocess.run(["git", "add", sent_filename])
+    subprocess.run(["git", "commit", "-m", f"Add {sent_filename}"])
+    subprocess.run(["git", "push"])
 else:
     print(f"❌ ارسال ناموفق: {res.text}")
-
-# ذخیره ایندکس جدید
-with open("last_index.txt", "w") as f:
-    f.write(str(end_index))
-
-# ذخیره کانفیگ‌ها در فایل روزانه
-with open(sent_filename, "a", encoding="utf-8") as f:
-    for cfg in cleaned_batch:
-        f.write(cfg + "\n")
