@@ -12,9 +12,11 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 MMDB_PATH = "GeoLite2-Country.mmdb"
 REPLACE_TAG = "@Config724"
+SENT_FILE = "sent_configs.txt"
+INDEX_FILE = "last_index.txt"
 
 if not BOT_TOKEN or not CHANNEL_ID:
-    raise Exception("BOT_TOKEN or CHANNEL_ID not set")
+    raise Exception("❌ BOT_TOKEN یا CHANNEL_ID تعریف نشده‌اند.")
 
 if not os.path.exists(MMDB_PATH):
     raise FileNotFoundError(f"❌ فایل GeoIP ({MMDB_PATH}) یافت نشد.")
@@ -75,18 +77,25 @@ def update_tag(cfg):
     else:
         return cfg
 
-# خواندن لیست کانفیگ‌ها
+# حذف فایل ارسالی اگر مال روز قبل باشد
+if os.path.exists(SENT_FILE):
+    creation_time = datetime.fromtimestamp(os.path.getmtime(SENT_FILE))
+    now = datetime.now()
+    if (now - creation_time).days >= 1:
+        os.remove(SENT_FILE)
+
+# خواندن همه کانفیگ‌ها
 with open("all_configs.txt", "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
-# خواندن آخرین ایندکس
+# خواندن ایندکس
 last_index = 0
-if os.path.exists("last_index.txt"):
-    with open("last_index.txt", "r") as f:
-        for line in f:
-            if line.strip().isdigit():
-                last_index = int(line.strip())
-                break
+if os.path.exists(INDEX_FILE):
+    with open(INDEX_FILE, "r") as f:
+        try:
+            last_index = int(f.read().strip())
+        except:
+            last_index = 0
 
 batch_size = 10
 end_index = min(last_index + batch_size, len(lines))
@@ -97,19 +106,10 @@ if last_index >= len(lines):
 batch = lines[last_index:end_index]
 cleaned_batch = [update_tag(cfg) for cfg in batch]
 
-# زمان تهران
-tehran_time = datetime.utcnow() + timedelta(hours=3, minutes=30)
-time_str = tehran_time.strftime("%Y/%m/%d - %H:%M")
-today_str = tehran_time.strftime("%Y%m%d")
-yesterday_str = (tehran_time - timedelta(days=1)).strftime("%Y%m%d")
-sent_filename = f"sent_{today_str}.txt"
+# آمار و زمان
+now = datetime.utcnow() + timedelta(hours=3, minutes=30)
+time_str = now.strftime("%Y/%m/%d - %H:%M")
 
-# حذف فایل روز قبل اگر وجود داشت
-old_file = f"sent_{yesterday_str}.txt"
-if os.path.exists(old_file):
-    os.remove(old_file)
-
-# آمار پست
 proto_set, port_set, flag_set = set(), set(), set()
 for cfg in cleaned_batch:
     proto_set.add(cfg.split("://")[0])
@@ -147,22 +147,22 @@ res = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", data
 })
 
 if res.status_code == 200:
-    print("✅ پیام به تلگرام ارسال شد.")
-    
-    # ذخیره فایل روزانه
-    with open(sent_filename, "a", encoding="utf-8") as f:
+    print("✅ پیام با موفقیت ارسال شد.")
+
+    # ذخیره در فایل ثابت
+    with open(SENT_FILE, "a", encoding="utf-8") as f:
         for cfg in cleaned_batch:
             f.write(cfg + "\n")
 
-    # آپدیت فایل ایندکس
-    with open("last_index.txt", "w") as f:
+    # ذخیره ایندکس جدید
+    with open(INDEX_FILE, "w") as f:
         f.write(str(end_index))
 
-    # افزودن به git
+    # افزودن به گیت
     subprocess.run(["git", "config", "--global", "user.email", "actions@github.com"])
     subprocess.run(["git", "config", "--global", "user.name", "GitHub Actions"])
-    subprocess.run(["git", "add", sent_filename])
-    subprocess.run(["git", "commit", "-m", f"Add {sent_filename}"])
+    subprocess.run(["git", "add", SENT_FILE, INDEX_FILE])
+    subprocess.run(["git", "commit", "-m", "📝 Update sent_configs.txt and last_index.txt"])
     subprocess.run(["git", "push"])
 else:
-    print(f"❌ ارسال ناموفق: {res.text}")
+    print(f"❌ خطا در ارسال پیام: {res.text}")
