@@ -1,36 +1,32 @@
-name: Send Telegram Configs
+name: Send Configs to Telegram
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */30 * * *"  # هر ۳۰ دقیقه یک بار
   workflow_dispatch:
 
 jobs:
-  send:
+  send-configs:
     runs-on: ubuntu-latest
 
+    env:
+      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+      PYROGRAM_SESSION_B64: ${{ secrets.PYROGRAM_SESSION_B64 }}
+
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
 
-    - name: Install dependencies
-      run: pip install pyrogram tgcrypto requests geoip2
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install requests geoip2
 
-    - name: Run sender script
-      env:
-        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-      run: python send_configs_batch.py
-
-    - name: Commit last_index.txt
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions@users.noreply.github.com"
-        git add last_index.txt
-        git commit -m "Update last index after sending batch" || echo "No changes"
-        git push
+      - name: Run send_configs_batch.py
+        run: python send_configs_batch.py
