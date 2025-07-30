@@ -1,89 +1,56 @@
 import os
 import requests
-from datetime import datetime
-import json
-import geoip2.database
-import base64
-import re
 
+# 🔧 تنظیمات
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = "@Config724"
-OUTPUT_FOLDER = "output"
-GEOIP_DB_PATH = "GeoLite2-Country.mmdb"
-
-# خواندن دیتابیس GeoIP
-reader = geoip2.database.Reader(GEOIP_DB_PATH)
-
-# تشخیص کشور از دامنه یا IP
-def extract_domain_from_config(config):
-    match = re.search(r'add(?:ress)?":\s*"?([^",\s]+)', config)
-    if match:
-        return match.group(1).strip()
-    return None
-
-def get_country_flag(ip_or_domain):
-    try:
-        response = reader.country(ip_or_domain)
-        country_code = response.country.iso_code
-        return country_flag_emoji(country_code)
-    except:
-        return "🏳️"
-
-def country_flag_emoji(country_code):
-    if not country_code:
-        return "🏳️"
-    return ''.join([chr(0x1F1E6 + ord(c.upper()) - ord('A')) for c in country_code])
-
-# دریافت تاریخ امروز
-today_str = datetime.now().strftime("%m-%d")
-daily_file_path = f"{today_str}.txt"
-
-# خواندن فایل ایندکس
+CONFIGS_FILE = "all_configs.txt"
 INDEX_FILE = "last_index.txt"
+SEND_COUNT = 10  # هر بار چند کانفیگ بفرسته
+
+# 📦 بررسی وجود فایل کانفیگ‌ها
+if not os.path.exists(CONFIGS_FILE):
+    print(f"⛔ فایل {CONFIGS_FILE} پیدا نشد.")
+    exit(1)
+
+# 🧮 اگر ایندکس نبود، مقدار اولیه ایجاد کن
 if not os.path.exists(INDEX_FILE):
     with open(INDEX_FILE, "w") as f:
         f.write("0")
 
+# 🔢 خواندن ایندکس قبلی
 with open(INDEX_FILE, "r") as f:
     last_index = int(f.read().strip())
 
-# گرفتن لیست فایل‌ها
-files = sorted(os.listdir(OUTPUT_FOLDER))
-new_files = files[last_index:last_index + 10]
+# 📥 خواندن کانفیگ‌ها از فایل
+with open(CONFIGS_FILE, "r", encoding="utf-8") as f:
+    all_configs = [line.strip() for line in f if line.strip()]
 
-configs_text = ""
-for file in new_files:
-    with open(os.path.join(OUTPUT_FOLDER, file), "r", encoding="utf-8") as f:
-        config = f.read().strip()
-        domain = extract_domain_from_config(config)
-        flag = get_country_flag(domain) if domain else "🏳️"
-        date_str = datetime.now().strftime("%m/%d")
-        new_remark = f"{flag} {date_str} @Config724"
-        # تغییر ریمارک فقط در خطوط دارای "remark"
-        config = re.sub(r'"remark"\s*:\s*"([^"]*)"', f'"remark":"{new_remark}"', config)
-        configs_text += config + "\n"
+# ✅ بررسی اینکه چیزی برای ارسال هست یا نه
+new_configs = all_configs[last_index:last_index + SEND_COUNT]
+if not new_configs:
+    print("📭 کانفیگ جدیدی برای ارسال وجود ندارد.")
+    exit(0)
 
-# ذخیره در فایل روزانه
-with open(daily_file_path, "a", encoding="utf-8") as f:
-    f.write(configs_text + "\n")
+# 📝 ساخت پیام
+configs_text = "\n".join(new_configs)
+message = (
+    f"```text\n{configs_text}\n```\n\n"
+    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ ها توی هر منطقه فرق داره\n"
+    f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
+)
 
-# ارسال به تلگرام
-if configs_text:
-    message = (
-        f"```text\n{configs_text.strip()}\n```\n\n"
-        f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ ها توی هر منطقه فرق داره\n"
-        f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
-    )
+# 📤 ارسال پیام
+url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+response = requests.post(url, data={
+    "chat_id": CHANNEL_ID,
+    "text": message,
+    "parse_mode": "Markdown"
+})
 
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    response = requests.post(url, data={
-        "chat_id": CHANNEL_ID,
-        "text": message,
-        "parse_mode": "Markdown"
-    })
+# 📋 چاپ نتیجه
+print("✅ وضعیت ارسال:", response.status_code, response.text)
 
-    print("پیام ارسال شد:", response.status_code, response.text)
-
-# بروزرسانی ایندکس
+# 📈 ذخیره ایندکس جدید
 with open(INDEX_FILE, "w") as f:
-    f.write(str(last_index + len(new_files)))
+    f.write(str(last_index + len(new_configs)))
