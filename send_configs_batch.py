@@ -1,73 +1,97 @@
 import os
 import json
-import time
+import base64
 import requests
-from datetime import datetime
-from utils import get_country_flag, extract_domain_from_config
+import socket
+import datetime
+import re
+import geoip2.database
+from pyrogram import Client
 
-# تنظیمات
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHANNEL_ID = os.environ["CHANNEL_ID"]
-API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
-BATCH_SIZE = 10
-BATCH_INTERVAL = 60 * 30  # هر ۳۰ دقیقه
+# 🔹 توابع کمکی یکپارچه‌شده
+GEOIP_DB_PATH = "GeoLite2-City.mmdb"
+reader = geoip2.database.Reader(GEOIP_DB_PATH)
 
-# مسیر فایل کانفیگ‌ها
-CONFIGS_DIR = "output"
-INDEX_FILE = "last_index.txt"
-DAILY_FILE = f"sent_configs_{datetime.now().strftime('%Y-%m-%d')}.txt"
+def get_country_flag(domain_or_ip: str) -> str:
+    try:
+        ip = socket.gethostbyname(domain_or_ip)
+        response = reader.city(ip)
+        country_code = response.country.iso_code
+        if country_code:
+            return country_flag(country_code)
+    except Exception:
+        pass
+    return "🏳️"
 
-# مقداردهی اولیه ایندکس
-if not os.path.exists(INDEX_FILE):
-    with open(INDEX_FILE, "w") as f:
-        f.write("0")
+def country_flag(country_code: str) -> str:
+    if not country_code:
+        return "🏳️"
+    return ''.join(
+        chr(0x1F1E6 + ord(c.upper()) - ord('A')) for c in country_code
+    )
 
-# دریافت کانفیگ‌ها
-with open(INDEX_FILE, "r") as f:
-    last_index = int(f.read().strip())
+def extract_domain_from_config(config: str) -> str:
+    match = re.search(r'"(?:address|add|host)"\s*:\s*"([^"]+)"', config)
+    if match:
+        return match.group(1)
+    return ""
 
-config_files = sorted(os.listdir(CONFIGS_DIR))
-new_configs = config_files[last_index:last_index + BATCH_SIZE]
+def replace_remark(config: str, new_remark: str) -> str:
+    return re.sub(r'"remark"\s*:\s*"[^"]+"', f'"remark": "{new_remark}"', config)
 
-# قالب‌سازی و ارسال
+# 🔹 تنظیمات
+CHANNEL_ID = "@Config724"
+DAILY_FILE = "daily_configs.txt"
+
+# خواندن سکرت
+session_string = os.environ["PYROGRAM_SESSION_B64"]
+session_bytes = base64.b64decode(session_string)
+
+# ساخت کلاینت Pyrogram از سکرت
+with open("my_session.session", "wb") as f:
+    f.write(session_bytes)
+
+app = Client("my_session")
+
+# خواندن کانفیگ‌ها
+with open("output/index.txt", "r") as f:
+    index = int(f.read().strip())
+
+config_files = sorted(os.listdir("output"))
+configs_to_send = config_files[index:index + 10]
+
 configs_text = ""
-for filename in new_configs:
-    with open(os.path.join(CONFIGS_DIR, filename), "r", encoding="utf-8") as f:
-        config = f.read().strip()
+for filename in configs_to_send:
+    with open(f"output/{filename}", "r", encoding="utf-8") as f:
+        config = f.read()
 
-    # پردازش ریمارک: پرچم + تاریخ + آیدی کانال
     domain = extract_domain_from_config(config)
     flag = get_country_flag(domain)
-    today = datetime.now().strftime("%m/%d")
-    remark_line = f"{flag} {today} @Config724"
+    date_str = datetime.datetime.now().strftime("%m/%d")
+    remark = f"{flag} {date_str} {CHANNEL_ID}"
+    config = replace_remark(config, remark)
+    configs_text += config + "\n\n"
 
-    # جایگزینی ریمارک در کانفیگ
-    config = replace_remark(config, remark_line)
+# آپدیت ایندکس
+with open("output/index.txt", "w") as f:
+    f.write(str(index + len(configs_to_send)))
 
-    # اضافه کردن به دسته
-    configs_text += config + "\n"
+# ذخیره در فایل روزانه
+today_file = DAILY_FILE
+with open(today_file, "a", encoding="utf-8") as f:
+    f.write(configs_text)
 
-# اگر کانفیگی برای ارسال هست
-if configs_text:
-    message = (
-        f"```text\n{configs_text}\n```\n\n"
-        f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره\n"
-        f"📡 برای دریافت بیشتر: @Config724"
-    )
+# حذف فایل دیروز
+yesterday_file = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d") + "_configs.txt"
+if os.path.exists(yesterday_file):
+    os.remove(yesterday_file)
 
-    response = requests.post(
-        f"{API_URL}/sendMessage",
-        data={
-            "chat_id": CHANNEL_ID,
-            "text": message,
-            "parse_mode": "Markdown"
-        }
-    )
+# ارسال به تلگرام
+caption = (
+    f"```text\n{configs_text}\n```\n\n"
+    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره\n"
+    f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
+)
 
-    # ذخیره کانفیگ‌ها در فایل روزانه
-    with open(DAILY_FILE, "a", encoding="utf-8") as f:
-        f.write(configs_text + "\n")
-
-    # بروزرسانی ایندکس
-    with open(INDEX_FILE, "w") as f:
-        f.write(str(last_index + len(new_configs)))
+with app:
+    app.send_message(CHANNEL_ID, caption)
