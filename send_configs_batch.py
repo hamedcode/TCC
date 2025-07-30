@@ -1,97 +1,89 @@
 import os
-import json
-import base64
 import requests
-import socket
-import datetime
-import re
+from datetime import datetime
+import json
 import geoip2.database
-from pyrogram import Client
+import base64
+import re
 
-# 🔹 توابع کمکی یکپارچه‌شده
-GEOIP_DB_PATH = "GeoLite2-City.mmdb"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHANNEL_ID = "@Config724"
+OUTPUT_FOLDER = "output"
+GEOIP_DB_PATH = "GeoLite2-Country.mmdb"
+
+# خواندن دیتابیس GeoIP
 reader = geoip2.database.Reader(GEOIP_DB_PATH)
 
-def get_country_flag(domain_or_ip: str) -> str:
-    try:
-        ip = socket.gethostbyname(domain_or_ip)
-        response = reader.city(ip)
-        country_code = response.country.iso_code
-        if country_code:
-            return country_flag(country_code)
-    except Exception:
-        pass
-    return "🏳️"
+# تشخیص کشور از دامنه یا IP
+def extract_domain_from_config(config):
+    match = re.search(r'add(?:ress)?":\s*"?([^",\s]+)', config)
+    if match:
+        return match.group(1).strip()
+    return None
 
-def country_flag(country_code: str) -> str:
+def get_country_flag(ip_or_domain):
+    try:
+        response = reader.country(ip_or_domain)
+        country_code = response.country.iso_code
+        return country_flag_emoji(country_code)
+    except:
+        return "🏳️"
+
+def country_flag_emoji(country_code):
     if not country_code:
         return "🏳️"
-    return ''.join(
-        chr(0x1F1E6 + ord(c.upper()) - ord('A')) for c in country_code
-    )
+    return ''.join([chr(0x1F1E6 + ord(c.upper()) - ord('A')) for c in country_code])
 
-def extract_domain_from_config(config: str) -> str:
-    match = re.search(r'"(?:address|add|host)"\s*:\s*"([^"]+)"', config)
-    if match:
-        return match.group(1)
-    return ""
+# دریافت تاریخ امروز
+today_str = datetime.now().strftime("%m-%d")
+daily_file_path = f"{today_str}.txt"
 
-def replace_remark(config: str, new_remark: str) -> str:
-    return re.sub(r'"remark"\s*:\s*"[^"]+"', f'"remark": "{new_remark}"', config)
+# خواندن فایل ایندکس
+INDEX_FILE = "last_index.txt"
+if not os.path.exists(INDEX_FILE):
+    with open(INDEX_FILE, "w") as f:
+        f.write("0")
 
-# 🔹 تنظیمات
-CHANNEL_ID = "@Config724"
-DAILY_FILE = "daily_configs.txt"
+with open(INDEX_FILE, "r") as f:
+    last_index = int(f.read().strip())
 
-# خواندن سکرت
-session_string = os.environ["PYROGRAM_SESSION_B64"]
-session_bytes = base64.b64decode(session_string)
-
-# ساخت کلاینت Pyrogram از سکرت
-with open("my_session.session", "wb") as f:
-    f.write(session_bytes)
-
-app = Client("my_session")
-
-# خواندن کانفیگ‌ها
-with open("output/index.txt", "r") as f:
-    index = int(f.read().strip())
-
-config_files = sorted(os.listdir("output"))
-configs_to_send = config_files[index:index + 10]
+# گرفتن لیست فایل‌ها
+files = sorted(os.listdir(OUTPUT_FOLDER))
+new_files = files[last_index:last_index + 10]
 
 configs_text = ""
-for filename in configs_to_send:
-    with open(f"output/{filename}", "r", encoding="utf-8") as f:
-        config = f.read()
-
-    domain = extract_domain_from_config(config)
-    flag = get_country_flag(domain)
-    date_str = datetime.datetime.now().strftime("%m/%d")
-    remark = f"{flag} {date_str} {CHANNEL_ID}"
-    config = replace_remark(config, remark)
-    configs_text += config + "\n\n"
-
-# آپدیت ایندکس
-with open("output/index.txt", "w") as f:
-    f.write(str(index + len(configs_to_send)))
+for file in new_files:
+    with open(os.path.join(OUTPUT_FOLDER, file), "r", encoding="utf-8") as f:
+        config = f.read().strip()
+        domain = extract_domain_from_config(config)
+        flag = get_country_flag(domain) if domain else "🏳️"
+        date_str = datetime.now().strftime("%m/%d")
+        new_remark = f"{flag} {date_str} @Config724"
+        # تغییر ریمارک فقط در خطوط دارای "remark"
+        config = re.sub(r'"remark"\s*:\s*"([^"]*)"', f'"remark":"{new_remark}"', config)
+        configs_text += config + "\n"
 
 # ذخیره در فایل روزانه
-today_file = DAILY_FILE
-with open(today_file, "a", encoding="utf-8") as f:
-    f.write(configs_text)
-
-# حذف فایل دیروز
-yesterday_file = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d") + "_configs.txt"
-if os.path.exists(yesterday_file):
-    os.remove(yesterday_file)
+with open(daily_file_path, "a", encoding="utf-8") as f:
+    f.write(configs_text + "\n")
 
 # ارسال به تلگرام
-caption = (
-    f"```text\n{configs_text}\n```\n\n"
-    f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ‌ها توی هر منطقه فرق داره\n"
-    f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
-)
+if configs_text:
+    message = (
+        f"```text\n{configs_text.strip()}\n```\n\n"
+        f"🚨 به دلیل اختلال شدید در اینترنت کشور، اتصال و کیفیت کانفیگ ها توی هر منطقه فرق داره\n"
+        f"📡 برای دریافت بیشتر: {CHANNEL_ID}"
+    )
 
-with app:
-    app.send_message(CHANNEL_ID, caption)
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    response = requests.post(url, data={
+        "chat_id": CHANNEL_ID,
+        "text": message,
+        "parse_mode": "Markdown"
+    })
+
+    print("پیام ارسال شد:", response.status_code, response.text)
+
+# بروزرسانی ایندکس
+with open(INDEX_FILE, "w") as f:
+    f.write(str(last_index + len(new_files)))
