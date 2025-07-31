@@ -1,6 +1,0 @@
-vless://401374e6-df77-41fb-f638-dad8184f175b@154.218.15.238:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#%F0%9F%87%BA%F0%9F%87%B8%20%40OpenSSTPVpn
-vless://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@188.34.181.192:2020?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%40OpenSSTPVpn
-ss://debf2a42-1ff4-4ea6-92a4-f6ac49595cc7@abzartun2.divartehran.online:23737?mode=gun&security=reality&encryption=none&pbk=i5nssGunCVG0W2CI3OM-wGXJwCn9W5Xvm0-tQw_SgEQ&fp=chrome&spx=%2F&type=grpc&sni=varzesh3.com&sid=7c0b6c88fe5c#%F0%9F%87%AB%F0%9F%87%AE%20%40OpenSSTPVpn
-ss://401374e6-df77-41fb-f638-dad8184f175b@154.218.15.238:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#%F0%9F%87%BA%F0%9F%87%B8%20%40OpenSSTPVpn
-vless://debf2a42-1ff4-4ea6-92a4-f6ac49595cc7@abzartun2.divartehran.online:23737?mode=gun&security=reality&encryption=none&pbk=i5nssGunCVG0W2CI3OM-wGXJwCn9W5Xvm0-tQw_SgEQ&fp=chrome&spx=%2F&type=grpc&sni=varzesh3.com&sid=7c0b6c88fe5c#%F0%9F%87%AB%F0%9F%87%AE%20%40OpenSSTPVpn
-ss://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@188.34.181.192:2020?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%40OpenSSTPVpn
