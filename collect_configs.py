@@ -1,11 +1,9 @@
 import os
+import re
 import time
 import json
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UsernameNotOccupied, UsernameInvalid
-
-from utils import extract_configs_from_text, save_configs_to_files
-
 
 API_ID = int(os.environ["API_ID"])
 API_HASH = os.environ["API_HASH"]
@@ -14,9 +12,28 @@ SESSION_B64 = os.environ["PYROGRAM_SESSION_B64"]
 CHANNELS_FILE = "channels.txt"
 OUTPUT_FOLDER = "output"
 LAST_INDEX_FILE = "last_index.txt"
-
-# مسیر فایل کش آیدی کانال‌ها
 PEER_CACHE_FILE = "peer_ids_cache.json"
+
+
+def extract_configs_from_text(text):
+    config_patterns = [
+        r"vmess://[a-zA-Z0-9+/=._\-]+",
+        r"vless://[a-zA-Z0-9+/=._\-]+",
+        r"trojan://[a-zA-Z0-9+/=._\-]+",
+        r"ss://[a-zA-Z0-9+/=._\-]+",
+        r"socks://[a-zA-Z0-9+/=._\-]+",
+        r"hysteria://[a-zA-Z0-9+/=._\-]+",
+    ]
+    configs = []
+    for pattern in config_patterns:
+        configs.extend(re.findall(pattern, text))
+    return configs
+
+
+def save_configs_to_files(configs, output_folder):
+    for i, config in enumerate(configs):
+        with open(os.path.join(output_folder, f"config_{i+1}.txt"), "w", encoding="utf-8") as f:
+            f.write(config)
 
 
 def load_peer_id_cache():
@@ -69,9 +86,7 @@ def main():
     with app:
         for i, username in enumerate(channels[last_index:], start=last_index):
             print(f"🔍 بررسی: @{username}")
-
-            # تأخیر ۳ ثانیه‌ای بین درخواست‌ها
-            time.sleep(3)
+            time.sleep(3)  # تأخیر ۳ ثانیه
 
             try:
                 # اگر قبلاً کش شده استفاده کن
