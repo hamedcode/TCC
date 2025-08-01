@@ -9,7 +9,7 @@ API_ID = int(os.environ["API_ID"])
 API_HASH = os.environ["API_HASH"]
 SESSION_B64 = os.environ["PYROGRAM_SESSION_B64"]
 
-CHANNELS_FILE = "channels.txt"
+CHANNELS_FILE = "channels.json"
 OUTPUT_FOLDER = "output"
 LAST_INDEX_FILE = "last_index.txt"
 PEER_CACHE_FILE = "peer_ids_cache.json"
