@@ -50,7 +50,7 @@ def save_peer_id_cache(cache):
 
 def get_channels():
     with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
-        return [line.strip() for line in f if line.strip()]
+        return json.load(f)
 
 
 def get_last_index():
@@ -71,7 +71,7 @@ def main():
     channels = get_channels()
     last_index = get_last_index()
 
-    # حذف کامل پوشه output (و ساخت مجدد)
+    # حذف کامل پوشه output
     if os.path.exists(OUTPUT_FOLDER):
         for f in os.listdir(OUTPUT_FOLDER):
             try:
@@ -86,10 +86,9 @@ def main():
     with app:
         for i, username in enumerate(channels[last_index:], start=last_index):
             print(f"🔍 بررسی: @{username}")
-            time.sleep(3)  # تأخیر ۳ ثانیه
+            time.sleep(3)  # تأخیر بین درخواست‌ها
 
             try:
-                # اگر قبلاً کش شده استفاده کن
                 if username in peer_cache:
                     peer = peer_cache[username]
                 else:
@@ -112,10 +111,10 @@ def main():
                     print(f"⚠️ کانفیگی در @{username} یافت نشد.")
 
             except FloodWait as e:
-                print(f"⏳ FLOOD_WAIT: {e.value} ثانیه - صبر کن...")
+                print(f"⏳ FLOOD_WAIT: {e.value} ثانیه - در حال صبر...")
                 time.sleep(e.value)
             except (UsernameNotOccupied, UsernameInvalid):
-                print(f"❌ کانال @{username} یافت نشد.")
+                print(f"❌ کانال @{username} معتبر نیست.")
             except Exception as e:
                 print(f"❌ خطا در @{username}: {e}")
 
