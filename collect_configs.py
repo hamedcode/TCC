@@ -1,132 +1,109 @@
 import os
-import re
-import time
 import json
+import base64
+import re
+import shutil
+import time
+from datetime import datetime, timedelta
 from pyrogram import Client
-from pyrogram.errors import FloodWait, UsernameNotOccupied, UsernameInvalid
 
-API_ID = int(os.environ["API_ID"])
-API_HASH = os.environ["API_HASH"]
-SESSION_B64 = os.environ["PYROGRAM_SESSION_B64"]
+SESSION_NAME = "pyrogram_config_collector"
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
 
-CHANNELS_FILE = "channels.json"
-OUTPUT_FOLDER = "output"
-LAST_INDEX_FILE = "last_index.txt"
-PEER_CACHE_FILE = "peer_ids_cache.json"
+if not all([API_ID, API_HASH, SESSION_B64]):
+    raise Exception("API_ID, API_HASH یا PYROGRAM_SESSION_B64 تعریف نشده است.")
 
+with open(f"{SESSION_NAME}.session", "wb") as f:
+    f.write(base64.b64decode(SESSION_B64))
 
+CHANNEL_FILE = "channels.json"
+OUTPUT_DIR = "output"
+ALL_CONFIGS_FILE = "all_configs.txt"
+INDEX_FILE = "last_index.txt"
+CONFIG_PROTOCOLS = ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "tuic://"]
+
+# پاکسازی پوشه output
+try:
+    if os.path.exists(OUTPUT_DIR):
+        shutil.rmtree(OUTPUT_DIR)
+    os.makedirs(OUTPUT_DIR)
+    print("🧹 پوشه output پاک شد.")
+except Exception as e:
+    print(f"❌ خطا در حذف output/: {e}")
+
+# تابع استخراج کانفیگ‌ها
 def extract_configs_from_text(text):
-    config_patterns = [
-        r"vmess://[a-zA-Z0-9+/=._\-]+",
-        r"vless://[a-zA-Z0-9+/=._\-]+",
-        r"trojan://[a-zA-Z0-9+/=._\-]+",
-        r"ss://[a-zA-Z0-9+/=._\-]+",
-        r"socks://[a-zA-Z0-9+/=._\-]+",
-        r"hysteria://[a-zA-Z0-9+/=._\-]+",
-    ]
-    configs = []
-    for pattern in config_patterns:
-        configs.extend(re.findall(pattern, text))
-    return configs
+    found = []
 
+    for proto in CONFIG_PROTOCOLS:
+        found += re.findall(f"{proto}[^\s]+", text)
 
-def save_configs_to_files(configs, output_folder):
-    for i, config in enumerate(configs):
-        with open(os.path.join(output_folder, f"config_{i+1}.txt"), "w", encoding="utf-8") as f:
-            f.write(config)
+    lines = text.splitlines()
+    for line in lines:
+        line = line.strip()
 
+        for proto in CONFIG_PROTOCOLS:
+            if proto in line:
+                found.append(line)
+                continue
 
-def load_peer_id_cache():
-    if os.path.exists(PEER_CACHE_FILE):
-        with open(PEER_CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_peer_id_cache(cache):
-    with open(PEER_CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
-
-
-def get_channels():
-    with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def get_last_index():
-    if os.path.exists(LAST_INDEX_FILE):
-        with open(LAST_INDEX_FILE, "r") as f:
-            return int(f.read().strip() or 0)
-    return 0
-
-
-def save_last_index(index):
-    with open(LAST_INDEX_FILE, "w") as f:
-        f.write(str(index))
-
-
-def main():
-    app = Client(":memory:", api_id=API_ID, api_hash=API_HASH, session_string=SESSION_B64)
-    peer_cache = load_peer_id_cache()
-    channels = get_channels()
-    last_index = get_last_index()
-
-    # حذف کامل پوشه output
-    if os.path.exists(OUTPUT_FOLDER):
-        for f in os.listdir(OUTPUT_FOLDER):
+        if len(line) >= 30 and re.fullmatch(r"[A-Za-z0-9+/=]+", line):
             try:
-                os.remove(os.path.join(OUTPUT_FOLDER, f))
-            except Exception as e:
-                print(f"❌ خطا در حذف فایل {f}: {e}")
-    else:
-        os.makedirs(OUTPUT_FOLDER)
+                padded = line + "=" * (-len(line) % 4)
+                decoded = base64.b64decode(padded).decode("utf-8")
+                for proto in CONFIG_PROTOCOLS:
+                    found += re.findall(f"{proto}[^\s]+", decoded)
+            except:
+                continue
 
-    all_configs = []
+    return list(set(found))
 
-    with app:
-        for i, username in enumerate(channels[last_index:], start=last_index):
-            print(f"🔍 بررسی: @{username}")
-            time.sleep(3)  # تأخیر بین درخواست‌ها
+cutoff_time = datetime.utcnow() - timedelta(hours=8)
 
-            try:
-                if username in peer_cache:
-                    peer = peer_cache[username]
-                else:
-                    peer = app.get_chat(username).id
-                    peer_cache[username] = peer
+with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
+    channels = json.load(f)
 
-                messages = app.get_history(peer, limit=15)
-                found = False
-                for message in messages:
-                    text = message.text or message.caption
-                    if not text:
-                        continue
-                    configs = extract_configs_from_text(text)
-                    if configs:
-                        all_configs.extend(configs)
-                        save_configs_to_files(configs, OUTPUT_FOLDER)
-                        found = True
+all_configs = []
 
-                if not found:
-                    print(f"⚠️ کانفیگی در @{username} یافت نشد.")
+with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
+    for channel in channels:
+        print(f"🔍 بررسی: {channel}")
+        try:
+            messages = app.get_chat_history(channel, limit=50)
+            configs = []
 
-            except FloodWait as e:
-                print(f"⏳ FLOOD_WAIT: {e.value} ثانیه - در حال صبر...")
-                time.sleep(e.value)
-            except (UsernameNotOccupied, UsernameInvalid):
-                print(f"❌ کانال @{username} معتبر نیست.")
-            except Exception as e:
-                print(f"❌ خطا در @{username}: {e}")
+            for msg in messages:
+                if msg.date < cutoff_time:
+                    continue
 
-            last_index = i + 1
-            save_last_index(last_index)
+                content = msg.text or msg.caption
+                if not content:
+                    continue
 
-    save_peer_id_cache(peer_cache)
+                configs += extract_configs_from_text(content)
 
-    print(f"\n📦 تمام کانفیگ‌ها ذخیره شدند. ({len(all_configs)} عدد)")
-    save_last_index(0)
-    print("🔁 فایل last_index.txt ریست شد.")
+            configs = list(set(configs))
 
+            if configs:
+                all_configs += configs
+                output_path = os.path.join(OUTPUT_DIR, channel.replace("@", "").replace("-", "") + ".txt")
+                with open(output_path, "w", encoding="utf-8") as f:
+                    f.write("\n".join(configs))
+                print(f"✅ {len(configs)} کانفیگ از {channel} ذخیره شد.")
+            else:
+                print(f"⚠️ کانفیگی در {channel} یافت نشد.")
+        except Exception as e:
+            print(f"❌ خطا در {channel}: {e}")
+        
+        time.sleep(2)  # ⏱️ افزودن تأخیر ۲ ثانیه‌ای بین کانال‌ها
 
-if __name__ == "__main__":
-    main()
+# ذخیره‌ی فایل نهایی و ریست ایندکس
+with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
+    f.write("\n".join(list(set(all_configs))))
+print(f"\n📦 فایل all_configs.txt با {len(all_configs)} کانفیگ نوشته شد.")
+
+with open(INDEX_FILE, "w", encoding="utf-8") as f:
+    f.write("0")
+print("🔁 فایل last_index.txt ریست شد.")
