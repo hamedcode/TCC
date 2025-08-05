@@ -1,8 +1,0 @@
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.234:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7%20%40CHv2raynp
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.234:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7%20%40CHv2raynp
-ss://4eff2388-2092-4b0a-aa74-0e464889ffaf@109.73.206.90:443?security=reality&encryption=none&pbk=cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c&headerType=none&fp=chrome&type=tcp&sni=google.com#%F0%9F%87%B7%F0%9F%87%BA%20%40CHv2raynp
-vless://b6e8ccd3-aa5d-4a7a-98ec-79d2938ebf16@172.236.241.237:2321?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%BA%F0%9F%87%B2%40CHv2raynp
-vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.98.90:8443?mode=auto&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
-ss://b6e8ccd3-aa5d-4a7a-98ec-79d2938ebf16@172.236.241.237:2321?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%BA%F0%9F%87%B2%40CHv2raynp
-vless://4eff2388-2092-4b0a-aa74-0e464889ffaf@109.73.206.90:443?security=reality&encryption=none&pbk=cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c&headerType=none&fp=chrome&type=tcp&sni=google.com#%F0%9F%87%B7%F0%9F%87%BA%20%40CHv2raynp
-ss://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.98.90:8443?mode=auto&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
