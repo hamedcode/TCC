@@ -150,3 +150,5 @@ vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.98.90:8443?mode=auto&path=%2F
 ss://b6e8ccd3-aa5d-4a7a-98ec-79d2938ebf16@172.236.241.237:2321?security=none&encryption=none&headerType=none&type=tcp#🇺🇸 United States - 08/05 @Config724
 vless://4eff2388-2092-4b0a-aa74-0e464889ffaf@109.73.206.90:443?security=reality&encryption=none&pbk=cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c&headerType=none&fp=chrome&type=tcp&sni=google.com#🇷🇺 Russia - 08/05 @Config724
 ss://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.98.90:8443?mode=auto&path=%2Fxhttp&security=none&encryption=none&type=xhttp#🇩🇪 Germany - 08/05 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3OURGOVJUbmFyQ1EwY3JJNXJ5a0VV@83.147.216.70:64519#🇫🇮 Finland - 08/05 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==@54.238.207.188:8316#🇯🇵 Japan - 08/05 @Config724
