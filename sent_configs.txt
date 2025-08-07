@@ -230,3 +230,4 @@ ss://170ba974-6ae5-44ae-dfdc-4675b5643f34@79.137.33.139:16390?security=none&encr
 vless://4a640781-f5c8-4d17-80db-a6b0a091ba05@tr01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=d3b13f31#🇹🇷 Türkiye - 08/07 @Config724
 vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#🏳️ Unknown - 08/07 @Config724
 ss://4801c19d-37aa-4704-921e-9ee9bab80f1d@speedtest.net:80?mode=auto&path=%2F&security=none&encryption=none&host=p30download.ir&type=xhttp#🇺🇸 United States - 08/07 @Config724
+vless://2ac2a3ac-49ec-4cf1-90fd-252b7fad9fbe@51.195.119.204:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#🇫🇷 France - 08/07 @Config724
