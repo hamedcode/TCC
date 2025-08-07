@@ -1,0 +1,2 @@
+vless://4801c19d-37aa-4704-921e-9ee9bab80f1d@speedtest.net:80?mode=auto&path=%2F&security=none&encryption=none&host=p30download.ir&type=xhttp#%40EXPRESSVPN_420%20%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7
+ss://4801c19d-37aa-4704-921e-9ee9bab80f1d@speedtest.net:80?mode=auto&path=%2F&security=none&encryption=none&host=p30download.ir&type=xhttp#%40EXPRESSVPN_420%20%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7
