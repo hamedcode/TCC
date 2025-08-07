@@ -1,4 +1,8 @@
-vless://6c521581-cdd0-4a20-ceef-7b4b6e03d621@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://6c521581-cdd0-4a20-ceef-7b4b6e03d621@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-vless://6c521581-cdd0-4a20-ceef-7b4b6e03d621@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://6c521581-cdd0-4a20-ceef-7b4b6e03d621@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://7dce4e98-52a9-42d1-95e7-996403e310c5@65.109.208.107:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://acc88aa8-cb11-47d9-8a7e-081049289cb5@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://acc88aa8-cb11-47d9-8a7e-081049289cb5@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://acc88aa8-cb11-47d9-8a7e-081049289cb5@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://acc88aa8-cb11-47d9-8a7e-081049289cb5@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://7dce4e98-52a9-42d1-95e7-996403e310c5@65.109.208.107:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://acc88aa8-cb11-47d9-8a7e-081049289cb5@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://acc88aa8-cb11-47d9-8a7e-081049289cb5@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
