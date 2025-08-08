@@ -1,0 +1,8 @@
+vless://e396992f-0c58-4c9c-8d6b-f3c6ddd6cf3c@91.99.152.11:2222?encryption=none&security=reality&sni=cp7.cloudflare.com&fp=chrome&pbk=bOwzT9hRCRAOATeg5E7SZljT5dxkl-cNncPt5M_nQVU&sid=b36b64d88b4a&spx=%2Fcdn%2Fimage.jpg&type=xhttp&path=%2F&mode=auto#%F0%9F%87%A9%F0%9F%87%AA275MMad-xH-Reality
+vless://Parsashonam-296@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Antifilterjadid 🇩🇪 نیازمند فعال بودن ipv6
+ss://Parsashonam-296@185.146.173.39:8880?type=httpupgrade&path=%2FParsashonam-Parsashonam-Parsashonam%2F%3Fed%3D2056&host=De.Parsashonam.CfD.&security=none#@Antifilterjadid
+ss://e396992f-0c58-4c9c-8d6b-f3c6ddd6cf3c@91.99.152.11:2222?encryption=none&security=reality&sni=cp7.cloudflare.com&fp=chrome&pbk=bOwzT9hRCRAOATeg5E7SZljT5dxkl-cNncPt5M_nQVU&sid=b36b64d88b4a&spx=%2Fcdn%2Fimage.jpg&type=xhttp&path=%2F&mode=auto#%F0%9F%87%A9%F0%9F%87%AA275MMad-xH-Reality
+vless://Parsashonam-296@185.146.173.39:8880?type=httpupgrade&path=%2FParsashonam-Parsashonam-Parsashonam%2F%3Fed%3D2056&host=De.Parsashonam.CfD.&security=none#@Antifilterjadid 🇩🇪
+vless://Parsashonam-296@185.146.173.39:8880?type=httpupgrade&path=%2FParsashonam-Parsashonam-Parsashonam%2F%3Fed%3D2056&host=De.Parsashonam.CfD.&security=none#@Antifilterjadid
+vless://Parsashonam-296@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Antifilterjadid
+ss://Parsashonam-296@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#@Antifilterjadid
