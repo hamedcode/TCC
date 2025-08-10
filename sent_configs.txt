@@ -60,3 +60,5 @@ vless://ca4d4672-14db-4ea7-821f-71f55290836f@Www.speedtest.net:2095?type=httpupg
 ss://ca4d4672-14db-4ea7-821f-71f55290836f@Www.speedtest.net:2095?type=httpupgrade&host=Fi1.vipmehspd.ir.&path=/@FREE_VPN02@FREE_VPN02@FREE_VPN02@FREE_VPN02&security=none#🏳️ Unknown - 08/10 @Config724
 ss://99946974-0264-4496-9929-6f1492504d6c@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#🏳️ Unknown - 08/10 @Config724
 vless://99946974-0264-4496-9929-6f1492504d6c@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#🏳️ Unknown - 08/10 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIVzVCclA0OFFVNFE5VlBkSldzLVB3@84.234.31.193:1080#🇨🇭 Switzerland - 08/10 @Config724
+ss://YWVzLTEyOC1nY206MTAwODY=@153.121.51.214:10087#🇯🇵 Japan - 08/10 @Config724
