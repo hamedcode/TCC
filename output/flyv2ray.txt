@@ -1,4 +1,0 @@
-vless://121610b9-74a8-4988-ace2-bafb3013fde1@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://121610b9-74a8-4988-ace2-bafb3013fde1@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://121610b9-74a8-4988-ace2-bafb3013fde1@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-vless://121610b9-74a8-4988-ace2-bafb3013fde1@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray

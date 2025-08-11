@@ -1,0 +1,2 @@
+vless://6193966f-6513-47cf-b256-d383b3832c61@deu372.webunbound.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.screwfix.com#%40V2rayNG_Ghavi
+ss://6193966f-6513-47cf-b256-d383b3832c61@deu372.webunbound.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.screwfix.com#%40V2rayNG_Ghavi
