@@ -1,3 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@103.163.218.2:990#%40radiofarex
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@103.163.218.2:990#%F0%9F%87%B3%F0%9F%87%B1%40radiofarex
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@45.154.206.192:990#%40radiofarex
+ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server8.coin.name.ng&type=ws&sni=server8.coin.name.ng#Germany%208
+ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server7.coin.name.ng&type=ws&sni=server7.coin.name.ng#Germany%207
+vless://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server7.coin.name.ng&type=ws&sni=server7.coin.name.ng#Germany%207
+vless://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server8.coin.name.ng&type=ws&sni=server8.coin.name.ng#Germany%208
