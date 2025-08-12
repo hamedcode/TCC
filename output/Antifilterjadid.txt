@@ -1,4 +1,0 @@
-ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server8.coin.name.ng&type=ws&sni=server8.coin.name.ng#Germany%208
-ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server7.coin.name.ng&type=ws&sni=server7.coin.name.ng#Germany%207
-vless://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server7.coin.name.ng&type=ws&sni=server7.coin.name.ng#Germany%207
-vless://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server8.coin.name.ng&type=ws&sni=server8.coin.name.ng#Germany%208
