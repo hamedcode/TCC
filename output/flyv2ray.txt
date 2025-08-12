@@ -1,2 +1,2 @@
-vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.126.93:8443?mode=stream-one&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%40flyv2ray
-ss://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.126.93:8443?mode=stream-one&path=%2Fxhttp&security=none&encryption=none&type=xhttp#%40flyv2ray
+ss://02811288-9ef3-42ef-86db-d9b1399c1a59@104.16.69.64:8880?path=%2F7YVyoVNnbaVzgl6D%3Fed%3D2560&security=none&encryption=none&host=vghavi32.ip-ddns.com&type=ws#%40flyv2ray
+vless://02811288-9ef3-42ef-86db-d9b1399c1a59@104.16.69.64:8880?path=%2F7YVyoVNnbaVzgl6D%3Fed%3D2560&security=none&encryption=none&host=vghavi32.ip-ddns.com&type=ws#%40flyv2ray
