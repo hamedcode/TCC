@@ -191,3 +191,4 @@ vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&en
 ss://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.15.181:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#🇩🇪 Germany - 08/13 @Config724
 vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#🏳️ Unknown - 08/13 @Config724
 ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=vultr2.coin.name.ng&type=ws&sni=vultr2.coin.name.ng#🏳️ Unknown - 08/13 @Config724
+ss://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.114.25:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#🇩🇪 Germany - 08/13 @Config724
