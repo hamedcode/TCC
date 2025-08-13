@@ -1,2 +1,0 @@
-ss://02811288-9ef3-42ef-86db-d9b1399c1a59@104.16.69.64:8880?path=%2F7YVyoVNnbaVzgl6D%3Fed%3D2560&security=none&encryption=none&host=vghavi32.ip-ddns.com&type=ws#%40flyv2ray
-vless://02811288-9ef3-42ef-86db-d9b1399c1a59@104.16.69.64:8880?path=%2F7YVyoVNnbaVzgl6D%3Fed%3D2560&security=none&encryption=none&host=vghavi32.ip-ddns.com&type=ws#%40flyv2ray
