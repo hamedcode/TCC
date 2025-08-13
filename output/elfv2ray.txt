@@ -1,0 +1,13 @@
+ss://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.15.181:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#%40ELFV2RAY_2
+vless://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.114.25:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#%40ELFV2RAY%20_5
+vless://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.15.181:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#%40ELFV2RAY_2
+ss://c30fee5c-a1ba-4828-8c6b-ac509d7342e3@store-static-portal.cyberscaler.net:10082?security=none&encryption=none&host=cdnjs.cloudflare.com&headerType=http&fp=chrome&type=tcp#%40ELFV2RAY_3
+vless://c30fee5c-a1ba-4828-8c6b-ac509d7342e3@store-static-portal.cyberscaler.net:10082?security=none&encryption=none&host=cdnjs.cloudflare.com&headerType=http&fp=chrome&type=tcp#%40ELFV2RAY_3
+ss://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#%40ELFV2RAY%20_0
+vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#%40ELFV2RAY%20_0
+ss://11402c34-7f90-485f-a218-ade69f314f49@store-static-portal.cyberscaler.net:10082?security=none&encryption=none&host=cdnjs.cloudflare.com&headerType=http&fp=chrome&type=tcp#%40ELFV2RAY_4
+vless://11402c34-7f90-485f-a218-ade69f314f49@store-static-portal.cyberscaler.net:10082?security=none&encryption=none&host=cdnjs.cloudflare.com&headerType=http&fp=chrome&type=tcp#%40ELFV2RAY_4
+ss://bad692ed-12b0-4081-8dff-417b30dcc4d5@167.172.89.10:443?path=%2Fws&security=tls&encryption=none&host=167.172.89.10&fp=chrome&type=ws&sni=zula.ir#%40ELFV2RAY_1
+vless://bad692ed-12b0-4081-8dff-417b30dcc4d5@167.172.89.10:443?path=%2Fws&security=tls&encryption=none&host=167.172.89.10&fp=chrome&type=ws&sni=zula.ir#%40ELFV2RAY_1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpES2U5QVhlRm5Od0JTdnpkTUY2TGhxd2Y4QWVqOXExYVQ1cW52VExQb1VFVTVOUGdlSHdrRGVhRmNjVW84TmU3VXRwekt3cTlLRVpmcU14WFMxS1J4cEh4bk1mWGZkUnE%3D@94.131.22.134:40565#%40ELFV2RAY%20_6
+ss://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.114.25:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#%40ELFV2RAY%20_5
