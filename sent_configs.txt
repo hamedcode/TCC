@@ -181,3 +181,13 @@ ss://bad692ed-12b0-4081-8dff-417b30dcc4d5@167.172.89.10:443?path=%2Fws&security=
 vless://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.15.181:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#🇩🇪 Germany - 08/13 @Config724
 vless://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=vultr2.coin.name.ng&type=ws&sni=vultr2.coin.name.ng#🏳️ Unknown - 08/13 @Config724
 ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server13.coin.name.ng&type=ws&sni=server13.coin.name.ng#🏳️ Unknown - 08/13 @Config724
+vless://bad692ed-12b0-4081-8dff-417b30dcc4d5@167.172.89.10:443?path=%2Fws&security=tls&encryption=none&host=167.172.89.10&fp=chrome&type=ws&sni=zula.ir#🇸🇬 Singapore - 08/13 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpES2U5QVhlRm5Od0JTdnpkTUY2TGhxd2Y4QWVqOXExYVQ1cW52VExQb1VFVTVOUGdlSHdrRGVhRmNjVW84TmU3VXRwekt3cTlLRVpmcU14WFMxS1J4cEh4bk1mWGZkUnE%3D@94.131.22.134:40565#🇺🇸 United States - 08/13 @Config724
+vless://ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4@www.speedtest.net:8443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=iphoster-quran-iran-4.coin.name.ng&fp=chrome&type=ws&sni=iphoster-quran-iran-4.coin.name.ng#🏳️ Unknown - 08/13 @Config724
+ss://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#🇬🇧 United Kingdom - 08/13 @Config724
+vless://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=server13.coin.name.ng&type=ws&sni=server13.coin.name.ng#🏳️ Unknown - 08/13 @Config724
+ss://c30fee5c-a1ba-4828-8c6b-ac509d7342e3@store-static-portal.cyberscaler.net:10082?security=none&encryption=none&host=cdnjs.cloudflare.com&headerType=http&fp=chrome&type=tcp#🇨🇦 Canada - 08/13 @Config724
+vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#🇬🇧 United Kingdom - 08/13 @Config724
+ss://82aa1f3f-29d4-42ab-a5d5-66b13ba13545@91.99.15.181:443?mode=stream-one&path=%2Fd&security=none&encryption=none&type=xhttp#🇩🇪 Germany - 08/13 @Config724
+vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=%2F193.123.81.105%3D443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#🏳️ Unknown - 08/13 @Config724
+ss://8e615b78-0905-48bb-ab68-fb0dfdff7688@www.speedtest.net:8443?path=%2F&security=tls&encryption=none&host=vultr2.coin.name.ng&type=ws&sni=vultr2.coin.name.ng#🏳️ Unknown - 08/13 @Config724
