@@ -346,3 +346,13 @@ ss://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?security=none&encry
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.250:8880?security=none&encryption=none&type=grpc#🇬🇧 United Kingdom - 08/15 @Config724
 vless://22253331-3afd-4b87-ec6f-25e995664743@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#🏳️ Unknown - 08/15 @Config724
 vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.221.206:443?security=none&encryption=none&type=tcp&host=zula.ir&path=/&headerType=http#🇩🇪 Germany - 08/15 @Config724
+ss://41b8c97a-7fac-4191-8922-f58d42a9acf7@app-stg.gopay.co.id.servpn.my.id:443?path=%2Fid5%3F%2F%3Fed%3D2048&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=chrome&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#🏳️ Unknown - 08/15 @Config724
+vless://f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45@24.199.120.9:443/?type=tcp&encryption=none&flow=&sni=www.icloud.com&allowInsecure=1&fp=qq&security=reality&pbk=oRDRYCRgGMbdf0Vw2qxYZm65qED5k8sFjLxAisMU6W8&sid=7487b1#🇺🇸 United States - 08/15 @Config724
+ss://f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45@24.199.120.9:443/?type=tcp&encryption=none&flow=&sni=www.icloud.com&allowInsecure=1&fp=qq&security=reality&pbk=oRDRYCRgGMbdf0Vw2qxYZm65qED5k8sFjLxAisMU6W8&sid=7487b1#🇺🇸 United States - 08/15 @Config724
+ss://f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45@cloudflare.182682.xyz:2086/?type=ws&encryption=none&flow=&host=free.naichachong.top&path=%2FTG%40naichachong#🏳️ Unknown - 08/15 @Config724
+vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?security=none&encryption=none&type=ws&host=VngSuPpLY.IP-Ddns.com&path=/Etb1L6YUdZFZuTOr?ed%3D2560#🏳️ Unknown - 08/15 @Config724
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.250:8880?security=none&encryption=none&type=grpc#🇬🇧 United Kingdom - 08/15 @Config724
+vless://f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45@cloudflare.182682.xyz:2086/?type=ws&encryption=none&flow=&host=free.naichachong.top&path=%2FTG%40naichachong#🏳️ Unknown - 08/15 @Config724
+vless://7f09e7b4-4680-4653-a2da-307d110b6961@famous-experience.seotoolsforyou.co.uk:80?security=none&encryption=none&type=ws&path=/#🏳️ Unknown - 08/15 @Config724
+vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?security=none&encryption=none&type=ws&host=VngSuPpLY.IP-Ddns.com&path=/Etb1L6YUdZFZuTOr?ed%3D2560#🏳️ Unknown - 08/15 @Config724
+ss://e9979910-79d1-4621-a93c-b2a579c44ba7@104.16.86.73:8880?security=none&encryption=none&type=ws&host=vngsupply.ip-ddns.com&path=/J5aLQOY1R9ONWYCM?ed%3D2560#🏳️ Unknown - 08/15 @Config724
