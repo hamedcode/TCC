@@ -76,3 +76,13 @@ vless://%50%61%72%73%61%73%68%6F%6E%61%6D-300@185.146.173.39:8880?type=httpupgra
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0U0VPWjJZSk1mZjVZbU1VMzM0Y3VB@89.185.84.185:443#🇬🇧 United Kingdom - 08/18 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@62.133.63.226:2222#🇹🇷 Türkiye - 08/18 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@83.217.9.128:2222#🇹🇷 Türkiye - 08/18 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@83.217.9.125:2222#🇹🇷 Türkiye - 08/18 @Config724
+ss://YWVzLTI1Ni1nY206ZDcwZWY4YjUtNjA0OC00YzBkLWJlNGQtZmM2MDM5OWIwZjQ1@77.110.110.240:443#🇦🇹 Austria - 08/18 @Config724
+ss://%50%61%72%73%61%73%68%6F%6E%61%6D-300@185.146.173.39:8880?type=httpupgrade&path=%2F%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D%2F%3Fed%3D2056&host=De.%50%61%72%73%61%73%68%6F%6E%61%6D.CfD.&security=none#🇸🇪 Sweden - 08/18 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@104.167.197.25:57456#🇺🇸 United States - 08/18 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@178.130.43.225:2222#🇳🇱 The Netherlands - 08/18 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#🇺🇸 United States - 08/18 @Config724
+vless://%50%61%72%73%61%73%68%6F%6E%61%6D-300@91.99.16.244:443?mode=auto&path=%2F%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D-%50%61%72%73%61%73%68%6F%6E%61%6D&security=reality&encryption=none&pbk=sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8&fp=chrome&spx=%2F&type=xhttp&sni=Google.com&sid=61e683d41fdb#🇩🇪 Germany - 08/18 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@185.21.14.103:2222#🇳🇱 The Netherlands - 08/18 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@147.45.178.200:57456#🇩🇪 Germany - 08/18 @Config724
+ss://%50%61%72%73%61%73%68%6F%6E%61%6D-300@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 08/18 @Config724
