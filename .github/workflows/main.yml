@@ -1,0 +1,50 @@
+name: Extract Proxies and Update (Single Branch)
+
+on:
+  # Trigger on push to the main branch
+  push:
+    branches: [ main ]
+
+  # Trigger on a schedule
+  schedule:
+    - cron: '*/15 * * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Grant write permissions for committing changes
+permissions:
+  contents: write
+
+jobs:
+  extract_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository code from the main branch
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up PHP environment
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.x'
+          extensions: curl
+
+      # Step 3: Run the PHP script to generate output files
+      - name: Run PHP script to extract proxies
+        run: php extract_proxies.php
+
+      # Step 4: Commit the generated files back to the main branch
+      - name: Commit and push generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Define which files to commit
+          file_pattern: index.html extracted_proxies.json
+          
+          # The commit message
+          commit_message: 'Update: Auto-generated proxy list'
+          
+          # By default, this action commits to the current branch (main),
+          # so no 'branch' option is needed.
