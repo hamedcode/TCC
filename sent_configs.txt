@@ -387,3 +387,5 @@ vless://9c9b8418-239a-4705-be72-31d332dd4272@172.66.40.99:8080?type=ws&host=T.ub
 vless://de765eb2-92d9-4730-885a-7f63985cffbe@simonil.zarghamportal.ir:8080?path=%2F&security=none&encryption=none&host=shole.zarghamportal.ir&type=httpupgrade#🏳️ Unknown - 08/24 @Config724
 ss://ac083fa9-df9a-4722-b70d-24c17bef0516@fina.iranbuildings.com:8444?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇮🇷 Iran - 08/24 @Config724
 ss://1b18b439-5371-4f38-b8d0-71aad09a3a92@15.204.235.13:43728?security=none&encryption=none&headerType=none&type=tcp#🇺🇸 United States - 08/24 @Config724
+vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=reality&encryption=none&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d21e7c#🇩🇰 Denmark - 08/24 @Config724
+ss://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=reality&encryption=none&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d21e7c#🇩🇰 Denmark - 08/24 @Config724
