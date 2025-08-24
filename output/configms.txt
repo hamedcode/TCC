@@ -1,2 +1,0 @@
-vless://5d489360-13b4-469b-8417-ea55bdb20c8a@172.66.40.99:8080/?type=ws&path=%2FTelegram_configMs_Telegram_configMs_Telegram_configMs%3Fed%3D2048&host=K.mangoap.org&security=none#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%85%D8%A7%20%7C%20%40configMs
-ss://5d489360-13b4-469b-8417-ea55bdb20c8a@172.66.40.99:8080/?type=ws&path=%2FTelegram_configMs_Telegram_configMs_Telegram_configMs%3Fed%3D2048&host=K.mangoap.org&security=none#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%85%D8%A7%20%7C%20%40configMs
