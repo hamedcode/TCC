@@ -415,3 +415,9 @@ ss://fd0cdd44-2361-11f0-9970-45e1d80c4039@62.60.233.250:443?encryption=none&flow
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.154:8080#🇱🇹 Lithuania - 08/25 @Config724
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@25.129.199.156:8880?encryption=none&security=none&sni=Telegram-channel-WangCai2&type=ws&host=kjgx.laoyoutiao.link&path=%2F#🇬🇧 United Kingdom - 08/25 @Config724
 ss://d115adcd-1b1f-4cf4-b6a4-b9696434967a@ir3.fastnode0.com:2087?security=none&encryption=none&type=ws#🇮🇷 Iran - 08/25 @Config724
+vless://d115adcd-1b1f-4cf4-b6a4-b9696434967a@ir6.fastnode0.com:2087?security=none&encryption=none&type=ws#🇮🇷 Iran - 08/25 @Config724
+ss://d115adcd-1b1f-4cf4-b6a4-b9696434967a@ir5.fastnode0.com:2087?security=none&encryption=none&type=ws#🇮🇷 Iran - 08/25 @Config724
+vless://d115adcd-1b1f-4cf4-b6a4-b9696434967a@ir5.fastnode0.com:2087?security=none&encryption=none&type=ws#🇮🇷 Iran - 08/25 @Config724
+ss://ecce255e-17d3-429b-8093-dd884f6aff7d@172.66.40.99:8080?type=ws&host=T.ubuntu-linuxmirror.ir&path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed%3D2048&security=none#🏳️ Unknown - 08/25 @Config724
+vless://d115adcd-1b1f-4cf4-b6a4-b9696434967a@ir4.fastnode0.com:2087?security=none&encryption=none&type=ws#🇮🇷 Iran - 08/25 @Config724
+vless://fd0cdd44-2361-11f0-9970-45e1d80c4039@62.60.233.250:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=images.apple.com&fp=chrome&pbk=MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw&sid=4476a3&type=tcp&headerType=none#🇹🇷 Türkiye - 08/25 @Config724
