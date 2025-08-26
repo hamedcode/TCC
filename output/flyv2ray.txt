@@ -1,0 +1,4 @@
+ss://e7ef2316-2ff9-4266-8d09-acbf90fbd0e4@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://e7ef2316-2ff9-4266-8d09-acbf90fbd0e4@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+vless://e7ef2316-2ff9-4266-8d09-acbf90fbd0e4@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://e7ef2316-2ff9-4266-8d09-acbf90fbd0e4@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
