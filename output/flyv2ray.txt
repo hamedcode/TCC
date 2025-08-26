@@ -1,8 +1,2 @@
-ss://400f06ce-2b69-4444-a398-47b7166ccb54@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-vless://400f06ce-2b69-4444-a398-47b7166ccb54@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://fb84938c-8708-4289-a4f1-4f513b1581ac@65.109.218.179:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-vless://fb84938c-8708-4289-a4f1-4f513b1581ac@65.109.218.179:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://400f06ce-2b69-4444-a398-47b7166ccb54@www.speedtest.net:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-vless://400f06ce-2b69-4444-a398-47b7166ccb54@chat.deepseek.com:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-ss://400f06ce-2b69-4444-a398-47b7166ccb54@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
-vless://400f06ce-2b69-4444-a398-47b7166ccb54@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#%F0%9F%87%AB%F0%9F%87%AE%40flyv2ray
+ss://858a3856-4dce-4241-8ed2-fea94418d9ba@bfly.tuozs.ir:2083?security=reality&encryption=none&pbk=tMVNburGfNg0IHRgzlmoqV22mx1GgkRe8qzBouEYY3Y&fp=firefox&spx=%2F&type=grpc&sni=miro.com&sid=a25aca9336#%40flyv2ray
+vless://858a3856-4dce-4241-8ed2-fea94418d9ba@bfly.tuozs.ir:2083?security=reality&encryption=none&pbk=tMVNburGfNg0IHRgzlmoqV22mx1GgkRe8qzBouEYY3Y&fp=firefox&spx=%2F&type=grpc&sni=miro.com&sid=a25aca9336#%40flyv2ray
