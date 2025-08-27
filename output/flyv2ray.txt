@@ -1,2 +1,0 @@
-ss://858a3856-4dce-4241-8ed2-fea94418d9ba@bfly.tuozs.ir:2083?security=reality&encryption=none&pbk=tMVNburGfNg0IHRgzlmoqV22mx1GgkRe8qzBouEYY3Y&fp=firefox&spx=%2F&type=grpc&sni=miro.com&sid=a25aca9336#%40flyv2ray
-vless://858a3856-4dce-4241-8ed2-fea94418d9ba@bfly.tuozs.ir:2083?security=reality&encryption=none&pbk=tMVNburGfNg0IHRgzlmoqV22mx1GgkRe8qzBouEYY3Y&fp=firefox&spx=%2F&type=grpc&sni=miro.com&sid=a25aca9336#%40flyv2ray
