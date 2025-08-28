@@ -1,2 +1,0 @@
-ss://6b758c57-3a4b-41f3-be1e-25025eba8bfc@www.speedtest.net:80?security=none&encryption=none&host=revest.maketunnelim.Lat.&type=ws&sni=revest.maketunnelim.Lat.#AZAD.NET%F0%9F%A5%82
-vless://6b758c57-3a4b-41f3-be1e-25025eba8bfc@www.speedtest.net:80?security=none&encryption=none&host=revest.maketunnelim.Lat.&type=ws&sni=revest.maketunnelim.Lat.#AZAD.NET%F0%9F%A5%82

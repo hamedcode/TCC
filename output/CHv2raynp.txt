@@ -1,5 +1,0 @@
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.5:8880?mode=gun&security=&encryption=none&type=grpc#%F0%9F%9B%A1%EF%B8%8F%20%40CHv2raynp
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.5:8880?mode=gun&security=&encryption=none&type=grpc#%F0%9F%9B%A1%EF%B8%8F%20%40CHv2raynp
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpja1Z4eEJMQVZiRVF4eHJSRFNySHBZ@104.248.36.101:80#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
-ss://1d0dfde1-9f18-4557-9af8-4f3124ee5dcd@wiLd-bIRD.SEOtooLsforyOu.Co.UK:80?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
-vless://1d0dfde1-9f18-4557-9af8-4f3124ee5dcd@wiLd-bIRD.SEOtooLsforyOu.Co.UK:80?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
