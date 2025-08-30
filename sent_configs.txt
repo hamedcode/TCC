@@ -23,3 +23,6 @@ ss://0855af4e-ec2c-4382-ac60-c54f9db3e04a@138.199.239.38:42671?security=&encrypt
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.246:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 08/30 @Config724
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.246:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 08/30 @Config724
 ss://b71d62ce-af15-4563-b696-3f971101ebfc@172.66.40.99:8080/?type=ws&path=%2FTelegram_configMs_Telegram_configMs_Telegram_configMs%3Fed%3D2048&host=K.mangoap.org&security=none#🏳️ Unknown - 08/30 @Config724
+ss://72d98d67-1c99-4c0f-a67a-9060aa54c895@146.75.123.82:80?type=xhttp&host=fotofactory.pk&path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed%3D2048&security=none#🇩🇪 Germany - 08/30 @Config724
+vless://72d98d67-1c99-4c0f-a67a-9060aa54c895@146.75.123.82:80?type=xhttp&host=fotofactory.pk&path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed%3D2048&security=none#🇩🇪 Germany - 08/30 @Config724
+hy2://dongtaiwang.com@108.181.5.130:63015/?insecure=1&sni=apple.com#🇺🇸 United States - 08/30 @Config724
