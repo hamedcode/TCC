@@ -1,0 +1,2 @@
+vless://45471789-5063-4721-949a-7d3fdaa07b9f@165.227.149.23:49968?security=none&encryption=none&headerType=none&type=tcp#AZADNET.AZADI%F0%9F%92%99%F0%9F%A4%A9%F0%9F%A5%82
+ss://45471789-5063-4721-949a-7d3fdaa07b9f@165.227.149.23:49968?security=none&encryption=none&headerType=none&type=tcp#AZADNET.AZADI%F0%9F%92%99%F0%9F%A4%A9%F0%9F%A5%82
