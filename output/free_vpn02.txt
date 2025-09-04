@@ -1,2 +1,0 @@
-vless://aec7d79a-8b42-43ad-ab44-23062a1a430b@185.146.173.39:2052?type=ws&host=De.lemoex.ir.&path=/wsmmad&security=none#%F0%9F%87%A9%F0%9F%87%AA%20@FREE_VPN02
-ss://aec7d79a-8b42-43ad-ab44-23062a1a430b@185.146.173.39:2052?type=ws&host=De.lemoex.ir.&path=/wsmmad&security=none#%F0%9F%87%A9%F0%9F%87%AA%20@FREE_VPN02
