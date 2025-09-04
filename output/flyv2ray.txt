@@ -1,3 +1,0 @@
-vless://Parsashonam-305@185.146.173.39:8880?path=%2FParsashonam-Parsashonam-Parsashonam%2F%3Fed%3D2056&security=none&encryption=none&host=De.Parsashonam.CfD.&type=httpupgrade#%40flyv2ray
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.175:8080#%40flyv2ray
-ss://Parsashonam-305@185.146.173.39:8880?path=%2FParsashonam-Parsashonam-Parsashonam%2F%3Fed%3D2056&security=none&encryption=none&host=De.Parsashonam.CfD.&type=httpupgrade#%40flyv2ray
