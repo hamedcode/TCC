@@ -1,0 +1,2 @@
+vless://f9f1ed42-9943-4121-9408-8fbe766343ae@m5a.vip784.com:33801?type=tcp&headerType=http&host=varzesh3.ir&security=none#@FREE_VPN02-@FREE_VPN02
+ss://f9f1ed42-9943-4121-9408-8fbe766343ae@m5a.vip784.com:33801?type=tcp&headerType=http&host=varzesh3.ir&security=none#@FREE_VPN02-@FREE_VPN02
