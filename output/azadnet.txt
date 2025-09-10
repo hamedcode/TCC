@@ -1,0 +1,2 @@
+ss://a0c968aa-6723-404e-93e2-5987593a7f19@15.235.41.93:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#AZAD.NET.VPN%F0%9F%A5%82
+vless://a0c968aa-6723-404e-93e2-5987593a7f19@15.235.41.93:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#AZAD.NET.VPN%F0%9F%A5%82
