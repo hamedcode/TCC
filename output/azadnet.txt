@@ -1,2 +1,0 @@
-ss://346caa60-8fb2-11f0-b237-205c6d5f5d78@asia1.fufo.org:80?path=%2Fvlws&security=none&encryption=none&type=ws#AZAD..NET.
-vless://346caa60-8fb2-11f0-b237-205c6d5f5d78@asia1.fufo.org:80?path=%2Fvlws&security=none&encryption=none&type=ws#AZAD..NET.
