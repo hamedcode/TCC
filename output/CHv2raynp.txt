@@ -1,6 +1,0 @@
-ss://a23288ae-4c36-4822-a021-e4963addfaaa@141.11.250.143:52222?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40CHv2raynp
-ss://5f4dd8b4-9561-4401-b83f-fda625ff48a1@myfreexnum01tamiz.bazibazestan.ir:443?security=reality&encryption=none&pbk=Mtdk_nmm5mWBlKzjIOoDXN8nL4zHL-F40WNP5e2E4ko&headerType=http&fp=firefox&spx=%2F&type=tcp&sni=tgju.org&sid=e1bc8e591c390c7c#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
-vless://5f4dd8b4-9561-4401-b83f-fda625ff48a1@myfreexnum01tamiz.bazibazestan.ir:443?security=reality&encryption=none&pbk=Mtdk_nmm5mWBlKzjIOoDXN8nL4zHL-F40WNP5e2E4ko&headerType=http&fp=firefox&spx=%2F&type=tcp&sni=tgju.org&sid=e1bc8e591c390c7c#%F0%9F%87%A9%F0%9F%87%AA%40CHv2raynp
-vless://a23288ae-4c36-4822-a021-e4963addfaaa@141.11.250.143:52222?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%40CHv2raynp
-ss://1efab776-c694-4652-f89e-45ffffe49ef6@104.21.80.1:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%B3%F0%9F%87%B1%40CHv2raynp
-vless://1efab776-c694-4652-f89e-45ffffe49ef6@104.21.80.1:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#%F0%9F%87%B3%F0%9F%87%B1%40CHv2raynp
