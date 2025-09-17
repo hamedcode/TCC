@@ -1,2 +1,0 @@
-vless://FreakConfig@FreakConfig.snapfood.org:443?type=xhttp&mode=auto&path=/&security=reality&fp=firefox&sni=refersion.com&pbk=uGKtIaCzqXoH50sIyN9lLXeRut0BwB6ppeaWhzRzH2k&sid=d6486c8c60d64283&spx=/#%F0%9F%87%B3%F0%9F%87%B1-@Free_Vpn02
-ss://FreakConfig@FreakConfig.snapfood.org:443?type=xhttp&mode=auto&path=/&security=reality&fp=firefox&sni=refersion.com&pbk=uGKtIaCzqXoH50sIyN9lLXeRut0BwB6ppeaWhzRzH2k&sid=d6486c8c60d64283&spx=/#%F0%9F%87%B3%F0%9F%87%B1-@Free_Vpn02
