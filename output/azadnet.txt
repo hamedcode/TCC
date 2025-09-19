@@ -1,0 +1,2 @@
+vless://f825cb73-9140-4314-972c-9812ab785993@qow.mahi25.cfd:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20AZAD.NET.VPN%20%F0%9F%A5%82
+ss://f825cb73-9140-4314-972c-9812ab785993@qow.mahi25.cfd:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20AZAD.NET.VPN%20%F0%9F%A5%82
