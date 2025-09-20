@@ -1,2 +1,2 @@
-vless://f825cb73-9140-4314-972c-9812ab785993@qow.mahi25.cfd:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20AZAD.NET.VPN%20%F0%9F%A5%82
-ss://f825cb73-9140-4314-972c-9812ab785993@qow.mahi25.cfd:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20AZAD.NET.VPN%20%F0%9F%A5%82
+ss://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&encryption=none&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=www.steampowered.com&sid=85#%F0%9F%87%A9%F0%9F%87%AAAZAD.NET.VPN
+vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&encryption=none&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=www.steampowered.com&sid=85#%F0%9F%87%A9%F0%9F%87%AAAZAD.NET.VPN

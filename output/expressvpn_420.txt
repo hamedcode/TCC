@@ -1,5 +1,0 @@
-vless://channel%40v2rayng_67@bm.boulvarmoein.shop:2095?path=%2FTelegram%40v2rayng_76%3D%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=bm.boulvarmoein.shop&type=ws&sni=bm.boulvarmoein.shop#%40EXPRESSVPN_420
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@azure-sto.edgeservers.org:48172#%E2%9A%9C%EF%B8%8FTelegram%3A%20%40EXPRESSVPN_420
-ss://SERVERNETT-SERVERNETT1@alo4.sernett.ir:8080?mode=auto&path=%2F&security=none&encryption=none&type=xhttp#%40EXPRESSVPN_420
-vless://SERVERNETT-SERVERNETT1@alo4.sernett.ir:8080?mode=auto&path=%2F&security=none&encryption=none&type=xhttp#%40EXPRESSVPN_420
-ss://channel%40v2rayng_67@bm.boulvarmoein.shop:2095?path=%2FTelegram%40v2rayng_76%3D%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=bm.boulvarmoein.shop&type=ws&sni=bm.boulvarmoein.shop#%40EXPRESSVPN_420
