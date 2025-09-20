@@ -350,3 +350,5 @@ vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.223:8880?mode=gun&secur
 ss://0b5e3666-7885-4f62-a22f-b762669df3fa@185.113.10.132:8650?encryption=none&security=reality&sni=cloudflare.com&fp=random&pbk=YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI&sid=354b9cbe48&spx=%2F&type=xhttp&path=%2F&mode=auto#🇮🇷 Iran - 09/20 @Config724
 vless://c1585efc-ed54-4b91-8f80-5eb6edc3e751@199.34.230.114:443?type=ws&path=%2Fcontainers%2Fde&host=am10.amadebash.uk&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&sni=am10.amadebash.uk#🇺🇸 United States - 09/20 @Config724
 vless://393044fb-755a-4623-965e-3ae4fe39d730@83.222.20.64:53299?path=%2F&security=none&encryption=none&type=ws#🇱🇻 Latvia - 09/20 @Config724
+ss://cddf1c0b-a78b-4d83-b2fb-38b6b72e5e6b@ipe3.alighan.ir:8443?path=%2F%3Fed%3D2048&security=tls&alpn=http%2F1.1&encryption=none&host=s.alighan.ir&fp=chrome&type=ws&sni=ipe4.alighan.ir#🏳️ Unknown - 09/20 @Config724
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@638930381053025132.tabriz-drc-tusabt.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇲🇾 Malaysia - 09/20 @Config724
