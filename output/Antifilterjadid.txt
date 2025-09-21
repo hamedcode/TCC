@@ -1,4 +1,0 @@
-ss://c1585efc-ed54-4b91-8f80-5eb6edc3e751@199.34.230.114:443?type=ws&path=%2Fcontainers%2Fde&host=am10.amadebash.uk&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&sni=am10.amadebash.uk#am-10
-ss://915713cc-d468-4997-a40e-14b5fcde1038@104.18.26.90:443?path=%2Fcontainers%2Fde&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=am3.amadebash.uk&fp=chrome&type=ws&sni=am3.amadebash.uk#am-3%20%20
-vless://915713cc-d468-4997-a40e-14b5fcde1038@104.18.26.90:443?path=%2Fcontainers%2Fde&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=am3.amadebash.uk&fp=chrome&type=ws&sni=am3.amadebash.uk#am-3%20%20
-vless://c1585efc-ed54-4b91-8f80-5eb6edc3e751@199.34.230.114:443?type=ws&path=%2Fcontainers%2Fde&host=am10.amadebash.uk&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&sni=am10.amadebash.uk#am-10

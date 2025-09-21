@@ -1,2 +1,1 @@
-ss://39c8e0d3-c932-4ff7-b3e3-83002647907b@m44a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#%F0%9F%87%AC%F0%9F%87%A7azadnet%20vpn.azadi
-vless://39c8e0d3-c932-4ff7-b3e3-83002647907b@m44a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#%F0%9F%87%AC%F0%9F%87%A7azadnet%20vpn.azadi
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#%F0%9F%87%B3%F0%9F%87%B1AZAD.NET.VPN
