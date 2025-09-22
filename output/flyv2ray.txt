@@ -1,3 +1,2 @@
 vless://85d892d9-b1c0-4c63-b10c-14ca0c21ffc0@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=de.channel.digicyber.click&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
-trojan://4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl@mintaka.appagent.net:443?security=tls&headerType=none&type=tcp#%F0%9F%87%BA%F0%9F%87%B8AZAD.NET.VPN
 ss://85d892d9-b1c0-4c63-b10c-14ca0c21ffc0@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=de.channel.digicyber.click&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray

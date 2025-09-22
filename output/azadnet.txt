@@ -1,0 +1,1 @@
+trojan://4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl@mintaka.appagent.net:443?security=tls&headerType=none&type=tcp#%F0%9F%87%BA%F0%9F%87%B8AZAD.NET.VPN
