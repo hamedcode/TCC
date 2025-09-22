@@ -1,2 +1,6 @@
-vless://85d892d9-b1c0-4c63-b10c-14ca0c21ffc0@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=de.channel.digicyber.click&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
-ss://85d892d9-b1c0-4c63-b10c-14ca0c21ffc0@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=de.channel.digicyber.click&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
+ss://4182c59d-3b09-4bc9-ef7a-71e5628749e8@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.de.test.digicyber.click.&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
+ss://99aad62d-a474-4c78-c7be-35a5a7d63826@159.69.101.178:29271?mode=gun&security=reality&encryption=none&pbk=I2eGv3avw-4z-JRcOfJ_q878ktkhjgUTAt58Z2aLOiA&fp=chrome&spx=%2F&type=grpc&sni=www.uptvs.com#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
+vless://4182c59d-3b09-4bc9-ef7a-71e5628749e8@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.de.test.digicyber.click.&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
+vless://539bccb6-2a84-4464-b99e-ea781f2fdaa6@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=de.channel.digicyber.click&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
+vless://99aad62d-a474-4c78-c7be-35a5a7d63826@159.69.101.178:29271?mode=gun&security=reality&encryption=none&pbk=I2eGv3avw-4z-JRcOfJ_q878ktkhjgUTAt58Z2aLOiA&fp=chrome&spx=%2F&type=grpc&sni=www.uptvs.com#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
+ss://539bccb6-2a84-4464-b99e-ea781f2fdaa6@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=de.channel.digicyber.click&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40flyv2ray
