@@ -1,0 +1,2 @@
+vless://d7859fc2-2e71-4004-924b-4f79cb74e8f2@zula.ir:2096?encryption=none&type=grpc&mode=multi&serviceName=hydra.miniproxy.sbs&security=tls&fp=chrome&sni=hydra.miniproxy.sbs&alpn=h2,http/1.1#@FREE_VPN02
+ss://d7859fc2-2e71-4004-924b-4f79cb74e8f2@zula.ir:2096?encryption=none&type=grpc&mode=multi&serviceName=hydra.miniproxy.sbs&security=tls&fp=chrome&sni=hydra.miniproxy.sbs&alpn=h2,http/1.1#@FREE_VPN02
