@@ -1,0 +1,2 @@
+ss://FreakConfig@FreakConfig.snapfood.org:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=KpQpOZqQsoOR-rkVTl9rSAlP7abQJ0ZlrxQe9u0QyUk&fp=firefox&spx=%2F&type=xhttp&sni=refersion.com&sid=85bbde43cb55b4fa#%F0%9F%87%B3%F0%9F%87%B1-Argo_VPN1
+vless://FreakConfig@FreakConfig.snapfood.org:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=KpQpOZqQsoOR-rkVTl9rSAlP7abQJ0ZlrxQe9u0QyUk&fp=firefox&spx=%2F&type=xhttp&sni=refersion.com&sid=85bbde43cb55b4fa#%F0%9F%87%B3%F0%9F%87%B1-Argo_VPN1
