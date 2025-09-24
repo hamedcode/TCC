@@ -1,2 +1,0 @@
-ss://2ec7c638-3143-4b2b-8df2-81230280b07d@185.113.10.132:8650?encryption=none&security=reality&sni=cloudflare.com&fp=random&pbk=YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI&sid=354b9cbe48&spx=%2F&type=xhttp&path=%2F&mode=auto#%40GrizzlyVPN
-vless://2ec7c638-3143-4b2b-8df2-81230280b07d@185.113.10.132:8650?encryption=none&security=reality&sni=cloudflare.com&fp=random&pbk=YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI&sid=354b9cbe48&spx=%2F&type=xhttp&path=%2F&mode=auto#%40GrizzlyVPN
