@@ -98,3 +98,13 @@ vless://4182c59d-3b09-4bc9-ef7a-71e5628749e8@cafearz.com:8080?path=%2Folem%2Fws%
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@80.92.206.19:8880?mode=gun&security=none&encryption=none&type=grpc#🇳🇱 The Netherlands - 09/24 @Config724
 ss://08604288-670b-4663-854d-fa47ab3fe068@cloud4.leechirankadeh.cloud:2096?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 09/24 @Config724
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.14.195:8880?mode=gun&security=none&encryption=none&type=grpc#🇱🇹 Lithuania - 09/24 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-us4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-us4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇺🇸 United States - 09/25 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-us4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-us4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇺🇸 United States - 09/25 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-uae4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-uae4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇦🇪 United Arab Emirates - 09/25 @Config724
+ss://telegram-id-Arfilter@www.speedtest.net:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=eh.arfilter.blog&fp=firefox&type=ws&sni=eh.arfilter.blog#🏳️ Unknown - 09/25 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-uae4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-uae4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇦🇪 United Arab Emirates - 09/25 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-de4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-de4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇩🇪 Germany - 09/25 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-de4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-de4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇩🇪 Germany - 09/25 @Config724
+ss://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-pl4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-pl4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇵🇱 Poland - 09/25 @Config724
+ss://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-us4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-us4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇺🇸 United States - 09/25 @Config724
+vless://f4dbf9ab-52a6-408e-85ae-2b1191db5f7e@dl5-de4-cdn.fastfilecdn.org:2052?path=%2F&security=&encryption=none&host=dl5-de4-cdn.fastfilecdn.org&fp=firefox&type=ws#🇩🇪 Germany - 09/25 @Config724
