@@ -1,2 +1,0 @@
-ss://6a68b588-a8c5-462b-8637-3cfe886a9add@mstr.fastly80.hosting-ip.com:80?path=%2Fadmin&security=none&encryption=none&host=Gn8656.io&type=ws#%F0%9F%86%94%EF%B8%8F%40Argo_VPN1%20%F0%9F%87%A9%F0%9F%87%AA
-vless://6a68b588-a8c5-462b-8637-3cfe886a9add@mstr.fastly80.hosting-ip.com:80?path=%2Fadmin&security=none&encryption=none&host=Gn8656.io&type=ws#%F0%9F%86%94%EF%B8%8F%40Argo_VPN1%20%F0%9F%87%A9%F0%9F%87%AA
