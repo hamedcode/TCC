@@ -1,3 +1,0 @@
-vless://f818a4b0-9a3f-11f0-b382-5361b9be0dd2@51.79.70.147:10004?path=%2Fvpnjantit&security=none&encryption=none&type=ws#KIAN.AZADNET%20VPN%E2%9D%A4%EF%B8%8F
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowTmVONXRhN0ZMYTVCOURMeXRVMHVt@promo1o.bystrivpn.ru:443#%F0%9F%87%B3%F0%9F%87%B1AZAD.NET.VPN
-ss://f818a4b0-9a3f-11f0-b382-5361b9be0dd2@51.79.70.147:10004?path=%2Fvpnjantit&security=none&encryption=none&type=ws#KIAN.AZADNET%20VPN%E2%9D%A4%EF%B8%8F
