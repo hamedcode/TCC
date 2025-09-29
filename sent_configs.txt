@@ -285,3 +285,7 @@ vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@ipw.gfdv54cvghhgfhgj-njhgj64.info:4
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@638943040460374197.qazvin-prx-dnraacm.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 09/29 @Config724
 ss://88538870-5626-4cd7-9cda-1e0b6253c9ce@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&type=ws&sni=nareni.rtxiran.info#🏳️ Unknown - 09/29 @Config724
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 09/29 @Config724
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638943040460374197.qazvin-prx-dnraacm.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 09/29 @Config724
+ss://a1d93599-b324-4931-9190-8684487d00d5@94.141.123.233:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=cdnjs.com&pbk=vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4&sid=bc97736f81817c41#🇩🇪 Germany - 09/29 @Config724
+vless://a1d93599-b324-4931-9190-8684487d00d5@94.141.123.233:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=cdnjs.com&pbk=vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4&sid=bc97736f81817c41#🇩🇪 Germany - 09/29 @Config724
+ss://21911efc-b47c-47db-8316-aa07a793c067@ov-germany5.09vpn.com:80?path=%2Fvless%2F&security=none&encryption=none&host=google.com&type=ws#🇫🇷 France - 09/29 @Config724
