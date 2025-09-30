@@ -1,0 +1,5 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.139.24.24:57456?type=tcp#IR-@Antifilterjadid
+vless://64d6d0d4-3706-4837-b154-cda2816adcc5@104.20.43.81:80?encryption=none&type=ws&host=crazy-identity.oneeat.co&path=/&security=none#MCI-@Antifilterjadid
+vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?encryption=none&type=ws&path=/&security=tls&fp=chrome&sni=mooz.rtxiran.info&alpn=h2,http/1.1#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20@Antifilterjadid
+ss://88538870-5626-4cd7-9cda-1e0b6253c9ce@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?encryption=none&type=ws&path=/&security=tls&fp=chrome&sni=mooz.rtxiran.info&alpn=h2,http/1.1#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20@Antifilterjadid
+ss://64d6d0d4-3706-4837-b154-cda2816adcc5@104.20.43.81:80?encryption=none&type=ws&host=crazy-identity.oneeat.co&path=/&security=none#MCI-@Antifilterjadid
