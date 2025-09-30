@@ -1,1 +1,0 @@
-trojan://253bc477d4e43c209f2d427272968280@203.198.123.174:443?security=tls&headerType=none&type=tcp&sni=www.nintendogames.net#%F0%9F%A4%AAAZAD.NET.VPN%F0%9F%A4%AA
