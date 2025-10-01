@@ -1,6 +1,6 @@
 vless://01997b9d-a1f7-e188-981a-c665b723cfef@91.209.253.43:2096?path=%2Fsnippets&security=tls&encryption=none&host=kejiland.freewarp.eu.org&fp=chrome&type=ws&sni=kejiland.freewarp.eu.org#%40flyv2ray
 ss://01997b9d-a1f7-e188-981a-c665b723cfef@91.209.253.43:2096?path=%2Fsnippets&security=tls&encryption=none&host=kejiland.freewarp.eu.org&fp=chrome&type=ws&sni=kejiland.freewarp.eu.org#%40flyv2ray
 vless://a546c4de-2840-49b7-b914-98babd165bb1@104.17.25.173:443?path=%2FXYXY0721&security=tls&encryption=none&type=ws&sni=de.xiejiang.dpdns.org#%40flyv2ray
-ss://a546c4de-2840-49b7-b914-98babd165bb1@104.17.25.173:443?path=%2FXYXY0721&security=tls&encryption=none&type=ws&sni=de.xiejiang.dpdns.org#%40flyv2ray
 vless://f9f1ed42-9943-4121-9408-8fbe766343ae@m5a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#%40flyv2ray
+ss://a546c4de-2840-49b7-b914-98babd165bb1@104.17.25.173:443?path=%2FXYXY0721&security=tls&encryption=none&type=ws&sni=de.xiejiang.dpdns.org#%40flyv2ray
 ss://f9f1ed42-9943-4121-9408-8fbe766343ae@m5a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#%40flyv2ray
