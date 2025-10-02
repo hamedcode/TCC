@@ -1,0 +1,2 @@
+vless://f65e636d-c532-4e6c-b428-015402fd276c@m22a.vip784.com:33801?security=none&encryption=none&host=KIAN.AZADNET&headerType=http&type=tcp#AZAD.NET.VPN%F0%9F%A4%AA%F0%9F%A4%AA%F0%9F%A5%82
+ss://f65e636d-c532-4e6c-b428-015402fd276c@m22a.vip784.com:33801?security=none&encryption=none&host=KIAN.AZADNET&headerType=http&type=tcp#AZAD.NET.VPN%F0%9F%A4%AA%F0%9F%A4%AA%F0%9F%A5%82
