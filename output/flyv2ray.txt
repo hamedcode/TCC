@@ -1,4 +1,0 @@
-ss://d8b42cd5-a149-4356-9e61-30ad83662600@78.46.136.143:443?security=none&encryption=none&headerType=none&type=tcp#%40flyv2ray
-ss://ca2bbc0a-3139-4a1c-bc93-049ad63c1d95@ucj3xy12fic116ixrq0m.appcity-download.ir:64286?mode=gun&security=none&encryption=none&type=grpc#%40flyv2ray
-vless://d8b42cd5-a149-4356-9e61-30ad83662600@78.46.136.143:443?security=none&encryption=none&headerType=none&type=tcp#%40flyv2ray
-vless://ca2bbc0a-3139-4a1c-bc93-049ad63c1d95@ucj3xy12fic116ixrq0m.appcity-download.ir:64286?mode=gun&security=none&encryption=none&type=grpc#%40flyv2ray
