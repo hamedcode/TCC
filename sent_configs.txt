@@ -392,3 +392,7 @@ ss://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.69:8880?mode=gun&security=n
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.107:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/02 @Config724
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.149:8880?mode=gun&security=none&encryption=none&type=grpc#🇬🇮 Gibraltar - 10/02 @Config724
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.69:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/02 @Config724
+ss://d8b42cd5-a149-4356-9e61-30ad83662600@78.46.136.143:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 10/02 @Config724
+ss://ca2bbc0a-3139-4a1c-bc93-049ad63c1d95@ucj3xy12fic116ixrq0m.appcity-download.ir:64286?mode=gun&security=none&encryption=none&type=grpc#🇩🇪 Germany - 10/02 @Config724
+vless://d8b42cd5-a149-4356-9e61-30ad83662600@78.46.136.143:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 10/02 @Config724
+vless://ca2bbc0a-3139-4a1c-bc93-049ad63c1d95@ucj3xy12fic116ixrq0m.appcity-download.ir:64286?mode=gun&security=none&encryption=none&type=grpc#🇩🇪 Germany - 10/02 @Config724
