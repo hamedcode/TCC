@@ -1,0 +1,2 @@
+vless://5cbd735a-b9f4-44a9-9e7a-818853b05ab2@185.197.182.18:23590?encryption=none&security=reality&sni=cloudflare.com&fp=chrome&pbk=uTgCcEmxWXISjCBvsZLBRGASA6ZM0sckmnlTtgqzOgE&sid=ea5b1f87&spx=%2F&type=xhttp&path=%2F&mode=auto#%40GrizzlyVPN
+ss://5cbd735a-b9f4-44a9-9e7a-818853b05ab2@185.197.182.18:23590?encryption=none&security=reality&sni=cloudflare.com&fp=chrome&pbk=uTgCcEmxWXISjCBvsZLBRGASA6ZM0sckmnlTtgqzOgE&sid=ea5b1f87&spx=%2F&type=xhttp&path=%2F&mode=auto#%40GrizzlyVPN
