@@ -1,0 +1,2 @@
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@84.246.85.62:8880?mode=gun&security=&encryption=none=/%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40TEHRANARGO&type=grpc#All-%40TEHRANARGO
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.246.85.62:8880?mode=gun&security=&encryption=none=/%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40TEHRANARGO&type=grpc#All-%40TEHRANARGO
