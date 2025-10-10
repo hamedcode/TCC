@@ -1,9 +1,0 @@
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt.info:8880?mode=gun&security=none&encryption=none&type=grpc#I%201047%20%28%40Outline_Vpn%29%20free
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#FreeFor2%40Outline_Vpn
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.92:8880?mode=gun&security=none&encryption=none&type=grpc#I%201050%20%28%40Outline_Vpn%29%20free
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt.info:8880?mode=gun&security=none&encryption=none&type=grpc#I%201047%20%28%40Outline_Vpn%29%20free
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638938179859468758.zagreb-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#I%201049%20%28%40Outline_Vpn%29%20free
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@638942912656604786.malayer-prx-dnraacm.info:8880?mode=gun&security=none&encryption=none&type=grpc#I%201048%20%28%40Outline_Vpn%29%20free
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638942912656604786.malayer-prx-dnraacm.info:8880?mode=gun&security=none&encryption=none&type=grpc#I%201048%20%28%40Outline_Vpn%29%20free
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@638938179859468758.zagreb-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#I%201049%20%28%40Outline_Vpn%29%20free
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.92:8880?mode=gun&security=none&encryption=none&type=grpc#I%201050%20%28%40Outline_Vpn%29%20free
