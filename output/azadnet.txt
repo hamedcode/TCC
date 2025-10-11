@@ -1,2 +1,0 @@
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=%2Fsnippets%2Fip&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#AZAD.NET.VPN.KIAN.%F0%9F%A5%82%E2%9D%A4%EF%B8%8F
-ss://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=%2Fsnippets%2Fip&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#AZAD.NET.VPN.KIAN.%F0%9F%A5%82%E2%9D%A4%EF%B8%8F
