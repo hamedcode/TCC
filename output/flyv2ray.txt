@@ -1,6 +1,0 @@
-ss://f61a4285-7264-4d07-9408-7b9ba1922c26@72.167.25.253:2096?path=%2FTelegramsecurity%3Dtls&security=tls&encryption=none&type=ws&sni=gaosir.unfeeling.sbs#%40flyv2ray
-ss://0d0782a3-2c62-4936-b893-5790188778ea@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&fp=chrome&type=ws&sni=smart.hegzaconf1.com#%40flyv2ray
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@72.167.25.253:2096?path=%2FTelegramsecurity%3Dtls&security=tls&encryption=none&type=ws&sni=gaosir.unfeeling.sbs#%40flyv2ray
-vless://0d0782a3-2c62-4936-b893-5790188778ea@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&fp=chrome&type=ws&sni=smart.hegzaconf1.com#%40flyv2ray
-vless://90cd4a77-141a-43c9-991b-08263cfe9c10@gur.gov.ua:443?path=%2F%3Fed&security=tls&encryption=none&type=ws&sni=azadnet3-9do.pages.dev#%40flyv2ray
-ss://90cd4a77-141a-43c9-991b-08263cfe9c10@gur.gov.ua:443?path=%2F%3Fed&security=tls&encryption=none&type=ws&sni=azadnet3-9do.pages.dev#%40flyv2ray
