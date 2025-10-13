@@ -1,0 +1,6 @@
+ss://d1e44075-8c92-4698-9db0-e71d7015b757@small-meal.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
+ss://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
+vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
+vless://d1e44075-8c92-4698-9db0-e71d7015b757@small-meal.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#%40flyv2ray
+vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=%2F&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#%40flyv2ray
+ss://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=%2F&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#%40flyv2ray
