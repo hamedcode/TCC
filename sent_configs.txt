@@ -785,3 +785,7 @@ ss://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F&se
 vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#🏳️ Unknown - 10/13 @Config724
 vless://de1d1b83-8081-4038-9dea-2d6aec9d790a@43.175.168.90:80?encryption=mlkem768x25519plus.native.0rtt.4Do1LRrlG3aL7lGKYoVW4JS9zrdEPlRWYifQ4zA8rE8&security=none&type=httpupgrade&host=Aron.Mmad.News&path=%2F52783%2Fmsn#🇸🇬 Singapore - 10/13 @Config724
 vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=%2F&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#🏳️ Unknown - 10/13 @Config724
+vless://d1e44075-8c92-4698-9db0-e71d7015b757@small-meal.oneeat.co:80?path=%2F&security=none&encryption=none&type=ws#🏳️ Unknown - 10/13 @Config724
+ss://446bd463-4427-49a0-b13c-326b7a97f08d@91.98.175.72:42671?type=tcp&encryption=none&security=none#🇩🇪 Germany - 10/13 @Config724
+vless://446bd463-4427-49a0-b13c-326b7a97f08d@91.98.175.72:42671?type=tcp&encryption=none&security=none#🇩🇪 Germany - 10/13 @Config724
+ss://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=%2F&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#🏳️ Unknown - 10/13 @Config724
