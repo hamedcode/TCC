@@ -1,0 +1,2 @@
+vless://986f500d-2ada-4c0f-890a-51c4c60b7c6f@46.8.229.85:41262?security=reality&encryption=none&pbk=qw6Eb9essNGXPtKYRQTX61DD9dCS2LJ-myCMjsxenBU&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=google.com&sid=ada95ed32013#CHANNEL%20%F0%9F%87%B3%F0%9F%87%B1%20%40Golestan_VPN
+ss://986f500d-2ada-4c0f-890a-51c4c60b7c6f@46.8.229.85:41262?security=reality&encryption=none&pbk=qw6Eb9essNGXPtKYRQTX61DD9dCS2LJ-myCMjsxenBU&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=google.com&sid=ada95ed32013#CHANNEL%20%F0%9F%87%B3%F0%9F%87%B1%20%40Golestan_VPN

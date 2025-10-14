@@ -1,4 +1,0 @@
-ss://0a153e35-72db-4860-8da5-4b02ff13d698@46.8.229.85:41262?security=reality&encryption=none&pbk=qw6Eb9essNGXPtKYRQTX61DD9dCS2LJ-myCMjsxenBU&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=google.com&sid=ada95ed32013#%40flyv2ray
-vless://0a153e35-72db-4860-8da5-4b02ff13d698@46.8.229.85:41262?security=reality&encryption=none&pbk=qw6Eb9essNGXPtKYRQTX61DD9dCS2LJ-myCMjsxenBU&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=google.com&sid=ada95ed32013#%40flyv2ray
-ss://28510bf1234f41f38e09db76a9f2c471@104.21.10.181:80?path=%2FFree-VPN-Geo-Project%2F181.214.208.46-8010&security=none&encryption=none&host=gamang.gpj1.dpdns.org&type=ws#%40flyv2ray
-vless://28510bf1234f41f38e09db76a9f2c471@104.21.10.181:80?path=%2FFree-VPN-Geo-Project%2F181.214.208.46-8010&security=none&encryption=none&host=gamang.gpj1.dpdns.org&type=ws#%40flyv2ray
