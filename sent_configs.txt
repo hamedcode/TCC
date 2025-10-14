@@ -842,3 +842,4 @@ ss://1f0c9e11-092a-4bec-aa55-6d1611dae479@142.132.161.197:443?type=tcp&encryptio
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.128:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/14 @Config724
 vless://4971ac7d-376d-47b9-9b86-83a21adcedc4@104.21.64.1:443?path=%2Fwlbywy8cCxbWMJZI&security=tls&alpn=http%2F1.1&encryption=none=/%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40TEHRANARGO&host=et3ch-007.zed23.web1337.net&fp=firefox&type=ws&sni=Et3ch-007.Zed23.wEB1337.net#🏳️ Unknown - 10/14 @Config724
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.128:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/14 @Config724
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/14 @Config724
