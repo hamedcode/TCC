@@ -1,4 +1,2 @@
-vless://495b2f03-a289-4014-827f-69bbf6f5bbc4@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.qdio007.workers.dev&fp=chrome&type=ws&sni=q.qdio007.workers.dev#@padeshahipahlavism
 trojan://iJI/LGJpgx8lqoMS2BZXnDx0FeDm84m6g8eyoFGvC/nlUcX9jjUzRY5ccINZpINMdzuB82ZVuzPD6X97vC3qoY9FZzk7qYHWdMzuwSRe850hehncVX5NmtqAyo8cKpzepmAKtQ8K5hiWc234I9l7mnGLSqX8do/+7JFGCE4VKlPMjIe4nmVWO9jBKMTiQTaiiERSs5zlRPkge3HifGP62dTeA0tLMM/9jJs7Ns1JKsWRrmStJ5g4X82C5CYx7jyO
-ss://495b2f03-a289-4014-827f-69bbf6f5bbc4@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.qdio007.workers.dev&fp=chrome&type=ws&sni=q.qdio007.workers.dev#@padeshahipahlavism
 nm-trojan://iJI/LGJpgx8lqoMS2BZXnDx0FeDm84m6g8eyoFGvC/nlUcX9jjUzRY5ccINZpINMdzuB82ZVuzPD6X97vC3qoY9FZzk7qYHWdMzuwSRe850hehncVX5NmtqAyo8cKpzepmAKtQ8K5hiWc234I9l7mnGLSqX8do/+7JFGCE4VKlPMjIe4nmVWO9jBKMTiQTaiiERSs5zlRPkge3HifGP62dTeA0tLMM/9jJs7Ns1JKsWRrmStJ5g4X82C5CYx7jyO
