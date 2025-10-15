@@ -1,2 +1,0 @@
-vless://495b2f03-a289-4014-827f-69bbf6f5bbc4@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.qdio007.workers.dev&fp=chrome&type=ws&sni=q.qdio007.workers.dev#@padeshahipahlavism
-ss://495b2f03-a289-4014-827f-69bbf6f5bbc4@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.qdio007.workers.dev&fp=chrome&type=ws&sni=q.qdio007.workers.dev#@padeshahipahlavism
