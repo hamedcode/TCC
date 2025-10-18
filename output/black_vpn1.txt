@@ -1,0 +1,2 @@
+ss://446bd463-4427-49a0-b13c-326b7a97f08d@91.99.179.41:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%DA%86%D9%86%D9%84%20%3A%20%40BLACK_VPN1
+vless://446bd463-4427-49a0-b13c-326b7a97f08d@91.99.179.41:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%DA%86%D9%86%D9%84%20%3A%20%40BLACK_VPN1
