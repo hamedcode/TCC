@@ -1,0 +1,2 @@
+vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&type=grpc#AZAD.NET.VPN%F0%9F%A4%9F%E2%9D%A4%EF%B8%8F%F0%9F%92%AB
+ss://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&type=grpc#AZAD.NET.VPN%F0%9F%A4%9F%E2%9D%A4%EF%B8%8F%F0%9F%92%AB
