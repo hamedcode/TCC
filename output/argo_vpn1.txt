@@ -1,2 +1,1 @@
-vless://8a32d26c-b896-41d4-9b98-588e9f15b61d@www.speedtest.net:443?path=%2Fstream%3Fed%3D2560&security=tls&alpn=h2&encryption=none&host=free.httpcustom.ir&fp=chrome&type=ws&sni=free.httpcustom.ir#%40ARGO_VPN1
-ss://8a32d26c-b896-41d4-9b98-588e9f15b61d@www.speedtest.net:443?path=%2Fstream%3Fed%3D2560&security=tls&alpn=h2&encryption=none&host=free.httpcustom.ir&fp=chrome&type=ws&sni=free.httpcustom.ir#%40ARGO_VPN1
+ss://YWVzLTI1Ni1nY206MjZmNzI2ZjUtMGUzMS00Nzg0LWFkNmYtNDhkMDZhOWEyODA2@3.129.133.36:30000#🇺🇸%20@Argo_VPN1
