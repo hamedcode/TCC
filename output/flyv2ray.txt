@@ -1,4 +1,0 @@
-vless://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&encryption=none&headerType=none&type=tcp#Channel%20%3A%20%40flyv2ray
-ss://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&encryption=none&headerType=none&type=tcp#Channel%20%3A%20%40flyv2ray
-ss://638c1918-f6f0-4ecc-85e6-a3ac50ed9c02@157.180.123.25:443?path=%2Flinkws%3Fed%3D2560&security=none&encryption=none&host=157.180.123.25&type=ws#Channel%20%3A%20%40flyv2ray
-vless://638c1918-f6f0-4ecc-85e6-a3ac50ed9c02@157.180.123.25:443?path=%2Flinkws%3Fed%3D2560&security=none&encryption=none&host=157.180.123.25&type=ws#Channel%20%3A%20%40flyv2ray

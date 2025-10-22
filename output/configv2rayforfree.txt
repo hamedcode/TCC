@@ -1,2 +1,0 @@
-vless://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&encryption=none&headerType=none&type=tcp#%E2%9C%94%EF%B8%8E%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%A5%E2%9E%AA%40ConfigV2rayForFree
-ss://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&encryption=none&headerType=none&type=tcp#%E2%9C%94%EF%B8%8E%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%A5%E2%9E%AA%40ConfigV2rayForFree
