@@ -202,3 +202,13 @@ ss://d90b847%61-9%651%61-4f69-ff74-3994%65%61%61df%612b@www.wappalyzer.com:2095?
 ss://87023a88-d08f-419e-9100-bf4b99d29d54@38.252.8.208:12143?security=reality&encryption=none&pbk=Og22mCU3ox0A2huEnkFi35BLucYlkxeFLdt0IswxonY&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=updates.cdn-apple.com#🇺🇸 United States - 10/21 @Config724
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638937520064872286.london-prx-dnraacl.info:8880?mode=gun&security=&encryption=none&type=grpc#🇳🇱 The Netherlands - 10/21 @Config724
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638940926058862147.stockholm-prx-dnraacm.info:8880?mode=gun&security=&encryption=none&type=grpc#🇫🇷 France - 10/21 @Config724
+vless://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 10/22 @Config724
+ss://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 10/22 @Config724
+vless://2282c596-5761-4547-b117-d7f5e5b79780@ae2.howfast.ir:42539?security=none&encryption=none&host=zhaket.com&headerType=http&type=tcp#🇦🇪 United Arab Emirates - 10/22 @Config724
+vless://17e9f875-ded1-4d30-946d-f17a8b98c8a3@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=q.dioxv002.workers.dev#🏳️ Unknown - 10/22 @Config724
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638965946052583460.arak-blkaft-aaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/22 @Config724
+ss://2282c596-5761-4547-b117-d7f5e5b79780@ae2.howfast.ir:42539?security=none&encryption=none&host=zhaket.com&headerType=http&type=tcp#🇦🇪 United Arab Emirates - 10/22 @Config724
+vless://ad069756-c14b-4443-87af-4a503c5c08f5@m33a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#🇬🇧 United Kingdom - 10/22 @Config724
+ss://19b7d4d8-de95-41cf-b270-a310cc21f151@a-lf-0.okamii.ir:2095?security=none&type=tcp&headerType=none&path=&host=#🇩🇪 Germany - 10/22 @Config724
+ss://17e9f875-ded1-4d30-946d-f17a8b98c8a3@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=q.dioxv002.workers.dev#🏳️ Unknown - 10/22 @Config724
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@638965946052583460.arak-blkaft-aaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 France - 10/22 @Config724
