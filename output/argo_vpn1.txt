@@ -1,8 +1,0 @@
-vless://46c398b9-b1f5-4998-a968-ad723a475c95@46.62.196.119:200?encryption=none&security=reality&sni=google.com&fp=chrome&pbk=87Vv-_qJyn9OupUeEZoisP5hLxohLNo0yNiK4rCH4QM&sid=b53eb572&spx=%2F&allowInsecure=1&type=grpc&authority=&serviceName=%2FAdamak_vpn&mode=gun#t.me/Argo_VPN1
-ss://46c398b9-b1f5-4998-a968-ad723a475c95@46.62.196.119:200?encryption=none&security=reality&sni=google.com&fp=chrome&pbk=87Vv-_qJyn9OupUeEZoisP5hLxohLNo0yNiK4rCH4QM&sid=b53eb572&spx=%2F&allowInsecure=1&type=grpc&authority=&serviceName=%2FAdamak_vpn&mode=gun#t.me/Argo_VPN1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.40:8880?encryption=none&security=none&type=grpc#t.me/Argo_VPN1|
-vless://46c398b9-b1f5-4998-a968-ad723a475c95@46.62.196.119:200?encryption=none&security=reality&sni=google.com&fp=chrome&pbk=87Vv-_qJyn9OupUeEZoisP5hLxohLNo0yNiK4rCH4QM&sid=b53eb572&spx=%2F&allowInsecure=1&type=grpc&authority=&serviceName=%2FAdamak_vpn&mode=gun#t.me/Argo_VPN1 | Finland
-trojan://qEqueKB1ej@143.20.79.177:39371?security=reality&sni=cloudflare.com&fp=chrome&pbk=Or_ba9zDYiBq1A8clfxXbpaWEdkrb7uM9MlqmOcaRBQ&sid=51be71a2bd&spx=%2F&allowInsecure=1&type=grpc#t.me/Argo_VPN1 | The Netherlands
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.40:8880?encryption=none&security=none&type=grpc#t.me/Argo_VPN1| France
-trojan://qEqueKB1ej@143.20.79.177:39371?security=reality&sni=cloudflare.com&fp=chrome&pbk=Or_ba9zDYiBq1A8clfxXbpaWEdkrb7uM9MlqmOcaRBQ&sid=51be71a2bd&spx=%2F&allowInsecure=1&type=grpc#t.me/Argo_VPN1
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.40:8880?encryption=none&security=none&type=grpc#t.me/Argo_VPN1|
