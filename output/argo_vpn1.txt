@@ -1,2 +1,6 @@
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.18.181:8880?mode=gun&security=none&encryption=none&type=grpc#%40Argo_VPN1%20%7C%20United%20Kingdom
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.18.181:8880?mode=gun&security=none&encryption=none&type=grpc#%40Argo_VPN1%20%7C%20United%20Kingdom
+vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#%40Argo_VPN1
+ss://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#%40Argo_VPN1
+ss://326ee258-7381-43c9-bd5c-4e1edf6b2470@de.pg.gozarino.com:11000?security=reality&encryption=none&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=refersion.com#%40Argo_VPN1
+vless://326ee258-7381-43c9-bd5c-4e1edf6b2470@de.pg.gozarino.com:11000?security=reality&encryption=none&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=refersion.com#%40Argo_VPN1
+vless://76338a96-f25c-4afe-9ea8-1a5c3b58f6a8@tab.dudukner.com:1580?path=%2F&security=none&encryption=none&type=ws#%40Argo_VPN1
+ss://76338a96-f25c-4afe-9ea8-1a5c3b58f6a8@tab.dudukner.com:1580?path=%2F&security=none&encryption=none&type=ws#%40Argo_VPN1
