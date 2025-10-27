@@ -1,0 +1,2 @@
+ss://d44dacd0-ab7a-4d8c-b4be-67622e054fa6@88.198.160.200:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%DA%86%D9%86%D9%84%3A%20%40BLACK_VPN1
+vless://d44dacd0-ab7a-4d8c-b4be-67622e054fa6@88.198.160.200:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%DA%86%D9%86%D9%84%3A%20%40BLACK_VPN1
