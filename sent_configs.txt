@@ -425,3 +425,5 @@ vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=%2F%3Fed%3D
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@638961293929373584.rasht-drc-tusaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇬🇧 United Kingdom - 10/27 @Config724
 vless://76338a96-f25c-4afe-9ea8-1a5c3b58f6a8@tab.dudukner.com:1580?path=%2F&security=none&encryption=none&type=ws#🇩🇪 Germany - 10/27 @Config724
 ss://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&fp=random&type=ws&sni=vless.hubp.de#🏳️ Unknown - 10/27 @Config724
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.133:8880?mode=gun&security=none&encryption=none&type=grpc#🇩🇪 Germany - 10/28 @Config724
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.133:8880?mode=gun&security=none&encryption=none&type=grpc#🇩🇪 Germany - 10/28 @Config724
