@@ -1,2 +1,0 @@
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.133:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20AZAD.NET.VPN%20%F0%9F%92%AB
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.133:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20AZAD.NET.VPN%20%F0%9F%92%AB
