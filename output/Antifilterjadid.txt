@@ -1,2 +1,0 @@
-ss://545d1b48-3ee1-4075-9789-6be195cc080c@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.dioxv011.workers.dev&fp=chrome&type=ws&sni=q.dioxv011.workers.dev#@fixxfilm
-vless://545d1b48-3ee1-4075-9789-6be195cc080c@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.dioxv011.workers.dev&fp=chrome&type=ws&sni=q.dioxv011.workers.dev#@fixxfilm

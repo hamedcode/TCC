@@ -1,0 +1,2 @@
+vless://40730d97-ffa7-1108-2c53-761516eb5fda@166.1.131.6:443?security=reality&encryption=none&pbk=_KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#%E2%9C%A8%EF%B8%8F%F0%9F%8C%B9AZAD.NET.VPN%F0%9F%92%A5%F0%9F%8C%B9
+ss://40730d97-ffa7-1108-2c53-761516eb5fda@166.1.131.6:443?security=reality&encryption=none&pbk=_KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#%E2%9C%A8%EF%B8%8F%F0%9F%8C%B9AZAD.NET.VPN%F0%9F%92%A5%F0%9F%8C%B9
