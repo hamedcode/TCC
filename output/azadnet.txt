@@ -1,2 +1,0 @@
-ss://32bcee33-6646-42d9-8067-9988e2a58647@65.109.231.154:8880?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%AEAZADNET.VPN.vless-FI
-vless://32bcee33-6646-42d9-8067-9988e2a58647@65.109.231.154:8880?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%AEAZADNET.VPN.vless-FI
