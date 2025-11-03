@@ -628,3 +628,5 @@ ss://f61a4285-7264-4d07-9408-7b9ba1922c26@72.167.25.253:2096?security=tls&encryp
 ss://602b380a-9fdf-4425-bc07-aae9a95cfc4b@27.50.48.8:443?security=tls&alpn=h3&encryption=none&fp=random&type=ws&sni=vless.hubp.de#🇸🇬 Singapore - 11/03 @Config724
 hy2://308d37dc-cfe1-4d81-a095-d576f90cf581@85.237.206.207:29854/?insecure=1&sni=www.bing.com#🇹🇼 Taiwan - 11/03 @Config724
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@72.167.25.253:2096?security=tls&encryption=none&type=ws&sni=gaosir.unfeeling.sbs#🇺🇸 United States - 11/03 @Config724
+ss://545d1b48-3ee1-4075-9789-6be195cc080c@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.dioxv011.workers.dev&fp=chrome&type=ws&sni=q.dioxv011.workers.dev#🏳️ Unknown - 11/03 @Config724
+vless://545d1b48-3ee1-4075-9789-6be195cc080c@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.dioxv011.workers.dev&fp=chrome&type=ws&sni=q.dioxv011.workers.dev#🏳️ Unknown - 11/03 @Config724
