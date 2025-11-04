@@ -661,3 +661,4 @@ ss://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun&se
 ss://7fd54cbf-5b2d-42ef-a401-bcd9bf4b0c73@77.83.245.170:55613?security=reality&encryption=none&pbk=25g2-R6d7OLmXcTuJGjqz7DfB3XDH0fs13ad2TeVUGc&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=yandex.ru&sid=a3bf3e305b3c3ffc#🇹🇷 Türkiye - 11/04 @Config724
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.43:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇮 Finland - 11/04 @Config724
 vless://7fd54cbf-5b2d-42ef-a401-bcd9bf4b0c73@77.83.245.170:55613?security=reality&encryption=none&pbk=25g2-R6d7OLmXcTuJGjqz7DfB3XDH0fs13ad2TeVUGc&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=yandex.ru&sid=a3bf3e305b3c3ffc#🇹🇷 Türkiye - 11/04 @Config724
+ss://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.43:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇮 Finland - 11/04 @Config724
