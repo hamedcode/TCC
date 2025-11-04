@@ -1,2 +1,0 @@
-vless://56836323-a082-419d-af18-1343f31ea90f@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.dioxv008.workers.dev&fp=chrome&type=ws&sni=q.dioxv008.workers.dev#@Antifilterjadid
-ss://56836323-a082-419d-af18-1343f31ea90f@104.17.147.22:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&alpn=h3&host=q.dioxv008.workers.dev&fp=chrome&type=ws&sni=q.dioxv008.workers.dev#@Antifilterjadid
