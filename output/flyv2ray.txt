@@ -1,6 +1,0 @@
-vless://401374e6-df77-41fb-f638-dad8184f175b@pqh27v7.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc&sni=pqh27v7.ipforvetra.shop#Channel%20%3A%20%40flyv2ray
-ss://ca2e23cb-2d9a-4812-d713-506f91d3735f@host17.sheydayeman.nl:8880?path=%2F&security=none&encryption=none&type=ws#Channel%20%3A%20%40flyv2ray
-vless://ca2e23cb-2d9a-4812-d713-506f91d3735f@host17.sheydayeman.nl:8880?path=%2F&security=none&encryption=none&type=ws#Channel%20%3A%20%40flyv2ray
-ss://401374e6-df77-41fb-f638-dad8184f175b@pqh27v7.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc&sni=pqh27v7.ipforvetra.shop#Channel%20%3A%20%40flyv2ray
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.43:8880?mode=gun&security=none&encryption=none&type=grpc#Channel%20%3A%20%40flyv2ray
-ss://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.43:8880?mode=gun&security=none&encryption=none&type=grpc#Channel%20%3A%20%40flyv2ray
