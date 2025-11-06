@@ -1,2 +1,0 @@
-ss://608c36e7-5ad4-46f1-8067-cfc5d48cbbe5@91.98.233.176:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%40BLACK_VPN1
-vless://608c36e7-5ad4-46f1-8067-cfc5d48cbbe5@91.98.233.176:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%40BLACK_VPN1
