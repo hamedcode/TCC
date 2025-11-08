@@ -1,8 +1,0 @@
-vless://bd578810-d9f2-4ea3-b9a3-4983c40eed77@ir2.fastnode0.com:2087?security=none&encryption=none&type=ws#2%F0%9F%87%A9%F0%9F%87%AAChannel%3A%40ai_duet
-ss://bd578810-d9f2-4ea3-b9a3-4983c40eed77@ir1.fastnode0.com:2087?security=none&encryption=none&type=ws#1%F0%9F%87%A9%F0%9F%87%AAChannel%3A%40ai_duet
-ss://bd578810-d9f2-4ea3-b9a3-4983c40eed77@cf.filimostar2.ir:2095?security=none&encryption=none&host=speedtest.net.ira.marz.new5.filimostar2.ir&type=httpupgrade#%F0%9F%87%B3%F0%9F%87%B1BOT%3A%20%40v2rayngsupbot
-ss://bd578810-d9f2-4ea3-b9a3-4983c40eed77@ns7.filimostar1.ir:8080?security=reality&encryption=none&pbk=P6hso1qZAPtiLye1RU1IZ7HSRvOdChDZPBguzjIs9gw&headerType=none&fp=chrome&type=tcp&sni=test.steampowered.com&sid=629ab2628ddac04d#%F0%9F%87%B9%F0%9F%87%B7Channel%3A%40ai_duet
-ss://bd578810-d9f2-4ea3-b9a3-4983c40eed77@ir2.fastnode0.com:2087?security=none&encryption=none&type=ws#2%F0%9F%87%A9%F0%9F%87%AAChannel%3A%40ai_duet
-vless://bd578810-d9f2-4ea3-b9a3-4983c40eed77@cf.filimostar2.ir:2095?security=none&encryption=none&host=speedtest.net.ira.marz.new5.filimostar2.ir&type=httpupgrade#%F0%9F%87%B3%F0%9F%87%B1BOT%3A%20%40v2rayngsupbot
-vless://bd578810-d9f2-4ea3-b9a3-4983c40eed77@ns7.filimostar1.ir:8080?security=reality&encryption=none&pbk=P6hso1qZAPtiLye1RU1IZ7HSRvOdChDZPBguzjIs9gw&headerType=none&fp=chrome&type=tcp&sni=test.steampowered.com&sid=629ab2628ddac04d#%F0%9F%87%B9%F0%9F%87%B7Channel%3A%40ai_duet
-vless://bd578810-d9f2-4ea3-b9a3-4983c40eed77@ir1.fastnode0.com:2087?security=none&encryption=none&type=ws#1%F0%9F%87%A9%F0%9F%87%AAChannel%3A%40ai_duet
