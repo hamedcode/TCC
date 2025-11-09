@@ -1,6 +1,6 @@
-ss://2456f90c-5183-476d-b069-16ae74ce120f@45.40.151.253:2096?security=tls&encryption=none&type=ws&sni=fast01.0860852.xyz#Channel%20%3A%20%40flyv2ray
-vless://0e80f3bb-209b-44ad-a780-9d7ee70b3d15@69.84.182.90:8880?path=%2F&security=none&encryption=none&host=sjdsbaisbs.hide-abr.com.tr.&type=httpupgrade#Channel%20%3A%20%40flyv2ray
-vless://2456f90c-5183-476d-b069-16ae74ce120f@45.40.151.253:2096?security=tls&encryption=none&type=ws&sni=fast01.0860852.xyz#Channel%20%3A%20%40flyv2ray
-ss://1fcb692d-d35f-4295-bbc5-0512f51a3c41@104.18.26.90:2053?path=%2Fcontainers%2Fde&security=tls&encryption=none&type=ws&sni=om3.omidsuccess.uk#Channel%20%3A%20%40flyv2ray
-ss://0e80f3bb-209b-44ad-a780-9d7ee70b3d15@69.84.182.90:8880?path=%2F&security=none&encryption=none&host=sjdsbaisbs.hide-abr.com.tr.&type=httpupgrade#Channel%20%3A%20%40flyv2ray
-vless://1fcb692d-d35f-4295-bbc5-0512f51a3c41@104.18.26.90:2053?path=%2Fcontainers%2Fde&security=tls&encryption=none&type=ws&sni=om3.omidsuccess.uk#Channel%20%3A%20%40flyv2ray
+ss://cc67ca7f-064e-4117-ac31-a66d5728a11c@fl-3-direct.djarbnet.ru:443?path=%2Fgetupdates&security=tls&encryption=none&type=ws&sni=fl-3-direct.djarbnet.ru#Channel%20%3A%20%40flyv2ray
+vless://602b380a-9fdf-4425-bc07-aae9a95cfc4b@27.50.48.8:443?security=tls&alpn=h3&encryption=none&fp=random&type=ws&sni=vless.hubp.de#Channel%20%3A%20%40flyv2ray
+vless://cc67ca7f-064e-4117-ac31-a66d5728a11c@fl-3-direct.djarbnet.ru:443?path=%2Fgetupdates&security=tls&encryption=none&type=ws&sni=fl-3-direct.djarbnet.ru#Channel%20%3A%20%40flyv2ray
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.47.156:443?path=%2F&security=tls&encryption=none&fp=chrome&type=ws&sni=wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET#Channel%20%3A%20%40flyv2ray
+ss://602b380a-9fdf-4425-bc07-aae9a95cfc4b@27.50.48.8:443?security=tls&alpn=h3&encryption=none&fp=random&type=ws&sni=vless.hubp.de#Channel%20%3A%20%40flyv2ray
+ss://89b3cbba-e6ac-485a-9481-976a0415eab9@172.66.47.156:443?path=%2F&security=tls&encryption=none&fp=chrome&type=ws&sni=wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET#Channel%20%3A%20%40flyv2ray
