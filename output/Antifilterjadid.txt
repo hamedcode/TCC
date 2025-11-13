@@ -1,6 +1,0 @@
-vless://447f616b-0250-4b95-8385-55549cfdc4dd@vps4.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%A9%F0%9F%87%AA
-ss://447f616b-0250-4b95-8385-55549cfdc4dd@vps4.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%A9%F0%9F%87%AA
-ss://ff277e2e-2fb1-4754-b868-6c76a3936828@vp2.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%A9%F0%9F%87%AA
-ss://d54c890b-9ae8-4728-8508-da5b71135bee@vps5.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%A9%F0%9F%87%AA
-vless://d54c890b-9ae8-4728-8508-da5b71135bee@vps5.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%A9%F0%9F%87%AA
-vless://ff277e2e-2fb1-4754-b868-6c76a3936828@vp2.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%A9%F0%9F%87%AA
