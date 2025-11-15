@@ -107,3 +107,5 @@ vless://56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1@ges.jykvpn.com:443?security=reality
 vless://f64bdc57-0f54-4705-bf75-cfd646d98c06@8.39.125.85:443?path=%2F%3Fed&security=tls&encryption=none&host=snippets.nneko.netlib.re&fp=chrome&type=ws&sni=snippets.nneko.netlib.re#🇺🇸 United States - 11/15 @Config724
 ss://f64bdc57-0f54-4705-bf75-cfd646d98c06@198.41.223.140:443?path=%2F%3Fed%3D2048Join---&security=tls&encryption=none&host=snippets.nneko.netlib.re&fp=random&type=ws&sni=snippets.nneko.netlib.re#🏳️ Unknown - 11/15 @Config724
 vless://129638fe-f846-4cdb-b466-52f314acdb64@arashnet.golebahari.sbs:26908?mode=gun&security=reality&encryption=none&pbk=Q9WvnJZrDk4mgMQjW5Y5MhheZYs4G6hBCj_gXya1iEw&fp=chrome&type=grpc&serviceName=ArezooAref&sni=cloudflare.com&sid=cbee1ee564#🇩🇪 Germany - 11/15 @Config724
+ss://3a5cee54-b846-492a-bf85-9113b7fbfc35@91.99.182.255:57917?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 11/15 @Config724
+vless://3a5cee54-b846-492a-bf85-9113b7fbfc35@91.99.182.255:57917?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 11/15 @Config724
