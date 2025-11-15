@@ -1,0 +1,2 @@
+ss://77357c7c-1391-4699-a212-3040b49aca8b@37.27.40.194:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%40BLACK_VPN1
+vless://77357c7c-1391-4699-a212-3040b49aca8b@37.27.40.194:42671?type=tcp&encryption=none&security=none#%F0%9F%87%BA%F0%9F%87%B8-%40BLACK_VPN1
