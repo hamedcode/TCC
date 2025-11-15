@@ -1,0 +1,2 @@
+vless://3a5cee54-b846-492a-bf85-9113b7fbfc35@91.99.182.255:57917?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AAAZAD.NET.VPN%20645%E2%9D%A4%EF%B8%8F
+ss://3a5cee54-b846-492a-bf85-9113b7fbfc35@91.99.182.255:57917?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AAAZAD.NET.VPN%20645%E2%9D%A4%EF%B8%8F
