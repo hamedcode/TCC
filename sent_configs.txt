@@ -278,3 +278,4 @@ vless://3ed01713-5ad7-46b1-ea4a-7b3fdbf232c7@DEADSEECtelegram.fast.hosting-ip.co
 ss://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#🇩🇪 Germany - 11/19 @Config724
 ss://083d7685-f2c1-4577-8d4c-e273f6518fb4@5.75.207.116:8443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 11/19 @Config724
 vless://acacdb17-f35a-43b0-8829-dcf2d8fe76a6@srv18.towersflowerss.com:443?security=reality&encryption=none&pbk=Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=srv18.towersflowerss.com#🇹🇷 Türkiye - 11/19 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.187:8080#🇱🇹 Lithuania - 11/19 @Config724
