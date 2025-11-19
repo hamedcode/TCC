@@ -276,3 +276,5 @@ ss://f5b892fc-70cc-4a1e-a669-515c37a25a3b@213.165.56.29:57247?mode=gun&security=
 ss://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@cone-snail.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 United States - 11/19 @Config724
 vless://3ed01713-5ad7-46b1-ea4a-7b3fdbf232c7@DEADSEECtelegram.fast.hosting-ip.com:80?mode=auto&path=%2F&security=none&encryption=none&host=VPNV2RAYXZ.slimyoutaavers.ir&type=xhttp#🇺🇸 United States - 11/19 @Config724
 ss://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#🇩🇪 Germany - 11/19 @Config724
+ss://083d7685-f2c1-4577-8d4c-e273f6518fb4@5.75.207.116:8443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 11/19 @Config724
+vless://acacdb17-f35a-43b0-8829-dcf2d8fe76a6@srv18.towersflowerss.com:443?security=reality&encryption=none&pbk=Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=srv18.towersflowerss.com#🇹🇷 Türkiye - 11/19 @Config724
