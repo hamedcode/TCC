@@ -1,2 +1,0 @@
-vless://9c346f20-432d-4c2b-9167-f94dace57425@91.98.237.237:18423?type=ws&encryption=none&path=%2F&host=&security=none#%F0%9F%87%BA%F0%9F%87%B8-%40%20BLACK_VPN1
-ss://9c346f20-432d-4c2b-9167-f94dace57425@91.98.237.237:18423?type=ws&encryption=none&path=%2F&host=&security=none#%F0%9F%87%BA%F0%9F%87%B8-%40%20BLACK_VPN1
