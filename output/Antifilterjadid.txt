@@ -1,0 +1,2 @@
+vless://a1713a9e-b498-41d8-b263-05ad3de1ed63@cosmin.ns.cloudflare.com:443?path=%2Fvrrbotws&security=tls&encryption=none&host=638994471666905482.touareg-amsie.info&type=ws&sni=638994471666905482.touareg-amsie.info#us-Horse%20VPN%209%20%20
+ss://a1713a9e-b498-41d8-b263-05ad3de1ed63@cosmin.ns.cloudflare.com:443?path=%2Fvrrbotws&security=tls&encryption=none&host=638994471666905482.touareg-amsie.info&type=ws&sni=638994471666905482.touareg-amsie.info#us-Horse%20VPN%209%20%20
