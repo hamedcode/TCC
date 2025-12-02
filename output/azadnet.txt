@@ -1,1 +1,0 @@
-trojan://FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D@kuame.missionsec.us:443?security=tls&headerType=none&type=tcp&sni=kuame.missionsec.us#%E2%9C%A8%EF%B8%8F%F0%9F%92%99AZAD.NET.VPN%F0%9F%92%A5%F0%9F%8C%B9
