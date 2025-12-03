@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         text-align: center;
-        overflow-x: hidden; /* جلوگیری از اسکرول افقی کل صفحه */
+        overflow-x: hidden;
     }
 
     .container {
@@ -39,11 +39,11 @@
         text-align: left;
         white-space: pre-wrap;
         overflow-y: auto;
-        overflow-x: hidden; /* ❗ جلوی حرکت افقی را می‌گیرد */
+        overflow-x: hidden;
         max-height: 500px;
         font-size: 16px;
         width: 100%;
-        box-sizing: border-box; /* ❗ width واقعی + padding */
+        box-sizing: border-box;
     }
 
     button {
@@ -62,7 +62,6 @@
         background: #666;
     }
 
-    /* 📱 موبایل */
     @media (max-width: 700px) {
         .container {
             width: 100%;
@@ -108,24 +107,27 @@
 <script>
 let globalText = "";
 
-// ✔ تبدیل زمان Last-Modified به منطقه تهران (+3:30)
+// ✔ دریافت هدر و نمایش زمان به وقت تهران (بدون جمع/تفریق دستی)
 fetch("sent_configs.txt", { method: "HEAD" })
     .then(res => {
         let lastMod = res.headers.get("Last-Modified");
         if (lastMod) {
-
             let dateUTC = new Date(lastMod);
 
-            // اضافه کردن 3.5 ساعت
-            let tehranTime = new Date(dateUTC.getTime() + (3.5 * 60 * 60 * 1000));
+            // نمایش زمان به وقت تهران با استفاده از timeZone
+            let tehranStr = dateUTC.toLocaleString("fa-IR", { timeZone: "Asia/Tehran" });
 
             document.getElementById("lastUpdate").innerText =
-                "آخرین آپدیت فایل: " + tehranTime.toLocaleString("fa-IR");
+                "آخرین آپدیت فایل (تهران): " + tehranStr;
         } 
         else {
             document.getElementById("lastUpdate").innerText =
                 "زمان آخرین بروزرسانی در دسترس نیست.";
         }
+    })
+    .catch(() => {
+        document.getElementById("lastUpdate").innerText =
+            "خطا در دریافت زمان آخرین بروزرسانی.";
     });
 
 // ✔ دریافت محتوا + نمایش ۲۰ خط آخر
