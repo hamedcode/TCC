@@ -11,41 +11,73 @@
         color: #eee;
         padding: 20px;
         direction: rtl;
+        text-align: center;
     }
-    pre {
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    #box {
         background: #222;
-        padding: 15px;
-        border-radius: 10px;
-        white-space: pre-wrap;
+        padding: 20px;
+        border-radius: 12px;
         border: 1px solid #333;
+        text-align: left;
+        white-space: pre-wrap;
+        overflow-y: auto;
+        max-height: 500px;
+    }
+
+    button {
+        background: #444;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        transition: 0.2s;
+    }
+
+    button:hover {
+        background: #666;
     }
 </style>
 </head>
+
 <body>
 
-<h2>آخرین کانفیگ‌های ارسال‌شده</h2>
-<p>فقط ۲۰ مورد آخر از فایل <code>sent_configs.txt</code></p>
+<div class="container">
+    <h2>آخرین ۲۰ کانفیگ ارسال‌شده</h2>
 
-<pre id="output">در حال بارگذاری...</pre>
+    <button onclick="copyText()">کپی کل کانفیگ‌ها</button>
+
+    <div id="box">در حال بارگذاری...</div>
+</div>
 
 <script>
-fetch("sent_configs.txt")
-  .then(r => {
-      if (!r.ok) throw new Error("فایل پیدا نشد");
-      return r.text();
-  })
-  .then(text => {
-      // تبدیل فایل به خطوط
-      let lines = text.trim().split("\n");
+let globalText = ""; // ذخیره برای کپی
 
-      // گرفتن 20 خط آخر
+fetch("sent_configs.txt")
+  .then(r => r.text())
+  .then(text => {
+      let lines = text.trim().split("\n");
       let lastLines = lines.slice(-20).join("\n");
 
-      document.getElementById("output").innerText = lastLines;
+      globalText = lastLines;
+      document.getElementById("box").innerText = lastLines;
   })
-  .catch(err => {
-      document.getElementById("output").innerText = "خطا در بارگذاری فایل";
+  .catch(() => {
+      document.getElementById("box").innerText = "خطا در بارگذاری فایل";
   });
+
+function copyText() {
+    navigator.clipboard.writeText(globalText).then(() => {
+        alert("کپی شد!");
+    });
+}
 </script>
 
 </body>
