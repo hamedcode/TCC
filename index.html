@@ -2,6 +2,7 @@
 <html lang="fa">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>آخرین کانفیگ‌ها</title>
 
 <style>
@@ -13,13 +14,15 @@
         margin: 0;
         padding: 0;
         text-align: center;
+        overflow-x: hidden; /* جلوگیری از اسکرول افقی کل صفحه */
     }
 
     .container {
-        width: 95%;
+        width: 100%;
         max-width: 900px;
         margin: auto;
         padding: 15px;
+        box-sizing: border-box;
     }
 
     #lastUpdate {
@@ -36,8 +39,11 @@
         text-align: left;
         white-space: pre-wrap;
         overflow-y: auto;
+        overflow-x: hidden; /* ❗ جلوی حرکت افقی را می‌گیرد */
         max-height: 500px;
         font-size: 16px;
+        width: 100%;
+        box-sizing: border-box; /* ❗ width واقعی + padding */
     }
 
     button {
@@ -59,7 +65,7 @@
     /* 📱 موبایل */
     @media (max-width: 700px) {
         .container {
-            width: 98%;
+            width: 100%;
             padding: 10px;
         }
 
@@ -67,6 +73,8 @@
             padding: 15px;
             font-size: 14px;
             max-height: 400px;
+            width: 100%;
+            overflow-x: hidden;
         }
 
         button {
@@ -100,15 +108,21 @@
 <script>
 let globalText = "";
 
-// ✔ دریافت زمان آخرین بروزرسانی از GitHub Pages
+// ✔ تبدیل زمان Last-Modified به منطقه تهران (+3:30)
 fetch("sent_configs.txt", { method: "HEAD" })
     .then(res => {
         let lastMod = res.headers.get("Last-Modified");
         if (lastMod) {
-            let date = new Date(lastMod);
+
+            let dateUTC = new Date(lastMod);
+
+            // اضافه کردن 3.5 ساعت
+            let tehranTime = new Date(dateUTC.getTime() + (3.5 * 60 * 60 * 1000));
+
             document.getElementById("lastUpdate").innerText =
-                "آخرین آپدیت فایل: " + date.toLocaleString("fa-IR");
-        } else {
+                "آخرین آپدیت فایل: " + tehranTime.toLocaleString("fa-IR");
+        } 
+        else {
             document.getElementById("lastUpdate").innerText =
                 "زمان آخرین بروزرسانی در دسترس نیست.";
         }
