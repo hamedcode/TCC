@@ -24,12 +24,12 @@
 <body>
 
 <h2>آخرین کانفیگ‌های ارسال‌شده</h2>
-<p>فقط ۲۰ مورد آخر از فایل <code>sent_confings.txt</code></p>
+<p>فقط ۲۰ مورد آخر از فایل <code>sent_configs.txt</code></p>
 
 <pre id="output">در حال بارگذاری...</pre>
 
 <script>
-fetch("sent_confings.txt")
+fetch("sent_configs.txt")
   .then(r => {
       if (!r.ok) throw new Error("فایل پیدا نشد");
       return r.text();
