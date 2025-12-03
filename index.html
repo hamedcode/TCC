@@ -1,152 +1,131 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>آخرین کانفیگ‌ها</title>
+
+<title>Latest Configs</title>
 
 <style>
-    body {
-        font-family: sans-serif;
-        background: #111;
-        color: #eee;
-        direction: rtl;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        overflow-x: hidden;
-    }
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
 
-    .container {
+h2 {
+    text-align: center;
+}
+
+#last-update {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+/* باکس کانفیگ‌ها */
+.config-box {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+    overflow-x: auto; /* فقط وقتی نیاز است فعال می‌شود */
+    white-space: pre-wrap;
+    line-height: 1.6;
+    direction: ltr;
+}
+
+/* جلوگیری از اسکرول افقی اضافی در موبایل */
+@media (max-width: 600px) {
+    .config-box {
         width: 100%;
-        max-width: 900px;
-        margin: auto;
-        padding: 15px;
         box-sizing: border-box;
-    }
-
-    #lastUpdate {
-        margin-bottom: 15px;
         font-size: 14px;
-        color: #aaa;
+        overflow-x: scroll;
     }
+}
 
-    #box {
-        background: #222;
-        padding: 20px;
-        border-radius: 12px;
-        border: 1px solid #333;
-        text-align: left;
-        white-space: pre-wrap;
-        overflow-y: auto;
-        overflow-x: hidden;
-        max-height: 500px;
-        font-size: 16px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    button {
-        background: #444;
-        color: #fff;
-        border: none;
-        padding: 12px 25px;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-bottom: 15px;
-        font-size: 17px;
-        transition: 0.2s;
-    }
-
-    button:hover {
-        background: #666;
-    }
-
-    @media (max-width: 700px) {
-        .container {
-            width: 100%;
-            padding: 10px;
-        }
-
-        #box {
-            padding: 15px;
-            font-size: 14px;
-            max-height: 400px;
-            width: 100%;
-            overflow-x: hidden;
-        }
-
-        button {
-            width: 100%;
-            padding: 15px;
-            font-size: 18px;
-        }
-
-        h2 {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-    }
+/* دکمه کپی */
+.copy-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background: #0a84ff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.copy-btn:active {
+    transform: scale(0.96);
+}
 </style>
 </head>
-
 <body>
 
-<div class="container">
+<h2>آخرین ۲۰ کانفیگ ارسال‌شده</h2>
+<div id="last-update">در حال دریافت اطلاعات...</div>
 
-    <h2>آخرین ۲۰ کانفیگ ارسال‌شده</h2>
+<div class="config-box" id="config-box">در حال بارگذاری...</div>
 
-    <div id="lastUpdate">در حال بررسی زمان آخرین بروزرسانی...</div>
-
-    <button onclick="copyText()">کپی کل کانفیگ‌ها</button>
-
-    <div id="box">در حال بارگذاری...</div>
-
-</div>
+<button class="copy-btn" onclick="copyConfigs()">Copy</button>
 
 <script>
-let globalText = "";
+// 1) نمایش زمان آخرین تغییر sent_configs.txt
+const sentFile = "/sent_configs.txt";
 
-// ✔ دریافت هدر و نمایش زمان به وقت تهران (بدون جمع/تفریق دستی)
-fetch("sent_configs.txt", { method: "HEAD" })
-    .then(res => {
-        let lastMod = res.headers.get("Last-Modified");
-        if (lastMod) {
-            let dateUTC = new Date(lastMod);
+fetch(sentFile + "?cache=" + Date.now(), { method: "HEAD" })
+  .then(res => {
+    const lm = res.headers.get("Last-Modified");
+    if (!lm) {
+      document.getElementById("last-update").innerText =
+        "خطا در دریافت زمان آخرین آپدیت";
+      return;
+    }
 
-            // نمایش زمان به وقت تهران با استفاده از timeZone
-            let tehranStr = dateUTC.toLocaleString("fa-IR", { timeZone: "Asia/Tehran" });
+    const utc = new Date(lm);
 
-            document.getElementById("lastUpdate").innerText =
-                "آخرین آپدیت فایل (تهران): " + tehranStr;
-        } 
-        else {
-            document.getElementById("lastUpdate").innerText =
-                "زمان آخرین بروزرسانی در دسترس نیست.";
-        }
-    })
-    .catch(() => {
-        document.getElementById("lastUpdate").innerText =
-            "خطا در دریافت زمان آخرین بروزرسانی.";
-    });
+    // تبدیل UTC به تهران +3:30
+    const tehran = new Date(utc.getTime() + (3.5 * 60 * 60 * 1000));
 
-// ✔ دریافت محتوا + نمایش ۲۰ خط آخر
-fetch("sent_configs.txt")
-  .then(r => r.text())
-  .then(text => {
-      let lines = text.trim().split("\n");
-      let lastLines = lines.slice(-20).join("\n");
+    const formatted =
+      tehran.getFullYear() + "/" +
+      String(tehran.getMonth() + 1).padStart(2, "0") + "/" +
+      String(tehran.getDate()).padStart(2, "0") + " - " +
+      String(tehran.getHours()).padStart(2, "0") + ":" +
+      String(tehran.getMinutes()).padStart(2, "0");
 
-      globalText = lastLines;
-      document.getElementById("box").innerText = lastLines;
+    document.getElementById("last-update").innerText =
+      "آخرین بروزرسانی کانفیگ‌ها: " + formatted;
   })
-  .catch(() => {
-      document.getElementById("box").innerText = "خطا در بارگذاری فایل";
+  .catch(err => {
+    document.getElementById("last-update").innerText = "خطا در اتصال";
   });
 
-function copyText() {
-    navigator.clipboard.writeText(globalText).then(() => {
-        alert("کپی شد!");
+
+// 2) خواندن آخرین ۲۰ خط فایل
+fetch(sentFile + "?cache=" + Date.now())
+  .then(response => response.text())
+  .then(text => {
+    const lines = text.trim().split("\n");
+    const last20 = lines.slice(-20).join("\n");
+
+    document.getElementById("config-box").textContent = last20;
+  })
+  .catch(() => {
+    document.getElementById("config-box").textContent = "خطا در خواندن فایل";
+  });
+
+
+// 3) کپی کردن کانفیگ‌ها
+function copyConfigs() {
+    const text = document.getElementById("config-box").textContent;
+    navigator.clipboard.writeText(text).then(() => {
+        alert("Configs copied!");
     });
 }
 </script>
