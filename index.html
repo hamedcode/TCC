@@ -9,17 +9,23 @@
         font-family: sans-serif;
         background: #111;
         color: #eee;
-        padding: 20px;
         direction: rtl;
-        text-align: center;
         margin: 0;
+        padding: 0;
+        text-align: center;
     }
 
     .container {
-        width: 100%;
+        width: 95%;
         max-width: 900px;
         margin: auto;
-        padding: 10px;
+        padding: 15px;
+    }
+
+    #lastUpdate {
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #aaa;
     }
 
     #box {
@@ -31,7 +37,7 @@
         white-space: pre-wrap;
         overflow-y: auto;
         max-height: 500px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     button {
@@ -42,7 +48,7 @@
         border-radius: 10px;
         cursor: pointer;
         margin-bottom: 15px;
-        font-size: 16px;
+        font-size: 17px;
         transition: 0.2s;
     }
 
@@ -51,13 +57,10 @@
     }
 
     /* 📱 موبایل */
-    @media (max-width: 600px) {
-        body {
+    @media (max-width: 700px) {
+        .container {
+            width: 98%;
             padding: 10px;
-        }
-
-        h2 {
-            font-size: 20px;
         }
 
         #box {
@@ -68,8 +71,13 @@
 
         button {
             width: 100%;
-            padding: 14px;
+            padding: 15px;
             font-size: 18px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 10px;
         }
     }
 </style>
@@ -78,16 +86,35 @@
 <body>
 
 <div class="container">
+
     <h2>آخرین ۲۰ کانفیگ ارسال‌شده</h2>
+
+    <div id="lastUpdate">در حال بررسی زمان آخرین بروزرسانی...</div>
 
     <button onclick="copyText()">کپی کل کانفیگ‌ها</button>
 
     <div id="box">در حال بارگذاری...</div>
+
 </div>
 
 <script>
 let globalText = "";
 
+// ✔ دریافت زمان آخرین بروزرسانی از GitHub Pages
+fetch("sent_configs.txt", { method: "HEAD" })
+    .then(res => {
+        let lastMod = res.headers.get("Last-Modified");
+        if (lastMod) {
+            let date = new Date(lastMod);
+            document.getElementById("lastUpdate").innerText =
+                "آخرین آپدیت فایل: " + date.toLocaleString("fa-IR");
+        } else {
+            document.getElementById("lastUpdate").innerText =
+                "زمان آخرین بروزرسانی در دسترس نیست.";
+        }
+    });
+
+// ✔ دریافت محتوا + نمایش ۲۰ خط آخر
 fetch("sent_configs.txt")
   .then(r => r.text())
   .then(text => {
