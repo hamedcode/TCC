@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>Sent Configs</title>
+<style>
+    body {
+        font-family: sans-serif;
+        background: #111;
+        color: #eee;
+        padding: 20px;
+        direction: rtl;
+    }
+    pre {
+        background: #222;
+        padding: 15px;
+        border-radius: 10px;
+        white-space: pre-wrap;
+        border: 1px solid #333;
+    }
+</style>
+</head>
+<body>
+
+<h2>آخرین کانفیگ‌های ارسال‌شده</h2>
+<p>فایل: <code>sent_confings.txt</code></p>
+
+<pre id="output">در حال بارگذاری...</pre>
+
+<script>
+// آدرس فایل داخل ریپوی عمومی
+fetch("sent_confings.txt")
+  .then(response => {
+      if (!response.ok) throw new Error("File not found");
+      return response.text();
+  })
+  .then(text => {
+      document.getElementById("output").innerText = text;
+  })
+  .catch(err => {
+      document.getElementById("output").innerText = "خطا در بارگذاری فایل";
+  });
+</script>
+
+</body>
+</html>
