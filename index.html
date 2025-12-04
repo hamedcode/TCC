@@ -10,7 +10,6 @@ tailwind.config = { darkMode: "class" }
 </script>
 
 <style>
-/* Glass effect */
 .glass {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -40,8 +39,8 @@ tailwind.config = { darkMode: "class" }
 
   <!-- Config box -->
   <div id="configBox"
-       class="glass p-4 rounded-2xl text-sm leading-6 whitespace-pre-wrap 
-              overflow-y-auto max-h-[350px]">
+       class="glass p-4 rounded-2xl text-sm leading-6 whitespace-pre-wrap break-words
+              overflow-y-auto overflow-x-hidden max-h-[350px]">
   </div>
 
   <!-- Copy button -->
@@ -72,7 +71,19 @@ function copyText() {
 const html = document.documentElement;
 const themeIcon = document.getElementById("themeIcon");
 
-// Set correct icon
+// Always default to dark unless user changed before
+(function initTheme(){
+  if (!localStorage.theme) {
+    html.classList.add("dark"); // DEFAULT DARK
+    localStorage.theme = "dark";
+  } else if (localStorage.theme === "dark") {
+    html.classList.add("dark");
+  } else {
+    html.classList.remove("dark");
+  }
+  updateIcon();
+})();
+
 function updateIcon() {
   if (html.classList.contains("dark")) {
     themeIcon.innerHTML =
@@ -85,16 +96,6 @@ function updateIcon() {
       16.95l-1.414 1.414m12.728 0l-1.414-1.414M7.05 7.05L5.636 5.636"/>`;
   }
 }
-
-// Init theme
-(function initTheme(){
-  if (localStorage.theme === "dark" ||
-     (!("theme" in localStorage) &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-    html.classList.add("dark");
-  }
-  updateIcon();
-})();
 
 // Toggle theme
 document.getElementById("themeBtn").onclick = () => {
