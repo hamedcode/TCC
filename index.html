@@ -6,94 +6,102 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <script>
-tailwind.config = {
-  darkMode: 'class'
-}
+tailwind.config = { darkMode: "class" }
 </script>
 
 <style>
-.glass{
-  backdrop-filter: blur(15px);
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+/* Glass effect */
+.glass {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(255,255,255,0.20);
+  border: 1px solid rgba(255,255,255,0.35);
 }
-.dark .glass{
+
+.dark .glass {
   background: rgba(0,0,0,0.35);
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
 }
 </style>
 
 </head>
 
-<body class="bg-gradient-to-br from-black via-gray-900 to-black text-white min-h-screen transition-colors">
+<body class="transition-colors duration-300 bg-gray-100 text-black dark:bg-gradient-to-br dark:from-black dark:via-gray-900 dark:to-black dark:text-white min-h-screen">
 
-<!-- Container -->
 <div class="max-w-xl mx-auto px-4 py-8 flex flex-col gap-6">
 
-<!-- Header -->
-<div class="flex justify-between items-center">
-  <h1 class="text-2xl font-bold">۲۰ کانفیگ آخر</h1>
+  <!-- Header -->
+  <div class="flex justify-between items-center">
+    <h1 class="text-2xl font-bold">۲۰ کانفیگ آخر</h1>
+    <button id="themeBtn" class="glass p-2 rounded-xl hover:scale-110 transition">
+      <svg id="themeIcon" class="w-6 h-6" fill="none" stroke="currentColor"></svg>
+    </button>
+  </div>
 
-  <!-- Toggle theme -->
-  <button id="themeBtn" class="glass p-2 rounded-xl hover:scale-110 transition">
-    <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-    viewBox="0 0 24 24" stroke="currentColor"></svg>
+  <!-- Config box -->
+  <div id="configBox"
+       class="glass p-4 rounded-2xl text-sm leading-6 whitespace-pre-wrap 
+              overflow-y-auto max-h-[350px]">
+  </div>
+
+  <!-- Copy button -->
+  <button onclick="copyText()"
+    class="glass py-3 rounded-2xl text-lg hover:bg-white/20 transition">
+    کپی کردن کانفیگ‌ها
   </button>
-</div>
-
-<!-- Glass Box -->
-<div id="configBox" class="glass p-4 rounded-2xl overflow-x-auto whitespace-pre-wrap text-sm leading-6"></div>
-
-<!-- Copy Button -->
-<button onclick="copyText()" class="glass py-3 text-center rounded-2xl text-lg hover:bg-white/20 transition">
-  کپی کردن کانفیگ‌ها
-</button>
 
 </div>
 
 <script>
-// Fetch last 20 lines
+// Load last 20 configs
 fetch("sent_configs.txt")
-.then(r=>r.text())
-.then(t=>{
-  let lines=t.trim().split("\n");
-  document.getElementById("configBox").innerText = lines.slice(-20).join("\n");
-});
+  .then(r => r.text())
+  .then(text => {
+    let lines = text.trim().split("\n");
+    document.getElementById("configBox").innerText =
+      lines.slice(-20).join("\n");
+  });
 
-// Copy button
-function copyText(){
-  const t=document.getElementById("configBox").innerText;
+// Copy box content
+function copyText() {
+  const t = document.getElementById("configBox").innerText;
   navigator.clipboard.writeText(t);
 }
 
-// Theme system
+// --- Theme System --- //
 const html = document.documentElement;
-const themeBtn = document.getElementById("themeBtn");
 const themeIcon = document.getElementById("themeIcon");
 
-function setIcon(){
-  if(html.classList.contains("dark")){
-    themeIcon.innerHTML=`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-    d="M17.293 13.293A8 8 0 016.707 4.707a8.001 8.001 0 1010.586 8.586z" />`;
+// Set correct icon
+function updateIcon() {
+  if (html.classList.contains("dark")) {
+    themeIcon.innerHTML =
+      `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+      d="M17.293 13.293A8 8 0 016.707 4.707a8.001 8.001 0 1010.586 8.586z"/>`;
   } else {
-    themeIcon.innerHTML=`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-    d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M7.05 
-    16.95l-1.414 1.414m12.728 0l-1.414-1.414M7.05 7.05L5.636 5.636" />`;
+    themeIcon.innerHTML =
+      `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+      d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M7.05 
+      16.95l-1.414 1.414m12.728 0l-1.414-1.414M7.05 7.05L5.636 5.636"/>`;
   }
 }
-function initTheme(){
-  if(localStorage.theme === "dark" || 
-    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)){
-      html.classList.add("dark");
+
+// Init theme
+(function initTheme(){
+  if (localStorage.theme === "dark" ||
+     (!("theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    html.classList.add("dark");
   }
-  setIcon();
-}
-themeBtn.onclick = ()=>{
+  updateIcon();
+})();
+
+// Toggle theme
+document.getElementById("themeBtn").onclick = () => {
   html.classList.toggle("dark");
   localStorage.theme = html.classList.contains("dark") ? "dark" : "light";
-  setIcon();
+  updateIcon();
 };
-initTheme();
 </script>
 
 </body>
