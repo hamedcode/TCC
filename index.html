@@ -1,134 +1,29 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html><html lang="fa"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>آخرین کانفیگ‌ها</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head><body class="bg-black text-white font-sans p-4">
+<div class="max-w-2xl mx-auto">
+<h2 class="text-xl mb-4 font-bold">۲۰ کانفیگ آخر</h2>
 
-<title>Latest Configs</title>
+<div id="configBox" class="bg-neutral-900 p-4 rounded-xl overflow-x-auto whitespace-pre-wrap text-sm"></div>
 
-<style>
-body {
-    font-family: sans-serif;
-    background: #111;
-    color: #fff;
-    margin: 0;
-    padding: 20px;
-}
+<button onclick="copyText()" class="mt-4 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg">کپی</button>
 
-h2 {
-    text-align: center;
-}
-
-#last-update {
-    text-align: center;
-    color: #ccc;
-    margin-bottom: 15px;
-}
-
-/* باکس کانفیگ‌ها */
-.config-box {
-    background: #222;
-    padding: 15px;
-    border-radius: 10px;
-    max-width: 700px;
-    margin: auto;
-    overflow-x: auto; /* فقط وقتی نیاز است فعال می‌شود */
-    white-space: pre-wrap;
-    line-height: 1.6;
-    direction: ltr;
-}
-
-/* جلوگیری از اسکرول افقی اضافی در موبایل */
-@media (max-width: 600px) {
-    .config-box {
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 14px;
-        overflow-x: scroll;
-    }
-}
-
-/* دکمه کپی */
-.copy-btn {
-    display: block;
-    margin: 15px auto;
-    padding: 10px 20px;
-    background: #0a84ff;
-    border: none;
-    border-radius: 8px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-}
-.copy-btn:active {
-    transform: scale(0.96);
-}
-</style>
-</head>
-<body>
-
-<h2>آخرین ۲۰ کانفیگ ارسال‌شده</h2>
-<div id="last-update">در حال دریافت اطلاعات...</div>
-
-<div class="config-box" id="config-box">در حال بارگذاری...</div>
-
-<button class="copy-btn" onclick="copyConfigs()">Copy</button>
+</div>
 
 <script>
-// 1) نمایش زمان آخرین تغییر sent_configs.txt
-const sentFile = "/sent_configs.txt";
+fetch("sent_configs.txt")
+.then(r=>r.text())
+.then(t=>{
+ let lines=t.trim().split("\n");
+ document.getElementById("configBox").innerText = lines.slice(-20).join("\n");
+});
 
-fetch(sentFile + "?cache=" + Date.now(), { method: "HEAD" })
-  .then(res => {
-    const lm = res.headers.get("Last-Modified");
-    if (!lm) {
-      document.getElementById("last-update").innerText =
-        "خطا در دریافت زمان آخرین آپدیت";
-      return;
-    }
-
-    const utc = new Date(lm);
-
-    // تبدیل UTC به تهران +3:30
-    const tehran = new Date(utc.getTime() + (3.5 * 60 * 60 * 1000));
-
-    const formatted =
-      tehran.getFullYear() + "/" +
-      String(tehran.getMonth() + 1).padStart(2, "0") + "/" +
-      String(tehran.getDate()).padStart(2, "0") + " - " +
-      String(tehran.getHours()).padStart(2, "0") + ":" +
-      String(tehran.getMinutes()).padStart(2, "0");
-
-    document.getElementById("last-update").innerText =
-      "آخرین بروزرسانی کانفیگ‌ها: " + formatted;
-  })
-  .catch(err => {
-    document.getElementById("last-update").innerText = "خطا در اتصال";
-  });
-
-
-// 2) خواندن آخرین ۲۰ خط فایل
-fetch(sentFile + "?cache=" + Date.now())
-  .then(response => response.text())
-  .then(text => {
-    const lines = text.trim().split("\n");
-    const last20 = lines.slice(-20).join("\n");
-
-    document.getElementById("config-box").textContent = last20;
-  })
-  .catch(() => {
-    document.getElementById("config-box").textContent = "خطا در خواندن فایل";
-  });
-
-
-// 3) کپی کردن کانفیگ‌ها
-function copyConfigs() {
-    const text = document.getElementById("config-box").textContent;
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Configs copied!");
-    });
+function copyText(){
+ const t=document.getElementById("configBox").innerText;
+ navigator.clipboard.writeText(t);
 }
 </script>
 
-</body>
-</html>
+</body></html>
