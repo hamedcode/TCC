@@ -1,29 +1,100 @@
-<!DOCTYPE html><html lang="fa"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>آخرین کانفیگ‌ها</title>
 <script src="https://cdn.tailwindcss.com"></script>
-</head><body class="bg-black text-white font-sans p-4">
-<div class="max-w-2xl mx-auto">
-<h2 class="text-xl mb-4 font-bold">۲۰ کانفیگ آخر</h2>
 
-<div id="configBox" class="bg-neutral-900 p-4 rounded-xl overflow-x-auto whitespace-pre-wrap text-sm"></div>
+<script>
+tailwind.config = {
+  darkMode: 'class'
+}
+</script>
 
-<button onclick="copyText()" class="mt-4 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg">کپی</button>
+<style>
+.glass{
+  backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.dark .glass{
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+</style>
+
+</head>
+
+<body class="bg-gradient-to-br from-black via-gray-900 to-black text-white min-h-screen transition-colors">
+
+<!-- Container -->
+<div class="max-w-xl mx-auto px-4 py-8 flex flex-col gap-6">
+
+<!-- Header -->
+<div class="flex justify-between items-center">
+  <h1 class="text-2xl font-bold">۲۰ کانفیگ آخر</h1>
+
+  <!-- Toggle theme -->
+  <button id="themeBtn" class="glass p-2 rounded-xl hover:scale-110 transition">
+    <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+    viewBox="0 0 24 24" stroke="currentColor"></svg>
+  </button>
+</div>
+
+<!-- Glass Box -->
+<div id="configBox" class="glass p-4 rounded-2xl overflow-x-auto whitespace-pre-wrap text-sm leading-6"></div>
+
+<!-- Copy Button -->
+<button onclick="copyText()" class="glass py-3 text-center rounded-2xl text-lg hover:bg-white/20 transition">
+  کپی کردن کانفیگ‌ها
+</button>
 
 </div>
 
 <script>
+// Fetch last 20 lines
 fetch("sent_configs.txt")
 .then(r=>r.text())
 .then(t=>{
- let lines=t.trim().split("\n");
- document.getElementById("configBox").innerText = lines.slice(-20).join("\n");
+  let lines=t.trim().split("\n");
+  document.getElementById("configBox").innerText = lines.slice(-20).join("\n");
 });
 
+// Copy button
 function copyText(){
- const t=document.getElementById("configBox").innerText;
- navigator.clipboard.writeText(t);
+  const t=document.getElementById("configBox").innerText;
+  navigator.clipboard.writeText(t);
 }
+
+// Theme system
+const html = document.documentElement;
+const themeBtn = document.getElementById("themeBtn");
+const themeIcon = document.getElementById("themeIcon");
+
+function setIcon(){
+  if(html.classList.contains("dark")){
+    themeIcon.innerHTML=`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+    d="M17.293 13.293A8 8 0 016.707 4.707a8.001 8.001 0 1010.586 8.586z" />`;
+  } else {
+    themeIcon.innerHTML=`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+    d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M7.05 
+    16.95l-1.414 1.414m12.728 0l-1.414-1.414M7.05 7.05L5.636 5.636" />`;
+  }
+}
+function initTheme(){
+  if(localStorage.theme === "dark" || 
+    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)){
+      html.classList.add("dark");
+  }
+  setIcon();
+}
+themeBtn.onclick = ()=>{
+  html.classList.toggle("dark");
+  localStorage.theme = html.classList.contains("dark") ? "dark" : "light";
+  setIcon();
+};
+initTheme();
 </script>
 
-</body></html>
+</body>
+</html>
