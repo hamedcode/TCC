@@ -1,0 +1,2 @@
+ss://SERVERNETT@yuo0.sernett.ir:80?mode=auto&path=%2F&security=none&encryption=none&type=xhttp#SERVERNETT-CHANNEL
+vless://SERVERNETT@yuo0.sernett.ir:80?mode=auto&path=%2F&security=none&encryption=none&type=xhttp#SERVERNETT-CHANNEL
