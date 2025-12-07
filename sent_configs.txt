@@ -117,3 +117,7 @@ trojan://POORIARED@www.speedtest.net:443?type=ws&security=tls&sni=rEdfRee8.redfR
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@172.67.134.185:443?type=ws&security=tls&sni=RedFReE8.reDFrEE8.Ir&alpn=http/1.1&fp=chrome&allowInsecure=0#🏳️ Unknown - 12/07 @Config724
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@172.67.134.185:443?type=ws&security=tls&sni=RedFReE8.reDFrEE8.Ir&alpn=http/1.1&fp=chrome&allowInsecure=0#🏳️ Unknown - 12/07 @Config724
 trojan://POORIARED@172.67.134.185:443?type=ws&host=&path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed%3D2560&security=tls&sni=reDfRee8.REDFree8.ir&fp=chrome&allowInsecure=0#🏳️ Unknown - 12/07 @Config724
+ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@172.67.134.185:443?type=ws&security=tls&sni=RedFReE8.reDFrEE8.Ir&alpn=http/1.1&fp=chrome&allowInsecure=0#🏳️ Unknown - 12/07 @Config724
+trojan://POORIARED@www.speedtest.net:443?type=ws&security=tls&sni=rEdfRee8.redfREE8.IR&fp=chrome&allowInsecure=0#🏳️ Unknown - 12/07 @Config724
+trojan://POORIARED@172.67.134.185:443?type=ws&host=&path=/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed%3D2560&security=tls&sni=reDfRee8.REDFree8.ir&fp=chrome&allowInsecure=0#🏳️ Unknown - 12/07 @Config724
+vless://SERVERNETT@yuo0.sernett.ir:80?mode=auto&path=%2F&security=none&encryption=none&type=xhttp#🏳️ Unknown - 12/07 @Config724
