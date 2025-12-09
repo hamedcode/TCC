@@ -1,2 +1,0 @@
-vless://f5f7ee52-aa8f-4415-b2f3-90a0153e3820@65.109.230.46:52186?type=grpc&encryption=none&serviceName=&authority=&security=reality&pbk=qbnOCNfgeXJh8ovE6FfFNKt4em77iI-oxsQLhuiYqGI&fp=chrome&sni=google.com&sid=ef1866c1&spx=%2F#%40BLACK_VPN1
-ss://f5f7ee52-aa8f-4415-b2f3-90a0153e3820@65.109.230.46:52186?type=grpc&encryption=none&serviceName=&authority=&security=reality&pbk=qbnOCNfgeXJh8ovE6FfFNKt4em77iI-oxsQLhuiYqGI&fp=chrome&sni=google.com&sid=ef1866c1&spx=%2F#%40BLACK_VPN1
