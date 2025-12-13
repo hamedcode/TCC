@@ -1,2 +1,1 @@
-ss://bf92bdef-ab8d-4481-8798-2d39023357b2@45.144.53.113:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#AZAD.NET.VPN%E2%9D%A4%EF%B8%8F
-vless://bf92bdef-ab8d-4481-8798-2d39023357b2@45.144.53.113:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#AZAD.NET.VPN%E2%9D%A4%EF%B8%8F
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEMmRMZVZ0TFpFdjc3YTZKSnl6dFBa@62.133.63.21:65262#%F0%9F%96%A4%F0%9F%A5%80BE%20YAD%20AMIN%F0%9F%92%94AZAD%20NET.VPN
