@@ -1,2 +1,0 @@
-vless://ea75c906-2cc4-4be6-8472-6d72898e4a80@46.62.168.178:39411?type=tcp&encryption=none&security=reality&pbk=nXgUEoaBeYXNre6foY-3IEIy9cPSCLJzOSCEnlvJ0lE&fp=chrome&sni=google.com&sid=e3e4740b584aeb&spx=%2F#%40BLACK_VPN1
-ss://ea75c906-2cc4-4be6-8472-6d72898e4a80@46.62.168.178:39411?type=tcp&encryption=none&security=reality&pbk=nXgUEoaBeYXNre6foY-3IEIy9cPSCLJzOSCEnlvJ0lE&fp=chrome&sni=google.com&sid=e3e4740b584aeb&spx=%2F#%40BLACK_VPN1
