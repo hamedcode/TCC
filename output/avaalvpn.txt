@@ -1,2 +1,0 @@
-ss://f1ea701d-e33b-4606-955b-3d788b8b8860@sv1.avaaal.ir:12559?type=tcp&path=%2F&host=skyroom.online&headerType=http&security=none#Filimo-Avaal
-vless://f1ea701d-e33b-4606-955b-3d788b8b8860@sv1.avaaal.ir:12559?type=tcp&path=%2F&host=skyroom.online&headerType=http&security=none#Filimo-Avaal
