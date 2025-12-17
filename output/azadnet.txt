@@ -1,2 +1,0 @@
-vless://cddc3a1c-25a9-4fb5-950e-d40523ccfa7c@151.101.25.242:80?mode=auto&path=%2F%3Fed%3D2560&security=none&encryption=none&host=maxus112.global.ssl.fastly.net&type=xhttp#AZAD.NET.VPN%F0%9F%92%AB%F0%9F%92%99
-ss://cddc3a1c-25a9-4fb5-950e-d40523ccfa7c@151.101.25.242:80?mode=auto&path=%2F%3Fed%3D2560&security=none&encryption=none&host=maxus112.global.ssl.fastly.net&type=xhttp#AZAD.NET.VPN%F0%9F%92%AB%F0%9F%92%99
