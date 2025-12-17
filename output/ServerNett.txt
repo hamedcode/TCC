@@ -1,2 +1,0 @@
-ss://SERVERNETT-SERVERNETT1@pol111.sernett.ir:80?mode=auto&path=%2F&security=&encryption=none&type=xhttp#%40SERVERNETT-CHANNEL
-vless://SERVERNETT-SERVERNETT1@pol111.sernett.ir:80?mode=auto&path=%2F&security=&encryption=none&type=xhttp#%40SERVERNETT-CHANNEL
