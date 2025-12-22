@@ -1,0 +1,2 @@
+ss://63c6fdf9-9ce4-7c78-e597-a5519649b0cd@bou.officialvpn.shop:31628?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%92%AB%F0%9F%A4%A9AZAD.NET.VPN%F0%9F%92%99%F0%9F%92%95
+vless://63c6fdf9-9ce4-7c78-e597-a5519649b0cd@bou.officialvpn.shop:31628?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%92%AB%F0%9F%A4%A9AZAD.NET.VPN%F0%9F%92%99%F0%9F%92%95
