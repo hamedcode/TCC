@@ -1,11 +1,9 @@
 vless://8c95f905-d3c3-4736-ce2e-50a4bf591db3@64.227.113.68:443?security=&encryption=none&type=grpc#Germany%20D3
 ss://8c95f905-d3c3-4736-ce2e-50a4bf591db3@165.227.142.230:443?security=&encryption=none&type=grpc#Germany%20D9
 ss://8c95f905-d3c3-4736-ce2e-50a4bf591db3@161.35.70.137:443?security=&encryption=none&type=grpc#Germany%20D28
-vless://309fa273-6579-4cb2-9143-7cad50401eba@45.12.133.61:8443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#%F0%9F%A4%9F%F0%9F%92%95AZAD.NET.VPN%F0%9F%92%AB%F0%9F%A5%B0
 ss://8c95f905-d3c3-4736-ce2e-50a4bf591db3@104.248.251.104:443?security=&encryption=none&type=grpc#Germany%20D12
 ss://1d77b8e0-f958-419f-a48e-c92d80ba7984@64.226.64.244:24836?security=&encryption=none&type=grpc#Germany%20D22
 vless://8c95f905-d3c3-4736-ce2e-50a4bf591db3@161.35.70.137:443?security=&encryption=none&type=grpc#Germany%20D28
-ss://309fa273-6579-4cb2-9143-7cad50401eba@45.12.133.61:8443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#%F0%9F%A4%9F%F0%9F%92%95AZAD.NET.VPN%F0%9F%92%AB%F0%9F%A5%B0
 ss://8c95f905-d3c3-4736-ce2e-50a4bf591db3@64.227.113.68:443?security=&encryption=none&type=grpc#Germany%20D3
 vless://8c95f905-d3c3-4736-ce2e-50a4bf591db3@165.227.142.230:443?security=&encryption=none&type=grpc#Germany%20D9
 vless://1d77b8e0-f958-419f-a48e-c92d80ba7984@64.226.64.244:24836?security=&encryption=none&type=grpc#Germany%20D22
