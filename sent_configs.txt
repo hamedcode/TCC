@@ -389,3 +389,5 @@ vless://8c95f905-d3c3-4736-ce2e-50a4bf591db3@161.35.70.137:443?security=&encrypt
 ss://309fa273-6579-4cb2-9143-7cad50401eba@45.12.133.61:8443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🇫🇷 France - 12/23 @Config724
 ss://8c95f905-d3c3-4736-ce2e-50a4bf591db3@64.227.113.68:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/23 @Config724
 vless://8c95f905-d3c3-4736-ce2e-50a4bf591db3@165.227.142.230:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/23 @Config724
+vless://1d77b8e0-f958-419f-a48e-c92d80ba7984@64.226.64.244:24836?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/23 @Config724
+vless://8c95f905-d3c3-4736-ce2e-50a4bf591db3@104.248.251.104:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/23 @Config724
