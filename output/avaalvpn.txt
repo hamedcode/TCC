@@ -1,0 +1,2 @@
+ss://e03314c1-5841-4471-9cbf-65074a7b919b@195.238.240.20:28091?encryption=none&security=none&type=grpc#%40AvaalVPN
+vless://e03314c1-5841-4471-9cbf-65074a7b919b@195.238.240.20:28091?encryption=none&security=none&type=grpc#%40AvaalVPN
