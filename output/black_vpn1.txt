@@ -1,0 +1,2 @@
+ss://e7d922ae-c4bb-465c-a0d6-f12f32b7b312@trta.fastlynew.hosting-ip.com:80?mode=auto&path=%2F%3Fed%3D2560&security=none&encryption=none&host=maxfr156.global.ssl.fastly.net&type=xhttp#%40BLACK_VPN1
+vless://e7d922ae-c4bb-465c-a0d6-f12f32b7b312@trta.fastlynew.hosting-ip.com:80?mode=auto&path=%2F%3Fed%3D2560&security=none&encryption=none&host=maxfr156.global.ssl.fastly.net&type=xhttp#%40BLACK_VPN1
