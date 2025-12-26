@@ -1,2 +1,0 @@
-vless://c5b129d7-f133-4b34-a9c6-68c9a8f70248@104.26.6.89:80?path=%2F&security=none&encryption=none&host=EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK&type=ws#%F0%9F%A5%B0%F0%9F%92%ABAZAD.NET.VPN%F0%9F%8E%89%F0%9F%92%99
-ss://c5b129d7-f133-4b34-a9c6-68c9a8f70248@104.26.6.89:80?path=%2F&security=none&encryption=none&host=EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK&type=ws#%F0%9F%A5%B0%F0%9F%92%ABAZAD.NET.VPN%F0%9F%8E%89%F0%9F%92%99
