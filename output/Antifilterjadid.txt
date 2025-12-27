@@ -1,7 +1,5 @@
-ss://telegram-id-Arfilter@www.speedtest.net:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=j.arfilter2.blog&fp=firefox&type=ws&sni=j.arfilter2.blog#TLS4-ALL%20%7C%20%40ArV2ray
 vless://8493e9d5-9417-4560-a106-55ee80fb755a@164.92.252.139:443?security=&encryption=none&type=grpc#Germany%20D7
 ss://8493e9d5-9417-4560-a106-55ee80fb755a@159.89.1.44:443?security=&encryption=none&type=grpc#Germany%20D19
-vless://telegram-id-Arfilter@www.speedtest.net:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=j.arfilter2.blog&fp=firefox&type=ws&sni=j.arfilter2.blog#TLS4-ALL%20%7C%20%40ArV2ray
 vless://8493e9d5-9417-4560-a106-55ee80fb755a@159.89.1.44:443?security=&encryption=none&type=grpc#Germany%20D19
 vless://8493e9d5-9417-4560-a106-55ee80fb755a@64.226.79.6:443?security=&encryption=none&type=grpc#Germany%20D10
 ss://8493e9d5-9417-4560-a106-55ee80fb755a@164.92.252.139:443?security=&encryption=none&type=grpc#Germany%20D7
