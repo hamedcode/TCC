@@ -1,2 +1,1 @@
-ss://dc117fd8-6edd-444b-a56a-9cfee67f7257@158.160.202.13:8443?security=reality&encryption=none&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=8ba12e75110b7a9c#%F0%9F%92%95%E2%98%BA%EF%B8%8FAZAD.NET.VPN%F0%9F%8E%89%F0%9F%92%99
-vless://dc117fd8-6edd-444b-a56a-9cfee67f7257@158.160.202.13:8443?security=reality&encryption=none&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=8ba12e75110b7a9c#%F0%9F%92%95%E2%98%BA%EF%B8%8FAZAD.NET.VPN%F0%9F%8E%89%F0%9F%92%99
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.205:8080#%F0%9F%8E%89%F0%9F%A5%B0AZAD.NET.VPN%E2%98%BA%EF%B8%8F%F0%9F%8E%89
