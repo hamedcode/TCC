@@ -497,3 +497,5 @@ ss://8493e9d5-9417-4560-a106-55ee80fb755a@164.92.252.139:443?security=&encryptio
 vless://50468374-e366-49f9-db70-546db199d82f@159.89.25.132:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
 ss://50468374-e366-49f9-db70-546db199d82f@159.89.25.132:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
 ss://8493e9d5-9417-4560-a106-55ee80fb755a@64.226.79.6:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+vless://50468374-e366-49f9-db70-546db199d82f@134.122.64.108:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+ss://50468374-e366-49f9-db70-546db199d82f@134.122.64.108:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
