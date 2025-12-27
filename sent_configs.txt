@@ -487,3 +487,13 @@ vless://4bbc1699-286d-4245-b418-7d0dba56d3d4@23.88.57.97:110?security=&encryptio
 vless://935ccf3d-76e6-485d-db4e-ea9f82c2e490@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=%2F&security=&encryption=none=/%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40TEHRANARGO&host=shop.slimshopboyss.ir&type=xhttp#🏳️ Unknown - 12/27 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.205:8080#🇬🇧 United Kingdom - 12/27 @Config724
 ss://4bbc1699-286d-4245-b418-7d0dba56d3d4@23.88.57.97:110?security=&encryption=none&headerType=none=/%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40Telegram-|-%40TEHRANARGO-|-%40TEHRANARGO&type=tcp#🇩🇪 Germany - 12/27 @Config724
+ss://telegram-id-Arfilter@www.speedtest.net:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=j.arfilter2.blog&fp=firefox&type=ws&sni=j.arfilter2.blog#🏳️ Unknown - 12/27 @Config724
+vless://8493e9d5-9417-4560-a106-55ee80fb755a@164.92.252.139:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+ss://8493e9d5-9417-4560-a106-55ee80fb755a@159.89.1.44:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+vless://telegram-id-Arfilter@www.speedtest.net:443?path=%2Ftelegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=j.arfilter2.blog&fp=firefox&type=ws&sni=j.arfilter2.blog#🏳️ Unknown - 12/27 @Config724
+vless://8493e9d5-9417-4560-a106-55ee80fb755a@159.89.1.44:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+vless://8493e9d5-9417-4560-a106-55ee80fb755a@64.226.79.6:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+ss://8493e9d5-9417-4560-a106-55ee80fb755a@164.92.252.139:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+vless://50468374-e366-49f9-db70-546db199d82f@159.89.25.132:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+ss://50468374-e366-49f9-db70-546db199d82f@159.89.25.132:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
+ss://8493e9d5-9417-4560-a106-55ee80fb755a@64.226.79.6:443?security=&encryption=none&type=grpc#🇩🇪 Germany - 12/27 @Config724
