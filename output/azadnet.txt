@@ -1,1 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.194:8080#%F0%9F%8E%89%F0%9F%8C%B9AZAD.NET.VPN%F0%9F%99%8F%E2%9D%A4%EF%B8%8F
+ss://a5abd733-a496-45ba-a33a-cc43696cac40@ftvpn.fasttunnel.ru:8443?security=reality&encryption=none&pbk=TvD-sTK7vPwnHjiZYPURMs1HivR-7KEhe-o_Hj4l-UE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com#%F0%9F%92%99%E2%9C%A8%EF%B8%8FAZAD.NET.VPN%F0%9F%92%99%E2%9C%A8%EF%B8%8F
+vless://a5abd733-a496-45ba-a33a-cc43696cac40@ftvpn.fasttunnel.ru:8443?security=reality&encryption=none&pbk=TvD-sTK7vPwnHjiZYPURMs1HivR-7KEhe-o_Hj4l-UE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com#%F0%9F%92%99%E2%9C%A8%EF%B8%8FAZAD.NET.VPN%F0%9F%92%99%E2%9C%A8%EF%B8%8F
