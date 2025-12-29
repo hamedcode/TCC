@@ -1,0 +1,2 @@
+vless://6caf585f-ae05-4c4e-9c97-a48728ca0885@37.27.81.159:46704?security=reality&encryption=none&pbk=HxFj9w2QRYJD6gLPuRW4upoYqe1A2lHqdAiB1mdcBUQ&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=google.com&sid=bb5cae#%40BLACK_VPN1
+ss://6caf585f-ae05-4c4e-9c97-a48728ca0885@37.27.81.159:46704?security=reality&encryption=none&pbk=HxFj9w2QRYJD6gLPuRW4upoYqe1A2lHqdAiB1mdcBUQ&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=google.com&sid=bb5cae#%40BLACK_VPN1
