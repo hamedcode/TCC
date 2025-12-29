@@ -1,0 +1,2 @@
+vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.6.133:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%92%95%F0%9F%A5%B0AZAD.NET.VPN%F0%9F%A4%A9%F0%9F%92%AB
+ss://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.6.133:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%92%95%F0%9F%A5%B0AZAD.NET.VPN%F0%9F%A4%A9%F0%9F%92%AB
