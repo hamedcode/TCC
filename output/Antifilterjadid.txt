@@ -1,2 +1,0 @@
-ss://a4a941bd-fe1f-4e2e-81ad-2244e73da639@95.38.210.6:12241?flow=&type=tcp&headerType=none&security=none#%F0%9F%87%BA%F0%9F%87%B8%20Antifilterjadid
-vless://a4a941bd-fe1f-4e2e-81ad-2244e73da639@95.38.210.6:12241?flow=&type=tcp&headerType=none&security=none#%F0%9F%87%BA%F0%9F%87%B8%20Antifilterjadid
