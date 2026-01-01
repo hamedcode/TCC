@@ -1,2 +1,0 @@
-ss://SERVERNETT-SERVERNETT1@polm.sernett.ir:80?mode=auto&path=%2F&security=&encryption=none&type=xhttp#SERVERNETT-TELEGRAM
-vless://SERVERNETT-SERVERNETT1@polm.sernett.ir:80?mode=auto&path=%2F&security=&encryption=none&type=xhttp#SERVERNETT-TELEGRAM
