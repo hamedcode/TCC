@@ -1,4 +1,0 @@
-ss://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=%2Fyhowcws&security=tls&encryption=none&host=azizoarjmand.info&type=ws&sni=azizoarjmand.info#%F0%9F%87%AC%F0%9F%87%A7%40CHv2raynp
-vless://b2d4a909-a3dc-4396-afcb-976c4d5c42d9@gozarfreebot.niniweblog.org:23?security=reality&type=tcp&headerType=&path=&host=&sni=refersion.com&fp=chrome&pbk=k5ghCQjfzH-vo8dNajQbal17E9hzzn4PrcrZESd23y4&sid=372a94d2f8009a94&spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20Germany
-vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=%2Fyhowcws&security=tls&encryption=none&host=azizoarjmand.info&type=ws&sni=azizoarjmand.info#%F0%9F%87%AC%F0%9F%87%A7%40CHv2raynp
-ss://b2d4a909-a3dc-4396-afcb-976c4d5c42d9@gozarfreebot.niniweblog.org:23?security=reality&type=tcp&headerType=&path=&host=&sni=refersion.com&fp=chrome&pbk=k5ghCQjfzH-vo8dNajQbal17E9hzzn4PrcrZESd23y4&sid=372a94d2f8009a94&spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20Germany
