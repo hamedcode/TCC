@@ -1,3 +1,0 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#AZAD.NET.VPN%F0%9F%92%AB%F0%9F%A4%9F%F0%9F%A4%A9
-vless://0aec5570-f7ab-4c9d-adc0-e095dfc57f00@178.162.244.10:35175?mode=auto&path=%2F&security=reality&encryption=none&pbk=pWYEX0iMVNeUgXFhAFVp0vc-FazotWFQz9RBNkERiTY&fp=chrome&spx=%2FOLfRlUhCPjxU8Wx&type=xhttp&sni=pn5hdapp.breaknet2.eu&sid=e86b#%F0%9F%A4%9F%F0%9F%92%99AZAD.NET.VPN%F0%9F%8C%B9%F0%9F%A4%9F
-ss://0aec5570-f7ab-4c9d-adc0-e095dfc57f00@178.162.244.10:35175?mode=auto&path=%2F&security=reality&encryption=none&pbk=pWYEX0iMVNeUgXFhAFVp0vc-FazotWFQz9RBNkERiTY&fp=chrome&spx=%2FOLfRlUhCPjxU8Wx&type=xhttp&sni=pn5hdapp.breaknet2.eu&sid=e86b#%F0%9F%A4%9F%F0%9F%92%99AZAD.NET.VPN%F0%9F%8C%B9%F0%9F%A4%9F
