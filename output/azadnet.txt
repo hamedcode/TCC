@@ -1,0 +1,2 @@
+ss://05071212-5966-430d-a53b-d4472581ddc8@nl2.fastdbn.com:443?security=reality&encryption=none&pbk=12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deb.debian.org&sid=cdce15b3e2179ce8#KIAN.AZADNET%F0%9F%92%AB%F0%9F%92%95
+vless://05071212-5966-430d-a53b-d4472581ddc8@nl2.fastdbn.com:443?security=reality&encryption=none&pbk=12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deb.debian.org&sid=cdce15b3e2179ce8#KIAN.AZADNET%F0%9F%92%AB%F0%9F%92%95

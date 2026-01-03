@@ -1,0 +1,4 @@
+ss://61410fc5-671e-4773-92d7-fec37f72b906@taebi.abrak.site:30250?type=tcp&encryption=none&path=%2F&host=journalofbigdata.springeropen.com&headerType=http&security=none#%DA%AF%D9%B1%D9%D8%B1%D
+vless://61410fc5-671e-4773-92d7-fec37f72b906@taebi.abrak.site:30250?type=tcp&encryption=none&path=%2F&host=journalofbigdata.springeropen.com&headerType=http&security=none#%DA%AF%D9%B1%D9%D8%B1%D
+vless://030ede5c-4ef9-40ea-9ae5-e20816956141@taebi.abrak.site:41315?type=tcp&encryption=none&path=%2F&host=JouRNaloFbIgdATA.SpRinGeropEn.coM&headerType=http&security=none#%DA%AF%D9%BE%20%D9%BE%D8%B1%D8%B4%DB%8C%D9%862
+ss://030ede5c-4ef9-40ea-9ae5-e20816956141@taebi.abrak.site:41315?type=tcp&encryption=none&path=%2F&host=JouRNaloFbIgdATA.SpRinGeropEn.coM&headerType=http&security=none#%DA%AF%D9%BE%20%D9%BE%D8%B1%D8%B4%DB%8C%D9%862
