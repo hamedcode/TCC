@@ -1,0 +1,2 @@
+ss://a5a5f6ed-db1a-4be1-9319-5dd5a3ef1e68@116.203.185.146:13369?type=tcp&encryption=none&security=none#Avaal-VPN
+vless://a5a5f6ed-db1a-4be1-9319-5dd5a3ef1e68@116.203.185.146:13369?type=tcp&encryption=none&security=none#Avaal-VPN
