@@ -1,2 +1,0 @@
-ss://9fb90033-daca-4b61-8eb1-440d4b64564d@bshs-187271-isbshs-18181717.bawqrataaui.ir:1501?security=reality&encryption=none&pbk=BMlkiqYu98c4-u_7G1c9W744OA8A9yi-i75A9VlDczc&headerType=none&fp=firefox&spx=%2F%40configFree&type=tcp&sni=docker.com&sid=ed87c1018eed#%40BLACK_VPN1
-vless://9fb90033-daca-4b61-8eb1-440d4b64564d@bshs-187271-isbshs-18181717.bawqrataaui.ir:1501?security=reality&encryption=none&pbk=BMlkiqYu98c4-u_7G1c9W744OA8A9yi-i75A9VlDczc&headerType=none&fp=firefox&spx=%2F%40configFree&type=tcp&sni=docker.com&sid=ed87c1018eed#%40BLACK_VPN1
