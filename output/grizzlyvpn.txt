@@ -1,2 +1,0 @@
-vless://45ecc395-d37d-4b5e-82d9-1cbfd689beff@151.234.162.60:3339?encryption=none&security=none&type=tcp&headerType=http&host=telewebion.com#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%20%40GrizzlyVPN
-ss://45ecc395-d37d-4b5e-82d9-1cbfd689beff@151.234.162.60:3339?encryption=none&security=none&type=tcp&headerType=http&host=telewebion.com#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%20%40GrizzlyVPN
