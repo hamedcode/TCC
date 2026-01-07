@@ -1,2 +1,0 @@
-ss://5806f9b9-7ab0-4971-a0c6-856ffaaed5d7@5.75.194.63:15909?encryption=none&security=none&type=tcp&headerType=http&host=mmg.whatsapp.net#AvaalVPN
-vless://5806f9b9-7ab0-4971-a0c6-856ffaaed5d7@5.75.194.63:15909?encryption=none&security=none&type=tcp&headerType=http&host=mmg.whatsapp.net#AvaalVPN
