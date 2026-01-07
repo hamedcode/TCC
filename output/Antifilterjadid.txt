@@ -1,0 +1,6 @@
+vless://20e29626-2788-454f-ae53-0953f40a1d32@speedtest.net:80?encryption=none&security=none&type=xhttp&host=lukasmmad.global.ssl.fastly.net&path=%2F&mode=auto#%F0%9F%87%A9%F0%9F%87%AA444MMad-Fast-%F0%9F%86%9817
+vless://5123150d-db7b-45da-9bde-1366567eb92b@speedtest.net:80?encryption=none&security=none&type=xhttp&host=mikolajmmad.global.ssl.fastly.net&path=%2F&mode=auto#%F0%9F%87%AB%F0%9F%87%AE445MMad-Fast-%F0%9F%86%9818
+ss://20e29626-2788-454f-ae53-0953f40a1d32@speedtest.net:80?encryption=none&security=none&type=xhttp&host=lukasmmad.global.ssl.fastly.net&path=%2F&mode=auto#%F0%9F%87%A9%F0%9F%87%AA444MMad-Fast-%F0%9F%86%9817
+ss://304b8846-9186-4dd3-98f1-6518a8382977@speedtest.net:80?encryption=none&security=none&type=xhttp&host=katjammad.global.ssl.fastly.net&path=%2F&mode=auto#%F0%9F%87%A9%F0%9F%87%AA446MMad-Fast-%F0%9F%86%9819
+vless://304b8846-9186-4dd3-98f1-6518a8382977@speedtest.net:80?encryption=none&security=none&type=xhttp&host=katjammad.global.ssl.fastly.net&path=%2F&mode=auto#%F0%9F%87%A9%F0%9F%87%AA446MMad-Fast-%F0%9F%86%9819
+ss://5123150d-db7b-45da-9bde-1366567eb92b@speedtest.net:80?encryption=none&security=none&type=xhttp&host=mikolajmmad.global.ssl.fastly.net&path=%2F&mode=auto#%F0%9F%87%AB%F0%9F%87%AE445MMad-Fast-%F0%9F%86%9818

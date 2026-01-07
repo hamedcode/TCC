@@ -1,0 +1,2 @@
+vless://SERVERNETT-TELEGRAM@iup.sernett.ir:80?mode=auto&path=%2F&security=&encryption=none&type=xhttp#Telegram-%40SERVERNETT-JOIN
+ss://SERVERNETT-TELEGRAM@iup.sernett.ir:80?mode=auto&path=%2F&security=&encryption=none&type=xhttp#Telegram-%40SERVERNETT-JOIN
