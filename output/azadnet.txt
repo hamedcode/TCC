@@ -1,2 +1,2 @@
-ss://d03d8fc0-23ce-461a-97fa-2a7e0a66d8db@151.101.195.8:80?security=none&encryption=none&host=norbert-team-free1.global.ssl.fastly.net&type=ws#AZAD.NET.VPN%F0%9F%A4%9F%F0%9F%92%99%F0%9F%92%AB
-vless://d03d8fc0-23ce-461a-97fa-2a7e0a66d8db@151.101.195.8:80?security=none&encryption=none&host=norbert-team-free1.global.ssl.fastly.net&type=ws#AZAD.NET.VPN%F0%9F%A4%9F%F0%9F%92%99%F0%9F%92%AB
+vless://d8472822-8b6a-47b5-b555-a1587e684327@54.38.3.4:2052?path=%2F&security=none&encryption=none&host=ip4.ip-54-38-3.eu&type=ws#%F0%9F%8C%B9%F0%9F%92%99AZAD.NET.VPN
+ss://d8472822-8b6a-47b5-b555-a1587e684327@54.38.3.4:2052?path=%2F&security=none&encryption=none&host=ip4.ip-54-38-3.eu&type=ws#%F0%9F%8C%B9%F0%9F%92%99AZAD.NET.VPN
