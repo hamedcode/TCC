@@ -1,0 +1,2 @@
+vless://da72ff28-8ec0-43ec-a3c4-f37fe46853d1@speedtest.net:80?encryption=none&type=xhttp&mode=auto&host=securet.global.ssl.fastly.net&path=/&security=none#@FREE_VPN02-@FREE_VPN02
+ss://da72ff28-8ec0-43ec-a3c4-f37fe46853d1@speedtest.net:80?encryption=none&type=xhttp&mode=auto&host=securet.global.ssl.fastly.net&path=/&security=none#@FREE_VPN02-@FREE_VPN02
