@@ -1,7 +1,7 @@
 vless://c8f1d6ea-6cc4-4a30-b08d-3627036f21bf@45.82.136.114:8080?encryption=none&security=none&type=tcp&headerType=none#@EzAccess1
 vless://10a87eab-af02-4f08-a42a-1c50e0b67296@5.10.249.13:8080?security=&encryption=none&headerType=none&type=tcp#@EzAccess1
-ss://c8f1d6ea-6cc4-4a30-b08d-3627036f21bf@45.82.136.114:8080?encryption=none&security=none&type=tcp&headerType=none#@EzAccess1
 vless://bc32639e-100a-40ad-b064-b0829a0bd197@130.193.35.232:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff
+ss://c8f1d6ea-6cc4-4a30-b08d-3627036f21bf@45.82.136.114:8080?encryption=none&security=none&type=tcp&headerType=none#@EzAccess1
 ss://bc32639e-100a-40ad-b064-b0829a0bd197@130.193.35.232:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff
 ss://a91e64f0-9295-499d-bf4a-661ad99d4938@109.248.222.151:443?security=reality&type=tcp&sni=nsk.geodema.network&fp=chrome&flow=xtls-rprx-vision&sid=1ed136481e0ede74&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&encryption=none
 vless://a91e64f0-9295-499d-bf4a-661ad99d4938@109.248.222.151:443?security=reality&type=tcp&sni=nsk.geodema.network&fp=chrome&flow=xtls-rprx-vision&sid=1ed136481e0ede74&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&encryption=none
