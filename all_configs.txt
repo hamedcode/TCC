@@ -1,4 +1,0 @@
-vless://20500c73-e7e3-4770-8a39-45a6f55641cd@65.109.206.185:443?security=reality&encryption=none&pbk=YLSRUKO-sm6In4ckqgVjagHKrWcA5r2aV7khO5brOUQ&headerType=none&fp=chrome&spx=%2FSeyyedMT&type=tcp&sni=p30afzar.com&sid=e3c5c005cae07eb7#@EzAccess1
-ss://347725e1-17a2-41c2-9ce4-a4da626958a7@91.98.157.139:443?security=reality&encryption=none&pbk=Z2xQHUN75dwDBdBMqW4f86npS5DahZmGbQWXfPSC92g&headerType=none&fp=firefox&type=tcp&sni=tgju.org&sid=18363bce8c33b3b3#@EzAccess1
-vless://347725e1-17a2-41c2-9ce4-a4da626958a7@91.98.157.139:443?security=reality&encryption=none&pbk=Z2xQHUN75dwDBdBMqW4f86npS5DahZmGbQWXfPSC92g&headerType=none&fp=firefox&type=tcp&sni=tgju.org&sid=18363bce8c33b3b3#@EzAccess1
-ss://20500c73-e7e3-4770-8a39-45a6f55641cd@65.109.206.185:443?security=reality&encryption=none&pbk=YLSRUKO-sm6In4ckqgVjagHKrWcA5r2aV7khO5brOUQ&headerType=none&fp=chrome&spx=%2FSeyyedMT&type=tcp&sni=p30afzar.com&sid=e3c5c005cae07eb7#@EzAccess1
