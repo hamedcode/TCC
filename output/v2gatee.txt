@@ -1,2 +1,2 @@
-vless://8a07740f-b932-4372-a3a2-ed91f184cd33@25.129.197.138:2053?path=%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&security=tls&encryption=none&host=khamenei.dpdns.org&fp=chrome&type=ws&sni=KhAmeneI.DPdNs.OrG#%40V2Gatee
-ss://8a07740f-b932-4372-a3a2-ed91f184cd33@25.129.197.138:2053?path=%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&security=tls&encryption=none&host=khamenei.dpdns.org&fp=chrome&type=ws&sni=KhAmeneI.DPdNs.OrG#%40V2Gatee
+vless://05084096-5d03-4d63-8a7a-db17db9935b0@25.25.25.25:2082?path=%2F%3Fed%3D2052&security=&encryption=none&host=rabit.node.arvancdn.of.to&type=httpupgrade#v2gatee
+ss://05084096-5d03-4d63-8a7a-db17db9935b0@25.25.25.25:2082?path=%2F%3Fed%3D2052&security=&encryption=none&host=rabit.node.arvancdn.of.to&type=httpupgrade#v2gatee

@@ -1,3 +1,0 @@
-ss://c720931c-f403-4d07-841f-cf2e56252226@i9club.freedomefortecme.com:600?security=none&type=tcp&packetEncoding=xudp&encryption=none#i9-001-configscenter
-vless://c720931c-f403-4d07-841f-cf2e56252226@i9club.freedomefortecme.com:600?security=none&type=tcp&packetEncoding=xudp&encryption=none#i9-001-configscenter
-trojan://fkNw9e73uT@i9club.freedomefortecme.com:900?security=none&type=tcp&path=/&headerType=http&host=bmi.ir#TRO-00369
