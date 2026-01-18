@@ -1,2 +1,0 @@
-vless://05084096-5d03-4d63-8a7a-db17db9935b0@25.25.25.25:2082?path=%2F%3Fed%3D2052&security=&encryption=none&host=rabit.node.arvancdn.of.to&type=httpupgrade#v2gatee
-ss://05084096-5d03-4d63-8a7a-db17db9935b0@25.25.25.25:2082?path=%2F%3Fed%3D2052&security=&encryption=none&host=rabit.node.arvancdn.of.to&type=httpupgrade#v2gatee
