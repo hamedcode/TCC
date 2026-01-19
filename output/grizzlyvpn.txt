@@ -1,2 +1,0 @@
-vless://26c40e2f-0a48-4194-9826-9c8bceb265b3@s2.3erveronline.com:43315?encryption=none&security=none&type=tcp&headerType=http&host=igap.net#%40VIP_NETWORK_VPN
-ss://26c40e2f-0a48-4194-9826-9c8bceb265b3@s2.3erveronline.com:43315?encryption=none&security=none&type=tcp&headerType=http&host=igap.net#%40VIP_NETWORK_VPN

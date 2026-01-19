@@ -1,4 +1,2 @@
-vless://PishiNET2@94.101.191.145:2026?security=none&encryption=none&headerType=none&type=tcp#%40EXPRESSVPN_420
 vless://3d811f1b-6621-47f4-8ac2-b5f8109df54a@onlane.top:443?security=none&encryption=none&host=web.eitaa.com&headerType=http&type=tcp#tel%3A%20%40v2rayngsupbot%2F%20%40ai_duet
-ss://PishiNET2@94.101.191.145:2026?security=none&encryption=none&headerType=none&type=tcp#%40EXPRESSVPN_420
 ss://3d811f1b-6621-47f4-8ac2-b5f8109df54a@onlane.top:443?security=none&encryption=none&host=web.eitaa.com&headerType=http&type=tcp#tel%3A%20%40v2rayngsupbot%2F%20%40ai_duet
