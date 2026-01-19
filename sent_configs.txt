@@ -1049,3 +1049,7 @@ ss://05084096-5d03-4d63-8a7a-db17db9935b0@25.25.25.25:2082?path=%2F%3Fed%3D2052&
 vless://05084096-5d03-4d63-8a7a-db17db9935b0@25.25.25.25:2082?path=%2F%3Fed%3D2052&security=none&encryption=none&host=rabit.node.arvancdn.of.to&type=httpupgrade#🇬🇧 United Kingdom - 01/17 @Config724
 vless://26c40e2f-0a48-4194-9826-9c8bceb265b3@s2.3erveronline.com:43315?encryption=none&security=none&type=tcp&headerType=http&host=igap.net#🇮🇷 Iran - 01/18 @Config724
 ss://26c40e2f-0a48-4194-9826-9c8bceb265b3@s2.3erveronline.com:43315?encryption=none&security=none&type=tcp&headerType=http&host=igap.net#🇮🇷 Iran - 01/18 @Config724
+vless://PishiNET2@94.101.191.145:2026?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 01/19 @Config724
+vless://3d811f1b-6621-47f4-8ac2-b5f8109df54a@onlane.top:443?security=none&encryption=none&host=web.eitaa.com&headerType=http&type=tcp#🇮🇷 Iran - 01/19 @Config724
+ss://PishiNET2@94.101.191.145:2026?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 01/19 @Config724
+ss://3d811f1b-6621-47f4-8ac2-b5f8109df54a@onlane.top:443?security=none&encryption=none&host=web.eitaa.com&headerType=http&type=tcp#🇮🇷 Iran - 01/19 @Config724
