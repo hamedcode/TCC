@@ -1053,3 +1053,5 @@ vless://PishiNET2@94.101.191.145:2026?security=none&encryption=none&headerType=n
 vless://3d811f1b-6621-47f4-8ac2-b5f8109df54a@onlane.top:443?security=none&encryption=none&host=web.eitaa.com&headerType=http&type=tcp#🇮🇷 Iran - 01/19 @Config724
 ss://PishiNET2@94.101.191.145:2026?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 01/19 @Config724
 ss://3d811f1b-6621-47f4-8ac2-b5f8109df54a@onlane.top:443?security=none&encryption=none&host=web.eitaa.com&headerType=http&type=tcp#🇮🇷 Iran - 01/19 @Config724
+vless://042e7280-81f7-4744-ac53-5bbfcce2ca11@chatgpt.com:443?type=ws&encryption=none&path=%2FCyberNigga2&host=net.hajinet10.xyz&security=tls&fp=chrome&alpn=http%2F1.1&allowInsecure=1&sni=net.hajinet10.xyz#🏳️ Unknown - 01/19 @Config724
+ss://042e7280-81f7-4744-ac53-5bbfcce2ca11@chatgpt.com:443?type=ws&encryption=none&path=%2FCyberNigga2&host=net.hajinet10.xyz&security=tls&fp=chrome&alpn=http%2F1.1&allowInsecure=1&sni=net.hajinet10.xyz#🏳️ Unknown - 01/19 @Config724
