@@ -1,0 +1,4 @@
+ss://eaf034a4-8a6a-4982-9cfb-ee300fd0bcde@chatgpt.com:443?encryption=none&type=ws&host=gPt.BelLamor.IR&path=/zQhorg3e9wZSngBEm6rCFwd&security=tls&fp=randomized&sni=gpT.bELlamoR.IR&alpn=http/1.1#@UnlimitedDev
+vless://%40natvpn@chatgpt.com:2087?path=%2FWs&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=chfree.mchmodiso.shop&fp=chrome&type=ws&sni=chfree.mchmodiso.shop#@UnlimitedDev
+ss://%40natvpn@chatgpt.com:2087?path=%2FWs&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=chfree.mchmodiso.shop&fp=chrome&type=ws&sni=chfree.mchmodiso.shop#@UnlimitedDev
+vless://eaf034a4-8a6a-4982-9cfb-ee300fd0bcde@chatgpt.com:443?encryption=none&type=ws&host=gPt.BelLamor.IR&path=/zQhorg3e9wZSngBEm6rCFwd&security=tls&fp=randomized&sni=gpT.bELlamoR.IR&alpn=http/1.1#@UnlimitedDev

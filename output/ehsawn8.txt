@@ -1,2 +1,0 @@
-vless://042e7280-81f7-4744-ac53-5bbfcce2ca11@chatgpt.com:443?type=ws&encryption=none&path=%2FCyberNigga2&host=net.hajinet10.xyz&security=tls&fp=chrome&alpn=http%2F1.1&allowInsecure=1&sni=net.hajinet10.xyz#@ehsawn8
-ss://042e7280-81f7-4744-ac53-5bbfcce2ca11@chatgpt.com:443?type=ws&encryption=none&path=%2FCyberNigga2&host=net.hajinet10.xyz&security=tls&fp=chrome&alpn=http%2F1.1&allowInsecure=1&sni=net.hajinet10.xyz#@ehsawn8
