@@ -1,0 +1,14 @@
+vless://204427eb-9181-4e11-84ac-beeee9ad2c91@domain2.trahsakhteman.ir:443?security=tls&sni=eqor.trahsakhteman.ir&alpn=h2,http/1.1&fp=chrome&type=tcp&encryption=none#@TEHRANARGO
+vless://turboo-server@chatgpt.com:443?security=tls&sni=server.aftabz.com&alpn=http/1.1&fp=chrome&type=ws&path=/turbooserver&host=server.aftabz.com&encryption=none#@TEHRANARGO
+vless://3660aeec-1b99-44e0-aeda-7f3f967e9957@chatgpt.com:8443?security=tls&sni=3RdavbnhgvAa.infospeedtest.com&fp=chrome&type=tcp&encryption=none#@TEHRANARGO
+vless://204427eb-9181-4e11-84ac-beeee9ad2c91@domain2.trahsakhteman.ir:443?security=tls&sni=eqor.trahsakhteman.ir&alpn=h2,http/1.1&fp=chrome&type=tcp&encryption=none#@SERVERSIRAN11
+vless://a55538a5-2fd5-4e89-8c94-ef9b2da061ea@chatgpt.com:443?security=tls&sni=n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev&allowInsecure=1&fp=chrome&type=ws&path=/vuut6bvfxroxjbja?ed%3D2560&host=n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev&encryption=none#@TEHRANARGO
+ss://c94f3cf9-7aa5-4b6d-b153-baea45280c64@104.18.32.47:443?security=tls&sni=x1MKkQTEJX0hRuPvUN3tUIAmtffMutnLGgNRIjSXOW7JZV4K.sangar.net&fp=chrome&type=ws&path=/test&encryption=none#@SERVERSIRAN11
+ss://204427eb-9181-4e11-84ac-beeee9ad2c91@domain2.trahsakhteman.ir:443?security=tls&sni=eqor.trahsakhteman.ir&alpn=h2,http/1.1&fp=chrome&type=tcp&encryption=none#@TEHRANARGO
+ss://7fcbc02d-6f61-4cdf-a322-b14779cc8b47@chatgpt.com:443?security=tls&sni=pa.ar-marz.fun&fp=chrome&type=ws&path=/man?ed%3D2560&host=pa.ar-marz.fun&encryption=none#@SERVERSIRAN11
+vless://c94f3cf9-7aa5-4b6d-b153-baea45280c64@104.18.32.47:443?security=tls&sni=x1MKkQTEJX0hRuPvUN3tUIAmtffMutnLGgNRIjSXOW7JZV4K.sangar.net&fp=chrome&type=ws&path=/test&encryption=none#@SERVERSIRAN11
+ss://204427eb-9181-4e11-84ac-beeee9ad2c91@domain2.trahsakhteman.ir:443?security=tls&sni=eqor.trahsakhteman.ir&alpn=h2,http/1.1&fp=chrome&type=tcp&encryption=none#@SERVERSIRAN11
+ss://3660aeec-1b99-44e0-aeda-7f3f967e9957@chatgpt.com:8443?security=tls&sni=3RdavbnhgvAa.infospeedtest.com&fp=chrome&type=tcp&encryption=none#@TEHRANARGO
+vless://7fcbc02d-6f61-4cdf-a322-b14779cc8b47@chatgpt.com:443?security=tls&sni=pa.ar-marz.fun&fp=chrome&type=ws&path=/man?ed%3D2560&host=pa.ar-marz.fun&encryption=none#@SERVERSIRAN11
+ss://a55538a5-2fd5-4e89-8c94-ef9b2da061ea@chatgpt.com:443?security=tls&sni=n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev&allowInsecure=1&fp=chrome&type=ws&path=/vuut6bvfxroxjbja?ed%3D2560&host=n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev&encryption=none#@TEHRANARGO
+ss://turboo-server@chatgpt.com:443?security=tls&sni=server.aftabz.com&alpn=http/1.1&fp=chrome&type=ws&path=/turbooserver&host=server.aftabz.com&encryption=none#@TEHRANARGO
