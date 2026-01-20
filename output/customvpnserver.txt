@@ -1,4 +1,0 @@
-vless://fec9b787-11ab-4fa7-aba8-cb3fd607cf03@chatgpt.com:2053?flow=&type=ws&host=gg.mizbanandata.com&path=/SigmaV2ray?ed%3D2560&security=tls&sni=gg.mizbanandata.com&fp=chrome&allowInsecure=0#@CUSTOMVPNSERVER
-ss://d342d11e-d424-4583-b36e-524ab1f0afa4@chatgpt.com:2083?path=%2F9quSDGMroCZkFeWzTk&security=tls&alpn=http%2F1.1&encryption=none&host=index.0x15.workers.dev&type=ws&sni=index.0x15.workers.DEV#@CUSTOMVPNSERVER
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@chatgpt.com:2083?path=%2F9quSDGMroCZkFeWzTk&security=tls&alpn=http%2F1.1&encryption=none&host=index.0x15.workers.dev&type=ws&sni=index.0x15.workers.DEV#@CUSTOMVPNSERVER
-ss://fec9b787-11ab-4fa7-aba8-cb3fd607cf03@chatgpt.com:2053?flow=&type=ws&host=gg.mizbanandata.com&path=/SigmaV2ray?ed%3D2560&security=tls&sni=gg.mizbanandata.com&fp=chrome&allowInsecure=0#@CUSTOMVPNSERVER

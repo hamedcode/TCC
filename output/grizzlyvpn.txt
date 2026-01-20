@@ -1,2 +1,0 @@
-ss://e258977b-e413-4718-a3af-02d75492c349@104.18.32.47:443?encryption=none&security=tls&sni=ww23.sgxaniu.qzz.io&insecure=0&allowInsecure=0&type=ws&host=ww23.sgxaniu.qzz.io&path=%2F#%40GrizzlyVPN
-vless://e258977b-e413-4718-a3af-02d75492c349@104.18.32.47:443?encryption=none&security=tls&sni=ww23.sgxaniu.qzz.io&insecure=0&allowInsecure=0&type=ws&host=ww23.sgxaniu.qzz.io&path=%2F#%40GrizzlyVPN
