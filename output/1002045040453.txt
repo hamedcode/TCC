@@ -1,2 +1,0 @@
-ss://626d0ea1-d289-43ad-bce1-a6a54011beb5@chatgpt.com:443?type=ws&encryption=none&path=%2F%3Fed%3D2048&host=starping.healingfluence.org&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=starping.healingfluence.org#cc05noo6
-vless://626d0ea1-d289-43ad-bce1-a6a54011beb5@chatgpt.com:443?type=ws&encryption=none&path=%2F%3Fed%3D2048&host=starping.healingfluence.org&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=starping.healingfluence.org#cc05noo6

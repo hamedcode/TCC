@@ -1,4 +1,0 @@
-ss://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.sp.f2gate.ir:33563?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#%40AzadNet%20mahsa
-vless://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.sp.f2gate.ir:33563?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#%40AzadNet%20mahsa
-ss://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.ca.f2zone.ir:17759?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#%40AzadNet%20mahsa
-vless://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.ca.f2zone.ir:17759?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#%40AzadNet%20mahsa
