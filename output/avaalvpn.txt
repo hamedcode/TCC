@@ -1,4 +1,0 @@
-vless://224162a4-659e-4644-9cb4-8024c6dda3c5@162.159.152.4:2096?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=ks1.iranwide.com#Avaal
-ss://224162a4-659e-4644-9cb4-8024c6dda3c5@cf.iranwide.com:2096?type=xhttp&path=%2F&host=&mode=auto&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&sni=ks1.iranwide.com#Avaal
-ss://224162a4-659e-4644-9cb4-8024c6dda3c5@162.159.152.4:2096?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=ks1.iranwide.com#Avaal
-vless://224162a4-659e-4644-9cb4-8024c6dda3c5@cf.iranwide.com:2096?type=xhttp&path=%2F&host=&mode=auto&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&sni=ks1.iranwide.com#Avaal

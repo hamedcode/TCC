@@ -1,0 +1,4 @@
+ss://88da0565-4b1f-4bb7-9463-5df7bb95f117@sl.anselteam.monster:8443/?type=ws&encryption=none&path=%2F&host=wht.anselteam.monster&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=wht.anselteam.monster#%40Ansel_Team
+ss://88da0565-4b1f-4bb7-9463-5df7bb95f117@8.6.112.0:8443/?type=ws&encryption=none&path=%2F&host=wht.anselteam.monster&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=wht.anselteam.monster#%40Ansel_Team
+vless://88da0565-4b1f-4bb7-9463-5df7bb95f117@8.6.112.0:8443/?type=ws&encryption=none&path=%2F&host=wht.anselteam.monster&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=wht.anselteam.monster#%40Ansel_Team
+vless://88da0565-4b1f-4bb7-9463-5df7bb95f117@sl.anselteam.monster:8443/?type=ws&encryption=none&path=%2F&host=wht.anselteam.monster&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=wht.anselteam.monster#%40Ansel_Team
