@@ -1,2 +1,0 @@
-vless://f9929a13-f491-4dc3-b86c-9b8357051476@chatgpt.com:2096?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&type=xhttp&sni=god1.alireza031.net#%F0%9F%86%94Telegram%20%3A%20%40planB_net%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C
-ss://f9929a13-f491-4dc3-b86c-9b8357051476@chatgpt.com:2096?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&type=xhttp&sni=god1.alireza031.net#%F0%9F%86%94Telegram%20%3A%20%40planB_net%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C
