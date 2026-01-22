@@ -1,2 +1,0 @@
-ss://a5f130ee-c537-48fe-aaf2-d7c1c17d0b96@8.6.112.0:2053?encryption=none&type=ws&host=sinesukhte.ecoping1.net&headerType=none&path=%2F&security=tls&fp=chrome&sni=sinesukhte.ecoping1.net&alpn=h2%2Chttp%2F1.1#iraniannetfreegood
-vless://a5f130ee-c537-48fe-aaf2-d7c1c17d0b96@8.6.112.0:2053?encryption=none&type=ws&host=sinesukhte.ecoping1.net&headerType=none&path=%2F&security=tls&fp=chrome&sni=sinesukhte.ecoping1.net&alpn=h2%2Chttp%2F1.1#iraniannetfreegood
