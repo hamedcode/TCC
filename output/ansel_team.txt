@@ -1,4 +1,0 @@
-vless://112f5e16-f4d4-4f6d-a93b-cfe0a0bb74c2@wht.anselteam.monster:46269?encryption=none&type=tcp&headerType=http&host=myket.ir&path=/&security=none#5kueifel
-vless://7213a36b-cbf9-4cfd-a4a7-b92207ac0172@70.34.222.94:6005?encryption=none&type=tcp&security=reality&fp=chrome&sni=refersion.com&pbk=NpRe7cYGj1sTZn5PgYGmc3Vfop2fAxo-gdD0PGwxkVs&sid=94&spx=/#e39d2g8k
-ss://7213a36b-cbf9-4cfd-a4a7-b92207ac0172@70.34.222.94:6005?encryption=none&type=tcp&security=reality&fp=chrome&sni=refersion.com&pbk=NpRe7cYGj1sTZn5PgYGmc3Vfop2fAxo-gdD0PGwxkVs&sid=94&spx=/#e39d2g8k
-ss://112f5e16-f4d4-4f6d-a93b-cfe0a0bb74c2@wht.anselteam.monster:46269?encryption=none&type=tcp&headerType=http&host=myket.ir&path=/&security=none#5kueifel
