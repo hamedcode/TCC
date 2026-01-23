@@ -1,2 +1,0 @@
-vless://ee8f86dd-66e5-42e6-b6a4-118164eac794@www.niniweblog.org:82?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20%F0%93%8F%BA%20%40CHv2raynp
-ss://ee8f86dd-66e5-42e6-b6a4-118164eac794@www.niniweblog.org:82?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20%F0%93%8F%BA%20%40CHv2raynp

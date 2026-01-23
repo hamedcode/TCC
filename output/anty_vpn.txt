@@ -1,0 +1,2 @@
+vless://721093a5-39ed-44c4-83a7-ba156fc3bac3@snapp.shop.two.ahellservice.ir:1818?security=reality&encryption=none&pbk=A_U1gEUXuiujXqsA7yd9Hqc-Q2g-5MbpO_rTShlbJws&headerType=none&fp=firefox&type=tcp&sni=tgju.org#Telegram%20%3A%20%40ANTY_VPN
+ss://721093a5-39ed-44c4-83a7-ba156fc3bac3@snapp.shop.two.ahellservice.ir:1818?security=reality&encryption=none&pbk=A_U1gEUXuiujXqsA7yd9Hqc-Q2g-5MbpO_rTShlbJws&headerType=none&fp=firefox&type=tcp&sni=tgju.org#Telegram%20%3A%20%40ANTY_VPN

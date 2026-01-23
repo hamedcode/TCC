@@ -1,0 +1,4 @@
+vless://16899fd6-6ca0-4400-805d-9b891885bd69@goth.hellpresso.ir:10684?security=reality&encryption=none&pbk=LVY1rowuIyvG93Rt0971CUGW7_gfXjALPqrocCRq3TY&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=www.tgju.org&sid=50499fc5#saministamm
+vless://2c9d615c-06e1-4951-97d9-80668d1c5aff@link2.avaaal.ir:38738?type=tcp&encryption=none&security=reality&pbk=rxjf4EMrESZXpR2TajWNmOhDssui9K8IJ3JaUH-dd04&fp=firefox&sni=excoino.com&sid=7229&spx=%2F#tests43zexeo
+ss://16899fd6-6ca0-4400-805d-9b891885bd69@goth.hellpresso.ir:10684?security=reality&encryption=none&pbk=LVY1rowuIyvG93Rt0971CUGW7_gfXjALPqrocCRq3TY&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=www.tgju.org&sid=50499fc5#saministamm
+ss://2c9d615c-06e1-4951-97d9-80668d1c5aff@link2.avaaal.ir:38738?type=tcp&encryption=none&security=reality&pbk=rxjf4EMrESZXpR2TajWNmOhDssui9K8IJ3JaUH-dd04&fp=firefox&sni=excoino.com&sid=7229&spx=%2F#tests43zexeo
