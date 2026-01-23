@@ -1,0 +1,2 @@
+ss://e017e0ab-08cf-49d1-8eba-2ef69393a89f@france.tzteam.online:2098?encryption=none&security=reality&sni=sourceforge.net&fp=firefox&pbk=JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs&sid=2665af94c7b25f90&type=grpc&authority=&serviceName=fdvsdv&mode=gun#AvaalService
+vless://e017e0ab-08cf-49d1-8eba-2ef69393a89f@france.tzteam.online:2098?encryption=none&security=reality&sni=sourceforge.net&fp=firefox&pbk=JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs&sid=2665af94c7b25f90&type=grpc&authority=&serviceName=fdvsdv&mode=gun#AvaalService

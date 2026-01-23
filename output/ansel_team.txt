@@ -1,2 +1,0 @@
-vless://6635ed18-8671-45d8-8a78-e1221ba8b008@sl.anselteam.monster:8443/?type=ws&encryption=none&path=%2F&host=wht.anselteam.monster&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=wht.anselteam.monster#%40Ansel_team
-ss://6635ed18-8671-45d8-8a78-e1221ba8b008@sl.anselteam.monster:8443/?type=ws&encryption=none&path=%2F&host=wht.anselteam.monster&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=wht.anselteam.monster#%40Ansel_team
