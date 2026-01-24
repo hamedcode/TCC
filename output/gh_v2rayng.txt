@@ -1,0 +1,2 @@
+vless://2426cb8b-9476-419f-b279-b36e2d572ee1@104.18.32.47:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=panel.redmak1.online&fp=chrome&type=ws&sni=panel.redmak1.online#God
+ss://2426cb8b-9476-419f-b279-b36e2d572ee1@104.18.32.47:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=panel.redmak1.online&fp=chrome&type=ws&sni=panel.redmak1.online#God

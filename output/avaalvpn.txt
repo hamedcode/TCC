@@ -1,0 +1,2 @@
+vless://5a27594a-9735-4ba4-8762-69dc2cb5290c@62.60.217.34:11810?type=tcp&encryption=none&security=reality&pbk=SButmbLyXzv3fYKBPic9hC0HHN--rh-GcVNbDUhp9nQ&fp=chrome&sni=excoino.com&sid=500de458504e5da6&spx=%2F#AvaalVPN
+ss://5a27594a-9735-4ba4-8762-69dc2cb5290c@62.60.217.34:11810?type=tcp&encryption=none&security=reality&pbk=SButmbLyXzv3fYKBPic9hC0HHN--rh-GcVNbDUhp9nQ&fp=chrome&sni=excoino.com&sid=500de458504e5da6&spx=%2F#AvaalVPN

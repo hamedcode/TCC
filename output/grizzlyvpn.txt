@@ -1,0 +1,2 @@
+vless://b6b60401-5959-4b9e-b372-1f9c50edebdd@beforeshutdown.wrongguy.ir:8080?encryption=none&security=none&type=ws&host=beforeshutdown.wrongguy.ir&path=%2FvVvVvVvVvVvVvVv1404#%40GrizzlyVPN
+ss://b6b60401-5959-4b9e-b372-1f9c50edebdd@beforeshutdown.wrongguy.ir:8080?encryption=none&security=none&type=ws&host=beforeshutdown.wrongguy.ir&path=%2FvVvVvVvVvVvVvVv1404#%40GrizzlyVPN
