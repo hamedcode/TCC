@@ -1,2 +1,0 @@
-ss://3a65b0bc-81b9-4e2f-8c2e-35511839a5ac@r2.noode.work:443?security=reality&encryption=none&pbk=qTfZpilVyQrFDIgxmEsd18Ph3c_-8O-R_af4o_WQ_Tg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=f74c6a18133e2e72#%40ELFV2RAY
-vless://3a65b0bc-81b9-4e2f-8c2e-35511839a5ac@r2.noode.work:443?security=reality&encryption=none&pbk=qTfZpilVyQrFDIgxmEsd18Ph3c_-8O-R_af4o_WQ_Tg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=f74c6a18133e2e72#%40ELFV2RAY
