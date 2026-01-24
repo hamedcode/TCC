@@ -1,0 +1,2 @@
+vless://eac161dd-a84d-4d1c-8e35-5cc1d00971de@sa.hypersonic.pw:443?security=reality&encryption=none&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&headerType=none&fp=firefox&type=tcp&sni=refersion.com&sid=2c1efea9240fd8a4#@_vpn
+ss://eac161dd-a84d-4d1c-8e35-5cc1d00971de@sa.hypersonic.pw:443?security=reality&encryption=none&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&headerType=none&fp=firefox&type=tcp&sni=refersion.com&sid=2c1efea9240fd8a4#@_vpn

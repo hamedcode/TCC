@@ -1,6 +1,0 @@
-ss://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.44.195.232:22224?encryption=none&type=ws&path=/telegram-channel-vlessconfig&security=tls&sni=trojan.burgerip.co.uk#@FREE_VPN02%F0%9F%87%A8%F0%9F%87%B5
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.44.195.232:22224?encryption=none&type=ws&path=/telegram-channel-vlessconfig&security=tls&sni=trojan.burgerip.co.uk#@FREE_VPN02%F0%9F%87%A8%F0%9F%87%B5
-ss://15fc2169-d6f4-4d2c-9933-a2c7305c4c84@club.cocomelon.org:443?encryption=none&type=xhttp&mode=auto&path=/&security=reality&fp=random&sni=blog.rubygems.org&pbk=xnsyJz7SeZKAEmgHz69xLdOrBLjR4ZhOJBWXeZT6JUI&sid=d6fbe7cfb35245a9#@FREE_VPN02-@FREE_VPN02
-vless://15fc2169-d6f4-4d2c-9933-a2c7305c4c84@club.cocomelon.org:443?encryption=none&type=xhttp&mode=auto&path=/&security=reality&fp=random&sni=blog.rubygems.org&pbk=xnsyJz7SeZKAEmgHz69xLdOrBLjR4ZhOJBWXeZT6JUI&sid=d6fbe7cfb35245a9#@FREE_VPN02-@FREE_VPN02
-vless://8658dc4f-2b4e-46d7-831d-17a3def93c00@5.22.219.57:30704?encryption=none&type=tcp&headerType=http&host=soft98.ir#%5B%F0%9F%87%AA%F0%9F%87%B8%5Dt.me/free_vpn02
-ss://8658dc4f-2b4e-46d7-831d-17a3def93c00@5.22.219.57:30704?encryption=none&type=tcp&headerType=http&host=soft98.ir#%5B%F0%9F%87%AA%F0%9F%87%B8%5Dt.me/free_vpn02

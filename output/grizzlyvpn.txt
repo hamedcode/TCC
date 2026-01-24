@@ -1,2 +1,4 @@
-vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@63.141.128.21:443?encryption=none&security=tls&sni=sni.111000.de5.net&fp=chrome&insecure=1&allowInsecure=1&type=ws&host=sni.111000.de5.net&path=%2F#%40GrizzlyVPN
-ss://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@63.141.128.21:443?encryption=none&security=tls&sni=sni.111000.de5.net&fp=chrome&insecure=1&allowInsecure=1&type=ws&host=sni.111000.de5.net&path=%2F#%40GrizzlyVPN
+ss://3a65b0bc-81b9-4e2f-8c2e-35511839a5ac@r2.noode.work:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=qTfZpilVyQrFDIgxmEsd18Ph3c_-8O-R_af4o_WQ_Tg&sid=f74c6a18133e2e72&type=tcp&headerType=none#%40GrizzlyVPN
+vless://8658dc4f-2b4e-46d7-831d-17a3def93c00@5.22.219.57:30704?encryption=none&security=none&type=tcp&headerType=http&host=soft98.ir#%40GrizzlyVPN
+vless://3a65b0bc-81b9-4e2f-8c2e-35511839a5ac@r2.noode.work:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=qTfZpilVyQrFDIgxmEsd18Ph3c_-8O-R_af4o_WQ_Tg&sid=f74c6a18133e2e72&type=tcp&headerType=none#%40GrizzlyVPN
+ss://8658dc4f-2b4e-46d7-831d-17a3def93c00@5.22.219.57:30704?encryption=none&security=none&type=tcp&headerType=http&host=soft98.ir#%40GrizzlyVPN
