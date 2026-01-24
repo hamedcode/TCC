@@ -1864,3 +1864,13 @@ vless://d9738de2-1b25-407f-9096-fcb6ddc0aa86@85.133.204.132:80?path=%2F&security
 vless://4dcfab42-4703-07d0-b56d-0965380a532e@morgentop.ru:52006?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=d8c6b58bcbb0c323#🇷🇺 Russia - 01/24 @Config724
 trojan://humanity@chatgpt.com:443?path=%2Fassignment&security=tls&insecure=0&host=www.gossipglove.com&fp=chrome&type=ws&allowInsecure=0&sni=www.gossipglove.com#🏳️ Unknown - 01/24 @Config724
 trojan://humanity@208.103.161.110:443?type=ws&host=www.creationlong.org&path=/assignment&security=tls&fp=chrome&sni=www.creationlong.org&alpn=h2,http/1.1#🇺🇸 United States - 01/24 @Config724
+ss://bbb7910f-3005-225f-3fe1-6cce2dff2d60@87.229.100.157:80/?type=ws&encryption=none&flow=&path=%2FIVApi%2FUK%2F0&packetEncoding=xudp#🇭🇺 Hungary - 01/24 @Config724
+vless://c19fb567-74a9-454f-9757-e612fc4be371@ss.02020.sbs:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=safari&sni=dropbox.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#🇷🇺 Russia - 01/24 @Config724
+ss://057b649c-54b1-4f68-86b1-90381637a2cf@152.53.33.43:443?encryption=none&type=tcp&headerType=http&host=www.speedtest.net&security=none#🇩🇪 Germany - 01/24 @Config724
+ss://3001ec8f-42a7-4785-a351-51651f817101@sw.hexogate.com:5051?security=reality&encryption=none&pbk=Zrk7y7YzcSb_s5H2qkcwPqj-CY6POtrcq-JFPuTTA1A&headerType=none&fp=ios&type=tcp&sni=digg.com&sid=02796ded32907eab#🇸🇪 Sweden - 01/24 @Config724
+ss://18228710-dfd0-4bca-8425-4abff39843a4@KingN.1mrsub.site:6002?path=%2F&security=none&encryption=none&host=fast.com&type=ws#🇸🇦 Saudi Arabia - 01/24 @Config724
+vless://9ec33591-f90d-497b-8a27-70282a5d6c4c@151.101.25.242:80?path=%2Fsite&security=none&encryption=none&host=mouwshali.global.ssl.fastly.net&type=ws#🇺🇸 United States - 01/24 @Config724
+vless://%40natvpn@chatgpt.com:2087?path=%2FWs&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=chfree.mchmodiso.shop&fp=chrome&type=ws&sni=chfree.mchmodiso.shop#🏳️ Unknown - 01/24 @Config724
+ss://b6313472-0baa-7f65-7b62-363e25c121c4@46.226.167.215:8000?security=none&type=ws&path=%2F#🇫🇷 France - 01/24 @Config724
+ss://b6b60401-5959-4b9e-b372-1f9c50edebdd@beforeshutdown.wrongguy.ir:8080?encryption=none&security=none&type=ws&host=beforeshutdown.wrongguy.ir&path=%2FvVvVvVvVvVvVvVv1404#🇨🇭 Switzerland - 01/24 @Config724
+ss://1864a6c0-2f6e-4481-8fdb-8e54db6d0aa2@104.18.32.47:443?path=%2Fhalfway&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=main.3586325.xyz&fp=chrome&type=ws&allowInsecure=0&sni=main.3586325.xyz#🏳️ Unknown - 01/24 @Config724
