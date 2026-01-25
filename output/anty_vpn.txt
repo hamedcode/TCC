@@ -1,2 +1,0 @@
-ss://5a101b59-f243-41e4-932b-e30117038cbd@nukeirt.mrpixanos.ir:42542?security=none&encryption=none&host=JouRNaloFbIgdATA.SpRinGeropEn.coM&headerType=http&type=tcp#%40ANTY_VPN
-vless://5a101b59-f243-41e4-932b-e30117038cbd@nukeirt.mrpixanos.ir:42542?security=none&encryption=none&host=JouRNaloFbIgdATA.SpRinGeropEn.coM&headerType=http&type=tcp#%40ANTY_VPN
