@@ -1,8 +1,0 @@
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.236.72.233:22224?encryption=none&type=ws&path=/telegram-channel-vlessconfig&security=tls&sni=trojan.burgerip.co.uk#@FREE_VPN02
-trojan://humanity@208.103.161.110:443?type=ws&host=www.creationlong.org&path=/assignment&security=tls&fp=chrome&sni=www.creationlong.org&alpn=h2,http/1.1#%D9%85%D9%84%DB%8C%20%F0%9F%87%AE%F0%9F%87%B7@FREE_VPN02
-trojan://FreakConfig@77.232.142.141:42598?type=tcp&security=none#-%F0%9F%87%A9%F0%9F%87%AA@FREE_VPN02-@FREE_VPN02
-ss://781113ed-e92e-487a-9093-305cec564297@217.18.90.145:443?encryption=none&type=ws&path=/&security=none#@FREE_VPN02
-ss://f4bac238-d60d-4ace-9da3-6548bab3f13e@77.221.156.228:443?encryption=none&type=ws&path=/&security=none#@FREE_VPN02
-vless://781113ed-e92e-487a-9093-305cec564297@217.18.90.145:443?encryption=none&type=ws&path=/&security=none#@FREE_VPN02
-vless://f4bac238-d60d-4ace-9da3-6548bab3f13e@77.221.156.228:443?encryption=none&type=ws&path=/&security=none#@FREE_VPN02
-ss://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.236.72.233:22224?encryption=none&type=ws&path=/telegram-channel-vlessconfig&security=tls&sni=trojan.burgerip.co.uk#@FREE_VPN02
