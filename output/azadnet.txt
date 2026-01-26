@@ -1,2 +1,0 @@
-ss://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@chatgpt.com:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=l.ayovo.netlib.re&fp=chrome&type=ws&allowInsecure=0&sni=l.ayovo.netlib.re#%40AzadNet
-vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@chatgpt.com:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=l.ayovo.netlib.re&fp=chrome&type=ws&allowInsecure=0&sni=l.ayovo.netlib.re#%40AzadNet

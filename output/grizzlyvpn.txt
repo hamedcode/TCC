@@ -1,2 +1,0 @@
-vless://6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20@188.114.98.0:443?encryption=none&security=tls&sni=delta090.qzz.io&insecure=0&allowInsecure=0&type=ws&host=delta090.qzz.io&path=%2F45.76.183.217%3D49292#%40GrizzlyVPN
-ss://6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20@188.114.98.0:443?encryption=none&security=tls&sni=delta090.qzz.io&insecure=0&allowInsecure=0&type=ws&host=delta090.qzz.io&path=%2F45.76.183.217%3D49292#%40GrizzlyVPN
