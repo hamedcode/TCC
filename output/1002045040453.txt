@@ -1,0 +1,2 @@
+vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@ip.elcump.top:8443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---MiTiVPN%2F---%40MiTiVPN&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=hitgram.ir&fp=chrome&type=ws&allowInsecure=0&sni=hitgram.ir#%40v2Box_999%20%2F%2F%20%F0%9F%94%9B
+ss://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@ip.elcump.top:8443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---MiTiVPN%2F---%40MiTiVPN&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=hitgram.ir&fp=chrome&type=ws&allowInsecure=0&sni=hitgram.ir#%40v2Box_999%20%2F%2F%20%F0%9F%94%9B
