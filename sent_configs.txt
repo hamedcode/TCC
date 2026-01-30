@@ -3149,3 +3149,9 @@ ss://c33275fd-a4fa-470d-90e4-55da39d849a8@tawananet.panbehpanel.ir:80?security=n
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNzkyZmY0YjUxN2ZkZjFj@51.68.146.248:10011#🇫🇷 France - 01/30 @Config724
 vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@ip.elcump.top:8443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---MiTiVPN%2F---%40MiTiVPN&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=hitgram.ir&fp=chrome&type=ws&allowInsecure=0&sni=hitgram.ir#🇺🇸 United States - 01/30 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZDkwMDA5ZmE1MDIzY2Zh@148.113.143.102:11201#🇨🇦 Canada - 01/30 @Config724
+vless://39986a5c-e266-40da-b13b-f16f5d821931@185.83.182.98:8075?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇮🇷 Iran - 01/30 @Config724
+vless://029466fa-f253-4ff6-b2e3-a264a13f6772@t.aiteamplus.ir:47063?security=none&encryption=none&host=skyroom.online&headerType=http&type=tcp#🇮🇷 Iran - 01/30 @Config724
+vless://beab408c-6aa3-43b9-a1ca-e6fabba5d8e7@195.133.195.6:443?security=reality&encryption=none&pbk=rTp9PEn36FtQFu32jWAPO3r-e1W2px3RGSuhR-L1DVM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com#🇨🇿 Czechia - 01/30 @Config724
+vless://91d233a2-08a8-4006-ac8b-597fb41ea2bb@panke1.dadasoratmolayi.com:443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 01/30 @Config724
+ss://396c904b-4b62-4334-b793-ee25fc0c61cc@chat.openai.com:443?path=%2FeyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&security=tls&encryption=none&host=8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev&type=ws&sni=pages.dev#🏳️ Unknown - 01/30 @Config724
+vless://c6826005-3ae8-48a3-8a4c-55be9b0ebf49@online3.moyanri.org:6443?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#🇮🇷 Iran - 01/30 @Config724
