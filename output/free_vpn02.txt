@@ -1,0 +1,2 @@
+ss://ea587015-7e48-4f1e-898b-b83c5b2bdf21@download.wortexnetwork.com:443?encryption=none&type=tcp&headerType=none&security=reality&fp=firefox&sni=tgju.org&pbk=xhUiZLkRCdO3b06Sfl4CMAkzwufpHbZcTYhLAA036R8#@FREE_VPN02%20ALL
+vless://ea587015-7e48-4f1e-898b-b83c5b2bdf21@download.wortexnetwork.com:443?encryption=none&type=tcp&headerType=none&security=reality&fp=firefox&sni=tgju.org&pbk=xhUiZLkRCdO3b06Sfl4CMAkzwufpHbZcTYhLAA036R8#@FREE_VPN02%20ALL
