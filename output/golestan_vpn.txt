@@ -1,2 +1,0 @@
-vless://e6859af3-9286-4799-9b51-972029081581@81.12.35.54:2020?security=none&encryption=none&headerType=none&type=tcp#1t%20-%20%40Golestan_VPN
-ss://e6859af3-9286-4799-9b51-972029081581@81.12.35.54:2020?security=none&encryption=none&headerType=none&type=tcp#1t%20-%20%40Golestan_VPN

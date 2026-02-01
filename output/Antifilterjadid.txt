@@ -1,4 +1,0 @@
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality&encryption=none&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com#Channel%20%3A%20%40Antifilterjadid
-ss://ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a@104.20.1.252:80?path=%2F%3Fed&security=none&encryption=none&host=WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.&type=ws#Channel%20%3A%20%40Antifilterjadid
-ss://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality&encryption=none&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com#Channel%20%3A%20%40Antifilterjadid
-vless://ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a@104.20.1.252:80?path=%2F%3Fed&security=none&encryption=none&host=WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.&type=ws#Channel%20%3A%20%40Antifilterjadid
