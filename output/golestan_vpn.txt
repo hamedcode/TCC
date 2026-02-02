@@ -1,0 +1,2 @@
+vless://99d620d4-8cb4-4129-a3e3-183939766124@fi2.persianpinggame.ir:9096?security=none&encryption=none&headerType=http&type=tcp#%40Golestan_VPN%20-%20config1
+ss://99d620d4-8cb4-4129-a3e3-183939766124@fi2.persianpinggame.ir:9096?security=none&encryption=none&headerType=http&type=tcp#%40Golestan_VPN%20-%20config1
