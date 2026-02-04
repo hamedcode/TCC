@@ -3963,3 +3963,13 @@ ss://1fd292c7-bfbc-c07a-7443-566c5d57e280@cip-2.toxi-speed.ru:1474?security=none
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx@54.36.174.134:443#🇫🇷 France - 02/04 @Config724
 ss://f91b9e49-0cea-4793-9cb8-2d8d41690f47@irfa.speedtest2028.com:3289?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#🇷🇺 Russia - 02/04 @Config724
 ss://9f84a74e-3f27-4b07-92f7-93b6d856012e@91.99.72.144:3789?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#🇩🇪 Germany - 02/04 @Config724
+ss://49d97f86-4589-4570-8e4b-794b49556e42@194.113.226.197:55555?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#🇹🇷 Türkiye - 02/04 @Config724
+vmess://eyJhZGQiOiI1LjE5Ni4yOS4xMjMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Imdvb2dsZS5jb20iLCJpZCI6IjExMmFjMzZmLTNmNTMtNGUyNi04MzcxLWQyNWMwMjhlMWI5YSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjA4MiIsInBzIjoiXHVkODNjXHVkZGViXHVkODNjXHVkZGY3IEZyYW5jZSAtIDAyLzA0IEBDb25maWc3MjQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0
+ss://49d97f86-4589-4570-8e4b-794b49556e42@194.113.226.197:55555?security=none&encryption=none&host=uptvs.com&headerType=http&type=tcp#🇹🇷 Türkiye - 02/04 @Config724
+ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.114.98.0:443?path=%2F&security=tls&encryption=none&insecure=0&host=dev.twistsparrow.xyz&type=ws&allowInsecure=0&sni=dev.twistsparrow.xyz#🏳️ Unknown - 02/04 @Config724
+ss://95e118b4-4352-4218-8493-f20cc7fc467a@46.246.98.74:443?security=reality&encryption=none&pbk=nBJICh1KzfMblaXtSxpTiPIHGg2TKP5PF8nq-89Q6jg&headerType=none&fp=firefox&type=tcp&sni=learn.microsoft.com&sid=6ed3324b#🇸🇪 Sweden - 02/04 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.122:8080#🇬🇧 United Kingdom - 02/04 @Config724
+ss://0c0870b0-a253-4861-84b6-e6ce6777e97c@fa.faraz360.ir:9829?security=none&encryption=none&host=pro30afzar.com&headerType=http&type=tcp#🇮🇷 Iran - 02/04 @Config724
+vless://e0e4848c-32fc-476e-9e02-f84d96c3d871@de1.buyping.org:443?path=%2F&security=none&encryption=none&type=ws#🇮🇷 Iran - 02/04 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.122:8080#🇬🇧 United Kingdom - 02/04 @Config724
+vmess://eyJhZGQiOiJ0aXRhbi5qYWhhbnNvbmljLnNicyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1NDQ0MDAyNi04NjM0LTRiOWYtOGFlNS1hMmM1MWY5YzU4ZGUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IElyYW4gLSAwMi8wNCBAQ29uZmlnNzI0Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ
