@@ -1,2 +1,0 @@
-ss://4fc97f92-d43e-44c5-8427-1e0ea708ef56@37.202.226.200:703?path=%2F&security=none&encryption=none&host=digikala.com&type=ws#%F0%9F%87%B9%F0%9F%87%B7%E2%AD%90%40FBI_PANEL
-vless://4fc97f92-d43e-44c5-8427-1e0ea708ef56@37.202.226.200:703?path=%2F&security=none&encryption=none&host=digikala.com&type=ws#%F0%9F%87%B9%F0%9F%87%B7%E2%AD%90%40FBI_PANEL
