@@ -4010,3 +4010,13 @@ ss://91ffc858-0f92-4214-831d-2c27a207547f@91.98.43.14:24663?path=%2F&security=no
 ss://0c0870b0-a253-4861-84b6-e6ce6777e97c@fa.faraz360.ir:9829?security=none&encryption=none&host=pro30afzar.com&headerType=http&type=tcp#🇮🇷 Iran - 02/04 @Config724
 ss://17cb6777-6eee-424d-a5cd-e7ac5408967a@cc4.drgsm.info:57165?mode=gun&security=reality&encryption=none&pbk=ek-OWCgfisS_Y2sGRaHKk04yp2HP-ZBMUh_cF81zIE8&fp=firefox&spx=%2F&type=grpc&sni=check-host.net&sid=d42b0827#🇮🇷 Iran - 02/04 @Config724
 vless://0c0870b0-a253-4861-84b6-e6ce6777e97c@fa.faraz360.ir:9829?security=none&encryption=none&host=pro30afzar.com&headerType=http&type=tcp#🇮🇷 Iran - 02/04 @Config724
+vless://118abefa-b585-49c5-a342-61d0e75402f5@cdnjs.com:443?path=%2Fbzxqrlws%3Fed%3D2560&security=tls&encryption=none&host=639057258093033836.corolla-perma.info&fp=chrome&type=ws&sni=639057258093033836.corolla-perma.info#🏳️ Unknown - 02/04 @Config724
+vless://05b544a4-d479-4ba4-8208-950bd4411453@45.89.105.56:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#🇮🇳 India - 02/04 @Config724
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.135:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 United States - 02/04 @Config724
+ss://98d677be-b14b-4c14-a96b-4a39a3be645a@www.speedtest.net:443?path=%2FeyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev#🏳️ Unknown - 02/04 @Config724
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.135:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 United States - 02/04 @Config724
+vless://957d0930-8730-4923-b58c-6c0d640418bd@vipde7.persianhostnet.ir:9094?security=none&encryption=none&host=filmnet.ir&headerType=http&type=tcp#🇮🇷 Iran - 02/04 @Config724
+ss://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 United States - 02/04 @Config724
+ss://1a94fbd9-79d2-4aa7-bf1d-074f678d27ab@104.20.1.252:80?path=%2F%3Fed&security=none&encryption=none&host=EqUiPPed-phOToZkoA7K5e6P.eCoTOuRiss.Co.uk.&type=ws#🏳️ Unknown - 02/04 @Config724
+vless://68c89f56-3a15-46f2-9901-8c00a2546b97@172.64.144.74:443?path=%2F&security=tls&encryption=none&insecure=0&host=rukawa.pages.dev&type=ws&allowInsecure=0&sni=rukawa.pages.dev#🏳️ Unknown - 02/04 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇬🇧 United Kingdom - 02/04 @Config724
