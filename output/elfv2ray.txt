@@ -1,0 +1,2 @@
+ss://a045adda-3023-358d-af8d-ef91f7a14e32@188.0.247.26:64604?security=none&encryption=none&headerType=none&type=tcp#%40ELFV2RAY
+vless://a045adda-3023-358d-af8d-ef91f7a14e32@188.0.247.26:64604?security=none&encryption=none&headerType=none&type=tcp#%40ELFV2RAY
