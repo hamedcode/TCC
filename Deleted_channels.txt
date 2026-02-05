@@ -1,5 +1,5 @@
 argo_vpn1
-
+"@appsooner": [],
 flyv2ray
 ShadowProxy66
 achavpn
