@@ -1,0 +1,2 @@
+ss://22b423c7-3b27-4dfb-bbce-827f04d1b7e1@test.zepshop.shop:8443?security=reality&encryption=none&pbk=uJvAr6Io5isiSioRUXzXpBDkf79SbJ4Q1AZTxbn6h3U&headerType=none&fp=chrome&type=tcp&sni=sourceforge.net#%F0%9F%9A%80%20Antifilterjadid
+vless://22b423c7-3b27-4dfb-bbce-827f04d1b7e1@test.zepshop.shop:8443?security=reality&encryption=none&pbk=uJvAr6Io5isiSioRUXzXpBDkf79SbJ4Q1AZTxbn6h3U&headerType=none&fp=chrome&type=tcp&sni=sourceforge.net#%F0%9F%9A%80%20Antifilterjadid
