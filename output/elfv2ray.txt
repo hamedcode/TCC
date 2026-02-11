@@ -1,0 +1,2 @@
+vless://4c1c1ede-416e-4432-8532-1610cb5f5dda@95.38.242.222:8443?security=none&encryption=none&host=tgju.org&headerType=http&type=tcp#%40ELFV2RAY
+ss://4c1c1ede-416e-4432-8532-1610cb5f5dda@95.38.242.222:8443?security=none&encryption=none&host=tgju.org&headerType=http&type=tcp#%40ELFV2RAY

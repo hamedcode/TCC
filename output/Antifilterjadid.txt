@@ -1,0 +1,2 @@
+ss://127e3e52-0aad-46ec-a5b1-51b32e0de0b9@deu672.lackerdeu.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.fh-aachen.de#%40Antifilterjadid♡
+vless://127e3e52-0aad-46ec-a5b1-51b32e0de0b9@deu672.lackerdeu.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.fh-aachen.de#%40Antifilterjadid♡
