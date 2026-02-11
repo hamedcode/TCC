@@ -1,2 +1,0 @@
-vless://c82e532b-4569-45ef-afbf-c427a728c4ac@l4m5usjr4x5.ab05ij.starwayvpn.com:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&packetEncoding=xudp#Azadnet%20Germany1
-ss://c82e532b-4569-45ef-afbf-c427a728c4ac@l4m5usjr4x5.ab05ij.starwayvpn.com:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&packetEncoding=xudp#Azadnet%20Germany1
