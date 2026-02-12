@@ -5075,3 +5075,13 @@ vmess://eyJhZGQiOiI5NS4yMTYuMTgzLjExMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 ss://a2626d27-e0f8-490d-b23c-c9ca0dea4ea9@Dnss.iraniranshopdashnoard.ir:2082?path=%2F%3Fed%3D1024&security=none&encryption=none&host=Pishgam.mehrsazi.ir&type=httpupgrade#🏳️ Unknown - 02/12 @Config724
 ss://1f70e732-e72d-4535-b494-a595d4df4b0b@2sudo.winapp3.ir:8443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=master.red-cow.de#🇸🇨 Seychelles - 02/12 @Config724
 vless://3e6be719-189d-407c-928c-094a05045b39@rably-m.izumii.ir:2098?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇩🇪 Germany - 02/12 @Config724
+ss://YWVzLTI1Ni1nY206N3ZaTzU1ZlhnWEFKWGEyRg@154.12.242.150:443#🇺🇸 United States - 02/12 @Config724
+vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@104.16.2.90:443?path=%2F43.218.77.16%3D1443&security=tls&encryption=none&insecure=0&host=afrcloud22.mmv.kr&type=ws&allowInsecure=0&sni=ProxyVPN11.afrcloud22.mmv.kr#🏳️ Unknown - 02/12 @Config724
+ss://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@18.156.73.211:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 02/12 @Config724
+ss://e5f8a9f6-f164-479b-b3b5-b90f213c7145@104.18.185.26:2053?path=%2F&security=tls&encryption=none&insecure=1&host=ir1.airpanel.top&type=ws&allowInsecure=1&sni=ir1.airpanel.top#🏳️ Unknown - 02/12 @Config724
+vless://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@18.156.73.211:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 02/12 @Config724
+ss://eyJhZGQiOiI5NS4yMTYuMTgzLjExMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMThmNDQ1OS0wNTZlLTRjNDEtOTBjZS0xMmNiYzJjNjcwYjIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQyMTUyIiwicHMiOiJAdnBuYmF6IPCfjoAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#🏳️ Unknown - 02/12 @Config724
+ss://YWVzLTI1Ni1nY206akpIcTgwN2JRN1RNMHlPaA@94.72.127.58:80#🇺🇸 United States - 02/12 @Config724
+ss://f84ab055-3ffe-4a90-aad3-30596550b03c@sad24.ahg6k.1k3dv.carvan3.mimkiscx.ir:2095?path=%2F%3Fed%3D2087&security=none&encryption=none&host=beh1.salonemojallal.ir.&type=httpupgrade#🇷🇴 Romania - 02/12 @Config724
+ss://YWVzLTI1Ni1nY206MHRXd09FcnF6NWZORWxpZA@62.146.172.134:443#🇺🇸 United States - 02/12 @Config724
+vless://7d3a8052-09ee-48f7-8a19-3e24f30a7da1@104.27.25.72:443?path=%2FuqBYRQhpA2NzSIhejwuqjz%23&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=de001c.ketabv.ir&fp=chrome&type=ws&allowInsecure=0&sni=de001c.ketabv.ir#🏳️ Unknown - 02/12 @Config724
