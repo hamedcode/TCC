@@ -6008,3 +6008,13 @@ vless://e6cf712c-7c48-466c-aaed-4154b276a4a4@91.107.208.24:443?security=none&enc
 ss://ea6b03ef-8356-4a8c-abe4-eade7a4806e4@163.172.29.106:8443?path=%2Fvless%2F&security=tls&encryption=none&type=ws#🇫🇷 France - 02/17 @Config724
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.129.137.58:443?path=%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40V2rayBaaz&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#🇬🇧 United Kingdom - 02/17 @Config724
 ss://b5af4bf6-9a1e-4633-8764-30082a1be396@194.61.3.100:17799?security=none&encryption=none&host=ripe.net&headerType=http&type=tcp#🇬🇧 United Kingdom - 02/17 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@3.1.195.148:8319#🇸🇬 Singapore - 02/17 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@3.1.195.148:8319#🇸🇬 Singapore - 02/17 @Config724
+ss://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 02/17 @Config724
+vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 02/17 @Config724
+vless://79623191-ec26-4c9a-8021-50713c67dfe2@host.snapfood.org:443?path=%2Fukspeed&security=tls&alpn=http%2F1.1&encryption=none&insecure=1&host=snapfood.org&fp=chrome&type=ws&allowInsecure=1&sni=snapfood.org#🏳️ Unknown - 02/17 @Config724
+ss://0331b690-79fc-49d5-85f0-54faa4eff89f@go.adslimit.info:2345?security=none&encryption=none&headerType=none&type=tcp#🇬🇧 United Kingdom - 02/17 @Config724
+vless://10371edf-4e5a-46a5-bd19-c301ce371d14@mail.norton-v.cfd:1517?security=none&encryption=none&host=testspeed-foreign.tci.ir&headerType=http&type=tcp#🇩🇪 Germany - 02/17 @Config724
+ss://106177e9-0f75-48de-8227-f0b3fb7b2b03@Chatgpt.com:2083?path=%2FeyJqdW5rIjoiZ1lLMDZyMmcyRjJ4YyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=falling-brook-a15c.lavaha2963.workers.dev&fp=chrome&type=ws&sni=FALLiNG-BrOok-a15C.lAVaha2963.worKers.Dev#🏳️ Unknown - 02/17 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NW84NnVrSDJhRkpNTmFlcHZIUktw@92.118.112.101:9483#🇺🇸 United States - 02/17 @Config724
+vless://b04b9985-25ce-4c33-b2f7-fbd8d1b21347@fans2.mahoshid.ir:45471?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 02/17 @Config724
