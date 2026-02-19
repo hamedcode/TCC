@@ -9,3 +9,4 @@ DeamNet_Proxy
 DirectVPN
 Outline_Vpn
 configt
+"@V2rayBaaz": [],
