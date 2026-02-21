@@ -1,0 +1,2 @@
+ss://63ae782f-6ba2-44e5-93cc-a1b200fff564@firan.dtgoldservices.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=firan.dtgoldservices.com#%40TEHRANARGO
+vless://63ae782f-6ba2-44e5-93cc-a1b200fff564@firan.dtgoldservices.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=firan.dtgoldservices.com#%40TEHRANARGO
