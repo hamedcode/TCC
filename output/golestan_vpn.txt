@@ -1,2 +1,0 @@
-vless://Golestan-vpn3@www.speedtest.net:2053?path=%2F%3Fed%3D2048&security=tls&alpn=h2&encryption=none&host=dl.immerchauffage.ir.&fp=random&type=ws&sni=dl.immerchauffage.ir.#%40Golestan_VPN%20-%20%F0%9F%86%93%F0%9F%95%8A%EF%B8%8F
-ss://Golestan-vpn3@www.speedtest.net:2053?path=%2F%3Fed%3D2048&security=tls&alpn=h2&encryption=none&host=dl.immerchauffage.ir.&fp=random&type=ws&sni=dl.immerchauffage.ir.#%40Golestan_VPN%20-%20%F0%9F%86%93%F0%9F%95%8A%EF%B8%8F

@@ -1,8 +1,0 @@
-vless://d9a83363-40a6-4a21-9dbe-cb2b7d287048@104.26.15.21:443?path=%2F107.174.121.122%3D443&security=tls&encryption=none&insecure=0&host=afrcloud22.mmv.kr&type=ws&allowInsecure=0&sni=afrcloud22.mmv.kr#%40V2RAYROZ%20%7C%20%F0%9F%8D%91
-vless://9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1@37.139.42.234:4443?security=reality&encryption=none&pbk=-kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI&headerType=none&fp=chrome&type=tcp&sni=yandex.ru&sid=6670#%40V2RAYROZ%20%7C%20%F0%9F%91%BB
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTU21mbDRUcTFyUmxCN2JvRFkzamx0@94.131.123.86:35361#%40V2RAYROZ%20%7C%20%F0%9F%8D%95
-vless://fd2a640b-efc5-478c-ad06-bba48de7e256@ss.mrrnasr.ir:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=rxiptamiz.global.ssl.fastly.net&fp=firefox&type=xhttp&allowInsecure=0&sni=rxiptamiz.global.ssl.fastly.net#%40V2RAYROZ%20%7C%20%F0%9F%8D%95
-ss://9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1@37.139.42.234:4443?security=reality&encryption=none&pbk=-kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI&headerType=none&fp=chrome&type=tcp&sni=yandex.ru&sid=6670#%40V2RAYROZ%20%7C%20%F0%9F%91%BB
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#%40V2RAYROZ%20%7C%20%F0%9F%8D%95
-ss://d9a83363-40a6-4a21-9dbe-cb2b7d287048@104.26.15.21:443?path=%2F107.174.121.122%3D443&security=tls&encryption=none&insecure=0&host=afrcloud22.mmv.kr&type=ws&allowInsecure=0&sni=afrcloud22.mmv.kr#%40V2RAYROZ%20%7C%20%F0%9F%8D%91
-ss://fd2a640b-efc5-478c-ad06-bba48de7e256@ss.mrrnasr.ir:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=rxiptamiz.global.ssl.fastly.net&fp=firefox&type=xhttp&allowInsecure=0&sni=rxiptamiz.global.ssl.fastly.net#%40V2RAYROZ%20%7C%20%F0%9F%8D%95
