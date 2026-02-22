@@ -1,2 +1,0 @@
-vless://6fab6cc6-e340-4073-93e1-c6c6802002c7@104.26.14.21:443?path=%2F167.179.110.68%3D8443&security=tls&encryption=none&host=afrcloud22.mmv.kr&type=ws&sni=afrcloud22.mmv.kr#%40Antifilterjadid
-ss://6fab6cc6-e340-4073-93e1-c6c6802002c7@104.26.14.21:443?path=%2F167.179.110.68%3D8443&security=tls&encryption=none&host=afrcloud22.mmv.kr&type=ws&sni=afrcloud22.mmv.kr#%40Antifilterjadid
