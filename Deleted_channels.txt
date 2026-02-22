@@ -10,3 +10,5 @@ DirectVPN
 Outline_Vpn
 configt
 "@V2rayBaaz": [],
+
+"@TEHRANARGO": [],
