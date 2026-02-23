@@ -1,4 +1,0 @@
-ss://f829b550-6215-43ad-b8af-ad0cf9eff238@91.107.154.33:443?type=xhttp&encryption=none&path=%2F&host=&mode=auto&security=reality&pbk=FJb2lztjorICm0c4cJT4jUafnMSBQIjP7-nZr9DDoD0&fp=chrome&sni=stackoverflow.com&spx=%2F#%40EXPRESSVPN_420
-vless://647ae650-8374-42c8-80a2-3c04c529f6c2@ss.mrrnasr.ir:443?mode=auto&security=tls&encryption=none&insecure=1&host=mopd.global.ssl.fastly.net.&type=xhttp&allowInsecure=1&sni=speedtest.net#%F0%9F%87%A9%F0%9F%87%AA%40EXPRESSVPN_420
-vless://f829b550-6215-43ad-b8af-ad0cf9eff238@91.107.154.33:443?type=xhttp&encryption=none&path=%2F&host=&mode=auto&security=reality&pbk=FJb2lztjorICm0c4cJT4jUafnMSBQIjP7-nZr9DDoD0&fp=chrome&sni=stackoverflow.com&spx=%2F#%40EXPRESSVPN_420
-ss://647ae650-8374-42c8-80a2-3c04c529f6c2@ss.mrrnasr.ir:443?mode=auto&security=tls&encryption=none&insecure=1&host=mopd.global.ssl.fastly.net.&type=xhttp&allowInsecure=1&sni=speedtest.net#%F0%9F%87%A9%F0%9F%87%AA%40EXPRESSVPN_420
