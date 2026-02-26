@@ -1,4 +1,0 @@
-ss://ba94b6f7-bb57-4ace-972a-b3ee709ddbf6@family.mikayouiu.ir:57025?type=tcp&encryption=none&path=%2F&host=speed+test.net&headerType=http&security=none#VIP%20CANADA-qzzmo4pg
-vless://ba94b6f7-bb57-4ace-972a-b3ee709ddbf6@family.mikayouiu.ir:57025?type=tcp&encryption=none&path=%2F&host=speed+test.net&headerType=http&security=none#VIP%20CANADA-qzzmo4pg
-vless://ba94b6f7-bb57-4ace-972a-b3ee709ddbf6@family.mikayouiu.ir:57025?encryption=none&security=none&type=tcp&headerType=http&host=myket.ir#VIP%20CANADA-qzzmo4pg
-ss://ba94b6f7-bb57-4ace-972a-b3ee709ddbf6@family.mikayouiu.ir:57025?encryption=none&security=none&type=tcp&headerType=http&host=myket.ir#VIP%20CANADA-qzzmo4pg
