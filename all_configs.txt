@@ -1,2 +1,0 @@
-vless://b406a374-b6ee-402e-8185-0556d02045a4@194.36.174.154:9092?security=none&encryption=none&headerType=none&type=tcp#%40EXPRESSVPN_420
-ss://b406a374-b6ee-402e-8185-0556d02045a4@194.36.174.154:9092?security=none&encryption=none&headerType=none&type=tcp#%40EXPRESSVPN_420
