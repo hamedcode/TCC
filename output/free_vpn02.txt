@@ -1,8 +1,0 @@
-vless://a36c66e0-b38a-42db-b647-76cb9e544203@173.245.59.53:443?encryption=none&type=ws&host=po-7ll.pages.dev&path=/?ed%3D2560&security=tls&fp=chrome&sni=po-7ll.pages.dev#@FREE_VPN02
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@ipbaz.ping-box.com:2096?encryption=none&type=ws&host=sni.111000.indevs.in&path=/?ed%3D2560&security=tls&fp=chrome&sni=sni.111000.indevs.in#@FREE_VPN02
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@156.225.72.238:2096?encryption=none&type=ws&host=sni.jpmj.dev&path=/?ed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%20@wangcai2&security=tls&fp=chrome&sni=sni.jpmj.dev#@FREE_VPN02
-ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.29:23576?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=fuck.rkn&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#@FREE_VPN02
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.29:23576?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=fuck.rkn&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#@FREE_VPN02
-ss://a36c66e0-b38a-42db-b647-76cb9e544203@173.245.59.53:443?encryption=none&type=ws&host=po-7ll.pages.dev&path=/?ed%3D2560&security=tls&fp=chrome&sni=po-7ll.pages.dev#@FREE_VPN02
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@ipbaz.ping-box.com:2096?encryption=none&type=ws&host=sni.111000.indevs.in&path=/?ed%3D2560&security=tls&fp=chrome&sni=sni.111000.indevs.in#@FREE_VPN02
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@156.225.72.238:2096?encryption=none&type=ws&host=sni.jpmj.dev&path=/?ed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%20@wangcai2&security=tls&fp=chrome&sni=sni.jpmj.dev#@FREE_VPN02
