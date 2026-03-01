@@ -6621,3 +6621,7 @@ vless://89038685-e5f4-4315-8cac-325e122f9ce2@srv-germany.hajimamadcloud.com.tr:1
 vless://25b8253c-459d-4246-feff-8704baeefaa6@mtn3.persiangames.link:2472?security=none&encryption=none&host=filimo.com&headerType=http&type=tcp#🇮🇷 Iran - 02/28 @Config724
 ss://b9a5e994-ad7d-21db-b44a-5906b9dfdea2@netherland.mytopmedia.sbs:28961?security=none&encryption=none&host=fast.com&headerType=http&type=tcp&sni=netherland.mytopmedia.sbs#🇮🇷 Iran - 03/01 @Config724
 vless://b9a5e994-ad7d-21db-b44a-5906b9dfdea2@netherland.mytopmedia.sbs:28961?security=none&encryption=none&host=fast.com&headerType=http&type=tcp&sni=netherland.mytopmedia.sbs#🇮🇷 Iran - 03/01 @Config724
+vless://0826d9e8-71b2-4953-8b2e-37be79b42cc8@94.183.241.105:15254?security=reality&encryption=none&pbk=9JJRjxXc9PNe3GUhBy_3tY9ofZbgeT0i7jg1-Df-uzo&headerType=none&fp=firefox&type=tcp&sni=yahoo.com&sid=acbe3df1#🇮🇷 Iran - 03/01 @Config724
+ss://0826d9e8-71b2-4953-8b2e-37be79b42cc8@94.183.241.105:15254?security=reality&encryption=none&pbk=9JJRjxXc9PNe3GUhBy_3tY9ofZbgeT0i7jg1-Df-uzo&headerType=none&fp=firefox&type=tcp&sni=yahoo.com&sid=acbe3df1#🇮🇷 Iran - 03/01 @Config724
+ss://dd62ad89-d3ae-4672-9391-786e57f643b9@curt243.empire2.ir:2384?mode=gun&security=tls&encryption=none&type=grpc&sni=speedtest.net#🇮🇷 Iran - 03/01 @Config724
+vless://dd62ad89-d3ae-4672-9391-786e57f643b9@curt243.empire2.ir:2384?mode=gun&security=tls&encryption=none&type=grpc&sni=speedtest.net#🇮🇷 Iran - 03/01 @Config724
