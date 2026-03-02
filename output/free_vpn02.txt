@@ -1,0 +1,12 @@
+vless://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@BloG2.taNUpload.tOp:62443?encryption=none&type=tcp&headerType=http&host=cafeariel.ir&security=none#@free_vpn02
+vless://a93b38ca-9903-49b5-983a-993b555299d1@st3.zlpmsa.top:21443?encryption=none&type=tcp&headerType=http&host=isna.ir&path=/#@FREE_VPN02
+vless://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@sV.taNuploAD.TOp:64443?encryption=none&type=tcp&headerType=http&host=cafebazaar.ir&security=none#@free_vpn02
+ss://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@dOWn.irHOstdownload.Top:60443?encryption=none&type=tcp&headerType=http&host=uptvs.com&security=none#@free_vpn02
+ss://ebb0c7d6-0983-41c6-95c8-fd6351dd254c@ir3.yooznet.top:9001?encryption=none&type=tcp&headerType=http&host=speedtest.net&security=none#@FREE_VPN02-@FREE_VPN02
+vless://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@PaN1.taNuplOad.top:61443?encryption=none&type=tcp&headerType=http&host=isna.ir&security=none#@free_vpn02
+ss://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@PaN1.taNuplOad.top:61443?encryption=none&type=tcp&headerType=http&host=isna.ir&security=none#@free_vpn02
+vless://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@dOWn.irHOstdownload.Top:60443?encryption=none&type=tcp&headerType=http&host=uptvs.com&security=none#@free_vpn02
+ss://a93b38ca-9903-49b5-983a-993b555299d1@st3.zlpmsa.top:21443?encryption=none&type=tcp&headerType=http&host=isna.ir&path=/#@FREE_VPN02
+vless://ebb0c7d6-0983-41c6-95c8-fd6351dd254c@ir3.yooznet.top:9001?encryption=none&type=tcp&headerType=http&host=speedtest.net&security=none#@FREE_VPN02-@FREE_VPN02
+ss://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@sV.taNuploAD.TOp:64443?encryption=none&type=tcp&headerType=http&host=cafebazaar.ir&security=none#@free_vpn02
+ss://22539a4e-2975-4586-99a4-2bfaeb9ccd2b@BloG2.taNUpload.tOp:62443?encryption=none&type=tcp&headerType=http&host=cafeariel.ir&security=none#@free_vpn02
