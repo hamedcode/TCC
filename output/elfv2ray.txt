@@ -6,7 +6,7 @@ ss://1af7c6b3-e35e-4a47-90e5-cb082a24e6ec@de-3-tun-single.starping1.fun:8083?sec
 ss://d56986a8-571b-40ab-b1ad-1dca467d19f0@de-2-tun-single.starping1.fun:8083?security=none&allowInsecure=0&encryption=none&type=tcp&host=www.speedtest.net&path=/&headerType=http#%40filembad
 ss://746efc86-3ff7-472c-8b0d-3f0beb340e37@fi2.lntunvip.com:2028?security=none&allowInsecure=0&encryption=none&type=tcp&host=skyroom.online&path=/&headerType=http#%40filembad
 vmess://eyJhZGQiOiJubDEuaXJhbmlzaG9wcy5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im15a2V0LmlyIiwiaWQiOiI0YjNmN2MxNi1iNTNjLTAyNTQtMTRiNy0yYjEyYzdiYjUyZTEiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDMiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
-ss://6b4ab090-4f62-4c5d-ac32-26bbae1766fa@vip.oneplus2online.com:50063?security=&encryption=none&host=speedtest.net&headerType=http&type=tcp#%40Elfv2ray
+vless://cb291410-7553-473a-8c68-eab8604420a4@diddy.com:8080?security=none&type=httpupgrade&headerType=&path=%2F%3Fed%3D2056&host=tspaim.abcdefiran.ir#%40filembad
 vless://d56986a8-571b-40ab-b1ad-1dca467d19f0@de-2-tun-single.starping1.fun:8083?security=none&allowInsecure=0&encryption=none&type=tcp&host=www.speedtest.net&path=/&headerType=http#%40filembad
 ss://eyJhZGQiOiJubDEuaXJhbmlzaG9wcy5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im15a2V0LmlyIiwiaWQiOiI0YjNmN2MxNi1iNTNjLTAyNTQtMTRiNy0yYjEyYzdiYjUyZTEiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDMiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
-vless://cb291410-7553-473a-8c68-eab8604420a4@diddy.com:8080?security=none&type=httpupgrade&headerType=&path=%2F%3Fed%3D2056&host=tspaim.abcdefiran.ir#%40filembad
+ss://6b4ab090-4f62-4c5d-ac32-26bbae1766fa@vip.oneplus2online.com:50063?security=&encryption=none&host=speedtest.net&headerType=http&type=tcp#%40Elfv2ray
