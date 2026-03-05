@@ -6748,3 +6748,5 @@ vmess://eyJhZGQiOiJvZ2hhYm9ubGluZXZpcHMuY29tIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRw
 ss://326960b8-7fa6-42f4-98cc-bbb868a6106d@s1.fastsnap.info:20943?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/05 @Config724
 vless://9fb5b533-932e-4c00-a325-564b90a19e39@94.183.241.160:81?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/05 @Config724
 ss://9fb5b533-932e-4c00-a325-564b90a19e39@94.183.241.160:81?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/05 @Config724
+vless://c3a8f526-6f41-4884-adb8-f33b4ec30fa6@v2.royalway.shop:2053?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/05 @Config724
+ss://c3a8f526-6f41-4884-adb8-f33b4ec30fa6@v2.royalway.shop:2053?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/05 @Config724
