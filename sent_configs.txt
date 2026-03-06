@@ -6750,3 +6750,9 @@ vless://9fb5b533-932e-4c00-a325-564b90a19e39@94.183.241.160:81?security=none&enc
 ss://9fb5b533-932e-4c00-a325-564b90a19e39@94.183.241.160:81?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/05 @Config724
 vless://c3a8f526-6f41-4884-adb8-f33b4ec30fa6@v2.royalway.shop:2053?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/05 @Config724
 ss://c3a8f526-6f41-4884-adb8-f33b4ec30fa6@v2.royalway.shop:2053?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/05 @Config724
+vless://6a6f8ec9-f485-491e-ba65-7e8c0a2f8608@VIP2.xQFire.iR:812?encryption=none&type=tcp&headerType=http&host=telewebion.com#🇮🇷 Iran - 03/06 @Config724
+ss://eyJ0eXBlIjoibm9uZSIsImlkIjoiZWJhNTUzYzAtOGYzZi00YWE3LWYyNjEtZTFkZTRlMjZkZDJmIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJwcyI6IiU0MEZSRUVfVlBOMDIiLCJhZGQiOiI5NC4xMDEuMTg1LjUzIiwibmV0IjoidGNwIiwicG9ydCI6IjgwODAiLCJzY3kiOiJhdXRvIn0=#🏳️ Unknown - 03/06 @Config724
+ss://2a628533-74e2-40b7-a072-68140e922414@s4.farzandeiran.com:443?encryption=none&type=tcp&headerType=http&host=telewebion.ir&security=none#🇮🇷 Iran - 03/06 @Config724
+ss://6a6f8ec9-f485-491e-ba65-7e8c0a2f8608@VIP2.xQFire.iR:812?encryption=none&type=tcp&headerType=http&host=telewebion.com#🇮🇷 Iran - 03/06 @Config724
+vless://2a628533-74e2-40b7-a072-68140e922414@s4.farzandeiran.com:443?encryption=none&type=tcp&headerType=http&host=telewebion.ir&security=none#🇮🇷 Iran - 03/06 @Config724
+vmess://eyJ0eXBlIjoibm9uZSIsImlkIjoiZWJhNTUzYzAtOGYzZi00YWE3LWYyNjEtZTFkZTRlMjZkZDJmIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJwcyI6Ilx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmNyBJcmFuIC0gMDMvMDYgQENvbmZpZzcyNCIsImFkZCI6Ijk0LjEwMS4xODUuNTMiLCJuZXQiOiJ0Y3AiLCJwb3J0IjoiODA4MCIsInNjeSI6ImF1dG8ifQ
