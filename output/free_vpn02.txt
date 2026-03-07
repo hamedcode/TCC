@@ -1,2 +1,0 @@
-ss://40b7b531-1399-4700-bc7e-d38269ea7238@185.136.135.172:41001?encryption=none&type=tcp&headerType=http&host=fast.com&security=none#%D8%AC%D9%88%DB%8C%D9%86+%D8%B4%D9%88%20@FREE_VPN02
-vless://40b7b531-1399-4700-bc7e-d38269ea7238@185.136.135.172:41001?encryption=none&type=tcp&headerType=http&host=fast.com&security=none#%D8%AC%D9%88%DB%8C%D9%86+%D8%B4%D9%88%20@FREE_VPN02
