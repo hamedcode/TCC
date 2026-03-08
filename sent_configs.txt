@@ -6772,3 +6772,5 @@ ss://dd6bfa3e-f984-4cae-9637-94012337607b@ir4.reata1.ir:40004?encryption=none&ty
 ss://dd6bfa3e-f984-4cae-9637-94012337607b@ir3.reata1.ir:40003?encryption=none&type=tcp&headerType=http&host=cafeariel.ir&security=none#🇮🇷 Iran - 03/07 @Config724
 vless://dd6bfa3e-f984-4cae-9637-94012337607b@ir4.reata1.ir:40004?encryption=none&type=tcp&headerType=http&host=cafeariel.ir&security=none#🇮🇷 Iran - 03/07 @Config724
 vless://7f6bd5dd-4f3f-c4d3-72bc-f9c24ce33936@lord.socialxxmedia.pro:440?encryption=none&type=tcp&headerType=http&host=fast.com&security=none#🇮🇷 Iran - 03/07 @Config724
+vless://e7477159-9f03-4dd4-b743-13c268c34f49@sdl13.shahramv1.site:80?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/08 @Config724
+ss://e7477159-9f03-4dd4-b743-13c268c34f49@sdl13.shahramv1.site:80?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/08 @Config724
