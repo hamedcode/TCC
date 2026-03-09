@@ -1,2 +1,0 @@
-vless://c4f3418c-6151-4371-8fec-56a969417d3f@digi.sorcepack.ir:44693?security=none&encryption=none&headerType=http&type=tcp#@AvaalVPN
-ss://c4f3418c-6151-4371-8fec-56a969417d3f@digi.sorcepack.ir:44693?security=none&encryption=none&headerType=http&type=tcp#@AvaalVPN
