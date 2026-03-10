@@ -1,7 +1,0 @@
-vless://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=%2F&security=none&encryption=none&type=ws#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%86%D9%87%D8%A7%D9%86%D8%AA%20%40ai_duet
-ss://06750866-200c-42c6-bd2c-80ee499b828f@haji.arezoni1.ir:666?security=none&encryption=none&headerType=none&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%86%D9%87%D8%A7%D9%86%D8%AA%20%40ai_duet
-vless://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=%2F&security=none&encryption=none&type=ws#%40ai_duet%20%D8%AC%D9%88%DB%8C%DB%8C%D9%86%20%D8%A8%D8%AF%D9%87
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WjdqcEhQaFhRdVkvQ0o3bmdway9GeEYrR3FCV2Q0S0IyRkxYV2JxWXBYST06c2xmUTNzVmprcVVyZ0ZQTk5mSkZtaXpCQ2ZOWGhiWVIreko4TEJlM243UT0@95.216.238.249:37337#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%86%D9%87%D8%A7%D9%86%D8%AA%20%40ai_duet
-vless://06750866-200c-42c6-bd2c-80ee499b828f@haji.arezoni1.ir:666?security=none&encryption=none&headerType=none&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%86%D9%87%D8%A7%D9%86%D8%AA%20%40ai_duet
-ss://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=%2F&security=none&encryption=none&type=ws#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%86%D9%87%D8%A7%D9%86%D8%AA%20%40ai_duet
-ss://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=%2F&security=none&encryption=none&type=ws#%40ai_duet%20%D8%AC%D9%88%DB%8C%DB%8C%D9%86%20%D8%A8%D8%AF%D9%87
