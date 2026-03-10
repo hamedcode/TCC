@@ -6790,3 +6790,13 @@ ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WjdqcEhQaFhRdVkvQ0o3bmdway9GeEYrR3FCV2Q0S0I
 vless://06750866-200c-42c6-bd2c-80ee499b828f@haji.arezoni1.ir:666?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/09 @Config724
 ss://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=%2F&security=none&encryption=none&type=ws#🇮🇷 Iran - 03/09 @Config724
 ss://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=%2F&security=none&encryption=none&type=ws#🇮🇷 Iran - 03/09 @Config724
+ss://dc511961-f6f9-4c40-d6ea-e8a85ab74f77@farzandeiran.iransalar.top:45179?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷 Iran - 03/10 @Config724
+vless://dc511961-f6f9-4c40-d6ea-e8a85ab74f77@farzandeiran.iransalar.top:45179?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷 Iran - 03/10 @Config724
+ss://309fa273-6579-4cb2-9143-7cad50401eba@77.91.74.179:8443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🇮🇱 Israel - 03/10 @Config724
+ss://15755902-9658-41a2-b488-418aece2f6fb@151.101.65.194:80?mode=auto&path=%2FTignaliSWithYou&security=none&encryption=none&host=tignaltofan.global.ssl.fastly.nt&type=xhttp#🇺🇸 United States - 03/10 @Config724
+vless://bbc3bc76-3118-4fd8-9d8b-23519078ea2f@taktun2.majalekhodrostore.ir:50325?security=none&encryption=none&host=ikcosales.ir&headerType=http&type=tcp#🇮🇷 Iran - 03/10 @Config724
+vless://d3bd917a-cd7c-85c9-caa5-557cc2a5cd82@photon.unlimiteds.site:660?security=none&encryption=none&host=fast.com&headerType=http&type=tcp&path=#🇮🇷 Iran - 03/10 @Config724
+vless://d480179e-77ee-44f7-9fde-c66ad72e04ac@beta.tomandjery.eu:1002?security=reality&allowInsecure=0&encryption=none&type=tcp&sni=play.google.com&sid=6ba85179e30d4fc2&fp=firefox&pbk=8kF3OSt4WYVsMqvbgoq2wGzRXk05az1AeVE2v9596V8&headerType=none#🇮🇷 Iran - 03/10 @Config724
+vless://e9350dfa-fa5c-11f0-a1cb-920006d3a56e@94.183.165.200:80?security=none&type=tcp&headerType=http&path=%2F&host=mir-data-60.myket.ir#🇮🇷 Iran - 03/10 @Config724
+vless://6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a@ae2.suio.me:443?security=tls&encryption=none&headerType=none&type=tcp&sni=ae2.suio.me#🇺🇸 United States - 03/10 @Config724
+ss://d463f08d-10ee-449a-82fe-437795d95ae4@mh52M5fSx0.zTZS0jb1r6G4z9mN9o2c.realytag.com:883?security=none&encryption=none&host=skyroom.online%2Cgharar.ir%2Cigap.net&headerType=http&type=tcp#🇮🇷 Iran - 03/10 @Config724
