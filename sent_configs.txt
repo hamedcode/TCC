@@ -6854,3 +6854,5 @@ vless://d0b47176-f37b-4d3c-9350-2281a0398910@sh.hiipishishop.ir:443?security=non
 ss://test@127.0.0.1:8080?encryption=none&security=none&type=tcp&headerType=none#🏳️ Unknown - 03/11 @Config724
 vless://86a382d7-2622-4581-a455-599c70679d02@185.206.231.57:36522?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/11 @Config724
 ss://86a382d7-2622-4581-a455-599c70679d02@185.206.231.57:36522?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/11 @Config724
+vless://d0b47176-f37b-4d3c-9350-2281a0398910@sh.hiipishishop.ir:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#🇮🇷 Iran - 03/11 @Config724
+vless://86a382d7-2622-4581-a455-599c70679d02@185.206.231.57:36522?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/11 @Config724
