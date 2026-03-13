@@ -1,2 +1,0 @@
-ss://bee93b9a-8295-486c-9fb9-f28d108d77a9@188.114.98.0:443?encryption=none&security=tls&sni=dll1.rangsardi13.ir&fp=chrome&insecure=0&allowInsecure=0&type=xhttp&host=dll1.rangsardi13.ir&path=dl%3Fed%3D2560&mode=auto#%E2%9A%AA%EF%B8%8FBaraye_azadi_info
-vless://bee93b9a-8295-486c-9fb9-f28d108d77a9@188.114.98.0:443?encryption=none&security=tls&sni=dll1.rangsardi13.ir&fp=chrome&insecure=0&allowInsecure=0&type=xhttp&host=dll1.rangsardi13.ir&path=dl%3Fed%3D2560&mode=auto#%E2%9A%AA%EF%B8%8FBaraye_azadi_info
