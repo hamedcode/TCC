@@ -6892,3 +6892,5 @@ ss://f17c7e6f-8a11-4df7-be86-15a451082398@45.94.215.190:40985?security=none&encr
 ss://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
 vless://f17c7e6f-8a11-4df7-be86-15a451082398@45.94.215.190:40985?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/27 @Config724
 vless://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
+ss://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
+vless://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
