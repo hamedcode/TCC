@@ -6888,3 +6888,7 @@ vless://812d0507-c8bc-ffe5-ec36-0b6917d92108@cloud.vpsino.com:63822?security=non
 ss://812d0507-c8bc-ffe5-ec36-0b6917d92108@cloud.vpsino.com:63822?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/23 @Config724
 vless://910fac92-8630-4a74-a22b-9f8efb398443@rz.TheRetroVip.com:80?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/25 @Config724
 ss://910fac92-8630-4a74-a22b-9f8efb398443@rz.TheRetroVip.com:80?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/25 @Config724
+ss://f17c7e6f-8a11-4df7-be86-15a451082398@45.94.215.190:40985?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/27 @Config724
+ss://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
+vless://f17c7e6f-8a11-4df7-be86-15a451082398@45.94.215.190:40985?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 03/27 @Config724
+vless://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
