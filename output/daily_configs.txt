@@ -1,4 +1,2 @@
-ss://f17c7e6f-8a11-4df7-be86-15a451082398@45.94.215.190:40985?security=none&encryption=none&headerType=http&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F
 ss://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F
-vless://f17c7e6f-8a11-4df7-be86-15a451082398@45.94.215.190:40985?security=none&encryption=none&headerType=http&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F
 vless://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F
