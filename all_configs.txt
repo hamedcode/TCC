@@ -1,2 +1,0 @@
-ss://4faba089-e42c-4586-b987-1c27bc20ed19@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#@ghalagyann
-vless://4faba089-e42c-4586-b987-1c27bc20ed19@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#@ghalagyann
