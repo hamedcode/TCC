@@ -6896,3 +6896,5 @@ ss://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryp
 vless://8c5e9d95-b674-49c7-9e1d-ba54610bf9f9@87.107.82.52:2141?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 03/27 @Config724
 ss://4faba089-e42c-4586-b987-1c27bc20ed19@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#🇮🇷 Iran - 03/31 @Config724
 vless://4faba089-e42c-4586-b987-1c27bc20ed19@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#🇮🇷 Iran - 03/31 @Config724
+ss://452462a4-ce90-458d-9da8-d2391d2e8eea@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#🇮🇷 Iran - 03/31 @Config724
+vless://452462a4-ce90-458d-9da8-d2391d2e8eea@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#🇮🇷 Iran - 03/31 @Config724
