@@ -1,2 +1,0 @@
-ss://452462a4-ce90-458d-9da8-d2391d2e8eea@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#@ghalagyann
-vless://452462a4-ce90-458d-9da8-d2391d2e8eea@185.143.233.200:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/#@ghalagyann
