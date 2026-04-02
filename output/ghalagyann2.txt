@@ -1,6 +1,0 @@
-ss://e25a811c-712c-4641-b64d-8ab6b4f54582@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#@ghalagyann
-ss://364811bc-5994-4fc3-a54c-0594fc508fee@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#@ghalagyann
-vless://21a1ca9a-8d28-424f-adbc-2e2ab3926025@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#@ghalagyann
-vless://364811bc-5994-4fc3-a54c-0594fc508fee@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#@ghalagyann
-ss://21a1ca9a-8d28-424f-adbc-2e2ab3926025@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#@ghalagyann
-vless://e25a811c-712c-4641-b64d-8ab6b4f54582@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#@ghalagyann
