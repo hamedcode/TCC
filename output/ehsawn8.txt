@@ -1,2 +1,0 @@
-ss://ad84d811-1fca-41a1-9ce4-a85e5120c854@kamk-ir.mclstariran.fun:9090?security=&encryption=none&host=www.speedtest.com&headerType=http&type=tcp#@ehsawn8
-vless://ad84d811-1fca-41a1-9ce4-a85e5120c854@kamk-ir.mclstariran.fun:9090?security=&encryption=none&host=www.speedtest.com&headerType=http&type=tcp#@ehsawn8
