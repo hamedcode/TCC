@@ -1,2 +1,0 @@
-vless://74c5af8f-1801-42a2-99ae-f3e5b7f3258a@non.zabuzabfr.ir:8880?type=httpupgrade&encryption=none&path=%2F&host=non.zabuzabfr.ir&security=none#@ehsawm8
-ss://74c5af8f-1801-42a2-99ae-f3e5b7f3258a@non.zabuzabfr.ir:8880?type=httpupgrade&encryption=none&path=%2F&host=non.zabuzabfr.ir&security=none#@ehsawm8
