@@ -6906,3 +6906,5 @@ ss://21a1ca9a-8d28-424f-adbc-2e2ab3926025@193.151.134.247:8080?type=ws&encryptio
 vless://e25a811c-712c-4641-b64d-8ab6b4f54582@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#🇮🇷 Iran - 04/02 @Config724
 ss://ad84d811-1fca-41a1-9ce4-a85e5120c854@kamk-ir.mclstariran.fun:9090?security=&encryption=none&host=www.speedtest.com&headerType=http&type=tcp#🇮🇷 Iran - 04/04 @Config724
 vless://ad84d811-1fca-41a1-9ce4-a85e5120c854@kamk-ir.mclstariran.fun:9090?security=&encryption=none&host=www.speedtest.com&headerType=http&type=tcp#🇮🇷 Iran - 04/04 @Config724
+vless://74c5af8f-1801-42a2-99ae-f3e5b7f3258a@non.zabuzabfr.ir:8880?type=httpupgrade&encryption=none&path=%2F&host=non.zabuzabfr.ir&security=none#🇮🇷 Iran - 04/07 @Config724
+ss://74c5af8f-1801-42a2-99ae-f3e5b7f3258a@non.zabuzabfr.ir:8880?type=httpupgrade&encryption=none&path=%2F&host=non.zabuzabfr.ir&security=none#🇮🇷 Iran - 04/07 @Config724
