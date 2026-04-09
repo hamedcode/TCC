@@ -1,2 +1,0 @@
-vless://da7715bd-7051-4194-82e7-9afbeb2665ef@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#%40PlanB_net
-ss://da7715bd-7051-4194-82e7-9afbeb2665ef@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#%40PlanB_net
