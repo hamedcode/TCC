@@ -1,6 +1,0 @@
-vless://a01daac7-1e65-4645-854d-b47d226f6b08@188.114.98.0:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#%40SERVERNETT-%D8%B1%D8%A7%DB%8C%D8%AA%D9%84
-vless://a01daac7-1e65-4645-854d-b47d226f6b08@104.18.12.149:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#%40SERVERNETT-%D8%B1%D8%A7%DB%8C%D8%AA%D9%842
-ss://a01daac7-1e65-4645-854d-b47d226f6b08@104.18.12.149:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#%40SERVERNETT-%D8%B1%D8%A7%DB%8C%D8%AA%D9%842
-ss://a01daac7-1e65-4645-854d-b47d226f6b08@188.114.98.0:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#%40SERVERNETT-%D8%B1%D8%A7%DB%8C%D8%AA%D9%84
-ss://c24a32f1-b645-47da-98a3-1e7c713229c1@104.18.12.149:8880?path=%2Fapi&security=none&encryption=none&host=armenia.chatgpt.com.siasia.ir&type=httpupgrade#%40SERVERNETT-%D8%B1%D8%A7%DB%8C%D8%AA%D9%843
-vless://c24a32f1-b645-47da-98a3-1e7c713229c1@104.18.12.149:8880?path=%2Fapi&security=none&encryption=none&host=armenia.chatgpt.com.siasia.ir&type=httpupgrade#%40SERVERNETT-%D8%B1%D8%A7%DB%8C%D8%AA%D9%843
