@@ -7041,3 +7041,4 @@ vless://94a76711-e13d-45da-9808-63c755a7867c@cdn.itsqsm.info:80?path=%2Fitsqsm.i
 ss://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&security=tls&encryption=none&insecure=0&host=hio-awx.pages.dev&type=ws&allowInsecure=0&sni=hio-awx.pages.dev#🏳️ Unknown - 04/14 @Config724
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?path=%2F%20%40RzChanel1&security=none&encryption=none&host=vip.yaml7.ggff.net&type=ws#🏳️ Unknown - 04/14 @Config724
 vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&security=tls&encryption=none&insecure=0&host=hio-awx.pages.dev&type=ws&allowInsecure=0&sni=hio-awx.pages.dev#🏳️ Unknown - 04/14 @Config724
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&type=ws&allowInsecure=0&sni=www.multiplydose.com#🏳️ Unknown - 04/14 @Config724
