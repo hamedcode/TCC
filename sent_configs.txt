@@ -6938,3 +6938,6 @@ trojan://humanity@104.18.12.149:443?path=%2Fassignment&security=tls&host=www.cal
 ss://a01daac7-1e65-4645-854d-b47d226f6b08@104.18.12.149:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#🏳️ Unknown - 04/12 @Config724
 ss://c24a32f1-b645-47da-98a3-1e7c713229c1@104.18.12.149:8880?path=%2Fapi&security=none&encryption=none&host=armenia.chatgpt.com.siasia.ir&type=httpupgrade#🏳️ Unknown - 04/12 @Config724
 vless://c24a32f1-b645-47da-98a3-1e7c713229c1@104.18.12.149:8880?path=%2Fapi&security=none&encryption=none&host=armenia.chatgpt.com.siasia.ir&type=httpupgrade#🏳️ Unknown - 04/12 @Config724
+trojan://humanity@127.0.0.1:40443?security=tls&sni=www.creationlong.org&insecure=1&allowInsecure=1&type=ws&host=www.creationlong.org&path=%2Fassignment#🏳️ Unknown - 04/14 @Config724
+vless://80c0f29f-850e-4044-a4ee-0b0697d8ca26@127.0.0.1:40443?encryption=none&security=tls&sni=dl1.speedysho.com.&fp=chrome&insecure=0&allowInsecure=0&type=xhttp&host=dl1.speedysho.com&path=dl%3Fed%3D2560&mode=auto#🏳️ Unknown - 04/14 @Config724
+ss://80c0f29f-850e-4044-a4ee-0b0697d8ca26@127.0.0.1:40443?encryption=none&security=tls&sni=dl1.speedysho.com.&fp=chrome&insecure=0&allowInsecure=0&type=xhttp&host=dl1.speedysho.com&path=dl%3Fed%3D2560&mode=auto#🏳️ Unknown - 04/14 @Config724
