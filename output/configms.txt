@@ -1,2 +1,0 @@
-ss://1de37726-744b-46e1-9101-c926b3402e82@104.17.72.206:80?security=none&allowInsecure=0&encryption=none&type=ws&host=v2.v2configlab.workers.dev&path=/?ed%3D2048#@configMs
-vless://1de37726-744b-46e1-9101-c926b3402e82@104.17.72.206:80?security=none&allowInsecure=0&encryption=none&type=ws&host=v2.v2configlab.workers.dev&path=/?ed%3D2048#@configMs
