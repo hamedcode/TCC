@@ -1,2 +1,0 @@
-vless://b9e15b4e-6df7-43e4-96b0-bb8f3d50274f@8.6.112.0:443?type=ws&encryption=none&path=%2F%3Fed%3D2560&host=newnet.avaaaal.ir&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=newnet.avaaaal.ir#%40AvaalVPN
-ss://b9e15b4e-6df7-43e4-96b0-bb8f3d50274f@8.6.112.0:443?type=ws&encryption=none&path=%2F%3Fed%3D2560&host=newnet.avaaaal.ir&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=newnet.avaaaal.ir#%40AvaalVPN
