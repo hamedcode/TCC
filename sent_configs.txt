@@ -7050,3 +7050,5 @@ vless://8481cfbb-49a2-df3b-2af2-949631ef5848@8.6.112.0:443?encryption=none&type=
 ss://5b6e5d4d-8c78-48cf-8c2e-cbe001644cb8@8.6.112.6:443?encryption=none&security=tls&sni=kir.morvexin.ir&alpn=h2,http/1.1&fp=chrome&type=xhttp&host=kir.morvexin.ir&path=/api/?ref%3Dsupervoid&mode=auto&packetEncoding=xudp#🇦🇹 Austria - 04/15 @Config724
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@127.0.0.1:40443?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=1&host=sni.jpmj.dev&fp=chrome&type=ws&allowInsecure=1&sni=sni.jpmj.dev#🏳️ Unknown - 04/16 @Config724
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@127.0.0.1:40443?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=1&host=sni.jpmj.dev&fp=chrome&type=ws&allowInsecure=1&sni=sni.jpmj.dev#🏳️ Unknown - 04/16 @Config724
+ss://a9b7d44d-d2a9-46c3-987d-d41e1769550d@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=&encryption=none&host=cd.phill-up.ir&type=ws#🇮🇷 Iran - 04/17 @Config724
+vless://a9b7d44d-d2a9-46c3-987d-d41e1769550d@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=&encryption=none&host=cd.phill-up.ir&type=ws#🇮🇷 Iran - 04/17 @Config724
