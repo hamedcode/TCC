@@ -1,2 +1,0 @@
-ss://a9b7d44d-d2a9-46c3-987d-d41e1769550d@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=&encryption=none&host=cd.phill-up.ir&type=ws#%F0%9F%87%B2%F0%9F%87%B9%28VIP%29%F0%9F%94%A5
-vless://a9b7d44d-d2a9-46c3-987d-d41e1769550d@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=&encryption=none&host=cd.phill-up.ir&type=ws#%F0%9F%87%B2%F0%9F%87%B9%28VIP%29%F0%9F%94%A5
