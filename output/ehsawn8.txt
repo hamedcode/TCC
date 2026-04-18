@@ -1,2 +1,2 @@
-vless://b6bca8dc-5b34-4b8a-a29f-240230dfc7ec@45.82.138.240:80?type=tcp&encryption=none&security=none#@ehsawn8
-ss://b6bca8dc-5b34-4b8a-a29f-240230dfc7ec@45.82.138.240:80?type=tcp&encryption=none&security=none#@ehsawn8
+ss://14aeee66-501d-4f93-811b-9e2732dbe00f@telegram.nexoraservre1.top:48563?security=none&encryption=none&headerType=none&type=tcp#@ehsawn8
+vless://14aeee66-501d-4f93-811b-9e2732dbe00f@telegram.nexoraservre1.top:48563?security=none&encryption=none&headerType=none&type=tcp#@ehsawn8

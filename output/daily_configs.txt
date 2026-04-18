@@ -1,2 +1,0 @@
-ss://b6bca8dc-5b34-4b8a-a29f-240230dfc7ec@45.82.138.240:80?security=none&encryption=none&headerType=none&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F
-vless://b6bca8dc-5b34-4b8a-a29f-240230dfc7ec@45.82.138.240:80?security=none&encryption=none&headerType=none&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F
