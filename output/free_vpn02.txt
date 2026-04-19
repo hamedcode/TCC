@@ -1,4 +1,0 @@
-ss://ce2054e4-7ad8-4477-a22f-bf1aebf60aed@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#%40FREE_VPN02
-vless://9ca95603-8ad9-41e7-8a90-279854abfc24@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#%FREE_VPN02
-vless://ce2054e4-7ad8-4477-a22f-bf1aebf60aed@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#%40FREE_VPN02
-ss://9ca95603-8ad9-41e7-8a90-279854abfc24@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#%FREE_VPN02
