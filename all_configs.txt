@@ -1,2 +1,0 @@
-ss://95ad47ac-df62-486b-813c-f50b34eba5c7@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#@ehsawn8
-vless://95ad47ac-df62-486b-813c-f50b34eba5c7@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#@ehsawn8
