@@ -7064,3 +7064,5 @@ vless://14aeee66-501d-4f93-811b-9e2732dbe00f@telegram.nexoraservre1.top:48563?se
 vless://ce2054e4-7ad8-4477-a22f-bf1aebf60aed@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=baz.amirenzohost.ir&type=ws#🇮🇷 Iran - 04/18 @Config724
 ss://95ad47ac-df62-486b-813c-f50b34eba5c7@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#🇮🇷 Iran - 04/19 @Config724
 vless://95ad47ac-df62-486b-813c-f50b34eba5c7@185.143.235.253:80?path=%2F&security=none&encryption=none&host=ss.oppobot.ir&type=ws#🇮🇷 Iran - 04/19 @Config724
+vless://ea227ffd-be0c-4acd-a70c-9b6b4777d862@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷 Iran - 04/22 @Config724
+ss://ea227ffd-be0c-4acd-a70c-9b6b4777d862@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷 Iran - 04/22 @Config724
