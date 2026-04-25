@@ -1,0 +1,4 @@
+vless://d688e1f5-eaf1-4f9f-b976-5584c16ed988@Snapp.ir:80?encryption=none&type=ws&path=/#@ehsawn8
+ss://d688e1f5-eaf1-4f9f-b976-5584c16ed988@Snapp.ir:80?encryption=none&type=ws&path=/#@ehsawn8
+vless://322a470b-2830-4c50-b991-817e786db06d@snapp.ir:80?path=%2F&security=none&encryption=none&host=trx.noventa.ir&type=ws#@ehsawn8
+ss://322a470b-2830-4c50-b991-817e786db06d@snapp.ir:80?path=%2F&security=none&encryption=none&host=trx.noventa.ir&type=ws#@ehsawn8
