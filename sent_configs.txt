@@ -7086,3 +7086,7 @@ vless://60de7f07-71b7-4b37-a04c-db5d769ec130@62.60.147.73:20020?security=&encryp
 vless://00efd6e7-fa77-4659-bacf-4dca0df54022@185.143.234.235:443?encryption=none&type=ws&security=tls&path=%2F&host=shoping.arianrah.ir&sni=shoping.arianrah.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1#🇮🇷 Iran - 04/25 @Config724
 ss://be0bff33-a095-4f82-9edb-9073c3ba08af@arvan1.un1ty.ir:80?encryption=none&host=&path=%2Fjesuschrist&security=none&type=ws#🇮🇷 Iran - 04/26 @Config724
 vless://be0bff33-a095-4f82-9edb-9073c3ba08af@arvan1.un1ty.ir:80?encryption=none&host=&path=%2Fjesuschrist&security=none&type=ws#🇮🇷 Iran - 04/26 @Config724
+vless://f1038624-e835-4884-8d8f-34b2eb8198c9@detail.barttary.ir:55802?security=&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 04/26 @Config724
+vless://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#🇮🇷 Iran - 04/26 @Config724
+ss://f1038624-e835-4884-8d8f-34b2eb8198c9@detail.barttary.ir:55802?security=&encryption=none&headerType=none&type=tcp#🇮🇷 Iran - 04/26 @Config724
+ss://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#🇮🇷 Iran - 04/26 @Config724
