@@ -7118,3 +7118,5 @@ ss://a01daac7-1e65-4645-854d-b47d226f6b08@104.20.6.134:443?path=%2F&security=tls
 ss://09a8b306-c817-475b-a88a-b7880ab75edd@104.20.6.134:8443?encryption=none&type=ws&host=wht.anselteamm.top&path=/&security=tls&fp=chrome&sni=wht.anselteamm.top&alpn=h2,http/1.1#🏳️ Unknown - 04/27 @Config724
 vless://09a8b306-c817-475b-a88a-b7880ab75edd@104.20.6.134:8443?encryption=none&type=ws&host=wht.anselteamm.top&path=/&security=tls&fp=chrome&sni=wht.anselteamm.top&alpn=h2,http/1.1#🏳️ Unknown - 04/27 @Config724
 trojan://8r%3C%5B9%27l6hAO%238ZQi@104.20.6.134:2096?path=%2Ftr&security=tls&insecure=1&host=Koma-YT.PAGeS.Dev&type=ws&allowInsecure=1&sni=Koma-YT.PAGeS.Dev#🏳️ Unknown - 04/27 @Config724
+ss://65462646-6d80-4463-b47b-3529e531ab65@snapp.ir:80?path=%2F&security=none&encryption=none&host=iranfuture.musicritmic.ir&type=ws#🇮🇷 Iran - 04/27 @Config724
+vless://65462646-6d80-4463-b47b-3529e531ab65@snapp.ir:80?path=%2F&security=none&encryption=none&host=iranfuture.musicritmic.ir&type=ws#🇮🇷 Iran - 04/27 @Config724
