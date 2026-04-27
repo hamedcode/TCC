@@ -1,0 +1,5 @@
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.20.6.134:2096?path=%2F&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#Tel
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.20.6.134:2096?path=%2F&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#Tel : @G0dv2ray
+trojan://8r%3C%5B9%27l6hAO%238ZQi@104.20.6.134:2096?path=%2Ftr&security=tls&insecure=1&host=Koma-YT.PAGeS.Dev&type=ws&allowInsecure=1&sni=Koma-YT.PAGeS.Dev#Tel : @G0dv2ray
+trojan://8r%3C%5B9%27l6hAO%238ZQi@104.20.6.134:2096?path=%2Ftr&security=tls&insecure=1&host=Koma-YT.PAGeS.Dev&type=ws&allowInsecure=1&sni=Koma-YT.PAGeS.Dev#Tel
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.20.6.134:2096?path=%2F&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#Tel

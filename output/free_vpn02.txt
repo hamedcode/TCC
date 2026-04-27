@@ -1,4 +1,0 @@
-vless://f1038624-e835-4884-8d8f-34b2eb8198c9@detail.barttary.ir:55802?security=&encryption=none&headerType=none&type=tcp#FREE_VPN02
-vless://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#@FREE_VPN02
-ss://f1038624-e835-4884-8d8f-34b2eb8198c9@detail.barttary.ir:55802?security=&encryption=none&headerType=none&type=tcp#FREE_VPN02
-ss://a3b1d134-e3d8-45ab-9996-a3800be0fcdc@185.143.234.235:8080/?type=ws&encryption=none&host=vip.az99x.info&path=%2F#@FREE_VPN02
