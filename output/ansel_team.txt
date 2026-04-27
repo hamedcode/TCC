@@ -1,2 +1,0 @@
-vless://09a8b306-c817-475b-a88a-b7880ab75edd@104.20.6.134:8443?encryption=none&type=ws&host=wht.anselteamm.top&path=/&security=tls&fp=chrome&sni=wht.anselteamm.top&alpn=h2,http/1.1#@Ansel_team
-ss://09a8b306-c817-475b-a88a-b7880ab75edd@104.20.6.134:8443?encryption=none&type=ws&host=wht.anselteamm.top&path=/&security=tls&fp=chrome&sni=wht.anselteamm.top&alpn=h2,http/1.1#@Ansel_team
