@@ -1,2 +1,0 @@
-ss://1f5358e8-f57c-44b8-9864-9c236672fbc8@185.143.233.235:80?path=%2F&security=&encryption=none&host=d.nsa03.com&type=ws#https://t.me/FREE_VPN02
-vless://1f5358e8-f57c-44b8-9864-9c236672fbc8@185.143.233.235:80?path=%2F&security=&encryption=none&host=d.nsa03.com&type=ws#https://t.me/FREE_VPN02
