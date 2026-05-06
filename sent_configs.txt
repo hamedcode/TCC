@@ -7164,3 +7164,5 @@ vless://c09816d1-9b53-4e0d-85a8-9def477121ab@185.143.233.122:80?encryption=none&
 ss://9f6979f5-fec9-4f40-b5f9-15dde47c6b91@185.143.233.5:2052?path=%2F&security=none&encryption=none&host=cdn.sesrsa.com&type=ws#🇮🇷 Iran - 05/05 @Config724
 vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=none&encryption=none&host=sr.novatechsapr.ir&type=ws#🇮🇷 Iran - 05/06 @Config724
 ss://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=none&encryption=none&host=sr.novatechsapr.ir&type=ws#🇮🇷 Iran - 05/06 @Config724
+ss://6f89bf5d-60eb-49a3-a575-9e2571d5649d@a2.grizzlygitt.ir:80?encryption=none&security=none&type=ws&path=%2F#🇮🇷 Iran - 05/06 @Config724
+vless://6f89bf5d-60eb-49a3-a575-9e2571d5649d@a2.grizzlygitt.ir:80?encryption=none&security=none&type=ws&path=%2F#🇮🇷 Iran - 05/06 @Config724
