@@ -1,2 +1,0 @@
-ss://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#GrizzlyVPN
-vless://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#GrizzlyVPN

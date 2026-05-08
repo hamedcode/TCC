@@ -1,2 +1,0 @@
-ss://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#%40CHv2raynp
-vless://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#%40CHv2raynp
