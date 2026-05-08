@@ -7172,3 +7172,7 @@ vless://7563a7e8-cd2b-41f8-9c59-cf90f9b9fbbe@:80?encryption=none&security=none&t
 ss://7563a7e8-cd2b-41f8-9c59-cf90f9b9fbbe@:80?encryption=none&security=none&type=ws&path=%2F#🇺🇸 United States - 05/07 @Config724
 vless://38c67dd0-b98d-42c7-81ba-edca26352a50@:80?path=%2F&security=none&encryption=none&type=ws#🇺🇸 United States - 05/07 @Config724
 ss://38c67dd0-b98d-42c7-81ba-edca26352a50@:80?path=%2F&security=none&encryption=none&type=ws#🇺🇸 United States - 05/07 @Config724
+ss://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#🇺🇸 United States - 05/08 @Config724
+ss://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#🇮🇷 Iran - 05/08 @Config724
+vless://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#🇺🇸 United States - 05/08 @Config724
+vless://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#🇮🇷 Iran - 05/08 @Config724
