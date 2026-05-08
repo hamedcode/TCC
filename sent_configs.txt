@@ -7176,3 +7176,7 @@ ss://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=
 ss://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#🇮🇷 Iran - 05/08 @Config724
 vless://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#🇺🇸 United States - 05/08 @Config724
 vless://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#🇮🇷 Iran - 05/08 @Config724
+ss://dae2ddc6-a892-495f-a001-181cec56ad12@snapp.ir:2052?path=%2F&security=none&encryption=none&host=p1.razstar.ir&type=ws#🇮🇷 Iran - 05/08 @Config724
+vless://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=&encryption=none&host=sr.novatechsapr.ir&type=ws#🇮🇷 Iran - 05/08 @Config724
+vless://dae2ddc6-a892-495f-a001-181cec56ad12@snapp.ir:2052?path=%2F&security=none&encryption=none&host=p1.razstar.ir&type=ws#🇮🇷 Iran - 05/08 @Config724
+ss://255b8da7-01c7-4cf9-a8e2-3313f73d0b8a@sr.novatechsapr.ir:80?path=%2F&security=&encryption=none&host=sr.novatechsapr.ir&type=ws#🇮🇷 Iran - 05/08 @Config724
