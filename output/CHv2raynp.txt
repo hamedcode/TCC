@@ -1,4 +1,2 @@
-ss://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#GrizzlyVPN
 ss://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#%40CHv2raynp
-vless://cf774cf1-b15d-453c-8639-4d408cedbc0f@:80?path=%2F&security=none&encryption=none&type=ws#GrizzlyVPN
 vless://94dc5204-c5a9-4856-9fd6-67264ba499c1@red.nahidapp.com:443?path=%2Fred%2F&security=tls&encryption=none&insecure=0&host=red.nahidapp.com&type=ws&allowInsecure=0&sni=red.nahidapp.com#%40CHv2raynp
