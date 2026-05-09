@@ -7186,3 +7186,5 @@ ss://73ee5d1d-e2aa-409c-bace-757a7b774d76@javid.purples.ir:80?path=%2F&security=
 vless://a175d6b6-8a8b-49a0-8ec4-37f2a4de59b4@87.107.187.149:8010?encryption=none&type=tcp#🇮🇷 Iran - 05/08 @Config724
 ss://f4f7ff82-b369-424f-bfbc-730c39f4549a@namstar.hi-phonee.ir:54065?path=%2F&security=none&encryption=none&type=ws#🏳️ Unknown - 05/08 @Config724
 vless://f4f7ff82-b369-424f-bfbc-730c39f4549a@namstar.hi-phonee.ir:54065?path=%2F&security=none&encryption=none&type=ws#🏳️ Unknown - 05/08 @Config724
+vless://dae2ddc6-a892-495f-a001-181cec56ad12@snapp.ir:2052?path=%2F&security=none&encryption=none&host=p1.razstar.ir&typ=ws#🇮🇷 Iran - 05/09 @Config724
+ss://dae2ddc6-a892-495f-a001-181cec56ad12@snapp.ir:2052?path=%2F&security=none&encryption=none&host=p1.razstar.ir&typ=ws#🇮🇷 Iran - 05/09 @Config724
