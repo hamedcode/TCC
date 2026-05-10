@@ -7190,3 +7190,5 @@ vless://dae2ddc6-a892-495f-a001-181cec56ad12@snapp.ir:2052?path=%2F&security=non
 ss://dae2ddc6-a892-495f-a001-181cec56ad12@snapp.ir:2052?path=%2F&security=none&encryption=none&host=p1.razstar.ir&typ=ws#🇮🇷 Iran - 05/09 @Config724
 vless://799f939b-964b-4416-84ac-18a6ace7fe70@camp.nahidapp.com:443?encryption=none&host=camp.nahidapp.com&path=%2FIF_VPN_Bot&security=tls&type=ws#🇮🇷 Iran - 05/09 @Config724
 ss://799f939b-964b-4416-84ac-18a6ace7fe70@camp.nahidapp.com:443?encryption=none&host=camp.nahidapp.com&path=%2FIF_VPN_Bot&security=tls&type=ws#🇮🇷 Iran - 05/09 @Config724
+vless://72aba962-4f2d-459e-89a2-c8b2f89433d6@ads.restaurantplusy.ir:2052?path=%2F&security=none&encryption=none&host=ads.restaurantplusy.ir&type=ws#🇮🇷 Iran - 05/10 @Config724
+ss://72aba962-4f2d-459e-89a2-c8b2f89433d6@ads.restaurantplusy.ir:2052?path=%2F&security=none&encryption=none&host=ads.restaurantplusy.ir&type=ws#🇮🇷 Iran - 05/10 @Config724
