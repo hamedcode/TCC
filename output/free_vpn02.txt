@@ -1,2 +1,2 @@
-ss://59bc19e5-9384-45ea-99c6-0fc412975eee@adler-1g.adelshoop.net:80/?type=ws&encryption=none&flow=&path=%2F#https://t.me/FREE_VPN02
-vless://59bc19e5-9384-45ea-99c6-0fc412975eee@adler-1g.adelshoop.net:80/?type=ws&encryption=none&flow=&path=%2F#https://t.me/FREE_VPN02
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@91.217.177.48:8443?type=ws&security=tls&sni=sni.jpmj.dev&host=sni.jpmj.dev&path=%2F&encryption=none&allowInsecure=1#@free_vpn02
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@91.217.177.48:8443?type=ws&security=tls&sni=sni.jpmj.dev&host=sni.jpmj.dev&path=%2F&encryption=none&allowInsecure=1#@free_vpn02
