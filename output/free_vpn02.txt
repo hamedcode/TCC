@@ -1,2 +1,0 @@
-ss://2daf1396-0383-4276-a054-baded537c6b3@185.143.233.200:8880?security=none&allowInsecure=0&encryption=mlkem768x25519plus.native.0rtt.-dHBgFiE3o72yiSy-lApCXI5RZiQ__iyVOGUfrCZiwM&type=ws&host=nima.hayalco.ir&path=/#https://t.me/FREE_VPN02
-vless://2daf1396-0383-4276-a054-baded537c6b3@185.143.233.200:8880?security=none&allowInsecure=0&encryption=mlkem768x25519plus.native.0rtt.-dHBgFiE3o72yiSy-lApCXI5RZiQ__iyVOGUfrCZiwM&type=ws&host=nima.hayalco.ir&path=/#https://t.me/FREE_VPN02
