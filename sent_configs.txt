@@ -7225,3 +7225,7 @@ vless://97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4@varzesh3.com:8080?encryption=none&t
 ss://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none&type=tcp&headerType=none#🇮🇷 Iran - 05/17 @Config724
 ss://97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4@varzesh3.com:8080?encryption=none&type=ws&path=%2F&host=cdn-665e-o0g.fars-rehan.ir#🇮🇷 Iran - 05/17 @Config724
 vless://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none&type=tcp&headerType=none#🇮🇷 Iran - 05/17 @Config724
+vless://97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4@varzesh3.com:8080?encryption=none&type=ws&path=%2F&host=cdn-665e-o0g.fars-rehan.ir#🇮🇷 Iran - 05/17 @Config724
+ss://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none&type=tcp&headerType=none#🇮🇷 Iran - 05/17 @Config724
+ss://97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4@varzesh3.com:8080?encryption=none&type=ws&path=%2F&host=cdn-665e-o0g.fars-rehan.ir#🇮🇷 Iran - 05/17 @Config724
+vless://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none&type=tcp&headerType=none#🇮🇷 Iran - 05/17 @Config724
