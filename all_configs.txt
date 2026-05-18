@@ -1,4 +1,0 @@
-vless://97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4@varzesh3.com:8080?encryption=none&type=ws&path=%2F&host=cdn-665e-o0g.fars-rehan.ir#%40Antifilterjadid%D8%A8%D8%A7%E2%80%8C%D9%BE%D8%B1%D9%88%DA%A9%D8%B3%DB%8C%E2%80%8C%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%E2%80%8C%DA%A9%D9%86%DB%8C%D8%AF
-ss://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none&type=tcp&headerType=none#%40Antifilterjadid%20%7C%20%D9%87%D8%A7%D8%A8%DB%8C%D8%AA
-ss://97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4@varzesh3.com:8080?encryption=none&type=ws&path=%2F&host=cdn-665e-o0g.fars-rehan.ir#%40Antifilterjadid%D8%A8%D8%A7%E2%80%8C%D9%BE%D8%B1%D9%88%DA%A9%D8%B3%DB%8C%E2%80%8C%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%E2%80%8C%DA%A9%D9%86%DB%8C%D8%AF
-vless://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none&type=tcp&headerType=none#%40Antifilterjadid%20%7C%20%D9%87%D8%A7%D8%A8%DB%8C%D8%AA
