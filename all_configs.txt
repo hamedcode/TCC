@@ -1,3 +1,0 @@
-vless://675edb84-254f-48c7-bd95-0fd3542132b3@digipay.ir:8080/?type=ws&encryption=none&flow=&host=dns-02.dl-toucan.monster&path=%2F#%40oneclickvpnkeys
-trojan://humanity@127.0.0.1:40443?path=%2Fassignment&security=tls&insecure=1&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=1&sni=www.creationlong.org#%40AzadNet
-ss://675edb84-254f-48c7-bd95-0fd3542132b3@digipay.ir:8080/?type=ws&encryption=none&flow=&host=dns-02.dl-toucan.monster&path=%2F#%40oneclickvpnkeys

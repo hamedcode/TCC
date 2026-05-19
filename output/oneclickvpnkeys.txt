@@ -1,2 +1,0 @@
-vless://675edb84-254f-48c7-bd95-0fd3542132b3@digipay.ir:8080/?type=ws&encryption=none&flow=&host=dns-02.dl-toucan.monster&path=%2F#%40oneclickvpnkeys
-ss://675edb84-254f-48c7-bd95-0fd3542132b3@digipay.ir:8080/?type=ws&encryption=none&flow=&host=dns-02.dl-toucan.monster&path=%2F#%40oneclickvpnkeys
