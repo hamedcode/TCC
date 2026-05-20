@@ -7232,3 +7232,4 @@ vless://0bff17bb-f5f9-4109-99de-03100b5af216@193.228.168.43:8080?encryption=none
 vless://675edb84-254f-48c7-bd95-0fd3542132b3@digipay.ir:8080/?type=ws&encryption=none&flow=&host=dns-02.dl-toucan.monster&path=%2F#🇮🇷 Iran - 05/19 @Config724
 trojan://humanity@127.0.0.1:40443?path=%2Fassignment&security=tls&insecure=1&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=1&sni=www.creationlong.org#🏳️ Unknown - 05/19 @Config724
 ss://675edb84-254f-48c7-bd95-0fd3542132b3@digipay.ir:8080/?type=ws&encryption=none&flow=&host=dns-02.dl-toucan.monster&path=%2F#🇮🇷 Iran - 05/19 @Config724
+trojan://humanity@127.0.0.1:40443?security=tls&sni=www.creationlong.org&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=www.creationlong.org&path=%2Fassignment#🏳️ Unknown - 05/20 @Config724
