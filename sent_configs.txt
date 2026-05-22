@@ -7245,3 +7245,7 @@ ss://64bcd838-04aa-4949-85a5-d427fc55fcd5@snapp.ir:2086?type=ws&security=none&pa
 ss://96e64869-fc38-48f8-bff5-ef2a27f9b863@pisronovin.ir:80?encryption=none&security=none&type=ws&path=%2F&host=pisronovin.ir#🇮🇷 Iran - 05/22 @Config724
 vless://9dc1bebe-e059-4c96-b3a3-46a2936b1a53@Snapp.ir:80?path=%2F&security=none&encryption=none&host=B1.nexoratechcenter.ir&type=ws#🇮🇷 Iran - 05/22 @Config724
 vless://64bcd838-04aa-4949-85a5-d427fc55fcd5@snapp.ir:2086?type=ws&security=none&path=%2F&host=sv1.nopp.ir&encryption=none#🇮🇷 Iran - 05/22 @Config724
+vless://f0e5af1f-824b-42db-bcd4-57c92ccb484c@sls.llimitlles.site:8080?type=ws&encryption=none&path=%2Fll2ll&host=sl.llimitlles.site&security=none#🇮🇷 Iran - 05/22 @Config724
+ss://f0e5af1f-824b-42db-bcd4-57c92ccb484c@sls.llimitlles.site:8080?type=ws&encryption=none&path=%2Fll2ll&host=sl.llimitlles.site&security=none#🇮🇷 Iran - 05/22 @Config724
+ss://d5d36002-2c49-4a16-9cb2-8e240156dfd1@185.143.232.201:80?path=%2F&security=none&encryption=none&host=down.speedtell.ir&type=ws#🇮🇷 Iran - 05/22 @Config724
+vless://d5d36002-2c49-4a16-9cb2-8e240156dfd1@185.143.232.201:80?path=%2F&security=none&encryption=none&host=down.speedtell.ir&type=ws#🇮🇷 Iran - 05/22 @Config724
