@@ -1,12 +1,8 @@
 vless://96e64869-fc38-48f8-bff5-ef2a27f9b863@pisronovin.ir:80?encryption=none&security=none&type=ws&path=%2F&host=pisronovin.ir#@mahdi
-ss://dad8cfaf-a8dc-491b-94ad-1fb57cfc6691@pisronovin.ir:80?path=%2F&security=none&encryption=none&type=ws#Kinghooman
+ss://64bcd838-04aa-4949-85a5-d427fc55fcd5@snapp.ir:2086?type=ws&security=none&path=%2F&host=sv1.nopp.ir&encryption=none#@Mahdi
 ss://d6dca3ac-22aa-4bc3-83be-abccc8ec2f2a@varzesh3.com:8880?encryption=none&security=none&type=ws&path=%2Fapi&host=fast.lezzatnova.ir#@Mahdi
 vless://d6dca3ac-22aa-4bc3-83be-abccc8ec2f2a@varzesh3.com:8880?encryption=none&security=none&type=ws&path=%2Fapi&host=fast.lezzatnova.ir#@Mahdi
-vless://23006e9e-0ca0-4b2b-b6e7-94e218b48294@85.133.145.139:13841?security=&encryption=none&host=irancell.ir&headerType=http&type=tcp#@Mahdi
-vless://dad8cfaf-a8dc-491b-94ad-1fb57cfc6691@pisronovin.ir:80?path=%2F&security=none&encryption=none&type=ws#Kinghooman
-ss://9dc1bebe-e059-4c96-b3a3-46a2936b1a53@Snapp.ir:80?path=%2F&security=none&encryption=none&host=B1.nexoratechcenter.ir&type=ws#Kinghooman
 ss://23006e9e-0ca0-4b2b-b6e7-94e218b48294@85.133.145.139:13841?security=&encryption=none&host=irancell.ir&headerType=http&type=tcp#@Mahdi
-ss://64bcd838-04aa-4949-85a5-d427fc55fcd5@snapp.ir:2086?type=ws&security=none&path=%2F&host=sv1.nopp.ir&encryption=none#@Mahdi
+vless://23006e9e-0ca0-4b2b-b6e7-94e218b48294@85.133.145.139:13841?security=&encryption=none&host=irancell.ir&headerType=http&type=tcp#@Mahdi
 ss://96e64869-fc38-48f8-bff5-ef2a27f9b863@pisronovin.ir:80?encryption=none&security=none&type=ws&path=%2F&host=pisronovin.ir#@mahdi
-vless://9dc1bebe-e059-4c96-b3a3-46a2936b1a53@Snapp.ir:80?path=%2F&security=none&encryption=none&host=B1.nexoratechcenter.ir&type=ws#Kinghooman
 vless://64bcd838-04aa-4949-85a5-d427fc55fcd5@snapp.ir:2086?type=ws&security=none&path=%2F&host=sv1.nopp.ir&encryption=none#@Mahdi
