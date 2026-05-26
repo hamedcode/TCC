@@ -1,0 +1,8 @@
+vless://e5110f15-4240-45b7-9d63-9e3050876366@32.196.233.17:10792?security=none&encryption=none&headerType=none&type=tcp#@unlimiteddev
+ss://e8cbc051-e0ac-452d-9bd3-8ad46625573c@arvancloud.ir:8080?mode=auto&path=%2F&security=&encryption=none&host=r.cafeplusstore.ir&type=xhttp#unlimiteddev
+vless://e8cbc051-e0ac-452d-9bd3-8ad46625573c@arvancloud.ir:8080?mode=auto&path=%2F&security=&encryption=none&host=r.cafeplusstore.ir&type=xhttp#unlimiteddev
+ss://e5110f15-4240-45b7-9d63-9e3050876366@32.196.233.17:10792?security=none&encryption=none&headerType=none&type=tcp#@unlimiteddev
+vless://58225ed2-9017-4204-8852-1b5cc1311fb8@66.81.247.104:443?encryption=mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs&security=tls&sni=1-cloudflare.lapis-lazuli.tech&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&path=%2Fc544c1d5248bf014e3a8&mode=auto#@unlimiteddev
+ss://58225ed2-9017-4204-8852-1b5cc1311fb8@66.81.247.104:443?encryption=mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs&security=tls&sni=1-cloudflare.lapis-lazuli.tech&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&path=%2Fc544c1d5248bf014e3a8&mode=auto#@unlimiteddev
+vless://06503959-0237-475e-a838-4068a97d5714@46.101.188.66:23450?security=none&encryption=none&headerType=none&type=tcp#@unlimiteddev
+ss://06503959-0237-475e-a838-4068a97d5714@46.101.188.66:23450?security=none&encryption=none&headerType=none&type=tcp#@unlimiteddev

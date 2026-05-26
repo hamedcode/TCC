@@ -1,0 +1,2 @@
+vless://0c9c3d36-c93c-4d1b-bdff-8038c3ed78a2@fl-7-direct.djarbnet.ru:443?encryption=none&type=ws&host=fl-7-direct.djarbnet.ru&path=/getupdates&security=tls&sni=fl-7-direct.djarbnet.ru#@configMs
+ss://0c9c3d36-c93c-4d1b-bdff-8038c3ed78a2@fl-7-direct.djarbnet.ru:443?encryption=none&type=ws&host=fl-7-direct.djarbnet.ru&path=/getupdates&security=tls&sni=fl-7-direct.djarbnet.ru#@configMs
