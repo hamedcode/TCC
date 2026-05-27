@@ -1,4 +1,0 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.190:443?path=%2F&security=tls&encryption=none&host=sni.111000.dynv6.net&type=ws&sni=sni.111000.dynv6.net#https://t.me/FREE_VPN02
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.190:443?path=%2F&security=tls&encryption=none&host=sni.111000.dynv6.net&type=ws&sni=sni.111000.dynv6.net#https://t.me/FREE_VPN02
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=%2F%3Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540wangcai2%3D&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&type=ws&allowInsecure=0&sni=sni.jpmj.dev#@FREE_VPN02
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=%2F%3Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540wangcai2%3D&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&type=ws&allowInsecure=0&sni=sni.jpmj.dev#@FREE_VPN02

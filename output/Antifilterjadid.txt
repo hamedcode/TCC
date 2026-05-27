@@ -1,3 +1,0 @@
-ss://8c4604ef-749c-4b56-adf1-7da405002a21@27.50.48.49:443?path=%2F&security=tls&encryption=none&insecure=1&host=qyi.fqjd663.ggff.net&type=ws&allowInsecure=1&sni=qyi.fqjd663.ggff.net#XFINITY%20%40Antifilterjadid
-vless://8c4604ef-749c-4b56-adf1-7da405002a21@27.50.48.49:443?path=%2F&security=tls&encryption=none&insecure=1&host=qyi.fqjd663.ggff.net&type=ws&allowInsecure=1&sni=qyi.fqjd663.ggff.net#XFINITY%20%40Antifilterjadid
-trojan://8r%3C%5B9%27l6hAO%238ZQi@unpkg.com:443?path=%2Ftr&security=tls&insecure=1&host=Koma-YT.PAGeS.Dev&type=ws&allowInsecure=1&sni=Koma-YT.PAGeS.Dev#HOPE%20%40Antifilterjadid
