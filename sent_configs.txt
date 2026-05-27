@@ -7311,3 +7311,13 @@ vless://8711e97a-63cc-47f5-b1ab-b9280b82ac2e@85.234.65.21:443?security=reality&e
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540WangCai2%3D&security=tls&encryption=none&host=sni.jpmj.dev&type=ws&sni=sni.jpmj.dev#🏳️ Unknown - 05/27 @Config724
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.190:443?path=%2F&security=tls&encryption=none&host=sni.111000.dynv6.net&type=ws&sni=sni.111000.dynv6.net#🇺🇸 United States - 05/27 @Config724
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?security=tls&encryption=none&host=sni.jpmj.dev&type=ws&sni=sni.jpmj.dev#🏳️ Unknown - 05/27 @Config724
+vless://5d516654-bc44-4a09-b849-c7fd18eb2597@104.21.69.166:443?path=%2FlsDH2qujZ0YMHphrPaZGOjsL&security=tls&alpn=http%2F1.1&encryption=none&host=s32.aminzing.lol&fp=chrome&type=ws&sni=s32.aminzing.lol#🏳️ Unknown - 05/27 @Config724
+vless://f4f7a3f2-1b84-4a85-bae6-c17495dea6ea@193.151.147.114:500?security=none&encryption=none&headerType=http&type=tcp#🇮🇷 Iran - 05/27 @Config724
+ss://04f77322-6f66-4ea8-b4d1-3fabd9499c50@91.107.243.16:2314?encryption=none&security=none&type=tcp&headerType=none#🇩🇪 Germany - 05/27 @Config724
+ss://1a0aec01-4f79-4087-b0b8-f963c05c5b9d@92.42.205.227:443?security=none&encryption=none&headerType=none&type=tcp#🏳️ Unknown - 05/27 @Config724
+vless://1a0aec01-4f79-4087-b0b8-f963c05c5b9d@92.42.205.227:443?security=none&encryption=none&headerType=none&type=tcp#🏳️ Unknown - 05/27 @Config724
+vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@69.84.182.21:443?path=%2F93.115.10.218%3D2053&security=tls&encryption=none&insecure=0&host=afrcloud4.c01.kr&type=ws&allowInsecure=0&sni=afrcloud4.c01.kr#🇺🇸 United States - 05/27 @Config724
+vless://04f77322-6f66-4ea8-b4d1-3fabd9499c50@91.107.243.16:2314?encryption=none&security=none&type=tcp&headerType=none#🇩🇪 Germany - 05/27 @Config724
+ss://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@69.84.182.21:443?path=%2F93.115.10.218%3D2053&security=tls&encryption=none&insecure=0&host=afrcloud4.c01.kr&type=ws&allowInsecure=0&sni=afrcloud4.c01.kr#🇺🇸 United States - 05/27 @Config724
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&fp=chrome&type=xhttp&sni=de.xn--q9jyb4c.online#🏳️ Unknown - 05/27 @Config724
+vless://252272d5-74df-4e86-b603-5894e9b06ef5@172.67.158.125:443?path=%2F&security=tls&encryption=none&insecure=1&host=pro.nimbaha.info&fp=chrome&type=ws&allowInsecure=1&sni=PrO.nImBaHa.InFo#🏳️ Unknown - 05/27 @Config724
