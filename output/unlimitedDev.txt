@@ -1,0 +1,6 @@
+trojan://humanity@45.130.125.69:443?type=ws&host=www.calmloud.com&path=/assignment&security=tls&sni=www.calmloud.com&alpn=http/1.1&fp=chrome&allowInsecure=1#=unlimiteddev
+trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.calmlunch.com#@unlimiteddev
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.156.229:80?path=%2F&security=none&encryption=none&host=vip.yaml7.ggff.net&type=ws#unlimiteddev
+ss://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.156.229:80?path=%2F&security=none&encryption=none&host=vip.yaml7.ggff.net&type=ws#unlimiteddev
+vless://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=node1.nanonet.host#@unlimiteddev
+ss://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=node1.nanonet.host#@unlimiteddev
