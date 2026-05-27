@@ -1,2 +1,0 @@
-ss://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&fp=chrome&type=xhttp&sni=de.xn--q9jyb4c.online#%40SERVERNETT
-vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&fp=chrome&type=xhttp&sni=de.xn--q9jyb4c.online#%40SERVERNETT

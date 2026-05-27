@@ -1,2 +1,0 @@
-ss://5d516654-bc44-4a09-b849-c7fd18eb2597@104.21.69.166:443?path=%2FlsDH2qujZ0YMHphrPaZGOjsL&security=tls&alpn=http%2F1.1&encryption=none&host=s32.aminzing.lol&fp=chrome&type=ws&sni=s32.aminzing.lol#test6%20%40Golestan_VPN
-vless://5d516654-bc44-4a09-b849-c7fd18eb2597@104.21.69.166:443?path=%2FlsDH2qujZ0YMHphrPaZGOjsL&security=tls&alpn=http%2F1.1&encryption=none&host=s32.aminzing.lol&fp=chrome&type=ws&sni=s32.aminzing.lol#test6%20%40Golestan_VPN
