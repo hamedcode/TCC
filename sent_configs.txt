@@ -7380,3 +7380,13 @@ ss://ed6808fa-fca3-4c70-9264-c5bc3d5bf974@185.189.58.195:38353?alpn=h2%2Chttp%2F
 ss://505114b9-e689-5d23-9ba0-f95d74e92a67@91.107.179.224:47411?encryption=none&security=none&type=tcp#🇩🇪 Germany - 05/28 @Config724
 ss://e5f8a9f6-f164-479b-b3b5-b90f213c7145@104.17.25.173:2053?allowInsecure=1&encryption=none&host=ir1.airpanel.top&path=%2F&security=tls&sni=ir1.airpanel.top&type=ws#🏳️ Unknown - 05/28 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#🇬🇧 United Kingdom - 05/28 @Config724
+vless://aac3348a-5adb-45b8-875a-305102c3bfa7@Hes.purplrose.ir:8443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=meh.purplrose.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=meh.purplrose.ir#🏳️ Unknown - 05/28 @Config724
+ss://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.17.121.71:443?encryption=none&host=de.lezzatzone.ir&mode=stream-one&path=%2Fde&security=tls&sni=de.lezzatzone.ir&type=xhttp#🏳️ Unknown - 05/28 @Config724
+ss://aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a@tamin.ir:80?path=%2F&security=none&encryption=none&host=tr1.kianorbit.ir&type=httpupgrade#🇮🇷 Iran - 05/28 @Config724
+ss://c575c0fd-4833-4cba-937d-2342fd32544b@45.130.125.69:443?mode=stream-one&path=%2Fdev%2Fapi&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=de.fbase.cc.cd&fp=chrome&type=xhttp&allowInsecure=0&sni=de.fbase.cc.cd#🇸🇨 Seychelles - 05/28 @Config724
+vless://ed6808fa-fca3-4c70-9264-c5bc3d5bf974@185.189.58.195:38353?alpn=h2%2Chttp%2F1.1&encryption=none&security=tls&sni=185.189.58.195&type=tcp#🇩🇪 Germany - 05/28 @Config724
+ss://a05f8278-d521-4652-bfb9-2b8dbe6b3102@a2.hamrahnode.ir:2053?path=%2F&security=tls&encryption=none&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=op2.x-upload.org#🏳️ Unknown - 05/28 @Config724
+vless://d4305704-a108-4ce0-8ef0-66076e6227e9@3.66.32.10:443?encryption=none&security=none&type=tcp#🇩🇪 Germany - 05/28 @Config724
+trojan://humanity@104.17.121.71:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#🏳️ Unknown - 05/28 @Config724
+vless://a05f8278-d521-4652-bfb9-2b8dbe6b3102@a2.hamrahnode.ir:2053?path=%2F&security=tls&encryption=none&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=op2.x-upload.org#🏳️ Unknown - 05/28 @Config724
+vless://aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a@tamin.ir:80?path=%2F&security=none&encryption=none&host=tr1.kianorbit.ir&type=httpupgrade#🇮🇷 Iran - 05/28 @Config724
