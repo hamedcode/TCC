@@ -1,8 +1,2 @@
-ss://c5d39e5e-de2c-4614-af1a-652692097224@179.237.73.189:17931?security=none&encryption=none&host=tci.ir&headerType=http&type=tcp#%40ELFV2RAY%20%F0%9F%87%A8%F0%9F%87%AD%20Direct
-vless://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.74.218.56:443?security=none&encryption=none&headerType=none&type=tcp#%40FreeLand8%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
-vless://be5851ff-9af5-45ea-b874-a0a035714114@104.27.66.214:8443?path=%2Fadmin.php&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=ratatouille.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=ratatouille.adaspoloandco.com#%40tanhanet
-trojan://mitivpn@45.130.125.76:443?path=%2F%3Fed&security=tls&alpn=http%2F1.1&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=www.app-cloud.ir#%40Freeland8%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
-ss://be5851ff-9af5-45ea-b874-a0a035714114@104.27.66.214:8443?path=%2Fadmin.php&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=ratatouille.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=ratatouille.adaspoloandco.com#%40tanhanet
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#%40FreeLand8%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
-ss://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.74.218.56:443?security=none&encryption=none&headerType=none&type=tcp#%40FreeLand8%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
-vless://c5d39e5e-de2c-4614-af1a-652692097224@179.237.73.189:17931?security=none&encryption=none&host=tci.ir&headerType=http&type=tcp#%40ELFV2RAY%20%F0%9F%87%A8%F0%9F%87%AD%20Direct
+vless://27302727-9dfa-4975-990e-88c7a63747cd@45.130.125.76:443?encryption=none&type=ws&security=tls&path=%2F&host=sni1.xmlvr.de5.net&sni=sni1.xmlvr.de5.net&allowInsecure=0#@ELFV2RAY
+ss://27302727-9dfa-4975-990e-88c7a63747cd@45.130.125.76:443?encryption=none&type=ws&security=tls&path=%2F&host=sni1.xmlvr.de5.net&sni=sni1.xmlvr.de5.net&allowInsecure=0#@ELFV2RAY
