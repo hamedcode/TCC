@@ -1,0 +1,2 @@
+ss://c5d39e5e-de2c-4614-af1a-652692097224@179.237.73.189:17931?security=none&encryption=none&host=tci.ir&headerType=http&type=tcp#%40ELFV2RAY%20%F0%9F%87%A8%F0%9F%87%AD%20Direct
+vless://c5d39e5e-de2c-4614-af1a-652692097224@179.237.73.189:17931?security=none&encryption=none&host=tci.ir&headerType=http&type=tcp#%40ELFV2RAY%20%F0%9F%87%A8%F0%9F%87%AD%20Direct
