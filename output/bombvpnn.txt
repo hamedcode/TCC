@@ -1,0 +1,2 @@
+ss://f6314e1e-8c40-4972-b1e2-de25d37611a7@www.speedtest.net:8080?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=ai.heroitweb.ir&type=xhttp#%40foroshe_vpn
+vless://f6314e1e-8c40-4972-b1e2-de25d37611a7@www.speedtest.net:8080?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=ai.heroitweb.ir&type=xhttp#%40foroshe_vpn

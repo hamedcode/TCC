@@ -1,0 +1,2 @@
+ss://9306f42a-3e45-449e-8d26-d01904133418@anten.ir:443?encryption=mlkem768x25519plus.native.0rtt.DriHGiD-ShgRTG9X5U8I-j6LPm9FMZMOPnzShlHtDk8&security=tls&sni=twoline.mr-incognito.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=xhttp&host=twoline.mr-incognito.ir&path=%2F&mode=auto#%40AvaalVPN
+vless://9306f42a-3e45-449e-8d26-d01904133418@anten.ir:443?encryption=mlkem768x25519plus.native.0rtt.DriHGiD-ShgRTG9X5U8I-j6LPm9FMZMOPnzShlHtDk8&security=tls&sni=twoline.mr-incognito.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=xhttp&host=twoline.mr-incognito.ir&path=%2F&mode=auto#%40AvaalVPN
