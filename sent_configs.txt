@@ -7403,3 +7403,5 @@ ss://be5851ff-9af5-45ea-b874-a0a035714114@104.27.66.214:8443?path=%2Fadmin.php&s
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇬🇧 United Kingdom - 05/29 @Config724
 ss://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.74.218.56:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 05/29 @Config724
 vless://c5d39e5e-de2c-4614-af1a-652692097224@179.237.73.189:17931?security=none&encryption=none&host=tci.ir&headerType=http&type=tcp#🇺🇸 United States - 05/29 @Config724
+vless://27302727-9dfa-4975-990e-88c7a63747cd@45.130.125.76:443?encryption=none&type=ws&security=tls&path=%2F&host=sni1.xmlvr.de5.net&sni=sni1.xmlvr.de5.net&allowInsecure=0#🇸🇨 Seychelles - 05/29 @Config724
+ss://27302727-9dfa-4975-990e-88c7a63747cd@45.130.125.76:443?encryption=none&type=ws&security=tls&path=%2F&host=sni1.xmlvr.de5.net&sni=sni1.xmlvr.de5.net&allowInsecure=0#🇸🇨 Seychelles - 05/29 @Config724
