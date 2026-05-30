@@ -1,0 +1,4 @@
+ss://3dbf131b-dbf6-4660-b97b-003199b17686@cd4.baguvix.xyz:2053?security=tls&type=ws&headerType=&path=%2Fws%3Fed%3D2560&host=c7.app9.ir&sni=c7.app9.ir&fp=#@FREE_VPN02
+vless://88e43fc6-3d53-433c-adf4-d7bfb1f33e5f@solar.appleseraj.ir:2083?path=%3Fed%3D2048&security=tls&encryption=none&insecure=0&host=nurenbccc.appleseraj.ir&fp=chrome&type=ws&allowInsecure=0&sni=nurenbccc.appleseraj.ir#%@FREE_VPN02
+ss://88e43fc6-3d53-433c-adf4-d7bfb1f33e5f@solar.appleseraj.ir:2083?path=%3Fed%3D2048&security=tls&encryption=none&insecure=0&host=nurenbccc.appleseraj.ir&fp=chrome&type=ws&allowInsecure=0&sni=nurenbccc.appleseraj.ir#%@FREE_VPN02
+vless://3dbf131b-dbf6-4660-b97b-003199b17686@cd4.baguvix.xyz:2053?security=tls&type=ws&headerType=&path=%2Fws%3Fed%3D2560&host=c7.app9.ir&sni=c7.app9.ir&fp=#@FREE_VPN02
