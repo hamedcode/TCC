@@ -1,1 +1,2 @@
-trojan://jAck1mS8h3@45.130.125.76:443?type=ws&security=tls&path=%2F%3Fed%3D2048&sni=de.aananas.ir&alpn=http%2F1.1&fp=chrome&allowInsecure=0#@ELFV2RAY
+vless://07a7b6e8-35dd-411d-90e2-d328d9ed9dc9@island.cloudureld.com:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=island.cloudureld.com&fp=qq&allowInsecure=1&pbk=U-aI9goYn0iGJ31emKZ1ltON45Ry0LjCl15MnumMD2c&sid=7730551401296527#@ELFV2RAY
+ss://07a7b6e8-35dd-411d-90e2-d328d9ed9dc9@island.cloudureld.com:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=island.cloudureld.com&fp=qq&allowInsecure=1&pbk=U-aI9goYn0iGJ31emKZ1ltON45Ry0LjCl15MnumMD2c&sid=7730551401296527#@ELFV2RAY
