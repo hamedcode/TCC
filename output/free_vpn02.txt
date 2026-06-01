@@ -1,0 +1,4 @@
+vless://2d580b20-6228-4a88-b11d-78da48631efb@45.80.111.1:443?security=tls&type=ws&headerType=&path=%2Fnews&host=cdn-pro2.postshup.ir.&sni=cdn-pro2.postshup.ir.&fp=chrome&alpn=h3%2Ch2#@FREE_VPN02
+ss://2d580b20-6228-4a88-b11d-78da48631efb@45.80.111.1:443?security=tls&type=ws&headerType=&path=%2Fnews&host=cdn-pro2.postshup.ir.&sni=cdn-pro2.postshup.ir.&fp=chrome&alpn=h3%2Ch2#@FREE_VPN02
+vless://2d580b20-6228-4a88-b11d-78da48631efb@cd.land4k.com:443?security=tls&type=ws&headerType=&path=%2Fnews&host=cdn-pro6.postshup.ir.&sni=cdn-pro6.postshup.ir.&fp=chrome&alpn=h3%2Ch2#@FREE_VPN02
+ss://2d580b20-6228-4a88-b11d-78da48631efb@cd.land4k.com:443?security=tls&type=ws&headerType=&path=%2Fnews&host=cdn-pro6.postshup.ir.&sni=cdn-pro6.postshup.ir.&fp=chrome&alpn=h3%2Ch2#@FREE_VPN02
