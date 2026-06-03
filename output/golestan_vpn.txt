@@ -1,1 +1,0 @@
-trojan://humanity@104.18.12.149:443?path=%2Fassignment&security=tls&host=www.ignitelimit.com&type=ws&sni=www.ignitelimit.com#free%F0%9F%A6%81%20-%20%40Golestan_VPN

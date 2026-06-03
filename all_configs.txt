@@ -1,3 +1,0 @@
-vless://5bd671c5-e4a4-42fc-b685-8db5ee2bca9b@snapp.ir:80?type=ws&path=%2F&host=kabotar.garfar.ir&security=none#@ehsawn8
-ss://5bd671c5-e4a4-42fc-b685-8db5ee2bca9b@snapp.ir:80?type=ws&path=%2F&host=kabotar.garfar.ir&security=none#@ehsawn8
-trojan://humanity@104.18.12.149:443?path=%2Fassignment&security=tls&host=www.ignitelimit.com&type=ws&sni=www.ignitelimit.com#free%F0%9F%A6%81%20-%20%40Golestan_VPN
