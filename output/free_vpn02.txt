@@ -1,2 +1,0 @@
-vless://c9c7a2b1-caf7-4adb-a184-1f55573ecba0@snapp.ir:80?path=%2F&security=&encryption=none&host=cactos.cactuscloud.ir&type=ws#FREE_VPN02
-ss://c9c7a2b1-caf7-4adb-a184-1f55573ecba0@snapp.ir:80?path=%2F&security=&encryption=none&host=cactos.cactuscloud.ir&type=ws#FREE_VPN02
