@@ -1,3 +1,0 @@
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZHlMK0txWDhoSU1uK1V5QUR3U0pPUG03MkEwQTgzVHNET0ZYQm42STJtQT0@49.13.3.249:23997#%40FreeLand8%20%F0%9F%91%80%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-vless://b0e1b204-31b5-40df-b800-169ada16fdb9@sibilgg.opik.net:8080?security=none&encryption=none&headerType=none&type=tcp#%40FreeLand8%20%F0%9F%91%80%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
-ss://b0e1b204-31b5-40df-b800-169ada16fdb9@sibilgg.opik.net:8080?security=none&encryption=none&headerType=none&type=tcp#%40FreeLand8%20%F0%9F%91%80%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
