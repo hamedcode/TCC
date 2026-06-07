@@ -1,0 +1,2 @@
+ss://68de0a0f-25bc-4fd4-ba78-183a1b80495e@188.95.12.110:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=wazd.bot2.ir&type=ws#%E2%9C%94%EF%B8%8E%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%A5%E2%9E%AA%40ConfigV2rayForFree
+vless://68de0a0f-25bc-4fd4-ba78-183a1b80495e@188.95.12.110:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=wazd.bot2.ir&type=ws#%E2%9C%94%EF%B8%8E%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%A5%E2%9E%AA%40ConfigV2rayForFree
