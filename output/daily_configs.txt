@@ -1,2 +1,0 @@
-ss://4091123e-93d1-4f4d-b63a-a763336728bc@snapp.ir:2082?encryption=none&security=none&type=ws&host=ram.verify-cloud.ir&path=%2F#%D8%A8%D9%85%D8%A7%D9%86%D9%87%20%D8%A8%D8%B1%D8%A7%20%DA%A9%DB%8C
-vless://4091123e-93d1-4f4d-b63a-a763336728bc@snapp.ir:2082?encryption=none&security=none&type=ws&host=ram.verify-cloud.ir&path=%2F#%D8%A8%D9%85%D8%A7%D9%86%D9%87%20%D8%A8%D8%B1%D8%A7%20%DA%A9%DB%8C
