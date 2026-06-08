@@ -1,2 +1,0 @@
-vless://1ecfc07d-5ab5-46cd-8438-02ff221b1881@snapp.ir:80?type=ws&path=%2F&host=kabotar.garfar.ir&security=none#@ehsawn8-30gig
-ss://1ecfc07d-5ab5-46cd-8438-02ff221b1881@snapp.ir:80?type=ws&path=%2F&host=kabotar.garfar.ir&security=none#@ehsawn8-30gig
