@@ -1,0 +1,3 @@
+ss://9ce7ac33-5004-40ea-8236-15bc2d25a37c@www.speedtest.net:443?path=%2F&security=tls&encryption=none&host=v2ngnet.avinfased.workers.dev&fp=chrome&type=ws&sni=v2ngnet.avinfased.workers.dev#@FREE_VPN02
+trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#@FREE_VPN02
+vless://9ce7ac33-5004-40ea-8236-15bc2d25a37c@www.speedtest.net:443?path=%2F&security=tls&encryption=none&host=v2ngnet.avinfased.workers.dev&fp=chrome&type=ws&sni=v2ngnet.avinfased.workers.dev#@FREE_VPN02
