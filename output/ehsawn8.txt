@@ -1,2 +1,0 @@
-ss://0c34fd9d-879e-4202-8c55-e4ed40da9218@104.24.132.66:80?type=ws&path=%2F&host=free.kabotar.sbs&security=none#@ehsawn8-50gig
-vless://0c34fd9d-879e-4202-8c55-e4ed40da9218@104.24.132.66:80?type=ws&path=%2F&host=free.kabotar.sbs&security=none#@ehsawn8-50gig
