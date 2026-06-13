@@ -1,2 +1,0 @@
-ss://d05ffb9b-d231-45f5-af05-b83c4e3d7341@hcaptcha.com:443?path=%2F&security=tls&encryption=none&insecure=0&host=ezaccess-project-13ee98.ez-da5b2a.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=ezaccess-project-13ee98.ez-da5b2a.workers.dev#123-443
-vless://d05ffb9b-d231-45f5-af05-b83c4e3d7341@hcaptcha.com:443?path=%2F&security=tls&encryption=none&insecure=0&host=ezaccess-project-13ee98.ez-da5b2a.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=ezaccess-project-13ee98.ez-da5b2a.workers.dev#123-443
