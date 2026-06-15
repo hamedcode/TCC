@@ -279,3 +279,5 @@ ss://03bc875d-0d8e-49b6-9094-89a8159e65ee@91.107.191.12:29376?security=none&encr
 vless://03bc875d-0d8e-49b6-9094-89a8159e65ee@91.107.191.12:29376?security=none&encryption=none&headerType=none&type=tcp#🇩🇪 Germany - 06/13 @Config724
 trojan://mitivpn@188.42.88.92:443?type=ws&security=tls&path=%2Fed%3Dmitivpn&host=d.gamingdll.ir&sni=d.gamingdll.ir&alpn=http%2F1.1&fp=chrome&insecure=0&allowInsecure=0#🇱🇺 Luxembourg - 06/15 @Config724
 trojan://mitivpn@188.42.88.92:443?type=ws&security=tls&path=%2Fed%3Dmitivpn&host=d.gamingdll.ir&sni=gamingdll.ir&alpn=http%2F1.1&fp=chrome&insecure=0&allowInsecure=0#🇱🇺 Luxembourg - 06/15 @Config724
+ss://21e22226-0b96-4b4e-9a91-5c7f9e3f1760@ara.public.lat:58748?security=none&encryption=none&host=e1roj9ul.divarcdn.com%2Ce1roj9ul.alibaba.ir%2Ce1roj9ul.splus.ir%2Ce1roj9ul.cafebazaar.ir%2Ce1roj9ul.yjc.ir&headerType=http&type=tcp#🇫🇷 France - 06/15 @Config724
+vless://21e22226-0b96-4b4e-9a91-5c7f9e3f1760@ara.public.lat:58748?security=none&encryption=none&host=e1roj9ul.divarcdn.com%2Ce1roj9ul.alibaba.ir%2Ce1roj9ul.splus.ir%2Ce1roj9ul.cafebazaar.ir%2Ce1roj9ul.yjc.ir&headerType=http&type=tcp#🇫🇷 France - 06/15 @Config724
