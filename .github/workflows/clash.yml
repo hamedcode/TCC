@@ -1,0 +1,389 @@
+name: Convert Configs to Clash
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # هر روز ساعت ۳ UTC (۶:۳۰ صبح به وقت ایران)
+  workflow_dispatch:       # اجرای دستی هم ممکن باشه
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Download and convert configs
+        run: |
+          cat << 'PYEOF' > convert.py
+          import base64
+          import json
+          import re
+          import sys
+          from urllib.parse import urlparse, parse_qs, unquote
+          import requests
+          import yaml
+
+          SOURCE_URL = "https://raw.githubusercontent.com/hamedcode/TCC/main/sent_configs.txt"
+          OUTPUT_FILE = "clash.yml"
+
+          # ─── helpers ────────────────────────────────────────────────────────────────
+
+          def safe_b64decode(s):
+              s = s.strip().replace('-', '+').replace('_', '/')
+              pad = 4 - len(s) % 4
+              if pad != 4:
+                  s += '=' * pad
+              try:
+                  return base64.b64decode(s).decode('utf-8', errors='ignore')
+              except Exception:
+                  return None
+
+          def try_decode_user(user_part):
+              """اگه user قسمت base64 باشه decode کن، وگرنه همونو برگردون."""
+              decoded = safe_b64decode(user_part)
+              if decoded and ':' in decoded:
+                  return decoded
+              return user_part
+
+          def clean_name(raw):
+              name = unquote(raw).strip()
+              # حذف کاراکترهای مشکل‌ساز برای YAML
+              name = re.sub(r'[^\w\s\-_.()\[\]🇦-🇿]', '', name, flags=re.UNICODE)
+              return name or 'proxy'
+
+          def make_unique_name(base, seen):
+              if base not in seen:
+                  seen.add(base)
+                  return base
+              i = 2
+              while f"{base} {i}" in seen:
+                  i += 1
+              name = f"{base} {i}"
+              seen.add(name)
+              return name
+
+          # ─── parsers ────────────────────────────────────────────────────────────────
+
+          def parse_vless(line, seen):
+              try:
+                  # جدا کردن fragment (اسم)
+                  if '#' in line:
+                      uri, frag = line.rsplit('#', 1)
+                  else:
+                      uri, frag = line, 'vless'
+
+                  parsed = urlparse(uri)
+                  uuid = parsed.username
+                  server = parsed.hostname
+                  port = parsed.port or 443
+                  params = parse_qs(parsed.query)
+
+                  def p(k, default=''):
+                      return params.get(k, [default])[0]
+
+                  security = p('security', 'none')
+                  net_type = p('type', 'tcp')
+
+                  proxy = {
+                      'name': make_unique_name(clean_name(frag), seen),
+                      'type': 'vless',
+                      'server': server,
+                      'port': port,
+                      'uuid': uuid,
+                      'udp': True,
+                  }
+
+                  # network
+                  if net_type == 'ws':
+                      proxy['network'] = 'ws'
+                      ws_opts = {}
+                      if p('path'):
+                          ws_opts['path'] = unquote(p('path'))
+                      if p('host'):
+                          ws_opts['headers'] = {'Host': p('host')}
+                      if ws_opts:
+                          proxy['ws-opts'] = ws_opts
+                  elif net_type == 'grpc':
+                      proxy['network'] = 'grpc'
+                      svc = p('serviceName') or p('mode', '')
+                      if svc:
+                          proxy['grpc-opts'] = {'grpc-service-name': svc}
+                  elif net_type == 'tcp' and p('headerType') == 'http':
+                      proxy['network'] = 'http'
+                      if p('host'):
+                          proxy['http-opts'] = {'headers': {'Host': [p('host')]}}
+                  elif net_type in ('xhttp', 'httpupgrade'):
+                      proxy['network'] = 'http'
+
+                  # tls / reality
+                  if security == 'tls':
+                      proxy['tls'] = True
+                      if p('sni'):
+                          proxy['servername'] = p('sni')
+                      if p('fp'):
+                          proxy['client-fingerprint'] = p('fp')
+                      if p('alpn'):
+                          proxy['alpn'] = p('alpn').split(',')
+                  elif security == 'reality':
+                      proxy['tls'] = True
+                      proxy['reality-opts'] = {
+                          'public-key': p('pbk'),
+                          'short-id': p('sid', ''),
+                      }
+                      if p('sni'):
+                          proxy['servername'] = p('sni')
+                      if p('fp'):
+                          proxy['client-fingerprint'] = p('fp')
+                      if p('flow'):
+                          proxy['flow'] = p('flow')
+
+                  return proxy
+              except Exception:
+                  return None
+
+          def parse_ss(line, seen):
+              try:
+                  if '#' in line:
+                      uri, frag = line.rsplit('#', 1)
+                  else:
+                      uri, frag = line, 'ss'
+
+                  # ss://BASE64@host:port  یا  ss://method:pass@host:port
+                  rest = uri[5:]   # حذف ss://
+                  at_idx = rest.rfind('@')
+                  if at_idx == -1:
+                      return None
+
+                  user_part = rest[:at_idx]
+                  host_part = rest[at_idx+1:]
+
+                  # جدا کردن query string
+                  if '?' in host_part:
+                      host_port, qs = host_part.split('?', 1)
+                  else:
+                      host_port, qs = host_part, ''
+
+                  # parse host:port
+                  hp = host_port.rsplit(':', 1)
+                  if len(hp) != 2:
+                      return None
+                  server, port_str = hp
+                  server = server.strip('[]')   # IPv6
+                  port = int(port_str)
+
+                  # decode user_part
+                  decoded = try_decode_user(user_part)
+                  if ':' in decoded:
+                      method, password = decoded.split(':', 1)
+                  else:
+                      return None
+
+                  # query params (برای transport)
+                  params = parse_qs(qs) if qs else {}
+                  def p(k, default=''):
+                      return params.get(k, [default])[0]
+
+                  net_type = p('type', 'tcp')
+                  security = p('security', 'none')
+
+                  proxy = {
+                      'name': make_unique_name(clean_name(frag), seen),
+                      'type': 'ss',
+                      'server': server,
+                      'port': port,
+                      'cipher': method,
+                      'password': password,
+                      'udp': True,
+                  }
+
+                  if net_type == 'ws':
+                      proxy['plugin'] = 'v2ray-plugin'
+                      opts = 'mode=websocket'
+                      if p('path'):
+                          opts += f';path={unquote(p("path"))}'
+                      if p('host'):
+                          opts += f';host={p("host")}'
+                      if security == 'tls':
+                          opts += ';tls'
+                          if p('sni'):
+                              opts += f';tls-host={p("sni")}'
+                      proxy['plugin-opts'] = {'mode': 'websocket',
+                                               'path': unquote(p('path', '/')),
+                                               'headers': {'Host': p('host', server)} if p('host') else {}}
+                      if security == 'tls':
+                          proxy['plugin-opts']['tls'] = True
+                          if p('sni'):
+                              proxy['plugin-opts']['skip-cert-verify'] = False
+                  elif net_type == 'grpc':
+                      proxy['plugin'] = 'v2ray-plugin'
+                      proxy['plugin-opts'] = {'mode': 'grpc'}
+
+                  return proxy
+              except Exception:
+                  return None
+
+          def parse_trojan(line, seen):
+              try:
+                  if '#' in line:
+                      uri, frag = line.rsplit('#', 1)
+                  else:
+                      uri, frag = line, 'trojan'
+
+                  parsed = urlparse(uri)
+                  password = parsed.username
+                  server = parsed.hostname
+                  port = parsed.port or 443
+                  params = parse_qs(parsed.query)
+
+                  def p(k, default=''):
+                      return params.get(k, [default])[0]
+
+                  net_type = p('type', 'tcp')
+
+                  proxy = {
+                      'name': make_unique_name(clean_name(frag), seen),
+                      'type': 'trojan',
+                      'server': server,
+                      'port': port,
+                      'password': password,
+                      'udp': True,
+                      'skip-cert-verify': p('allowInsecure', '0') == '1',
+                  }
+
+                  if p('sni'):
+                      proxy['sni'] = p('sni')
+                  if p('fp'):
+                      proxy['client-fingerprint'] = p('fp')
+                  if p('alpn'):
+                      proxy['alpn'] = p('alpn').split(',')
+
+                  if net_type == 'ws':
+                      proxy['network'] = 'ws'
+                      ws_opts = {}
+                      if p('path'):
+                          ws_opts['path'] = unquote(p('path'))
+                      if p('host'):
+                          ws_opts['headers'] = {'Host': p('host')}
+                      if ws_opts:
+                          proxy['ws-opts'] = ws_opts
+                  elif net_type == 'grpc':
+                      proxy['network'] = 'grpc'
+                  elif net_type in ('xhttp', 'httpupgrade'):
+                      proxy['network'] = 'http'
+
+                  return proxy
+              except Exception:
+                  return None
+
+          # ─── main ────────────────────────────────────────────────────────────────────
+
+          print(f"[*] Downloading configs from {SOURCE_URL}")
+          resp = requests.get(SOURCE_URL, timeout=30)
+          resp.raise_for_status()
+          lines = resp.text.splitlines()
+          print(f"[*] Total lines: {len(lines)}")
+
+          proxies = []
+          seen_names = set()
+          skipped = 0
+
+          for raw in lines:
+              line = raw.strip()
+              if not line:
+                  continue
+
+              proxy = None
+              if line.startswith('vless://'):
+                  proxy = parse_vless(line, seen_names)
+              elif line.startswith('ss://'):
+                  proxy = parse_ss(line, seen_names)
+              elif line.startswith('trojan://'):
+                  proxy = parse_trojan(line, seen_names)
+              else:
+                  skipped += 1
+                  continue
+
+              if proxy and proxy.get('server') and proxy.get('port'):
+                  proxies.append(proxy)
+              else:
+                  skipped += 1
+
+          print(f"[*] Parsed: {len(proxies)} proxies  |  Skipped: {skipped}")
+
+          if not proxies:
+              print("[!] No proxies parsed — aborting")
+              sys.exit(1)
+
+          proxy_names = [p['name'] for p in proxies]
+
+          clash_config = {
+              'mixed-port': 7890,
+              'allow-lan': False,
+              'mode': 'rule',
+              'log-level': 'info',
+              'external-controller': '127.0.0.1:9090',
+
+              'dns': {
+                  'enable': True,
+                  'ipv6': False,
+                  'nameserver': ['8.8.8.8', '1.1.1.1', 'https://dns.google/dns-query'],
+                  'fallback': ['tls://1.0.0.1:853', 'tls://8.8.4.4:853'],
+              },
+
+              'proxies': proxies,
+
+              'proxy-groups': [
+                  {
+                      'name': '🚀 Select',
+                      'type': 'select',
+                      'proxies': ['♻️ Auto'] + proxy_names,
+                  },
+                  {
+                      'name': '♻️ Auto',
+                      'type': 'url-test',
+                      'proxies': proxy_names,
+                      'url': 'http://www.gstatic.com/generate_204',
+                      'interval': 300,
+                      'tolerance': 50,
+                  },
+                  {
+                      'name': '🎯 Direct',
+                      'type': 'select',
+                      'proxies': ['DIRECT', 'REJECT'],
+                  },
+              ],
+
+              'rules': [
+                  'GEOIP,IR,DIRECT',
+                  'GEOIP,private,DIRECT',
+                  'MATCH,🚀 Select',
+              ],
+          }
+
+          with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+              yaml.dump(clash_config, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+
+          print(f"[✓] Written to {OUTPUT_FILE}")
+          PYEOF
+          python convert.py
+
+      - name: Commit and push clash.yml
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add clash.yml
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "chore: update clash.yml [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
