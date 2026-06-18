@@ -664,19 +664,6 @@ proxies:
     headers:
       Host:
       - play.google.com
-- name: 🇳🇱 The Netherlands - 06/07 @Config724 2
-  type: vless
-  server: 51.158.206.25
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '@FREE_VPN02'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 🇨🇭 Switzerland - 06/07 @Config724
   type: trojan
   server: 185.18.250.252
@@ -1424,18 +1411,6 @@ proxies:
   tls: true
   servername: cdn7-09.vk-cdnvideo.com
   client-fingerprint: chrome
-- name: 🇱🇹 Lithuania - 06/10 @Config724
-  type: vless
-  server: 185.224.3.41
-  port: 10443
-  uuid: f6431ff1-dec0-4a6c-be4a-ce917913b589
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: WeSh DM0MdunM6N8btrY8tXlL0GT1Ah-0jcplNQf9FEo
-    short-id: ''
-  servername: www.cloudflare.com
-  flow: xtls-rprx-vision
 - name: 🇳🇱 The Netherlands - 06/10 @Config724 2
   type: vless
   server: 46.229.243.138
@@ -1471,16 +1446,6 @@ proxies:
   tls: true
   servername: v2ngnet.kalanman.workers.dev
   client-fingerprint: chrome
-- name: 🇱🇹 Lithuania - 06/10 @Config724 2
-  type: vless
-  server: bc-at-ph.ray-balance.space
-  port: 10443
-  uuid: f6431ff1-dec0-4a6c-be4a-ce917913b589
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: ''
-    short-id: ''
 - name: 🇱🇹 Lithuania - 06/10 @Config724 3
   type: vless
   server: 185.224.3.41
@@ -1498,18 +1463,6 @@ proxies:
   password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   udp: true
   skip-cert-verify: false
-- name: 🇱🇹 Lithuania - 06/10 @Config724 4
-  type: vless
-  server: bc-at-ph.ray-balance.space
-  port: 10443
-  uuid: f6431ff1-dec0-4a6c-be4a-ce917913b589
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  servername: www.cloudflare.com
-  flow: xtls-rprx-vision
 - name: 🏳️ Unknown - 06/10 @Config724 4
   type: vless
   server: www.speedtest.net
@@ -2442,7 +2395,6 @@ proxy-groups:
   - 🇩🇪 Germany - 06/07 @Config724
   - 🇷🇴 Romania - 06/07 @Config724
   - 🇬🇧 United Kingdom - 06/07 @Config724
-  - 🇳🇱 The Netherlands - 06/07 @Config724 2
   - 🇨🇭 Switzerland - 06/07 @Config724
   - 🏳️ Unknown - 06/07 @Config724
   - 🇩🇪 Germany - 06/07 @Config724 2
@@ -2519,14 +2471,11 @@ proxy-groups:
   - 🇬🇧 United Kingdom - 06/09 @Config724 12
   - 🏳️ Unknown - 06/10 @Config724
   - 🇳🇱 The Netherlands - 06/10 @Config724
-  - 🇱🇹 Lithuania - 06/10 @Config724
   - 🇳🇱 The Netherlands - 06/10 @Config724 2
   - 🏳️ Unknown - 06/10 @Config724 2
   - 🏳️ Unknown - 06/10 @Config724 3
-  - 🇱🇹 Lithuania - 06/10 @Config724 2
   - 🇱🇹 Lithuania - 06/10 @Config724 3
   - 🇵🇱 Poland - 06/10 @Config724
-  - 🇱🇹 Lithuania - 06/10 @Config724 4
   - 🏳️ Unknown - 06/10 @Config724 4
   - 🏳️ Unknown - 06/10 @Config724 5
   - 🏳️ Unknown - 06/10 @Config724 6
@@ -2657,7 +2606,6 @@ proxy-groups:
   - 🇩🇪 Germany - 06/07 @Config724
   - 🇷🇴 Romania - 06/07 @Config724
   - 🇬🇧 United Kingdom - 06/07 @Config724
-  - 🇳🇱 The Netherlands - 06/07 @Config724 2
   - 🇨🇭 Switzerland - 06/07 @Config724
   - 🏳️ Unknown - 06/07 @Config724
   - 🇩🇪 Germany - 06/07 @Config724 2
@@ -2734,14 +2682,11 @@ proxy-groups:
   - 🇬🇧 United Kingdom - 06/09 @Config724 12
   - 🏳️ Unknown - 06/10 @Config724
   - 🇳🇱 The Netherlands - 06/10 @Config724
-  - 🇱🇹 Lithuania - 06/10 @Config724
   - 🇳🇱 The Netherlands - 06/10 @Config724 2
   - 🏳️ Unknown - 06/10 @Config724 2
   - 🏳️ Unknown - 06/10 @Config724 3
-  - 🇱🇹 Lithuania - 06/10 @Config724 2
   - 🇱🇹 Lithuania - 06/10 @Config724 3
   - 🇵🇱 Poland - 06/10 @Config724
-  - 🇱🇹 Lithuania - 06/10 @Config724 4
   - 🏳️ Unknown - 06/10 @Config724 4
   - 🏳️ Unknown - 06/10 @Config724 5
   - 🏳️ Unknown - 06/10 @Config724 6
