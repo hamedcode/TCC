@@ -52,6 +52,7 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ Auto
+  - DIRECT
   - 🇫🇮 @FREE_VPN02
   - 🇫🇷 @FREE_VPN02
   - 🇩🇪 @FREE_VPN02
@@ -61,14 +62,9 @@ proxy-groups:
   - 🇫🇮 @FREE_VPN02
   - 🇫🇷 @FREE_VPN02
   - 🇩🇪 @FREE_VPN02
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
-  tolerance: 50
-- name: 🎯 Direct
-  type: select
-  proxies:
-  - DIRECT
-  - REJECT
+  lazy: false
 rules:
 - GEOIP,IR,DIRECT
 - GEOIP,private,DIRECT
