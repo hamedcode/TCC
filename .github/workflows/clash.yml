@@ -65,6 +65,20 @@ jobs:
               """برگرداندن True اگه رشته کاراکتر کنترلی داشته باشه."""
               return bool(re.search(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', str(s)))
 
+          def is_valid_reality_sid(sid):
+              """
+              short-id باید:
+              - خالی باشه (مجاز)  یا
+              - فقط hex (0-9a-f) و حداکثر ۱۶ کاراکتر
+              """
+              if sid == '':
+                  return True
+              return bool(re.fullmatch(r'[0-9a-f]{1,16}', sid.lower())) and ' ' not in sid
+
+          def is_valid_reality_pbk(pbk):
+              """public-key نباید خالی یا دارای فاصله باشه."""
+              return bool(pbk) and ' ' not in pbk
+
           def is_printable_ascii_ish(s):
               """چک کردن اینکه رشته قابل نمایش و بدون کاراکتر مشکل‌ساز باشه."""
               try:
@@ -171,9 +185,12 @@ jobs:
                           proxy['alpn'] = [a for a in p('alpn').split(',') if a]
 
                   elif security == 'reality':
-                      proxy['tls'] = True
                       pbk = p('pbk', '').strip()
                       sid = p('sid', '').strip()
+                      # رد کردن reality هایی که public-key یا short-id نامعتبر دارن
+                      if not is_valid_reality_pbk(pbk) or not is_valid_reality_sid(sid):
+                          return None
+                      proxy['tls'] = True
                       proxy['reality-opts'] = {
                           'public-key': pbk,
                           'short-id': sid,
