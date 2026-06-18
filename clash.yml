@@ -14,54 +14,24 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇫🇮 @FREE_VPN02
-  type: vless
-  server: forallpanel.srtongston.ir
-  port: 8880
-  uuid: 334b4652-f11d-4f0a-9d26-b5c0fff6c31f
+- name: 🇨🇳 China
+  type: ss
+  server: 61.171.92.202
+  port: 1001
+  cipher: aes-256-gcm
+  password: '123'
   udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - cdn-pro1.postshup.ir
-- name: 🇫🇷 @FREE_VPN02
-  type: vless
-  server: forallpanel.srtongston.ir
-  port: 8880
-  uuid: 334b4652-f11d-4f0a-9d26-b5c0fff6c31f
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - Cdn8-pro.postshup.ir.
-- name: 🇩🇪 @FREE_VPN02
-  type: vless
-  server: forallpanel.srtongston.ir
-  port: 8880
-  uuid: 334b4652-f11d-4f0a-9d26-b5c0fff6c31f
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - cdn-pro4.postshup.ir.
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇫🇮 @FREE_VPN02
-  - 🇫🇷 @FREE_VPN02
-  - 🇩🇪 @FREE_VPN02
+  - 🇨🇳 China
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇫🇮 @FREE_VPN02
-  - 🇫🇷 @FREE_VPN02
-  - 🇩🇪 @FREE_VPN02
+  - 🇨🇳 China
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
