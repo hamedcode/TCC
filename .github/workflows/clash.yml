@@ -2,8 +2,8 @@ name: Convert Configs to Clash
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # هر روز ساعت ۳ UTC (۶:۳۰ صبح به وقت ایران)
-  workflow_dispatch:       # اجرای دستی هم ممکن باشه
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -28,7 +28,6 @@ jobs:
         run: |
           cat << 'PYEOF' > convert.py
           import base64
-          import json
           import re
           import sys
           from urllib.parse import urlparse, parse_qs, unquote
@@ -38,7 +37,18 @@ jobs:
           SOURCE_URL = "https://raw.githubusercontent.com/hamedcode/TCC/main/sent_configs.txt"
           OUTPUT_FILE = "clash.yml"
 
-          # ─── helpers ────────────────────────────────────────────────────────────────
+          # ─── Cipher های معتبر Clash/Mihomo ──────────────────────────────────────────
+          VALID_SS_CIPHERS = {
+              'aes-128-gcm', 'aes-256-gcm',
+              'chacha20-ietf-poly1305',
+              'aes-128-cfb', 'aes-192-cfb', 'aes-256-cfb',
+              'aes-128-ctr', 'aes-192-ctr', 'aes-256-ctr',
+              'rc4-md5', 'xchacha20-ietf-poly1305',
+              '2022-blake3-aes-128-gcm', '2022-blake3-aes-256-gcm',
+              '2022-blake3-chacha20-poly1305',
+          }
+
+          # ─── helpers ─────────────────────────────────────────────────────────────────
 
           def safe_b64decode(s):
               s = s.strip().replace('-', '+').replace('_', '/')
@@ -46,21 +56,30 @@ jobs:
               if pad != 4:
                   s += '=' * pad
               try:
-                  return base64.b64decode(s).decode('utf-8', errors='ignore')
+                  decoded = base64.b64decode(s).decode('utf-8', errors='strict')
+                  return decoded
               except Exception:
                   return None
 
-          def try_decode_user(user_part):
-              """اگه user قسمت base64 باشه decode کن، وگرنه همونو برگردون."""
-              decoded = safe_b64decode(user_part)
-              if decoded and ':' in decoded:
-                  return decoded
-              return user_part
+          def has_control_chars(s):
+              """برگرداندن True اگه رشته کاراکتر کنترلی داشته باشه."""
+              return bool(re.search(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', str(s)))
+
+          def is_printable_ascii_ish(s):
+              """چک کردن اینکه رشته قابل نمایش و بدون کاراکتر مشکل‌ساز باشه."""
+              try:
+                  s.encode('ascii')
+                  return not has_control_chars(s)
+              except (UnicodeEncodeError, AttributeError):
+                  # کاراکترهای unicode مجازه، فقط control char نباشه
+                  return not has_control_chars(s)
 
           def clean_name(raw):
               name = unquote(raw).strip()
-              # حذف کاراکترهای مشکل‌ساز برای YAML
-              name = re.sub(r'[^\w\s\-_.()\[\]🇦-🇿]', '', name, flags=re.UNICODE)
+              # حذف کاراکترهای کنترلی
+              name = re.sub(r'[\x00-\x1f\x7f]', '', name)
+              # جایگزینی فاصله‌های اضافه
+              name = re.sub(r'\s+', ' ', name).strip()
               return name or 'proxy'
 
           def make_unique_name(base, seen):
@@ -74,22 +93,32 @@ jobs:
               seen.add(name)
               return name
 
-          # ─── parsers ────────────────────────────────────────────────────────────────
+          def proxy_is_clean(proxy):
+              """چک کردن همه فیلدهای پروکسی برای کاراکتر مشکل‌ساز."""
+              def check_value(v):
+                  if isinstance(v, str):
+                      return not has_control_chars(v)
+                  elif isinstance(v, dict):
+                      return all(check_value(x) for x in v.values())
+                  elif isinstance(v, list):
+                      return all(check_value(x) for x in v)
+                  return True
+
+              return all(check_value(v) for k, v in proxy.items() if k != 'name')
+
+          # ─── parsers ─────────────────────────────────────────────────────────────────
 
           def parse_vless(line, seen):
               try:
-                  # جدا کردن fragment (اسم)
-                  if '#' in line:
-                      uri, frag = line.rsplit('#', 1)
-                  else:
-                      uri, frag = line, 'vless'
-
+                  uri, frag = (line.rsplit('#', 1) + ['vless'])[:2] if '#' in line else (line, 'vless')
                   parsed = urlparse(uri)
                   uuid = parsed.username
                   server = parsed.hostname
                   port = parsed.port or 443
-                  params = parse_qs(parsed.query)
+                  if not server or not port or not uuid:
+                      return None
 
+                  params = parse_qs(parsed.query)
                   def p(k, default=''):
                       return params.get(k, [default])[0]
 
@@ -105,29 +134,33 @@ jobs:
                       'udp': True,
                   }
 
-                  # network
+                  # network type
                   if net_type == 'ws':
                       proxy['network'] = 'ws'
                       ws_opts = {}
-                      if p('path'):
-                          ws_opts['path'] = unquote(p('path'))
+                      path = unquote(p('path')) if p('path') else '/'
+                      ws_opts['path'] = path
                       if p('host'):
                           ws_opts['headers'] = {'Host': p('host')}
-                      if ws_opts:
-                          proxy['ws-opts'] = ws_opts
+                      proxy['ws-opts'] = ws_opts
+
                   elif net_type == 'grpc':
                       proxy['network'] = 'grpc'
                       svc = p('serviceName') or p('mode', '')
                       if svc:
                           proxy['grpc-opts'] = {'grpc-service-name': svc}
+
                   elif net_type == 'tcp' and p('headerType') == 'http':
                       proxy['network'] = 'http'
                       if p('host'):
                           proxy['http-opts'] = {'headers': {'Host': [p('host')]}}
+
                   elif net_type in ('xhttp', 'httpupgrade'):
                       proxy['network'] = 'http'
+                      if p('host'):
+                          proxy['http-opts'] = {'headers': {'Host': [p('host')]}}
 
-                  # tls / reality
+                  # TLS / Reality
                   if security == 'tls':
                       proxy['tls'] = True
                       if p('sni'):
@@ -135,12 +168,15 @@ jobs:
                       if p('fp'):
                           proxy['client-fingerprint'] = p('fp')
                       if p('alpn'):
-                          proxy['alpn'] = p('alpn').split(',')
+                          proxy['alpn'] = [a for a in p('alpn').split(',') if a]
+
                   elif security == 'reality':
                       proxy['tls'] = True
+                      pbk = p('pbk', '').strip()
+                      sid = p('sid', '').strip()
                       proxy['reality-opts'] = {
-                          'public-key': p('pbk'),
-                          'short-id': p('sid', ''),
+                          'public-key': pbk,
+                          'short-id': sid,
                       }
                       if p('sni'):
                           proxy['servername'] = p('sni')
@@ -154,43 +190,77 @@ jobs:
                   return None
 
           def parse_ss(line, seen):
+              """
+              Parse Shadowsocks URI.
+              فقط cipher های معتبر Clash قبول میشه.
+              """
               try:
-                  if '#' in line:
-                      uri, frag = line.rsplit('#', 1)
-                  else:
-                      uri, frag = line, 'ss'
+                  uri, frag = (line.rsplit('#', 1) + ['ss'])[:2] if '#' in line else (line, 'ss')
 
-                  # ss://BASE64@host:port  یا  ss://method:pass@host:port
-                  rest = uri[5:]   # حذف ss://
+                  rest = uri[5:]  # حذف ss://
                   at_idx = rest.rfind('@')
                   if at_idx == -1:
                       return None
 
                   user_part = rest[:at_idx]
-                  host_part = rest[at_idx+1:]
+                  host_part = rest[at_idx + 1:]
 
                   # جدا کردن query string
-                  if '?' in host_part:
-                      host_port, qs = host_part.split('?', 1)
-                  else:
-                      host_port, qs = host_part, ''
+                  host_port = host_part.split('?')[0]
+                  qs = host_part.split('?')[1] if '?' in host_part else ''
 
-                  # parse host:port
                   hp = host_port.rsplit(':', 1)
                   if len(hp) != 2:
                       return None
-                  server, port_str = hp
-                  server = server.strip('[]')   # IPv6
-                  port = int(port_str)
+                  server = hp[0].strip('[]')
+                  port = int(hp[1])
 
-                  # decode user_part
-                  decoded = try_decode_user(user_part)
-                  if ':' in decoded:
-                      method, password = decoded.split(':', 1)
+                  # Decode user_part
+                  # فرمت ۱: method:password (plain)
+                  # فرمت ۲: BASE64(method:password)
+                  # فرمت ۳: BASE64(method:password):plugin_password (2022)
+                  method = None
+                  password = None
+
+                  if ':' in user_part:
+                      # ممکنه plain باشه یا BASE64:extra
+                      parts = user_part.split(':', 1)
+                      # اگه اولی cipher معتبل باشه → plain
+                      if parts[0].lower() in VALID_SS_CIPHERS:
+                          method = parts[0].lower()
+                          password = parts[1]
+                      else:
+                          # ممکنه BASE64:extra_pass (برای 2022)
+                          decoded = safe_b64decode(parts[0])
+                          if decoded and ':' in decoded:
+                              sub = decoded.split(':', 1)
+                              if sub[0].lower() in VALID_SS_CIPHERS:
+                                  method = sub[0].lower()
+                                  # برای 2022 فرمت password:plugin_password
+                                  password = sub[1] + ':' + parts[1] if len(parts) > 1 else sub[1]
+                              else:
+                                  return None  # cipher ناشناخته
+                          else:
+                              return None
                   else:
+                      # کل user_part یه BASE64 هست
+                      decoded = safe_b64decode(user_part)
+                      if not decoded or ':' not in decoded:
+                          return None
+                      parts = decoded.split(':', 1)
+                      if parts[0].lower() not in VALID_SS_CIPHERS:
+                          return None
+                      method = parts[0].lower()
+                      password = parts[1]
+
+                  # اگه cipher معتبل نبود رد کن
+                  if method not in VALID_SS_CIPHERS:
                       return None
 
-                  # query params (برای transport)
+                  # چک کردن password برای کاراکتر مشکل‌ساز
+                  if has_control_chars(password):
+                      return None
+
                   params = parse_qs(qs) if qs else {}
                   def p(k, default=''):
                       return params.get(k, [default])[0]
@@ -208,45 +278,43 @@ jobs:
                       'udp': True,
                   }
 
+                  # transport (ws/grpc)
                   if net_type == 'ws':
+                      path = unquote(p('path', '/'))
+                      host = p('host', server)
+                      plugin_opts = {
+                          'mode': 'websocket',
+                          'path': path,
+                      }
+                      if host:
+                          plugin_opts['headers'] = {'Host': host}
+                      if security == 'tls':
+                          plugin_opts['tls'] = True
+                          if p('sni'):
+                              plugin_opts['skip-cert-verify'] = False
                       proxy['plugin'] = 'v2ray-plugin'
-                      opts = 'mode=websocket'
-                      if p('path'):
-                          opts += f';path={unquote(p("path"))}'
-                      if p('host'):
-                          opts += f';host={p("host")}'
-                      if security == 'tls':
-                          opts += ';tls'
-                          if p('sni'):
-                              opts += f';tls-host={p("sni")}'
-                      proxy['plugin-opts'] = {'mode': 'websocket',
-                                               'path': unquote(p('path', '/')),
-                                               'headers': {'Host': p('host', server)} if p('host') else {}}
-                      if security == 'tls':
-                          proxy['plugin-opts']['tls'] = True
-                          if p('sni'):
-                              proxy['plugin-opts']['skip-cert-verify'] = False
+                      proxy['plugin-opts'] = plugin_opts
+
                   elif net_type == 'grpc':
                       proxy['plugin'] = 'v2ray-plugin'
                       proxy['plugin-opts'] = {'mode': 'grpc'}
 
                   return proxy
+
               except Exception:
                   return None
 
           def parse_trojan(line, seen):
               try:
-                  if '#' in line:
-                      uri, frag = line.rsplit('#', 1)
-                  else:
-                      uri, frag = line, 'trojan'
-
+                  uri, frag = (line.rsplit('#', 1) + ['trojan'])[:2] if '#' in line else (line, 'trojan')
                   parsed = urlparse(uri)
                   password = parsed.username
                   server = parsed.hostname
                   port = parsed.port or 443
-                  params = parse_qs(parsed.query)
+                  if not server or not port or not password:
+                      return None
 
+                  params = parse_qs(parsed.query)
                   def p(k, default=''):
                       return params.get(k, [default])[0]
 
@@ -259,7 +327,7 @@ jobs:
                       'port': port,
                       'password': password,
                       'udp': True,
-                      'skip-cert-verify': p('allowInsecure', '0') == '1',
+                      'skip-cert-verify': p('allowInsecure', '0') == '1' or p('insecure', '0') == '1',
                   }
 
                   if p('sni'):
@@ -267,19 +335,25 @@ jobs:
                   if p('fp'):
                       proxy['client-fingerprint'] = p('fp')
                   if p('alpn'):
-                      proxy['alpn'] = p('alpn').split(',')
+                      proxy['alpn'] = [a for a in p('alpn').split(',') if a]
 
                   if net_type == 'ws':
                       proxy['network'] = 'ws'
                       ws_opts = {}
-                      if p('path'):
-                          ws_opts['path'] = unquote(p('path'))
+                      path = unquote(p('path')) if p('path') else '/'
+                      # بعضی trojan ها path رو اشتباه URL کامل میذارن
+                      if path.startswith('http'):
+                          path = '/'
+                      ws_opts['path'] = path
                       if p('host'):
                           ws_opts['headers'] = {'Host': p('host')}
-                      if ws_opts:
-                          proxy['ws-opts'] = ws_opts
+                      proxy['ws-opts'] = ws_opts
+
                   elif net_type == 'grpc':
                       proxy['network'] = 'grpc'
+                      if p('serviceName'):
+                          proxy['grpc-opts'] = {'grpc-service-name': p('serviceName')}
+
                   elif net_type in ('xhttp', 'httpupgrade'):
                       proxy['network'] = 'http'
 
@@ -298,6 +372,7 @@ jobs:
           proxies = []
           seen_names = set()
           skipped = 0
+          rejected_ctrl = 0
 
           for raw in lines:
               line = raw.strip()
@@ -316,14 +391,21 @@ jobs:
                   continue
 
               if proxy and proxy.get('server') and proxy.get('port'):
-                  proxies.append(proxy)
+                  # فیلتر نهایی: هیچ کاراکتر کنترلی در فیلدها نباشه
+                  if proxy_is_clean(proxy):
+                      proxies.append(proxy)
+                  else:
+                      rejected_ctrl += 1
+                      print(f"  [!] Rejected (control chars): {proxy.get('name', '?')}")
               else:
                   skipped += 1
 
-          print(f"[*] Parsed: {len(proxies)} proxies  |  Skipped: {skipped}")
+          print(f"[*] Parsed OK : {len(proxies)}")
+          print(f"[*] Skipped   : {skipped}")
+          print(f"[*] Rejected (control chars): {rejected_ctrl}")
 
           if not proxies:
-              print("[!] No proxies parsed — aborting")
+              print("[!] No valid proxies — aborting")
               sys.exit(1)
 
           proxy_names = [p['name'] for p in proxies]
@@ -375,7 +457,7 @@ jobs:
           with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
               yaml.dump(clash_config, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
 
-          print(f"[✓] Written to {OUTPUT_FILE}")
+          print(f"[✓] Written {len(proxies)} proxies to {OUTPUT_FILE}")
           PYEOF
           python convert.py
 
