@@ -1,8 +1,8 @@
-vless://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=cdn-pro1.postshup.ir&path=/?ed%3D2082&security=none#%F0%9F%87%AB%F0%9F%87%AE%20@FREE_VPN02
 vless://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=Cdn8-pro.postshup.ir.&path=/?ed%3D2082&security=none#%F0%9F%87%AB%F0%9F%87%B7%20@FREE_VPN02
+vless://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=cdn-pro1.postshup.ir&path=/?ed%3D2082&security=none#%F0%9F%87%AB%F0%9F%87%AE%20@FREE_VPN02
 ss://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=cdn-pro4.postshup.ir.&path=/?ed%3D2082&security=none#%F0%9F%87%A9%F0%9F%87%AA%20@FREE_VPN02
-ss://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=Cdn8-pro.postshup.ir.&path=/?ed%3D2082&security=none#%F0%9F%87%AB%F0%9F%87%B7%20@FREE_VPN02
 ss://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=cdn-pro1.postshup.ir&path=/?ed%3D2082&security=none#%F0%9F%87%AB%F0%9F%87%AE%20@FREE_VPN02
+ss://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=Cdn8-pro.postshup.ir.&path=/?ed%3D2082&security=none#%F0%9F%87%AB%F0%9F%87%B7%20@FREE_VPN02
 vless://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@116.203.94.160:2089?encryption=none&type=tcp&headerType=none&host=telewebion.com&security=none#%F0%9F%87%A9%F0%9F%87%AA%20@FREE_VPN02
 ss://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@116.203.94.160:2089?encryption=none&type=tcp&headerType=none&host=telewebion.com&security=none#%F0%9F%87%A9%F0%9F%87%AA%20@FREE_VPN02
 vless://334b4652-f11d-4f0a-9d26-b5c0fff6c31f@forallpanel.srtongston.ir:8880?encryption=none&type=httpupgrade&host=cdn-pro4.postshup.ir.&path=/?ed%3D2082&security=none#%F0%9F%87%A9%F0%9F%87%AA%20@FREE_VPN02
