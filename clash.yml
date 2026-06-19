@@ -21,6 +21,42 @@ proxies:
   cipher: aes-256-gcm
   password: '123'
   udp: true
+- name: 🇺🇸 United States - 06/19 @Config724
+  type: vless
+  server: fast.cd-tur4.ir
+  port: 443
+  uuid: 1df05cde-34a0-44ce-8059-44a7b1e7782b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bazaryabab.global.ssl.fastly.net
+  tls: true
+  servername: default.ssl.fastly.net
+- name: 🇺🇸 United States - 06/19 @Config724 2
+  type: vless
+  server: ansooyefilter-bot.qeshmdiyar.ir
+  port: 8443
+  uuid: 24a263c8-3153-404d-a567-4089cba17c10
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: k-wk6CQguQMtipx1iMfDyZhyUL4FSS4T4ISLC9YTeh4
+    short-id: fa
+  servername: www.nvidia.com
+  client-fingerprint: chrome
+- name: 🇺🇸 United States - 06/19 @Config724 3
+  type: vless
+  server: psf-1.zdshop.ir
+  port: 80
+  uuid: 7dfdbb4b-5bf7-4503-b2c0-4ef05922dcb9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: khodroshop.ir
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -28,10 +64,16 @@ proxy-groups:
   - ♻️ Auto
   - DIRECT
   - 🇨🇳 China
+  - 🇺🇸 United States - 06/19 @Config724
+  - 🇺🇸 United States - 06/19 @Config724 2
+  - 🇺🇸 United States - 06/19 @Config724 3
 - name: ♻️ Auto
   type: url-test
   proxies:
   - 🇨🇳 China
+  - 🇺🇸 United States - 06/19 @Config724
+  - 🇺🇸 United States - 06/19 @Config724 2
+  - 🇺🇸 United States - 06/19 @Config724 3
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
