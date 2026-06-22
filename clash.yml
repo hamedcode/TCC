@@ -440,6 +440,115 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🏳️ Unknown - 06/21 @Config724 4
+  type: vless
+  server: adamak1.phacode.ir
+  port: 2053
+  uuid: f5887006-d4da-48c7-81e7-92595a2703fd
+  udp: true
+  network: http
+  tls: true
+  servername: adamak.phacode.ir
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 🏳️ Unknown - 06/21 @Config724 5
+  type: vless
+  server: feedback.spotify.com
+  port: 2096
+  uuid: bff8a2c9-01b5-4a26-8c9d-a2bf92081ffd
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoicklkc0hzR1ZJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: masterserver1.xzero77.workers.dev
+  tls: true
+  servername: MasTErSerVeR1.XZero77.WoRkErS.DEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/21 @Config724 6
+  type: vless
+  server: 172.67.187.140
+  port: 2053
+  uuid: 66265f96-35e1-4525-8783-14f65d05fb32
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiMGFWaUFtTXlaWXAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: masterserver1.winstone-dcf.workers.dev
+  tls: true
+  servername: mASteRSeRvEr1.WiNSTOnE-dcf.WORkErS.Dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/21 @Config724 7
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 72846c40-5a26-4dbe-b98d-605ffd1d3fd6
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiRjQzeUwyUnciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: masterserver1.shiyafkon.workers.dev
+  tls: true
+  servername: MaSTERserVer1.ShIYafKon.WorkerS.deV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/22 @Config724
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 01b96aee-765a-4e34-906b-7c2540550485
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiYWVndzFGbjgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: v2ngnet.shahabtyui.workers.dev
+  tls: true
+  servername: V2nGNet.shaHabtyUi.WoRkers.Dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/22 @Config724 2
+  type: vless
+  server: 188.114.96.3
+  port: 8443
+  uuid: 81199728-fa05-46d6-abc5-aa171ba2977a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiTGFLclZPYWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: v2ngnet.kalanman.workers.dev
+  tls: true
+  servername: v2NgnET.KalanMAN.wORKerS.dEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/22 @Config724 3
+  type: vless
+  server: 172.67.199.35
+  port: 2096
+  uuid: d7f33e89-0eab-4d55-8588-59b1994e8d82
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoieHZVS3U2MDBUSmFUbGhxMCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ezaccess-project-e87490.postttt.workers.dev
+  tls: true
+  servername: EZaccEss-PrOjeCt-e87490.poStTtT.WOrKeRS.dEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -481,6 +590,13 @@ proxy-groups:
   - 🏳️ Unknown - 06/21 @Config724
   - 🏳️ Unknown - 06/21 @Config724 2
   - 🏳️ Unknown - 06/21 @Config724 3
+  - 🏳️ Unknown - 06/21 @Config724 4
+  - 🏳️ Unknown - 06/21 @Config724 5
+  - 🏳️ Unknown - 06/21 @Config724 6
+  - 🏳️ Unknown - 06/21 @Config724 7
+  - 🏳️ Unknown - 06/22 @Config724
+  - 🏳️ Unknown - 06/22 @Config724 2
+  - 🏳️ Unknown - 06/22 @Config724 3
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -519,6 +635,13 @@ proxy-groups:
   - 🏳️ Unknown - 06/21 @Config724
   - 🏳️ Unknown - 06/21 @Config724 2
   - 🏳️ Unknown - 06/21 @Config724 3
+  - 🏳️ Unknown - 06/21 @Config724 4
+  - 🏳️ Unknown - 06/21 @Config724 5
+  - 🏳️ Unknown - 06/21 @Config724 6
+  - 🏳️ Unknown - 06/21 @Config724 7
+  - 🏳️ Unknown - 06/22 @Config724
+  - 🏳️ Unknown - 06/22 @Config724 2
+  - 🏳️ Unknown - 06/22 @Config724 3
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
