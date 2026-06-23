@@ -549,6 +549,147 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇫🇷 France - 06/22 @Config724
+  type: vless
+  server: sca14.myfymain.com
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇷🇺 Russia - 06/22 @Config724
+  type: vless
+  server: 5.180.173.222
+  port: 448
+  uuid: 626b07bd-81c4-4212-be7a-27442a579620
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: y4_NnPQc2X8Bj97LpUL9r9xuK-R2pLwjd5cZbBw2HSo
+    short-id: 15052edc8120b63d
+  servername: www.googletagmanager.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇸🇨 Seychelles - 06/22 @Config724
+  type: vless
+  server: 45.130.125.114
+  port: 8443
+  uuid: f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: srv10.perfectbulk.info
+  tls: true
+  servername: srv10.perfectbulk.info
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 06/22 @Config724 4
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 4704e61e-b968-41e5-8fec-fc187595028a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiaG9Xc0Vya0k0UGN4SzhlIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: masterserver1.aloalo77.workers.dev
+  tls: true
+  servername: MaSTeRserveR1.aLOalO77.worKErS.DEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/22 @Config724 5
+  type: vless
+  server: 104.21.2.189
+  port: 2096
+  uuid: 189218eb-ff90-4073-98a4-80552c2fc234
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiYzVYdlE5cklheDE4IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: masterserver1.hasanbbc.workers.dev
+  tls: true
+  servername: MaSTerSERVEr1.HAsaNBBC.wORkeRs.Dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/22 @Config724 6
+  type: vless
+  server: 172.67.160.219
+  port: 2053
+  uuid: 9a5020c5-5d65-4cc2-9d85-c23858502db9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiNXJjNU5wRlAzd3ZITSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: masterserver1.moinjkl.workers.dev
+  tls: true
+  servername: mASteRSERVeR1.mOINjkl.WOrKERS.dEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇫🇷 France - 06/22 @Config724 2
+  type: vless
+  server: sca14.myfymain.com
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🏳️ Unknown - 06/23 @Config724
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 58f2c645-09e5-404d-a1f7-a42aa62d2de7
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZThLNEVHeEZuZTM0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: v2ngnet.shamshirjomong.workers.dev
+  tls: true
+  servername: v2nGneT.ShamShirjoMONG.WOrKeRS.dEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/23 @Config724 2
+  type: vless
+  server: 172.67.212.51
+  port: 8443
+  uuid: db6e5b97-4ca8-4314-95d2-5b3fd9fba319
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiMEdTV1B2V1kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: ezaccess-project-0c74bd.ez-be3a8c.workers.dev
+  tls: true
+  servername: eZAcCEsS-PRoJEcT-0C74Bd.EZ-BE3A8C.wORKErs.DeV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/23 @Config724 3
+  type: vless
+  server: 104.21.65.19
+  port: 2096
+  uuid: b25ed0c9-4e9f-4969-b839-a02df88d4c65
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiN0E3SWxBaG9xZ1ciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: v2ngnet-hgvhfvj.kiam4536.workers.dev
+  tls: true
+  servername: v2nGnET-HgVhfvj.Kiam4536.wOrKErs.DEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -597,6 +738,16 @@ proxy-groups:
   - 🏳️ Unknown - 06/22 @Config724
   - 🏳️ Unknown - 06/22 @Config724 2
   - 🏳️ Unknown - 06/22 @Config724 3
+  - 🇫🇷 France - 06/22 @Config724
+  - 🇷🇺 Russia - 06/22 @Config724
+  - 🇸🇨 Seychelles - 06/22 @Config724
+  - 🏳️ Unknown - 06/22 @Config724 4
+  - 🏳️ Unknown - 06/22 @Config724 5
+  - 🏳️ Unknown - 06/22 @Config724 6
+  - 🇫🇷 France - 06/22 @Config724 2
+  - 🏳️ Unknown - 06/23 @Config724
+  - 🏳️ Unknown - 06/23 @Config724 2
+  - 🏳️ Unknown - 06/23 @Config724 3
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -642,6 +793,16 @@ proxy-groups:
   - 🏳️ Unknown - 06/22 @Config724
   - 🏳️ Unknown - 06/22 @Config724 2
   - 🏳️ Unknown - 06/22 @Config724 3
+  - 🇫🇷 France - 06/22 @Config724
+  - 🇷🇺 Russia - 06/22 @Config724
+  - 🇸🇨 Seychelles - 06/22 @Config724
+  - 🏳️ Unknown - 06/22 @Config724 4
+  - 🏳️ Unknown - 06/22 @Config724 5
+  - 🏳️ Unknown - 06/22 @Config724 6
+  - 🇫🇷 France - 06/22 @Config724 2
+  - 🏳️ Unknown - 06/23 @Config724
+  - 🏳️ Unknown - 06/23 @Config724 2
+  - 🏳️ Unknown - 06/23 @Config724 3
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
