@@ -1,0 +1,4 @@
+vless://1ca2c927-f8ba-4475-94cb-f85e0fb03ff5@5.175.249.174:443?mode=stream-one&path=%2Fzal&security=tls&alpn=h2&encryption=none&insecure=0&host=static.lotussec.com&fp=firefox&type=xhttp&allowInsecure=0&sni=static.lotussec.com#%FREE_VPN02
+ss://1ca2c927-f8ba-4475-94cb-f85e0fb03ff5@5.175.249.174:443?mode=stream-one&path=%2Fzal&security=tls&alpn=h2&encryption=none&insecure=0&host=static.lotussec.com&fp=firefox&type=xhttp&allowInsecure=0&sni=static.lotussec.com#%FREE_VPN02
+trojan://MiTiVPN@89.116.180.49:443?path=%2Fnl%3Dmitivpn&security=tls&alpn=http%2F1.1&insecure=0&host=f6r.ir&fp=chrome&type=ws&allowInsecure=0&sni=f6r.ir#https://t.me/FREE_VPN02
+trojan://MiTiVPN@45.131.4.118:443?path=%2Fusa%3Dmitivpn&security=tls&alpn=http%2F1.1&insecure=0&host=f6r.ir&fp=chrome&type=ws&allowInsecure=0&sni=f6r.ir#@FREE_VPN02
