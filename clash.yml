@@ -865,6 +865,102 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇩🇪 Germany - 06/24 @Config724
+  type: vless
+  server: 5.175.249.174
+  port: 443
+  uuid: 1ca2c927-f8ba-4475-94cb-f85e0fb03ff5
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - static.lotussec.com
+  tls: true
+  servername: static.lotussec.com
+  client-fingerprint: firefox
+  alpn:
+  - h2
+- name: 🏳️ Unknown - 06/24 @Config724 4
+  type: vless
+  server: 188.114.96.3
+  port: 443
+  uuid: 893096ae-ed76-4440-bc34-f77c4872540f
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoieE1zSFhYR2hkcHZGUHI3cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: masterserver1-vsh.kalleh.workers.dev
+  tls: true
+  servername: maSterserVeR1-VSH.KaLlEH.WORkERs.DEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇳🇱 The Netherlands - 06/24 @Config724
+  type: trojan
+  server: 45.131.4.118
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: f6r.ir
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /usa=mitivpn
+    headers:
+      Host: f6r.ir
+- name: 🏳️ Unknown - 06/24 @Config724 5
+  type: vless
+  server: 172.67.173.28
+  port: 2096
+  uuid: 663e5f8f-1b85-4f07-991b-4b2eeeb902b4
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiendKWUp1ZnUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: masterserver1-drfg.alexpoo.workers.dev
+  tls: true
+  servername: MASteRsERvEr1-dRFG.alexPOO.WOrKERS.deV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇱🇹 Lithuania - 06/24 @Config724
+  type: trojan
+  server: 89.116.180.49
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: f6r.ir
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /nl=mitivpn
+    headers:
+      Host: f6r.ir
+- name: 🏳️ Unknown - 06/24 @Config724 6
+  type: vless
+  server: 104.21.7.223
+  port: 2053
+  uuid: 7644900c-e379-4c21-b51d-f7ef7d5b197f
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiSGpXczRnb3pUWDVnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: masterserver1-pki.mahshidddd.workers.dev
+  tls: true
+  servername: mAstErseRVEr1-PKi.MaHSHIDdDd.WorkeRs.dEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -936,6 +1032,12 @@ proxy-groups:
   - 🏳️ Unknown - 06/24 @Config724
   - 🏳️ Unknown - 06/24 @Config724 2
   - 🏳️ Unknown - 06/24 @Config724 3
+  - 🇩🇪 Germany - 06/24 @Config724
+  - 🏳️ Unknown - 06/24 @Config724 4
+  - 🇳🇱 The Netherlands - 06/24 @Config724
+  - 🏳️ Unknown - 06/24 @Config724 5
+  - 🇱🇹 Lithuania - 06/24 @Config724
+  - 🏳️ Unknown - 06/24 @Config724 6
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -1004,6 +1106,12 @@ proxy-groups:
   - 🏳️ Unknown - 06/24 @Config724
   - 🏳️ Unknown - 06/24 @Config724 2
   - 🏳️ Unknown - 06/24 @Config724 3
+  - 🇩🇪 Germany - 06/24 @Config724
+  - 🏳️ Unknown - 06/24 @Config724 4
+  - 🇳🇱 The Netherlands - 06/24 @Config724
+  - 🏳️ Unknown - 06/24 @Config724 5
+  - 🇱🇹 Lithuania - 06/24 @Config724
+  - 🏳️ Unknown - 06/24 @Config724 6
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
