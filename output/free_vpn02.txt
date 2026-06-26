@@ -1,5 +1,2 @@
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6aUZ4bHRxc2NKVkxKZEh1blpYUENtYjRUb0hON0xoa29lWXdwUWNVL1Bibz0@193.151.128.97:443?#%@FREE_VPn02
-vless://a4b82e5a-acd1-4cbf-accb-40d4bb90ffaf@95.38.38.233:25543?encryption=none&security=none&type=tcp&headerType=none#%@FREE_VPN02
-ss://a4b82e5a-acd1-4cbf-accb-40d4bb90ffaf@95.38.38.233:25543?encryption=none&security=none&type=tcp&headerType=none#%@FREE_VPN02
-vless://baf6726b-1900-4d23-b760-ada7fe2f6d25@138.199.159.149:48290?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=KFTbe_Hkcy4x5DbQTRoUpSjux-NU1YVwFHHFjVKXyGg&sid=23e882de408ef82a&spx=%2F&type=tcp&headerType=none#%@FREE_VPn02
-ss://baf6726b-1900-4d23-b760-ada7fe2f6d25@138.199.159.149:48290?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=KFTbe_Hkcy4x5DbQTRoUpSjux-NU1YVwFHHFjVKXyGg&sid=23e882de408ef82a&spx=%2F&type=tcp&headerType=none#%@FREE_VPn02
+ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.26:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#https://t.me/FREE_VPN02
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.26:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#https://t.me/FREE_VPN02
