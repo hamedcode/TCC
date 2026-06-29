@@ -1701,6 +1701,174 @@ proxies:
   tls: true
   servername: ez-015c6c.elmal-59c.workers.dev
   client-fingerprint: chrome
+- name: 🇬🇧 United Kingdom - 06/28 @Config724
+  type: vless
+  server: suolar.yellowsky.ir
+  port: 2053
+  uuid: fa1e8c05-123e-4228-84a1-3bf1625595b6
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - fruumonta.appleseraj.IR.
+  tls: true
+  servername: fruumonta.appleseraj.IR.
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 🏳️ Unknown - 06/28 @Config724 4
+  type: vless
+  server: 188.114.96.3
+  port: 2053
+  uuid: f9043c78-f266-4055-a2d8-21100c8e76e6
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoibmkwcDBxa0giLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: ez-f5031c.ashir67.workers.dev
+  tls: true
+  servername: eZ-f5031c.AshIR67.WOrkErS.DEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/28 @Config724 5
+  type: vless
+  server: 104.26.14.137
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+  client-fingerprint: chrome
+- name: 🇺🇸 United States - 06/28 @Config724
+  type: vless
+  server: 45.39.33.97
+  port: 443
+  uuid: 797de269-0ead-4289-97a3-3695188143d2
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇮🇷 Iran - 06/28 @Config724
+  type: vless
+  server: 193.176.242.135
+  port: 37383
+  uuid: 621228c6-a42b-4170-bcab-4f4a091f5c46
+  udp: true
+- name: 🏳️ Unknown - 06/28 @Config724 6
+  type: vless
+  server: poom.hardvezoo.ir
+  port: 5875
+  uuid: 8fb6e894-b929-491a-a25a-8e7d395dda8d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸 United States - 06/28 @Config724 2
+  type: vless
+  server: de.ko.prod.n7.homes
+  port: 8443
+  uuid: dcba77d7-bb59-4802-b32c-37fd7011fca4
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  servername: google.com
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 06/28 @Config724 7
+  type: vless
+  server: 172.67.215.201
+  port: 2096
+  uuid: f8fff57f-224a-4ae3-80c1-a9299796ad7c
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoicmc2S3lEeXFMV3Y3UHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI1Ny4xMjkuNDcuNTIiXX0=?ed=2560
+    headers:
+      Host: 11.ez-70ef02.workers.dev
+  tls: true
+  servername: 11.EZ-70eF02.wOrkeRS.DeV
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/28 @Config724 8
+  type: vless
+  server: 172.66.146.148
+  port: 2096
+  uuid: 2977b958-1832-45cc-849e-822533b378a9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoib24zS0pvM3RVQlNyUndZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: ez-42db52.lililili99.workers.dev
+  tls: true
+  servername: eZ-42db52.lilILili99.wOrkerS.DEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/28 @Config724 9
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 047bf065-63ff-4c29-9441-914ec86e5ad4
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiVXdRYmxNeXRTMUxLaVphUSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ez-5f5180.louckyou.workers.dev
+  tls: true
+  servername: eZ-5f5180.loUCKyoU.workERs.Dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇫🇷 France - 06/28 @Config724
+  type: vless
+  server: 151.115.167.188
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  udp: true
+  network: grpc
+- name: 🇩🇪 Germany - 06/28 @Config724
+  type: vless
+  server: 91.98.3.186
+  port: 55555
+  uuid: d6695105-8e40-4a45-a87e-d3cf561c9fa4
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
+    short-id: 880eeeef4927eed5
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 06/28 @Config724 10
+  type: trojan
+  server: 104.21.100.168
+  port: 443
+  password: pemyo67c0yjom5kv
+  udp: true
+  skip-cert-verify: false
+  sni: free.codv2.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /mobotouch
+    headers:
+      Host: free.codv2.com
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -1841,6 +2009,19 @@ proxy-groups:
   - 🏳️ Unknown - 06/28 @Config724
   - 🏳️ Unknown - 06/28 @Config724 2
   - 🏳️ Unknown - 06/28 @Config724 3
+  - 🇬🇧 United Kingdom - 06/28 @Config724
+  - 🏳️ Unknown - 06/28 @Config724 4
+  - 🏳️ Unknown - 06/28 @Config724 5
+  - 🇺🇸 United States - 06/28 @Config724
+  - 🇮🇷 Iran - 06/28 @Config724
+  - 🏳️ Unknown - 06/28 @Config724 6
+  - 🇺🇸 United States - 06/28 @Config724 2
+  - 🏳️ Unknown - 06/28 @Config724 7
+  - 🏳️ Unknown - 06/28 @Config724 8
+  - 🏳️ Unknown - 06/28 @Config724 9
+  - 🇫🇷 France - 06/28 @Config724
+  - 🇩🇪 Germany - 06/28 @Config724
+  - 🏳️ Unknown - 06/28 @Config724 10
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -1978,6 +2159,19 @@ proxy-groups:
   - 🏳️ Unknown - 06/28 @Config724
   - 🏳️ Unknown - 06/28 @Config724 2
   - 🏳️ Unknown - 06/28 @Config724 3
+  - 🇬🇧 United Kingdom - 06/28 @Config724
+  - 🏳️ Unknown - 06/28 @Config724 4
+  - 🏳️ Unknown - 06/28 @Config724 5
+  - 🇺🇸 United States - 06/28 @Config724
+  - 🇮🇷 Iran - 06/28 @Config724
+  - 🏳️ Unknown - 06/28 @Config724 6
+  - 🇺🇸 United States - 06/28 @Config724 2
+  - 🏳️ Unknown - 06/28 @Config724 7
+  - 🏳️ Unknown - 06/28 @Config724 8
+  - 🏳️ Unknown - 06/28 @Config724 9
+  - 🇫🇷 France - 06/28 @Config724
+  - 🇩🇪 Germany - 06/28 @Config724
+  - 🏳️ Unknown - 06/28 @Config724 10
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
