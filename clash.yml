@@ -1869,6 +1869,273 @@ proxies:
     path: /mobotouch
     headers:
       Host: free.codv2.com
+- name: 🏳️ Unknown - 06/29 @Config724
+  type: vless
+  server: ipw.ygdfw.com
+  port: 443
+  uuid: bbab81f3-87a0-4e63-8b3b-010c645d8da7
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - lIVe-1OdGy1GQ.bEuIZ.COM
+  tls: true
+  servername: lIVe-1OdGy1GQ.bEuIZ.COM
+  client-fingerprint: chrome
+- name: 🇳🇱 The Netherlands - 06/29 @Config724
+  type: vless
+  server: www1.n.ahmadhamoumi.fun
+  port: 443
+  uuid: 9627c5e0-9a11-4d36-a470-3ce64797149e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - api-tr.ipng.site
+  tls: true
+  servername: api-tr.ipng.site
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: 🇺🇸 United States - 06/29 @Config724
+  type: vless
+  server: api.pl.pngv.top
+  port: 4999
+  uuid: 9627c5e0-9a11-4d36-a470-3ce64797149e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇳🇱 The Netherlands - 06/29 @Config724 2
+  type: trojan
+  server: 45.131.4.118
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: 95r.ir
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=Se
+    headers:
+      Host: 95r.ir
+- name: 🇺🇸 United States - 06/29 @Config724 2
+  type: vless
+  server: gr-direct.pngv.top
+  port: 4999
+  uuid: 9627c5e0-9a11-4d36-a470-3ce64797149e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇺🇸 United States - 06/29 @Config724 3
+  type: trojan
+  server: kkvlvvq-a.catcat321.com
+  port: 20112
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  udp: true
+  skip-cert-verify: false
+  sni: ca.catxstar.com
+- name: 🇺🇸 United States - 06/29 @Config724 4
+  type: trojan
+  server: kkvlvvq-a.catcat321.com
+  port: 20017
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  udp: true
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+- name: 🇫🇷 France - 06/29 @Config724
+  type: vless
+  server: fr-po.pngv.top
+  port: 4999
+  uuid: 9627c5e0-9a11-4d36-a470-3ce64797149e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇲🇺 Mauritius - 06/29 @Config724
+  type: vless
+  server: 45.198.87.149
+  port: 8443
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 06/29 @Config724 5
+  type: trojan
+  server: 72.249.204.157
+  port: 443
+  password: '114514'
+  udp: true
+  skip-cert-verify: false
+  sni: tjaaa.hhllfly.kdns.fr
+- name: 🇸🇨 Seychelles - 06/29 @Config724
+  type: vless
+  server: old.v2xpin.de
+  port: 443
+  uuid: 9627c5e0-9a11-4d36-a470-3ce64797149e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - api-fr.ipng.site
+  tls: true
+  servername: api-fr1.ipng.site
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: 🇺🇸 United States - 06/29 @Config724 6
+  type: vless
+  server: api.us.pngv.top
+  port: 4999
+  uuid: 9627c5e0-9a11-4d36-a470-3ce64797149e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🏳️ Unknown - 06/29 @Config724 2
+  type: vless
+  server: 104.16.72.70
+  port: 443
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  udp: true
+  network: ws
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+  tls: true
+  servername: nbhhh.mrcool.kdns.fr
+- name: 🏳️ Unknown - 06/29 @Config724 3
+  type: vless
+  server: 104.17.64.215
+  port: 2096
+  uuid: 18e7db3d-2136-4373-9fce-bb45079fa14c
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidTBvMVpnak1vRDRrdThVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    headers:
+      Host: ez-be43a6.landann87.workers.dev
+  tls: true
+  servername: eZ-Be43a6.LAndANn87.woRKERs.dEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇬🇧 United Kingdom - 06/29 @Config724
+  type: ss
+  server: 82.38.31.203
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🏳️ Unknown - 06/29 @Config724 4
+  type: vless
+  server: 104.16.72.70
+  port: 443
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  udp: true
+  network: ws
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+  tls: true
+  servername: nbhhh.mrcool.kdns.fr
+- name: 🇪🇸 Spain - 06/29 @Config724
+  type: vless
+  server: 217.217.247.248
+  port: 443
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  servername: enterprisekitten.com
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 06/29 @Config724 5
+  type: vless
+  server: 188.114.96.3
+  port: 2053
+  uuid: 78d66dd1-a432-454e-80c0-cb4aa0407375
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiVmNMT1VrQngzb2xCeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ez-87b829.ashkashk.workers.dev
+  tls: true
+  servername: Ez-87B829.aShkashk.wOrkeRS.dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇬🇧 United Kingdom - 06/29 @Config724 2
+  type: ss
+  server: 82.38.31.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 United States - 06/29 @Config724 7
+  type: vless
+  server: 141.193.213.21
+  port: 443
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  udp: true
+  network: ws
+  ws-opts:
+    path: /poiuyws
+    headers:
+      Host: amoosamiii.net
+  tls: true
+  servername: amoosamiii.net
+- name: 🇮🇷 Iran - 06/29 @Config724
+  type: vless
+  server: n8.ramito.ir
+  port: 2052
+  uuid: 9b6438bf-ad00-49b6-9752-0bc82899165f
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🏳️ Unknown - 06/29 @Config724 6
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: ad9741e0-56a1-4606-bbb9-94418e893727
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoic2dxVVoxZjdHS0hVUlREVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ez-37e919.keshmesh-f31.workers.dev
+  tls: true
+  servername: Ez-37E919.KEshmesH-f31.woRkERs.DeV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -2022,6 +2289,28 @@ proxy-groups:
   - 🇫🇷 France - 06/28 @Config724
   - 🇩🇪 Germany - 06/28 @Config724
   - 🏳️ Unknown - 06/28 @Config724 10
+  - 🏳️ Unknown - 06/29 @Config724
+  - 🇳🇱 The Netherlands - 06/29 @Config724
+  - 🇺🇸 United States - 06/29 @Config724
+  - 🇳🇱 The Netherlands - 06/29 @Config724 2
+  - 🇺🇸 United States - 06/29 @Config724 2
+  - 🇺🇸 United States - 06/29 @Config724 3
+  - 🇺🇸 United States - 06/29 @Config724 4
+  - 🇫🇷 France - 06/29 @Config724
+  - 🇲🇺 Mauritius - 06/29 @Config724
+  - 🇺🇸 United States - 06/29 @Config724 5
+  - 🇸🇨 Seychelles - 06/29 @Config724
+  - 🇺🇸 United States - 06/29 @Config724 6
+  - 🏳️ Unknown - 06/29 @Config724 2
+  - 🏳️ Unknown - 06/29 @Config724 3
+  - 🇬🇧 United Kingdom - 06/29 @Config724
+  - 🏳️ Unknown - 06/29 @Config724 4
+  - 🇪🇸 Spain - 06/29 @Config724
+  - 🏳️ Unknown - 06/29 @Config724 5
+  - 🇬🇧 United Kingdom - 06/29 @Config724 2
+  - 🇺🇸 United States - 06/29 @Config724 7
+  - 🇮🇷 Iran - 06/29 @Config724
+  - 🏳️ Unknown - 06/29 @Config724 6
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -2172,6 +2461,28 @@ proxy-groups:
   - 🇫🇷 France - 06/28 @Config724
   - 🇩🇪 Germany - 06/28 @Config724
   - 🏳️ Unknown - 06/28 @Config724 10
+  - 🏳️ Unknown - 06/29 @Config724
+  - 🇳🇱 The Netherlands - 06/29 @Config724
+  - 🇺🇸 United States - 06/29 @Config724
+  - 🇳🇱 The Netherlands - 06/29 @Config724 2
+  - 🇺🇸 United States - 06/29 @Config724 2
+  - 🇺🇸 United States - 06/29 @Config724 3
+  - 🇺🇸 United States - 06/29 @Config724 4
+  - 🇫🇷 France - 06/29 @Config724
+  - 🇲🇺 Mauritius - 06/29 @Config724
+  - 🇺🇸 United States - 06/29 @Config724 5
+  - 🇸🇨 Seychelles - 06/29 @Config724
+  - 🇺🇸 United States - 06/29 @Config724 6
+  - 🏳️ Unknown - 06/29 @Config724 2
+  - 🏳️ Unknown - 06/29 @Config724 3
+  - 🇬🇧 United Kingdom - 06/29 @Config724
+  - 🏳️ Unknown - 06/29 @Config724 4
+  - 🇪🇸 Spain - 06/29 @Config724
+  - 🏳️ Unknown - 06/29 @Config724 5
+  - 🇬🇧 United Kingdom - 06/29 @Config724 2
+  - 🇺🇸 United States - 06/29 @Config724 7
+  - 🇮🇷 Iran - 06/29 @Config724
+  - 🏳️ Unknown - 06/29 @Config724 6
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
