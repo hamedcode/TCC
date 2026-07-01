@@ -2136,6 +2136,76 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🏳️ Unknown - 06/30 @Config724
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: b86e52d4-635d-4789-bec4-6d8874685134
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY3g0OFJMczZBUiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ez-576064.mashamami.workers.dev
+  tls: true
+  servername: eZ-576064.mashaMAmi.WORKErS.DeV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 06/30 @Config724 2
+  type: vless
+  server: 172.67.221.94
+  port: 2053
+  uuid: e7201c7a-fd30-4eda-9e95-ec7e27742dbd
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiT2pYVlg4M25QSCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ez-497149.frtfrtfrt13.workers.dev
+  tls: true
+  servername: ez-497149.FRTfrTFrt13.wOrKErS.DEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇩🇪 Germany - 06/30 @Config724
+  type: vless
+  server: suupermeat.ir
+  port: 2035
+  uuid: 1c405762-61d8-4654-abf0-1ab168a237eb
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🏳️ Unknown - 06/30 @Config724 3
+  type: vless
+  server: 188.114.96.3
+  port: 2096
+  uuid: 0ddaa462-5638-4bcb-a7b2-27d6d33ceda2
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiM2RoUEFZQnpVVSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: masterserver1.gogochi.workers.dev
+  tls: true
+  servername: MAsTeRsERVeR1.GOgoChI.wOrKERs.dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇩🇪 Germany - 06/30 @Config724 2
+  type: vless
+  server: suupermeat.ir
+  port: 2035
+  uuid: 1c405762-61d8-4654-abf0-1ab168a237eb
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -2311,6 +2381,11 @@ proxy-groups:
   - 🇺🇸 United States - 06/29 @Config724 7
   - 🇮🇷 Iran - 06/29 @Config724
   - 🏳️ Unknown - 06/29 @Config724 6
+  - 🏳️ Unknown - 06/30 @Config724
+  - 🏳️ Unknown - 06/30 @Config724 2
+  - 🇩🇪 Germany - 06/30 @Config724
+  - 🏳️ Unknown - 06/30 @Config724 3
+  - 🇩🇪 Germany - 06/30 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -2483,6 +2558,11 @@ proxy-groups:
   - 🇺🇸 United States - 06/29 @Config724 7
   - 🇮🇷 Iran - 06/29 @Config724
   - 🏳️ Unknown - 06/29 @Config724 6
+  - 🏳️ Unknown - 06/30 @Config724
+  - 🏳️ Unknown - 06/30 @Config724 2
+  - 🇩🇪 Germany - 06/30 @Config724
+  - 🏳️ Unknown - 06/30 @Config724 3
+  - 🇩🇪 Germany - 06/30 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
