@@ -337,3 +337,5 @@ ss://2e35ca4c-00cd-4e0b-bb51-f69d19c9f3df@old.v2xpin.de:443?mode=auto&path=%2Fra
 vless://2e35ca4c-00cd-4e0b-bb51-f69d19c9f3df@gr-direct.pngv.top:4999?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇺🇸 United States - 07/01 @Config724
 ss://2e35ca4c-00cd-4e0b-bb51-f69d19c9f3df@www1.n.ahmadhamoumi.fun:443?mode=auto&path=%2Frandom&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=api-tr.ipng.site&fp=chrome&type=xhttp&allowInsecure=0&sni=api-tr.ipng.site#🇳🇱 The Netherlands - 07/01 @Config724
 vless://2e35ca4c-00cd-4e0b-bb51-f69d19c9f3df@gr-direct2.pngv.top:4999?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇺🇸 United States - 07/01 @Config724
+vless://2e35ca4c-00cd-4e0b-bb51-f69d19c9f3df@old.v2xpin.de:443?mode=auto&path=%2Frandom&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=api-fr.ipng.site&fp=chrome&type=xhttp&allowInsecure=0&sni=api-fr1.ipng.site#🇸🇨 Seychelles - 07/01 @Config724
+vless://2e35ca4c-00cd-4e0b-bb51-f69d19c9f3df@api.pl.pngv.top:4999?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇺🇸 United States - 07/01 @Config724
