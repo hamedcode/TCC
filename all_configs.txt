@@ -1,2 +1,0 @@
-ss://580a4e40-c819-4a98-9f08-446afe168207@54.37.33.220:443?encryption=none&fp=chrome&headerType=http&host=&path=%2F&pbk=KUGQVeqoGf6S0mkfeBoF02OvqJ6NMsy9iLEWSCe_GHE&security=reality&sid=6a&sni=www.yahoo.com&spx=%2FLUkoVgGxvSLBj5b&type=tcp#https://t.me/FREE_VPN02
-vless://580a4e40-c819-4a98-9f08-446afe168207@54.37.33.220:443?encryption=none&fp=chrome&headerType=http&host=&path=%2F&pbk=KUGQVeqoGf6S0mkfeBoF02OvqJ6NMsy9iLEWSCe_GHE&security=reality&sid=6a&sni=www.yahoo.com&spx=%2FLUkoVgGxvSLBj5b&type=tcp#https://t.me/FREE_VPN02
