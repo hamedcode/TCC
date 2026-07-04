@@ -495,6 +495,19 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇫🇷 France - 07/03 @Config724
+  type: vless
+  server: 54.37.33.220
+  port: 443
+  uuid: 580a4e40-c819-4a98-9f08-446afe168207
+  udp: true
+  network: http
+  tls: true
+  reality-opts:
+    public-key: KUGQVeqoGf6S0mkfeBoF02OvqJ6NMsy9iLEWSCe_GHE
+    short-id: 6a
+  servername: www.yahoo.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -540,6 +553,7 @@ proxy-groups:
   - 🇺🇸 United States - 07/02 @Config724 4
   - 🏳️ Unknown - 07/02 @Config724 22
   - 🏳️ Unknown - 07/02 @Config724 23
+  - 🇫🇷 France - 07/03 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -582,6 +596,7 @@ proxy-groups:
   - 🇺🇸 United States - 07/02 @Config724 4
   - 🏳️ Unknown - 07/02 @Config724 22
   - 🏳️ Unknown - 07/02 @Config724 23
+  - 🇫🇷 France - 07/03 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
