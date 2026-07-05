@@ -508,6 +508,206 @@ proxies:
     short-id: 6a
   servername: www.yahoo.com
   client-fingerprint: chrome
+- name: 🇯🇵 Japan - 07/04 @Config724
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=NL
+    headers:
+      Host: esalat-mitivpn.global.ssl.fastly.net
+- name: 🇺🇸 United States - 07/04 @Config724
+  type: vless
+  server: 173.199.117.62
+  port: 3
+  uuid: f356ae17-12ad-43ce-9961-56de0725452e
+  udp: true
+  network: http
+- name: 🇯🇵 Japan - 07/04 @Config724 2
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MITIVPN
+  udp: true
+  skip-cert-verify: false
+  sni: global.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=De
+    headers:
+      Host: esalat-king-mitivpn.global.ssl.fastly.net
+- name: 🇮🇷 Iran - 07/04 @Config724
+  type: vless
+  server: s2.zynavo.ir
+  port: 2087
+  uuid: a490e46d-e450-4c73-631f-920da539186c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - cdn.zynavo.ir
+  tls: true
+  servername: cdn.zynavo.ir
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: 🇺🇸 United States - 07/04 @Config724 2
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MITIVPN
+  udp: true
+  skip-cert-verify: false
+  sni: global.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=Usa
+    headers:
+      Host: esalat-king-mitivpn.global.ssl.fastly.net
+- name: 🇺🇸 United States - 07/04 @Config724 3
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=fL
+    headers:
+      Host: esalat-mitivpn.global.ssl.fastly.net
+- name: 🇩🇪 Germany - 07/04 @Config724
+  type: vless
+  server: 89.106.64.15
+  port: 7000
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - a12.crowsvpn.shop
+- name: 🇯🇵 Japan - 07/04 @Config724 3
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MITIVPN
+  udp: true
+  skip-cert-verify: false
+  sni: global.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=De
+    headers:
+      Host: esalat-king-mitivpn.global.ssl.fastly.net
+- name: 🇺🇸 United States - 07/04 @Config724 4
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MITIVPN
+  udp: true
+  skip-cert-verify: false
+  sni: global.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=Usa
+    headers:
+      Host: esalat-king-mitivpn.global.ssl.fastly.net
+- name: 🇺🇸 United States - 07/04 @Config724 5
+  type: vless
+  server: 173.199.117.62
+  port: 3
+  uuid: f356ae17-12ad-43ce-9961-56de0725452e
+  udp: true
+  network: http
+- name: 🇺🇸 United States - 07/04 @Config724 6
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=fL
+    headers:
+      Host: esalat-mitivpn.global.ssl.fastly.net
+- name: 🇩🇪 Germany - 07/04 @Config724 2
+  type: vless
+  server: 89.106.64.15
+  port: 7000
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - a12.crowsvpn.shop
+- name: 🇯🇵 Japan - 07/04 @Config724 4
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=NL
+    headers:
+      Host: esalat-mitivpn.global.ssl.fastly.net
+- name: 🇮🇷 Iran - 07/04 @Config724 2
+  type: vless
+  server: s2.zynavo.ir
+  port: 2087
+  uuid: a490e46d-e450-4c73-631f-920da539186c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - cdn.zynavo.ir
+  tls: true
+  servername: cdn.zynavo.ir
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -554,6 +754,20 @@ proxy-groups:
   - 🏳️ Unknown - 07/02 @Config724 22
   - 🏳️ Unknown - 07/02 @Config724 23
   - 🇫🇷 France - 07/03 @Config724
+  - 🇯🇵 Japan - 07/04 @Config724
+  - 🇺🇸 United States - 07/04 @Config724
+  - 🇯🇵 Japan - 07/04 @Config724 2
+  - 🇮🇷 Iran - 07/04 @Config724
+  - 🇺🇸 United States - 07/04 @Config724 2
+  - 🇺🇸 United States - 07/04 @Config724 3
+  - 🇩🇪 Germany - 07/04 @Config724
+  - 🇯🇵 Japan - 07/04 @Config724 3
+  - 🇺🇸 United States - 07/04 @Config724 4
+  - 🇺🇸 United States - 07/04 @Config724 5
+  - 🇺🇸 United States - 07/04 @Config724 6
+  - 🇩🇪 Germany - 07/04 @Config724 2
+  - 🇯🇵 Japan - 07/04 @Config724 4
+  - 🇮🇷 Iran - 07/04 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -597,6 +811,20 @@ proxy-groups:
   - 🏳️ Unknown - 07/02 @Config724 22
   - 🏳️ Unknown - 07/02 @Config724 23
   - 🇫🇷 France - 07/03 @Config724
+  - 🇯🇵 Japan - 07/04 @Config724
+  - 🇺🇸 United States - 07/04 @Config724
+  - 🇯🇵 Japan - 07/04 @Config724 2
+  - 🇮🇷 Iran - 07/04 @Config724
+  - 🇺🇸 United States - 07/04 @Config724 2
+  - 🇺🇸 United States - 07/04 @Config724 3
+  - 🇩🇪 Germany - 07/04 @Config724
+  - 🇯🇵 Japan - 07/04 @Config724 3
+  - 🇺🇸 United States - 07/04 @Config724 4
+  - 🇺🇸 United States - 07/04 @Config724 5
+  - 🇺🇸 United States - 07/04 @Config724 6
+  - 🇩🇪 Germany - 07/04 @Config724 2
+  - 🇯🇵 Japan - 07/04 @Config724 4
+  - 🇮🇷 Iran - 07/04 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
