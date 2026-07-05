@@ -1,4 +1,0 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.188.30:8880?path=%2F&security=none&encryption=none&host=vms.lifetime18.workers.dev&type=ws#%F0%9F%8C%88%40EXPRESSVPN_420
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@92.53.188.30:8880?path=%2F&security=none&encryption=none&host=vms.lifetime18.workers.dev&type=ws#%F0%9F%8C%88%40EXPRESSVPN_420
-ss://e6bad6ca-ab7c-4bdd-b07e-5c8ec407decd@172.67.223.190:2086?path=%2FeyJqdW5rIjoidGpkTkY2VHk0bE1pV3AiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D%3Fed%3D2560&security=none&encryption=none&host=cool-hill-7fe5.thenewata.workers.dev&type=ws#%40EXPRESSVPN_420
-vless://e6bad6ca-ab7c-4bdd-b07e-5c8ec407decd@172.67.223.190:2086?path=%2FeyJqdW5rIjoidGpkTkY2VHk0bE1pV3AiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D%3Fed%3D2560&security=none&encryption=none&host=cool-hill-7fe5.thenewata.workers.dev&type=ws#%40EXPRESSVPN_420
