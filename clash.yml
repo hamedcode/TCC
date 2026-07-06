@@ -708,6 +708,128 @@ proxies:
   - h3
   - h2
   - http/1.1
+- name: 🇸🇮 Slovenia - 07/05 @Config724
+  type: vless
+  server: 92.53.188.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime18.workers.dev
+- name: 🏳️ Unknown - 07/05 @Config724
+  type: vless
+  server: 172.67.223.190
+  port: 2086
+  uuid: e6bad6ca-ab7c-4bdd-b07e-5c8ec407decd
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidGpkTkY2VHk0bE1pV3AiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+    headers:
+      Host: cool-hill-7fe5.thenewata.workers.dev
+- name: 🏳️ Unknown - 07/05 @Config724 2
+  type: trojan
+  server: 104.16.72.41
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  udp: true
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  network: ws
+  ws-opts:
+    path: /au-do
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+- name: 🏳️ Unknown - 07/05 @Config724 3
+  type: trojan
+  server: 104.16.72.41
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🏳️ Unknown - 07/05 @Config724 4
+  type: vless
+  server: 104.16.72.41
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+- name: 🏳️ Unknown - 07/05 @Config724 5
+  type: vless
+  server: 198.41.204.77
+  port: 8443
+  uuid: 49a4774c-eb3d-4b1c-ae8c-bf6e48799288
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiUUFUVkZCRFMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: ez-5ed764.tehranalloo.workers.dev
+  tls: true
+  servername: ez-5Ed764.TEhRAnalLOo.WoRkeRs.dEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇷🇺 Russia - 07/05 @Config724
+  type: vless
+  server: 94.242.55.42
+  port: 443
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  servername: enterprisekitten.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 07/05 @Config724 6
+  type: vless
+  server: 104.16.227.172
+  port: 2096
+  uuid: 154c48fe-6409-439f-b5ea-967ead085000
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidzNEV2VjZFowU1JDcEN0ayIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: ez-bc20af.mashtali.workers.dev
+  tls: true
+  servername: EZ-Bc20aF.MASHTAli.WoRKERs.dEV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 07/05 @Config724 7
+  type: vless
+  server: grok.com
+  port: 443
+  uuid: 5a36c4f9-72a9-4938-93a9-e24223ef60d3
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiUDdRb0JCa1lDSWlEYngiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: ez-e83c75.shardgbegharb.workers.dev
+  tls: true
+  servername: ez-E83C75.shArDGBEgHARb.WoRKErs.dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -768,6 +890,15 @@ proxy-groups:
   - 🇩🇪 Germany - 07/04 @Config724 2
   - 🇯🇵 Japan - 07/04 @Config724 4
   - 🇮🇷 Iran - 07/04 @Config724 2
+  - 🇸🇮 Slovenia - 07/05 @Config724
+  - 🏳️ Unknown - 07/05 @Config724
+  - 🏳️ Unknown - 07/05 @Config724 2
+  - 🏳️ Unknown - 07/05 @Config724 3
+  - 🏳️ Unknown - 07/05 @Config724 4
+  - 🏳️ Unknown - 07/05 @Config724 5
+  - 🇷🇺 Russia - 07/05 @Config724
+  - 🏳️ Unknown - 07/05 @Config724 6
+  - 🏳️ Unknown - 07/05 @Config724 7
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -825,6 +956,15 @@ proxy-groups:
   - 🇩🇪 Germany - 07/04 @Config724 2
   - 🇯🇵 Japan - 07/04 @Config724 4
   - 🇮🇷 Iran - 07/04 @Config724 2
+  - 🇸🇮 Slovenia - 07/05 @Config724
+  - 🏳️ Unknown - 07/05 @Config724
+  - 🏳️ Unknown - 07/05 @Config724 2
+  - 🏳️ Unknown - 07/05 @Config724 3
+  - 🏳️ Unknown - 07/05 @Config724 4
+  - 🏳️ Unknown - 07/05 @Config724 5
+  - 🇷🇺 Russia - 07/05 @Config724
+  - 🏳️ Unknown - 07/05 @Config724 6
+  - 🏳️ Unknown - 07/05 @Config724 7
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
