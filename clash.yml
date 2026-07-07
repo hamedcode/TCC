@@ -830,6 +830,303 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇬🇧 United Kingdom - 07/06 @Config724
+  type: ss
+  server: 82.38.31.200
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 United Kingdom - 07/06 @Config724 2
+  type: ss
+  server: 82.38.31.204
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇫🇷 France - 07/06 @Config724
+  type: vless
+  server: sca28.directdnsai.shop
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇳🇱 The Netherlands - 07/06 @Config724
+  type: ss
+  server: 108.181.58.239
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🏳️ Unknown - 07/06 @Config724
+  type: vless
+  server: 104.16.72.41
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+- name: 🇬🇧 United Kingdom - 07/06 @Config724 3
+  type: ss
+  server: 82.38.31.193
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇨🇭 Switzerland - 07/06 @Config724
+  type: vless
+  server: switzerlandscloudnig.iranlast.com
+  port: 7009
+  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    short-id: ''
+  servername: yahoo.com
+  client-fingerprint: qq
+- name: 🇬🇧 United Kingdom - 07/06 @Config724 4
+  type: ss
+  server: 82.38.31.203
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇫🇷 France - 07/06 @Config724 2
+  type: vless
+  server: all105.allenshop66245.ir
+  port: 443
+  uuid: 36644091-0cec-47fe-9955-97c3f424baf7
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+    short-id: 98fa0b00d09419f7
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇬🇧 United Kingdom - 07/06 @Config724 5
+  type: ss
+  server: 82.38.31.176
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇨🇭 Switzerland - 07/06 @Config724 2
+  type: vless
+  server: switzerlandscloudnig.iranlast.com
+  port: 7009
+  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    short-id: ''
+  servername: yahoo.com
+  client-fingerprint: qq
+- name: 🇺🇸 United States - 07/06 @Config724
+  type: vless
+  server: x4g-production-1c57.up.railway.app
+  port: 443
+  uuid: 77a99d74-549d-154c-eea7-536f18117c94
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/77a99d74-549d-154c-eea7-536f18117c94
+    headers:
+      Host: x4g-production-1c57.up.railway.app
+  tls: true
+  servername: x4g-production-1c57.up.railway.app
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 07/06 @Config724 2
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rdfgtws
+    headers:
+      Host: vangoghhh.info
+  tls: true
+  servername: vangoghhh.info
+- name: 🇩🇪 Germany - 07/06 @Config724
+  type: vless
+  server: 89.106.64.15
+  port: 7000
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - a12.crowsvpn.shop
+- name: 🇮🇷 Iran - 07/06 @Config724
+  type: vless
+  server: s2.zynavo.ir
+  port: 2087
+  uuid: 9eca02b6-5d5e-4199-3c6e-3509e2fe779d
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - cdn.zynavo.ir
+  tls: true
+  servername: cdn.zynavo.ir
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: 🇩🇪 Germany - 07/06 @Config724 2
+  type: vless
+  server: hub.oneoknews.com
+  port: 443
+  uuid: 564397f8-4805-4433-ab5b-a24aa133bac2
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  tls: true
+  reality-opts:
+    public-key: KJoHsAShwQt-FYE2OGEekwDbeeYe-S1A0YBU8W5uYGc
+    short-id: 064c2d37308aeeb6
+  servername: hub.oneoknews.com
+- name: 🇫🇷 France - 07/06 @Config724 3
+  type: vless
+  server: all105.allenshop66245.ir
+  port: 443
+  uuid: 36644091-0cec-47fe-9955-97c3f424baf7
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+    short-id: 98fa0b00d09419f7
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🏳️ Unknown - 07/06 @Config724 3
+  type: trojan
+  server: 104.18.152.229
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmloud.com
+- name: 🇫🇮 Finland - 07/06 @Config724
+  type: vless
+  server: pan1.mashkestan.com
+  port: 2087
+  uuid: 7943183f-5c33-4728-8d57-8f18efe6ce25
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇺🇸 United States - 07/06 @Config724 2
+  type: vless
+  server: x4g-production-40db.up.railway.app
+  port: 443
+  uuid: 25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
+    headers:
+      Host: x4g-production-40db.up.railway.app
+  tls: true
+  servername: x4g-production-40db.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 07/06 @Config724 4
+  type: vless
+  server: 104.16.72.41
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+- name: 🇫🇷 France - 07/06 @Config724 4
+  type: vless
+  server: sca28.directdnsai.shop
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇺🇸 United States - 07/06 @Config724 3
+  type: vless
+  server: x4g-production-25f9.up.railway.app
+  port: 443
+  uuid: c0590fb7-e9f1-26f8-dd84-913cd0c54996
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/c0590fb7-e9f1-26f8-dd84-913cd0c54996
+    headers:
+      Host: x4g-production-25f9.up.railway.app
+  tls: true
+  servername: x4g-production-25f9.up.railway.app
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/07 @Config724
+  type: vless
+  server: x4g-production-1aff.up.railway.app
+  port: 443
+  uuid: 7e108e32-7cc5-9584-eb99-603a2a091dd1
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/7e108e32-7cc5-9584-eb99-603a2a091dd1
+    headers:
+      Host: x4g-production-1aff.up.railway.app
+  tls: true
+  servername: x4g-production-1aff.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/07 @Config724 2
+  type: vless
+  server: x4g-production-6820.up.railway.app
+  port: 443
+  uuid: 8133bc26-f8f9-0b3f-3808-f40a4fd10415
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/8133bc26-f8f9-0b3f-3808-f40a4fd10415
+    headers:
+      Host: x4g-production-6820.up.railway.app
+  tls: true
+  servername: x4g-production-6820.up.railway.app
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -899,6 +1196,31 @@ proxy-groups:
   - 🇷🇺 Russia - 07/05 @Config724
   - 🏳️ Unknown - 07/05 @Config724 6
   - 🏳️ Unknown - 07/05 @Config724 7
+  - 🇬🇧 United Kingdom - 07/06 @Config724
+  - 🇬🇧 United Kingdom - 07/06 @Config724 2
+  - 🇫🇷 France - 07/06 @Config724
+  - 🇳🇱 The Netherlands - 07/06 @Config724
+  - 🏳️ Unknown - 07/06 @Config724
+  - 🇬🇧 United Kingdom - 07/06 @Config724 3
+  - 🇨🇭 Switzerland - 07/06 @Config724
+  - 🇬🇧 United Kingdom - 07/06 @Config724 4
+  - 🇫🇷 France - 07/06 @Config724 2
+  - 🇬🇧 United Kingdom - 07/06 @Config724 5
+  - 🇨🇭 Switzerland - 07/06 @Config724 2
+  - 🇺🇸 United States - 07/06 @Config724
+  - 🏳️ Unknown - 07/06 @Config724 2
+  - 🇩🇪 Germany - 07/06 @Config724
+  - 🇮🇷 Iran - 07/06 @Config724
+  - 🇩🇪 Germany - 07/06 @Config724 2
+  - 🇫🇷 France - 07/06 @Config724 3
+  - 🏳️ Unknown - 07/06 @Config724 3
+  - 🇫🇮 Finland - 07/06 @Config724
+  - 🇺🇸 United States - 07/06 @Config724 2
+  - 🏳️ Unknown - 07/06 @Config724 4
+  - 🇫🇷 France - 07/06 @Config724 4
+  - 🇺🇸 United States - 07/06 @Config724 3
+  - 🇺🇸 United States - 07/07 @Config724
+  - 🇺🇸 United States - 07/07 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -965,6 +1287,31 @@ proxy-groups:
   - 🇷🇺 Russia - 07/05 @Config724
   - 🏳️ Unknown - 07/05 @Config724 6
   - 🏳️ Unknown - 07/05 @Config724 7
+  - 🇬🇧 United Kingdom - 07/06 @Config724
+  - 🇬🇧 United Kingdom - 07/06 @Config724 2
+  - 🇫🇷 France - 07/06 @Config724
+  - 🇳🇱 The Netherlands - 07/06 @Config724
+  - 🏳️ Unknown - 07/06 @Config724
+  - 🇬🇧 United Kingdom - 07/06 @Config724 3
+  - 🇨🇭 Switzerland - 07/06 @Config724
+  - 🇬🇧 United Kingdom - 07/06 @Config724 4
+  - 🇫🇷 France - 07/06 @Config724 2
+  - 🇬🇧 United Kingdom - 07/06 @Config724 5
+  - 🇨🇭 Switzerland - 07/06 @Config724 2
+  - 🇺🇸 United States - 07/06 @Config724
+  - 🏳️ Unknown - 07/06 @Config724 2
+  - 🇩🇪 Germany - 07/06 @Config724
+  - 🇮🇷 Iran - 07/06 @Config724
+  - 🇩🇪 Germany - 07/06 @Config724 2
+  - 🇫🇷 France - 07/06 @Config724 3
+  - 🏳️ Unknown - 07/06 @Config724 3
+  - 🇫🇮 Finland - 07/06 @Config724
+  - 🇺🇸 United States - 07/06 @Config724 2
+  - 🏳️ Unknown - 07/06 @Config724 4
+  - 🇫🇷 France - 07/06 @Config724 4
+  - 🇺🇸 United States - 07/06 @Config724 3
+  - 🇺🇸 United States - 07/07 @Config724
+  - 🇺🇸 United States - 07/07 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
