@@ -1127,6 +1127,19 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇮🇳 India - 07/07 @Config724
+  type: vless
+  server: 1.tls.fastly.veraspeed.ir
+  port: 443
+  uuid: 0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335
+  udp: true
+  network: ws
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
+  tls: true
+  servername: ssl.fastly.com
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -1221,6 +1234,7 @@ proxy-groups:
   - 🇺🇸 United States - 07/06 @Config724 3
   - 🇺🇸 United States - 07/07 @Config724
   - 🇺🇸 United States - 07/07 @Config724 2
+  - 🇮🇳 India - 07/07 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -1312,6 +1326,7 @@ proxy-groups:
   - 🇺🇸 United States - 07/06 @Config724 3
   - 🇺🇸 United States - 07/07 @Config724
   - 🇺🇸 United States - 07/07 @Config724 2
+  - 🇮🇳 India - 07/07 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
