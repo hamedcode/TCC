@@ -1,4 +1,0 @@
-vless://4f6d67e8-7a3b-485a-ae95-e44eb627e7d8@62.60.193.234:33714?encryption=none&security=none&type=tcp&headerType=none#%40Daily_Configs
-ss://4f6d67e8-7a3b-485a-ae95-e44eb627e7d8@62.60.193.234:47031?encryption=none&security=reality&sni=www.sony.com.hn&fp=chrome&pbk=XTFlFm9izFfbprmSekwfSdjmsRCEqQxZ40yEPgieBy8&sid=bc96c8c7925f46&spx=%2Fk3Ku6WetoYQ00BA&type=tcp&headerType=http&host=myket.ir&path=%2F#%40Daily_Configs
-vless://4f6d67e8-7a3b-485a-ae95-e44eb627e7d8@62.60.193.234:47031?encryption=none&security=reality&sni=www.sony.com.hn&fp=chrome&pbk=XTFlFm9izFfbprmSekwfSdjmsRCEqQxZ40yEPgieBy8&sid=bc96c8c7925f46&spx=%2Fk3Ku6WetoYQ00BA&type=tcp&headerType=http&host=myket.ir&path=%2F#%40Daily_Configs
-ss://4f6d67e8-7a3b-485a-ae95-e44eb627e7d8@62.60.193.234:33714?encryption=none&security=none&type=tcp&headerType=none#%40Daily_Configs
