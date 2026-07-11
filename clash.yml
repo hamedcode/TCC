@@ -1692,6 +1692,32 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 🏳️ Unknown - 07/10 @Config724
+  type: vless
+  server: 104.16.72.41
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+- name: 🏳️ Unknown - 07/10 @Config724 2
+  type: vless
+  server: 104.16.72.41
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -1831,6 +1857,8 @@ proxy-groups:
   - 🇺🇸 United States - 07/09 @Config724 4
   - 🇷🇺 Russia - 07/09 @Config724
   - 🇳🇱 The Netherlands - 07/10 @Config724
+  - 🏳️ Unknown - 07/10 @Config724
+  - 🏳️ Unknown - 07/10 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -1967,6 +1995,8 @@ proxy-groups:
   - 🇺🇸 United States - 07/09 @Config724 4
   - 🇷🇺 Russia - 07/09 @Config724
   - 🇳🇱 The Netherlands - 07/10 @Config724
+  - 🏳️ Unknown - 07/10 @Config724
+  - 🏳️ Unknown - 07/10 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
