@@ -1718,6 +1718,184 @@ proxies:
       Host: shegeftihaaa.net
   tls: true
   servername: shegeftihaaa.net
+- name: 🇺🇸 United States - 07/11 @Config724
+  type: vless
+  server: x4g-production-1aff.up.railway.app
+  port: 443
+  uuid: 83f8f279-81df-0055-9487-0083313bef76
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/83f8f279-81df-0055-9487-0083313bef76
+    headers:
+      Host: x4g-production-1aff.up.railway.app
+  tls: true
+  servername: x4g-production-1aff.up.railway.app
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 07/11 @Config724
+  type: vless
+  server: 104.16.72.50
+  port: 443
+  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cbasur
+    headers:
+      Host: hhvl.hhapp.kdns.fr
+  tls: true
+  servername: hhvl.hhapp.kdns.fr
+- name: 🇬🇧 United Kingdom - 07/11 @Config724
+  type: ss
+  server: 82.38.31.185
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 The Netherlands - 07/11 @Config724
+  type: vless
+  server: am1.foot8all.ir
+  port: 56625
+  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+  tls: true
+  reality-opts:
+    public-key: sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM
+    short-id: d22c6bf354720287
+  servername: icloud.com
+  client-fingerprint: qq
+- name: 🇩🇪 Germany - 07/11 @Config724
+  type: vless
+  server: takehost-ger.shakhle.ir
+  port: 22000
+  uuid: c50b50c9-6868-4231-859a-691da85a2e60
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: xLCgdUiKeBpYK3YsT96d81yuhFuVgUeANbVeiQACRWw
+    short-id: ''
+  servername: www.yahoo.com
+  client-fingerprint: firefox
+- name: 🇺🇸 United States - 07/11 @Config724 2
+  type: vless
+  server: x4g-production-3177.up.railway.app
+  port: 443
+  uuid: 97ead6d8-8346-422b-1031-67592a745fa6
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/97ead6d8-8346-422b-1031-67592a745fa6
+    headers:
+      Host: x4g-production-3177.up.railway.app
+  tls: true
+  servername: x4g-production-3177.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🇫🇷 France - 07/11 @Config724
+  type: vless
+  server: all191.allenshop66245.ir
+  port: 443
+  uuid: 36644091-0cec-47fe-9955-97c3f424baf7
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+    short-id: 98fa0b00d09419f7
+  servername: play.google.com
+  client-fingerprint: firefox
+- name: 🇮🇳 India - 07/11 @Config724
+  type: vless
+  server: 1.tls.fastly.veraspeed.ir
+  port: 443
+  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
+  udp: true
+  network: ws
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan21.global.ssl.fastly.net
+  tls: true
+  servername: ssl.fastly.com
+- name: 🏳️ Unknown - 07/11 @Config724 2
+  type: vless
+  server: 104.16.72.50
+  port: 443
+  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cbasur
+    headers:
+      Host: hhvl.hhapp.kdns.fr
+  tls: true
+  servername: hhvl.hhapp.kdns.fr
+- name: 🇺🇸 United States - 07/11 @Config724 3
+  type: vless
+  server: x4g-production-859d.up.railway.app
+  port: 443
+  uuid: 3f7f50bb-e489-9684-74a7-4b0669b8cb15
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/3f7f50bb-e489-9684-74a7-4b0669b8cb15
+    headers:
+      Host: x4g-production-859d.up.railway.app
+  tls: true
+  servername: x4g-production-859d.up.railway.app
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/11 @Config724 4
+  type: vless
+  server: x4g-production-04b8.up.railway.app
+  port: 443
+  uuid: df9917d2-cfb1-a9f9-5c27-b54a3f3edbcb
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/df9917d2-cfb1-a9f9-5c27-b54a3f3edbcb
+    headers:
+      Host: x4g-production-04b8.up.railway.app
+  tls: true
+  servername: x4g-production-04b8.up.railway.app
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/11 @Config724 5
+  type: vless
+  server: x4g-production-8da8.up.railway.app
+  port: 443
+  uuid: 9b42c6e6-a327-2bec-93dd-9c57d7577a3e
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/9b42c6e6-a327-2bec-93dd-9c57d7577a3e
+    headers:
+      Host: x4g-production-8da8.up.railway.app
+  tls: true
+  servername: x4g-production-8da8.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🇮🇳 India - 07/12 @Config724
+  type: vless
+  server: 1.tls.fastly.veraspeed.ir
+  port: 443
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  udp: true
+  network: ws
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
+  tls: true
+  servername: ssl.fastly.com
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -1859,6 +2037,19 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 07/10 @Config724
   - 🏳️ Unknown - 07/10 @Config724
   - 🏳️ Unknown - 07/10 @Config724 2
+  - 🇺🇸 United States - 07/11 @Config724
+  - 🏳️ Unknown - 07/11 @Config724
+  - 🇬🇧 United Kingdom - 07/11 @Config724
+  - 🇳🇱 The Netherlands - 07/11 @Config724
+  - 🇩🇪 Germany - 07/11 @Config724
+  - 🇺🇸 United States - 07/11 @Config724 2
+  - 🇫🇷 France - 07/11 @Config724
+  - 🇮🇳 India - 07/11 @Config724
+  - 🏳️ Unknown - 07/11 @Config724 2
+  - 🇺🇸 United States - 07/11 @Config724 3
+  - 🇺🇸 United States - 07/11 @Config724 4
+  - 🇺🇸 United States - 07/11 @Config724 5
+  - 🇮🇳 India - 07/12 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -1997,6 +2188,19 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 07/10 @Config724
   - 🏳️ Unknown - 07/10 @Config724
   - 🏳️ Unknown - 07/10 @Config724 2
+  - 🇺🇸 United States - 07/11 @Config724
+  - 🏳️ Unknown - 07/11 @Config724
+  - 🇬🇧 United Kingdom - 07/11 @Config724
+  - 🇳🇱 The Netherlands - 07/11 @Config724
+  - 🇩🇪 Germany - 07/11 @Config724
+  - 🇺🇸 United States - 07/11 @Config724 2
+  - 🇫🇷 France - 07/11 @Config724
+  - 🇮🇳 India - 07/11 @Config724
+  - 🏳️ Unknown - 07/11 @Config724 2
+  - 🇺🇸 United States - 07/11 @Config724 3
+  - 🇺🇸 United States - 07/11 @Config724 4
+  - 🇺🇸 United States - 07/11 @Config724 5
+  - 🇮🇳 India - 07/12 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
