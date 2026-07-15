@@ -2358,6 +2358,135 @@ proxies:
   tls: true
   servername: t1s1.rittbo.kdns.fr
   client-fingerprint: chrome
+- name: 🇫🇷 France - 07/14 @Config724
+  type: vless
+  server: e2d89c6c10610582.nimaghaffarzadeh.ir
+  port: 56625
+  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+  tls: true
+  reality-opts:
+    public-key: sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM
+    short-id: abbb6e5e07cdf34b
+  servername: icloud.com
+  client-fingerprint: ios
+- name: 🇫🇷 France - 07/14 @Config724 2
+  type: vless
+  server: 7a1a266ed1a66705.mechanicir.ir
+  port: 56625
+  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+  tls: true
+  reality-opts:
+    public-key: sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM
+    short-id: d22c6bf354720287
+  servername: icloud.com
+  client-fingerprint: firefox
+- name: 🇺🇸 United States - 07/14 @Config724
+  type: vless
+  server: dd08e90ee38b1a0f.mbcloudy.ir
+  port: 56625
+  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gun
+  tls: true
+  reality-opts:
+    public-key: sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM
+    short-id: f46de42b38cf0a64
+  servername: icloud.com
+  client-fingerprint: ios
+- name: 🇩🇪 Germany - 07/14 @Config724
+  type: vless
+  server: ef85c5b68f422eec.mbmovietime.ir
+  port: 50567
+  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs
+    short-id: 9af7c9c0334675be
+  servername: play.google.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 07/14 @Config724 2
+  type: vless
+  server: 176.120.17.94
+  port: 16427
+  uuid: 486fe30a-18d8-4913-b0ba-a301d9b7d505
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: cIPzdA0vCMszJwDwNf3WrJvxoegoLHq0-zmoJ7iMHCE
+    short-id: c8144f81
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🇩🇪 Germany - 07/14 @Config724 3
+  type: vless
+  server: 46.62.240.221
+  port: 80
+  uuid: 6871b29e-bb51-4b6b-b2fa-6e2b98ad3859
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - khamenei.ir
+- name: 🇺🇸 United States - 07/14 @Config724 2
+  type: vless
+  server: x4g-production-a9e0.up.railway.app
+  port: 443
+  uuid: 51cd32d6-84ac-b048-2965-93800e6d1957
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/51cd32d6-84ac-b048-2965-93800e6d1957
+    headers:
+      Host: x4g-production-a9e0.up.railway.app
+  tls: true
+  servername: x4g-production-a9e0.up.railway.app
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/14 @Config724 3
+  type: vless
+  server: x4g-production-4de6.up.railway.app
+  port: 443
+  uuid: 04413f85-9929-13ea-1f36-08d139734b10
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/04413f85-9929-13ea-1f36-08d139734b10
+    headers:
+      Host: x4g-production-4de6.up.railway.app
+  tls: true
+  servername: x4g-production-4de6.up.railway.app
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/14 @Config724 4
+  type: vless
+  server: x4g-production-cefc.up.railway.app
+  port: 443
+  uuid: 7d6ae8de-993a-8775-970f-93f540c84d7b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/7d6ae8de-993a-8775-970f-93f540c84d7b
+    headers:
+      Host: x4g-production-cefc.up.railway.app
+  tls: true
+  servername: x4g-production-cefc.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -2544,6 +2673,15 @@ proxy-groups:
   - 🏳️ Unknown - 07/13 @Config724 2
   - 🇺🇸 United States - 07/13 @Config724 10
   - 🏳️ Unknown - 07/13 @Config724 3
+  - 🇫🇷 France - 07/14 @Config724
+  - 🇫🇷 France - 07/14 @Config724 2
+  - 🇺🇸 United States - 07/14 @Config724
+  - 🇩🇪 Germany - 07/14 @Config724
+  - 🇩🇪 Germany - 07/14 @Config724 2
+  - 🇩🇪 Germany - 07/14 @Config724 3
+  - 🇺🇸 United States - 07/14 @Config724 2
+  - 🇺🇸 United States - 07/14 @Config724 3
+  - 🇺🇸 United States - 07/14 @Config724 4
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -2727,6 +2865,15 @@ proxy-groups:
   - 🏳️ Unknown - 07/13 @Config724 2
   - 🇺🇸 United States - 07/13 @Config724 10
   - 🏳️ Unknown - 07/13 @Config724 3
+  - 🇫🇷 France - 07/14 @Config724
+  - 🇫🇷 France - 07/14 @Config724 2
+  - 🇺🇸 United States - 07/14 @Config724
+  - 🇩🇪 Germany - 07/14 @Config724
+  - 🇩🇪 Germany - 07/14 @Config724 2
+  - 🇩🇪 Germany - 07/14 @Config724 3
+  - 🇺🇸 United States - 07/14 @Config724 2
+  - 🇺🇸 United States - 07/14 @Config724 3
+  - 🇺🇸 United States - 07/14 @Config724 4
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
