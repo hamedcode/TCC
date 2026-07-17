@@ -2519,6 +2519,307 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇩🇪 Germany - 07/16 @Config724
+  type: vless
+  server: 3.71.131.130
+  port: 25016
+  uuid: 3e8418f4-d57f-4179-8b24-4fd19e4ec82d
+  udp: true
+- name: 🇬🇧 United Kingdom - 07/16 @Config724
+  type: vless
+  server: hudrososov.blog
+  port: 443
+  uuid: 2428711f-5117-46e9-a2cb-741797a60ed8
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: yuKSmrb2MumCllTTmBJiuNTQcGxEaNhqmZVR8dVjLwI
+    short-id: d1c2b3a4
+  servername: hudrososov.blog
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+- name: 🇳🇱 The Netherlands - 07/16 @Config724
+  type: vless
+  server: www.netipplus.ir
+  port: 8022
+  uuid: 1d5eebb1-a520-4688-9ec1-c7405b8753f0
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: sAoXea8eA0uW8d0yPyuD0GJtvps5R4b_-mHXMKG8d0A
+    short-id: f34484e7b6e6d0ce
+  servername: www.netipplus.ir
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 07/16 @Config724 3
+  type: vless
+  server: 64.188.126.226
+  port: 3468
+  uuid: a09b6dfa-e48a-0d75-bcad-df385fa5b73a
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: SvSapHrt3EpoN_JcW195G48r5nJVuioGP7LNABKWxG4
+    short-id: b6eae5ce
+  servername: telewebion.ir
+- name: 🇫🇮 Finland - 07/16 @Config724
+  type: vless
+  server: fi5.liveflow.space
+  port: 443
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: eo0ebxXpWf2oaWvsPuh1NAEp5fgtslEC4bAeEX0ftX0
+    short-id: 6bb2d604f8a5238b
+  servername: fi5.liveflow.space
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 07/16 @Config724
+  type: trojan
+  server: 172.64.146.198
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+- name: 🏳️ Unknown - 07/16 @Config724 2
+  type: trojan
+  server: 172.64.147.224
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+- name: 🇩🇪 Germany - 07/16 @Config724 2
+  type: vless
+  server: 91.107.191.72
+  port: 2026
+  uuid: 9928c26a-b3f0-424c-b836-3d6ccfbf7881
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: WlSr90QutGfoi_ysAFI9FEmKtDsw60tZAg9L-KcypmI
+    short-id: 383cd5b09d
+  servername: shop-eu-en.amd.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 07/16 @Config724 3
+  type: trojan
+  server: 172.64.146.198
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+- name: 🇺🇸 United States - 07/16 @Config724 4
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MITIVPN
+  udp: true
+  skip-cert-verify: false
+  sni: global.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=Usa
+    headers:
+      Host: esalat-king-mitivpn.global.ssl.fastly.net
+- name: 🇩🇪 Germany - 07/16 @Config724 3
+  type: vless
+  server: 3.71.131.130
+  port: 25016
+  uuid: 3e8418f4-d57f-4179-8b24-4fd19e4ec82d
+  udp: true
+- name: 🇯🇵 Japan - 07/16 @Config724
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=NL
+    headers:
+      Host: esalat-mitivpn.global.ssl.fastly.net
+- name: 🇫🇮 Finland - 07/16 @Config724 2
+  type: vless
+  server: fi5.liveflow.space
+  port: 443
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: eo0ebxXpWf2oaWvsPuh1NAEp5fgtslEC4bAeEX0ftX0
+    short-id: 6bb2d604f8a5238b
+  servername: fi5.liveflow.space
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 07/16 @Config724 4
+  type: vless
+  server: 89.106.64.15
+  port: 7000
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - a12.crowsvpn.shop
+- name: 🇬🇧 United Kingdom - 07/16 @Config724 2
+  type: vless
+  server: hudrososov.blog
+  port: 443
+  uuid: 2428711f-5117-46e9-a2cb-741797a60ed8
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: yuKSmrb2MumCllTTmBJiuNTQcGxEaNhqmZVR8dVjLwI
+    short-id: d1c2b3a4
+  servername: hudrososov.blog
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 07/16 @Config724 4
+  type: trojan
+  server: 172.64.147.224
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+- name: 🇩🇪 Germany - 07/16 @Config724 5
+  type: vless
+  server: 91.107.191.72
+  port: 2026
+  uuid: 9928c26a-b3f0-424c-b836-3d6ccfbf7881
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: WlSr90QutGfoi_ysAFI9FEmKtDsw60tZAg9L-KcypmI
+    short-id: 383cd5b09d
+  servername: shop-eu-en.amd.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 07/16 @Config724 5
+  type: vless
+  server: 173.199.117.62
+  port: 3
+  uuid: f356ae17-12ad-43ce-9961-56de0725452e
+  udp: true
+  network: http
+- name: 🇺🇸 United States - 07/16 @Config724 6
+  type: vless
+  server: 64.188.126.226
+  port: 3468
+  uuid: a09b6dfa-e48a-0d75-bcad-df385fa5b73a
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: SvSapHrt3EpoN_JcW195G48r5nJVuioGP7LNABKWxG4
+    short-id: b6eae5ce
+  servername: telewebion.ir
+- name: 🇯🇵 Japan - 07/16 @Config724 2
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MITIVPN
+  udp: true
+  skip-cert-verify: false
+  sni: global.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=De
+    headers:
+      Host: esalat-king-mitivpn.global.ssl.fastly.net
+- name: 🇺🇸 United States - 07/16 @Config724 7
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /MiTiVPN=fL
+    headers:
+      Host: esalat-mitivpn.global.ssl.fastly.net
+- name: 🇮🇷 Iran - 07/16 @Config724
+  type: vless
+  server: s2.zynavo.ir
+  port: 2087
+  uuid: a490e46d-e450-4c73-631f-920da539186c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - cdn.zynavo.ir
+  tls: true
+  servername: cdn.zynavo.ir
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: 🇳🇱 The Netherlands - 07/16 @Config724 2
+  type: vless
+  server: www.netipplus.ir
+  port: 8022
+  uuid: 1d5eebb1-a520-4688-9ec1-c7405b8753f0
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: sAoXea8eA0uW8d0yPyuD0GJtvps5R4b_-mHXMKG8d0A
+    short-id: f34484e7b6e6d0ce
+  servername: www.netipplus.ir
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 07/17 @Config724
+  type: vless
+  server: static.41.139.168.204.clients.your-server.de
+  port: 2087
+  uuid: fe181934-a536-44cc-98cd-d62b9c16ad74
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -2716,6 +3017,30 @@ proxy-groups:
   - 🇺🇸 United States - 07/14 @Config724 4
   - 🇺🇸 United States - 07/16 @Config724
   - 🇺🇸 United States - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/16 @Config724
+  - 🇬🇧 United Kingdom - 07/16 @Config724
+  - 🇳🇱 The Netherlands - 07/16 @Config724
+  - 🇺🇸 United States - 07/16 @Config724 3
+  - 🇫🇮 Finland - 07/16 @Config724
+  - 🏳️ Unknown - 07/16 @Config724
+  - 🏳️ Unknown - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/16 @Config724 2
+  - 🏳️ Unknown - 07/16 @Config724 3
+  - 🇺🇸 United States - 07/16 @Config724 4
+  - 🇩🇪 Germany - 07/16 @Config724 3
+  - 🇯🇵 Japan - 07/16 @Config724
+  - 🇫🇮 Finland - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/16 @Config724 4
+  - 🇬🇧 United Kingdom - 07/16 @Config724 2
+  - 🏳️ Unknown - 07/16 @Config724 4
+  - 🇩🇪 Germany - 07/16 @Config724 5
+  - 🇺🇸 United States - 07/16 @Config724 5
+  - 🇺🇸 United States - 07/16 @Config724 6
+  - 🇯🇵 Japan - 07/16 @Config724 2
+  - 🇺🇸 United States - 07/16 @Config724 7
+  - 🇮🇷 Iran - 07/16 @Config724
+  - 🇳🇱 The Netherlands - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/17 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -2910,6 +3235,30 @@ proxy-groups:
   - 🇺🇸 United States - 07/14 @Config724 4
   - 🇺🇸 United States - 07/16 @Config724
   - 🇺🇸 United States - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/16 @Config724
+  - 🇬🇧 United Kingdom - 07/16 @Config724
+  - 🇳🇱 The Netherlands - 07/16 @Config724
+  - 🇺🇸 United States - 07/16 @Config724 3
+  - 🇫🇮 Finland - 07/16 @Config724
+  - 🏳️ Unknown - 07/16 @Config724
+  - 🏳️ Unknown - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/16 @Config724 2
+  - 🏳️ Unknown - 07/16 @Config724 3
+  - 🇺🇸 United States - 07/16 @Config724 4
+  - 🇩🇪 Germany - 07/16 @Config724 3
+  - 🇯🇵 Japan - 07/16 @Config724
+  - 🇫🇮 Finland - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/16 @Config724 4
+  - 🇬🇧 United Kingdom - 07/16 @Config724 2
+  - 🏳️ Unknown - 07/16 @Config724 4
+  - 🇩🇪 Germany - 07/16 @Config724 5
+  - 🇺🇸 United States - 07/16 @Config724 5
+  - 🇺🇸 United States - 07/16 @Config724 6
+  - 🇯🇵 Japan - 07/16 @Config724 2
+  - 🇺🇸 United States - 07/16 @Config724 7
+  - 🇮🇷 Iran - 07/16 @Config724
+  - 🇳🇱 The Netherlands - 07/16 @Config724 2
+  - 🇩🇪 Germany - 07/17 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
