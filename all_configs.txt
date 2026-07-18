@@ -1,2 +1,0 @@
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.123.79:22222?security=none&encryption=none&host=LevikoConfig&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%5B%40Config%5D%20vless-FR-14954142
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.123.79:22222?security=none&encryption=none&host=LevikoConfig&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%5B%40Config%5D%20vless-FR-14954142
