@@ -2820,6 +2820,127 @@ proxies:
     headers:
       Host:
       - play.google.com
+- name: 🇩🇪 Germany - 07/17 @Config724 2
+  type: vless
+  server: 3.122.121.39
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+- name: 🏳️ Unknown - 07/17 @Config724
+  type: vless
+  server: 104.18.42.54
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+- name: 🏳️ Unknown - 07/17 @Config724 2
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇩🇪 Germany - 07/17 @Config724 3
+  type: vless
+  server: 3.122.121.39
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+- name: 🇩🇪 Germany - 07/17 @Config724 4
+  type: vless
+  server: 81.31.211.113
+  port: 2085
+  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇺🇸 United States - 07/17 @Config724
+  type: vless
+  server: 185.93.33.7
+  port: 443
+  uuid: ecad47b0-249e-0014-adff-e3c8f02b1897
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  servername: auto.quattro-tech.ru
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 07/17 @Config724 3
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇳🇱 The Netherlands - 07/17 @Config724
+  type: vless
+  server: 46.8.69.162
+  port: 443
+  uuid: 4880f729-cd7c-4158-8fe7-860ec4e01482
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 0xPKGAAK5GSdktEfUgCdtMdeo9wuZFLvr-GVD35m2VU
+    short-id: 0f58c9be51e38a
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 07/17 @Config724 4
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+- name: 🇩🇪 Germany - 07/17 @Config724 5
+  type: vless
+  server: 81.31.211.109
+  port: 2085
+  uuid: 468ad79f-d66a-47eb-874b-b88cd1bb76e3
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🏳️ Unknown - 07/17 @Config724 5
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -3041,6 +3162,17 @@ proxy-groups:
   - 🇮🇷 Iran - 07/16 @Config724
   - 🇳🇱 The Netherlands - 07/16 @Config724 2
   - 🇩🇪 Germany - 07/17 @Config724
+  - 🇩🇪 Germany - 07/17 @Config724 2
+  - 🏳️ Unknown - 07/17 @Config724
+  - 🏳️ Unknown - 07/17 @Config724 2
+  - 🇩🇪 Germany - 07/17 @Config724 3
+  - 🇩🇪 Germany - 07/17 @Config724 4
+  - 🇺🇸 United States - 07/17 @Config724
+  - 🏳️ Unknown - 07/17 @Config724 3
+  - 🇳🇱 The Netherlands - 07/17 @Config724
+  - 🏳️ Unknown - 07/17 @Config724 4
+  - 🇩🇪 Germany - 07/17 @Config724 5
+  - 🏳️ Unknown - 07/17 @Config724 5
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -3259,6 +3391,17 @@ proxy-groups:
   - 🇮🇷 Iran - 07/16 @Config724
   - 🇳🇱 The Netherlands - 07/16 @Config724 2
   - 🇩🇪 Germany - 07/17 @Config724
+  - 🇩🇪 Germany - 07/17 @Config724 2
+  - 🏳️ Unknown - 07/17 @Config724
+  - 🏳️ Unknown - 07/17 @Config724 2
+  - 🇩🇪 Germany - 07/17 @Config724 3
+  - 🇩🇪 Germany - 07/17 @Config724 4
+  - 🇺🇸 United States - 07/17 @Config724
+  - 🏳️ Unknown - 07/17 @Config724 3
+  - 🇳🇱 The Netherlands - 07/17 @Config724
+  - 🏳️ Unknown - 07/17 @Config724 4
+  - 🇩🇪 Germany - 07/17 @Config724 5
+  - 🏳️ Unknown - 07/17 @Config724 5
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
