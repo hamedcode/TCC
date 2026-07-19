@@ -2941,6 +2941,29 @@ proxies:
   tls: true
   servername: t1s1.rittbo.kdns.fr
   client-fingerprint: chrome
+- name: 🇫🇷 France - 07/18 @Config724
+  type: vless
+  server: 52.47.123.79
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+- name: 🇮🇷 Iran - 07/19 @Config724
+  type: vless
+  server: dl3-54231678trust.nivoxa.ir
+  port: 30510
+  uuid: fe6a8eab-8afa-489b-9095-275d4acefa70
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - myket.ir
+  tls: true
+  reality-opts:
+    public-key: WcasoWgozKHcoThSpH_nlQp1-dN0b28hH_LDgIbFsFo
+    short-id: 3047915bf424f292
+  servername: icloud.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -3173,6 +3196,8 @@ proxy-groups:
   - 🏳️ Unknown - 07/17 @Config724 4
   - 🇩🇪 Germany - 07/17 @Config724 5
   - 🏳️ Unknown - 07/17 @Config724 5
+  - 🇫🇷 France - 07/18 @Config724
+  - 🇮🇷 Iran - 07/19 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -3402,6 +3427,8 @@ proxy-groups:
   - 🏳️ Unknown - 07/17 @Config724 4
   - 🇩🇪 Germany - 07/17 @Config724 5
   - 🏳️ Unknown - 07/17 @Config724 5
+  - 🇫🇷 France - 07/18 @Config724
+  - 🇮🇷 Iran - 07/19 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
