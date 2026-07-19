@@ -397,3 +397,5 @@ vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.38.119:443?path=%2F&securit
 ss://468ad79f-d66a-47eb-874b-b88cd1bb76e3@81.31.211.109:2085?encryption=none&security=none&serviceName=vless&type=grpc#🇩🇪 Germany - 07/17 @Config724
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.123.79:22222?security=none&encryption=none&host=LevikoConfig&headerType=none&type=tcp#🇫🇷 France - 07/18 @Config724
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.123.79:22222?security=none&encryption=none&host=LevikoConfig&headerType=none&type=tcp#🇫🇷 France - 07/18 @Config724
+ss://fe6a8eab-8afa-489b-9095-275d4acefa70@dl3-54231678trust.nivoxa.ir:30510?mode=auto&path=%2F&security=reality&encryption=none&pbk=WcasoWgozKHcoThSpH_nlQp1-dN0b28hH_LDgIbFsFo&host=myket.ir&fp=chrome&type=xhttp&sni=icloud.com&sid=3047915bf424f292#🇮🇷 Iran - 07/19 @Config724
+vless://fe6a8eab-8afa-489b-9095-275d4acefa70@dl3-54231678trust.nivoxa.ir:30510?mode=auto&path=%2F&security=reality&encryption=none&pbk=WcasoWgozKHcoThSpH_nlQp1-dN0b28hH_LDgIbFsFo&host=myket.ir&fp=chrome&type=xhttp&sni=icloud.com&sid=3047915bf424f292#🇮🇷 Iran - 07/19 @Config724
