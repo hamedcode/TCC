@@ -1,4 +1,0 @@
-ss://31c98850-cad4-47a5-8784-ade2c77402ca@fra.sorilo.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%40EXPRESSVPN_420
-vless://31c98850-cad4-47a5-8784-ade2c77402ca@tur2.sorilo.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%40EXPRESSVPN_420
-ss://31c98850-cad4-47a5-8784-ade2c77402ca@tur2.sorilo.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%40EXPRESSVPN_420
-vless://31c98850-cad4-47a5-8784-ade2c77402ca@fra.sorilo.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%40EXPRESSVPN_420
