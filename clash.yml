@@ -2291,6 +2291,101 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   tls: true
   servername: t1s1.rittbo.kdns.fr
+- name: 🏳️ Unknown - 07/25 @Config724
+  type: vless
+  server: 173.245.58.70
+  port: 2053
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 07/25 @Config724 2
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 07/25 @Config724 3
+  type: vless
+  server: cf.levikogjgfdd.ir
+  port: 443
+  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cbasur
+    headers:
+      Host: hhvl.hhapp.kdns.fr
+  tls: true
+  servername: hhvl.hhapp.kdns.fr
+- name: 🏳️ Unknown - 07/25 @Config724 4
+  type: vless
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+- name: 🏳️ Unknown - 07/26 @Config724
+  type: vless
+  server: 173.245.58.70
+  port: 2053
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 07/26 @Config724 2
+  type: vless
+  server: cf.levikogjgfdd.ir
+  port: 443
+  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cbasur
+    headers:
+      Host: hhvl.hhapp.kdns.fr
+  tls: true
+  servername: hhvl.hhapp.kdns.fr
+- name: 🏳️ Unknown - 07/26 @Config724 3
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  udp: true
+  network: ws
+  ws-opts:
+    path: /rsedgws
+    headers:
+      Host: shegeftihaaa.net
+  tls: true
+  servername: shegeftihaaa.net
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -2471,6 +2566,13 @@ proxy-groups:
   - 🏳️ Unknown - 07/24 @Config724
   - 🇩🇪 Germany - 07/24 @Config724
   - 🏳️ Unknown - 07/24 @Config724 2
+  - 🏳️ Unknown - 07/25 @Config724
+  - 🏳️ Unknown - 07/25 @Config724 2
+  - 🏳️ Unknown - 07/25 @Config724 3
+  - 🏳️ Unknown - 07/25 @Config724 4
+  - 🏳️ Unknown - 07/26 @Config724
+  - 🏳️ Unknown - 07/26 @Config724 2
+  - 🏳️ Unknown - 07/26 @Config724 3
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -2648,6 +2750,13 @@ proxy-groups:
   - 🏳️ Unknown - 07/24 @Config724
   - 🇩🇪 Germany - 07/24 @Config724
   - 🏳️ Unknown - 07/24 @Config724 2
+  - 🏳️ Unknown - 07/25 @Config724
+  - 🏳️ Unknown - 07/25 @Config724 2
+  - 🏳️ Unknown - 07/25 @Config724 3
+  - 🏳️ Unknown - 07/25 @Config724 4
+  - 🏳️ Unknown - 07/26 @Config724
+  - 🏳️ Unknown - 07/26 @Config724 2
+  - 🏳️ Unknown - 07/26 @Config724 3
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
