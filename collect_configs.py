@@ -95,6 +95,7 @@ def extract_configs_from_entities(msg):
     return found
 
 cutoff_time = datetime.utcnow() - timedelta(hours=8)
+DEBUG = os.getenv("DEBUG", "0") == "1"
 
 with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
     channels = json.load(f)
@@ -107,6 +108,8 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
         try:
             messages_iter = app.get_chat_history(channel, limit=50)
             configs = []
+            total_fetched = 0
+            within_cutoff = 0
 
             while True:
                 try:
@@ -117,11 +120,19 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                     print(f"⚠️ خطا در دریافت پیام بعدی از {channel}: {fetch_err}")
                     continue
 
+                total_fetched += 1
+
                 try:
                     if msg.date < cutoff_time:
                         continue
+                    within_cutoff += 1
 
                     content = msg.text or msg.caption
+                    if DEBUG:
+                        print(f"   [DEBUG] msg_id={msg.id} date={msg.date} has_text={bool(msg.text)} has_caption={bool(msg.caption)} has_entities={bool(msg.entities)} has_caption_entities={bool(msg.caption_entities)}")
+                        if content:
+                            print(f"   [DEBUG] raw content repr: {repr(str(content))[:500]}")
+
                     if content:
                         configs += extract_configs_from_text(str(content))
 
@@ -129,6 +140,8 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                 except Exception as msg_err:
                     print(f"⚠️ خطا در پردازش یک پیام از {channel}: {msg_err}")
                     continue
+
+            print(f"   ℹ️ {channel}: {total_fetched} پیام fetch شد، {within_cutoff} پیام داخل بازه‌ی زمانی بود.")
 
             configs = list(set(configs))
 
