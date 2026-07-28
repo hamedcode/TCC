@@ -33,32 +33,66 @@ try:
 except Exception as e:
     print(f"❌ خطا در حذف output/: {e}")
 
-# تابع استخراج کانفیگ‌ها
+# کاراکترهای نامرئی/کنترلی رایج که تلگرام یا کلاینت‌ها هنگام کپی/فرمت اضافه می‌کنن
+INVISIBLE_CHARS_RE = re.compile(
+    "[\u200b\u200c\u200d\u200e\u200f\u202a\u202b\u202c\u202d\u202e\ufeff\u00a0]"
+)
+
+
+def clean_text(text):
+    if not text:
+        return text
+    return INVISIBLE_CHARS_RE.sub("", text)
+
+
+# تابع استخراج کانفیگ‌ها از متن خام پیام
 def extract_configs_from_text(text):
     found = []
+    if not text:
+        return found
 
+    text = clean_text(text)
+
+    # (?<![A-Za-z]) جلوی match شدن پروتکل‌هایی که زیررشته‌ی یه پروتکل دیگه‌ن رو می‌گیره
+    # مثلاً "ss://" که داخل "vless://" هم به صورت زیررشته وجود داره
     for proto in CONFIG_PROTOCOLS:
-        found += re.findall(f"{proto}[^\s]+", text)
+        pattern = r"(?<![A-Za-z])" + re.escape(proto) + r"[^\s]+"
+        found += re.findall(pattern, text)
 
+    # بررسی خط به خط برای موارد base64-encoded (که با پروتکل شروع نمی‌شن)
     lines = text.splitlines()
     for line in lines:
-        line = line.strip()
-
-        for proto in CONFIG_PROTOCOLS:
-            if proto in line:
-                found.append(line)
-                continue
+        # حذف کاراکترهای رایج quote/bullet که ممکنه کاربر دستی اول خط بذاره
+        line = line.strip().strip("\"'").lstrip(">«»•-–—▪●◦ \t").strip()
 
         if len(line) >= 30 and re.fullmatch(r"[A-Za-z0-9+/=]+", line):
             try:
                 padded = line + "=" * (-len(line) % 4)
                 decoded = base64.b64decode(padded).decode("utf-8")
                 for proto in CONFIG_PROTOCOLS:
-                    found += re.findall(f"{proto}[^\s]+", decoded)
-            except:
+                    pattern = r"(?<![A-Za-z])" + re.escape(proto) + r"[^\s]+"
+                    found += re.findall(pattern, decoded)
+            except Exception:
                 continue
 
-    return list(set(found))
+    # حذف کاراکترهای اضافی رایج که ممکنه به انتهای کانفیگ بچسبن (نقل‌قول، پرانتز و ...)
+    found = [c.rstrip("\"'”’)]}.,،؛;") for c in found]
+    return found
+
+
+# تابع استخراج کانفیگ‌هایی که پشت لینک مخفی (hidden hyperlink / text_link) قایم شدن
+def extract_configs_from_entities(msg):
+    found = []
+    entities = (msg.entities or []) + (msg.caption_entities or [])
+    for ent in entities:
+        url = getattr(ent, "url", None)  # فقط MessageEntityType.TEXT_LINK این رو داره
+        if not url:
+            continue
+        url = clean_text(url)
+        for proto in CONFIG_PROTOCOLS:
+            if url.startswith(proto):
+                found.append(url)
+    return found
 
 cutoff_time = datetime.utcnow() - timedelta(hours=8)
 
@@ -79,10 +113,10 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
                     continue
 
                 content = msg.text or msg.caption
-                if not content:
-                    continue
+                if content:
+                    configs += extract_configs_from_text(str(content))
 
-                configs += extract_configs_from_text(content)
+                configs += extract_configs_from_entities(msg)
 
             configs = list(set(configs))
 
