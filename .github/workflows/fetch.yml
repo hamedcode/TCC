@@ -19,7 +19,7 @@ jobs:
         python-version: "3.10"
 
     - name: Install dependencies
-      run: pip install pyrogram tgcrypto
+      run: pip install --upgrade pyrogram tgcrypto
 
     - name: Run collector script
       env:
