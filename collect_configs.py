@@ -105,18 +105,30 @@ with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
     for channel in channels:
         print(f"🔍 بررسی: {channel}")
         try:
-            messages = app.get_chat_history(channel, limit=50)
+            messages_iter = app.get_chat_history(channel, limit=50)
             configs = []
 
-            for msg in messages:
-                if msg.date < cutoff_time:
+            while True:
+                try:
+                    msg = next(messages_iter)
+                except StopIteration:
+                    break
+                except Exception as fetch_err:
+                    print(f"⚠️ خطا در دریافت پیام بعدی از {channel}: {fetch_err}")
                     continue
 
-                content = msg.text or msg.caption
-                if content:
-                    configs += extract_configs_from_text(str(content))
+                try:
+                    if msg.date < cutoff_time:
+                        continue
 
-                configs += extract_configs_from_entities(msg)
+                    content = msg.text or msg.caption
+                    if content:
+                        configs += extract_configs_from_text(str(content))
+
+                    configs += extract_configs_from_entities(msg)
+                except Exception as msg_err:
+                    print(f"⚠️ خطا در پردازش یک پیام از {channel}: {msg_err}")
+                    continue
 
             configs = list(set(configs))
 
