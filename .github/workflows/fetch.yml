@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 */8 * * *"
   workflow_dispatch:
+    inputs:
+      debug:
+        description: "چاپ لاگ تشخیصی (محتوای خام پیام‌ها)"
+        required: false
+        default: "0"
 
 jobs:
   fetch:
@@ -26,6 +31,7 @@ jobs:
         API_ID: ${{ secrets.API_ID }}
         API_HASH: ${{ secrets.API_HASH }}
         PYROGRAM_SESSION_B64: ${{ secrets.PYROGRAM_SESSION_B64 }}
+        DEBUG: ${{ github.event.inputs.debug || '0' }}
       run: python collect_configs.py
 
     - name: Commit collected configs
