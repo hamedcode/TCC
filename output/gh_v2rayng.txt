@@ -1,1 +1,0 @@
-vless://1641a422-2dff-45a5-846f-75ff8422b1dd@104.16.72.2:2082?mode=auto&path=%2F&security=&encryption=none&host=erfan6.mmd8563.ir&type=xhttp#
