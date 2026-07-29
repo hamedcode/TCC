@@ -1,1 +1,1 @@
-vless://de17a7f2-3071-467e-9e19-c6f9f6891475@dashboard.lucypro.ir:550?path=%2F&security=&encryption=none&host=play.google.com&type=ws#vip%F0%9F%87%A9%F0%9F%87%AA
+vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#%40EXPRESSVPN_420
