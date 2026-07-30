@@ -3063,6 +3063,110 @@ proxies:
   client-fingerprint: ios
   alpn:
   - http/1.1
+- name: 🇩🇪 Germany - 07/29 @Config724
+  type: vless
+  server: dashboard.lucypro.ir
+  port: 550
+  uuid: de17a7f2-3071-467e-9e19-c6f9f6891475
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: play.google.com
+- name: 🇺🇸 United States - 07/29 @Config724
+  type: vless
+  server: 69.46.46.1
+  port: 443
+  uuid: 176bfd2e-ae79-df1e-1068-061b8a130a47
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/176bfd2e-ae79-df1e-1068-061b8a130a47
+    headers:
+      Host: fgfssgf-bfbwfwfkw.up.railway.app
+  tls: true
+  servername: fgfssgf-bfbwfwfkw.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/29 @Config724 2
+  type: vless
+  server: 69.46.46.3
+  port: 443
+  uuid: 35ec6474-c6fd-0210-34c9-de9e43389781
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/35ec6474-c6fd-0210-34c9-de9e43389781
+    headers:
+      Host: rvg-production-5879.up.railway.app
+  tls: true
+  servername: rvg-production-5879.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 07/29 @Config724
+  type: vless
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+  tls: true
+  servername: learn00.evany.de5.net
+- name: 🇺🇸 United States - 07/29 @Config724 3
+  type: vless
+  server: 69.46.46.2
+  port: 443
+  uuid: 489f6ece-37ab-58ab-cb12-208eb13b9193
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/489f6ece-37ab-58ab-cb12-208eb13b9193
+    headers:
+      Host: rvg-production-aa2f.up.railway.app
+  tls: true
+  servername: rvg-production-aa2f.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/30 @Config724
+  type: vless
+  server: 69.46.46.8
+  port: 443
+  uuid: 9be2cb3e-9ee3-16c2-e6d8-b6c633bb1c89
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/9be2cb3e-9ee3-16c2-e6d8-b6c633bb1c89
+    headers:
+      Host: rvg-production-3f7d.up.railway.app
+  tls: true
+  servername: rvg-production-3f7d.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 07/30 @Config724 2
+  type: vless
+  server: 69.46.46.7
+  port: 443
+  uuid: 0193910a-e732-dac6-449c-2939dbe1fabc
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws/0193910a-e732-dac6-449c-2939dbe1fabc
+    headers:
+      Host: rvg-production-2f1f.up.railway.app
+  tls: true
+  servername: rvg-production-2f1f.up.railway.app
+  client-fingerprint: ios
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -3304,6 +3408,13 @@ proxy-groups:
   - 🇺🇸 United States - 07/28 @Config724 3
   - 🇺🇸 United States - 07/28 @Config724 4
   - 🇺🇸 United States - 07/28 @Config724 5
+  - 🇩🇪 Germany - 07/29 @Config724
+  - 🇺🇸 United States - 07/29 @Config724
+  - 🇺🇸 United States - 07/29 @Config724 2
+  - 🏳️ Unknown - 07/29 @Config724
+  - 🇺🇸 United States - 07/29 @Config724 3
+  - 🇺🇸 United States - 07/30 @Config724
+  - 🇺🇸 United States - 07/30 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -3542,6 +3653,13 @@ proxy-groups:
   - 🇺🇸 United States - 07/28 @Config724 3
   - 🇺🇸 United States - 07/28 @Config724 4
   - 🇺🇸 United States - 07/28 @Config724 5
+  - 🇩🇪 Germany - 07/29 @Config724
+  - 🇺🇸 United States - 07/29 @Config724
+  - 🇺🇸 United States - 07/29 @Config724 2
+  - 🏳️ Unknown - 07/29 @Config724
+  - 🇺🇸 United States - 07/29 @Config724 3
+  - 🇺🇸 United States - 07/30 @Config724
+  - 🇺🇸 United States - 07/30 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
