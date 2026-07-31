@@ -3167,6 +3167,19 @@ proxies:
   client-fingerprint: ios
   alpn:
   - http/1.1
+- name: 🏳️ Unknown - 07/30 @Config724
+  type: vless
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+  tls: true
+  servername: learn00.evany.de5.net
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -3415,6 +3428,7 @@ proxy-groups:
   - 🇺🇸 United States - 07/29 @Config724 3
   - 🇺🇸 United States - 07/30 @Config724
   - 🇺🇸 United States - 07/30 @Config724 2
+  - 🏳️ Unknown - 07/30 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -3660,6 +3674,7 @@ proxy-groups:
   - 🇺🇸 United States - 07/29 @Config724 3
   - 🇺🇸 United States - 07/30 @Config724
   - 🇺🇸 United States - 07/30 @Config724 2
+  - 🏳️ Unknown - 07/30 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
