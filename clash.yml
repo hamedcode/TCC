@@ -3180,6 +3180,58 @@ proxies:
       Host: learn00.evany.de5.net
   tls: true
   servername: learn00.evany.de5.net
+- name: 🏳️ Unknown - 07/31 @Config724
+  type: vless
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip
+    headers:
+      Host: learn00.evany.de5.net
+  tls: true
+  servername: learn00.evany.de5.net
+- name: 🏳️ Unknown - 08/01 @Config724
+  type: trojan
+  server: millionaire.levikogjgfdd.ir
+  port: 443
+  password: '521314'
+  udp: true
+  skip-cert-verify: false
+  sni: tjplay.lxdxo.kdns.fr
+  network: ws
+  ws-opts:
+    path: /Leviko_v2ray
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+- name: 🇷🇺 Russia - 08/01 @Config724
+  type: vless
+  server: qq.utiltools.ru
+  port: 443
+  uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+    short-id: ''
+  servername: qq.utiltools.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+- name: 🇷🇺 Russia - 08/01 @Config724 2
+  type: vless
+  server: qq.utiltools.ru
+  port: 443
+  uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+    short-id: ''
+  servername: qq.utiltools.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -3429,6 +3481,10 @@ proxy-groups:
   - 🇺🇸 United States - 07/30 @Config724
   - 🇺🇸 United States - 07/30 @Config724 2
   - 🏳️ Unknown - 07/30 @Config724
+  - 🏳️ Unknown - 07/31 @Config724
+  - 🏳️ Unknown - 08/01 @Config724
+  - 🇷🇺 Russia - 08/01 @Config724
+  - 🇷🇺 Russia - 08/01 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -3675,6 +3731,10 @@ proxy-groups:
   - 🇺🇸 United States - 07/30 @Config724
   - 🇺🇸 United States - 07/30 @Config724 2
   - 🏳️ Unknown - 07/30 @Config724
+  - 🏳️ Unknown - 07/31 @Config724
+  - 🏳️ Unknown - 08/01 @Config724
+  - 🇷🇺 Russia - 08/01 @Config724
+  - 🇷🇺 Russia - 08/01 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
