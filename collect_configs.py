@@ -4,6 +4,9 @@ import json
 import time
 import shutil
 import base64
+import socket
+import concurrent.futures
+from urllib.parse import urlparse
 import requests
 from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
@@ -18,6 +21,11 @@ CUTOFF_HOURS = 8
 MAX_PAGES_PER_CHANNEL = 6  # هر صفحه‌ی t.me/s حدود ۲۰ پیام داره
 REQUEST_TIMEOUT = 15
 RETRY_COUNT = 3
+
+TCPING_ENABLED = os.getenv("TCPING_ENABLED", "1") == "1"
+TCPING_TIMEOUT = float(os.getenv("TCPING_TIMEOUT", "3"))
+TCPING_WORKERS = int(os.getenv("TCPING_WORKERS", "50"))
+ALIVE_CONFIGS_FILE = "alive_configs.txt"
 
 HEADERS = {
     "User-Agent": (
@@ -160,6 +168,76 @@ def parse_messages(html):
     return messages
 
 
+# استخراج host و port از انواع مختلف فرمت کانفیگ برای tcping
+def extract_host_port(config):
+    try:
+        if config.startswith("vmess://"):
+            b64 = config[len("vmess://"):]
+            padded = b64 + "=" * (-len(b64) % 4)
+            data = json.loads(base64.b64decode(padded).decode("utf-8", errors="ignore"))
+            host = data.get("add")
+            port = int(data.get("port"))
+            if host and port:
+                return host, port
+            return None, None
+
+        parsed = urlparse(config)
+        if parsed.hostname and parsed.port:
+            return parsed.hostname, parsed.port
+
+        # فرمت قدیمی ss:// که کل userinfo@host:port به‌صورت base64 هست
+        if config.startswith("ss://"):
+            rest = config[len("ss://"):].split("#")[0].split("?")[0]
+            try:
+                padded = rest + "=" * (-len(rest) % 4)
+                decoded = base64.b64decode(padded).decode("utf-8", errors="ignore")
+                m = re.search(r"@([^:/#]+):(\d+)", decoded)
+                if m:
+                    return m.group(1), int(m.group(2))
+            except Exception:
+                pass
+
+    except Exception:
+        pass
+
+    return None, None
+
+
+# tcping ساده: فقط باز کردن و بستن سریع کانکشن TCP، بدون اندازه‌گیری delay واقعی
+def tcping(host, port, timeout=TCPING_TIMEOUT):
+    try:
+        with socket.create_connection((host, port), timeout=timeout):
+            return True
+    except Exception:
+        return False
+
+
+def filter_alive_configs(configs):
+    if not configs:
+        return []
+
+    alive = []
+    tasks = {}
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=TCPING_WORKERS) as executor:
+        for cfg in configs:
+            host, port = extract_host_port(cfg)
+            if not host or not port:
+                continue
+            future = executor.submit(tcping, host, port)
+            tasks[future] = cfg
+
+        for future in concurrent.futures.as_completed(tasks):
+            cfg = tasks[future]
+            try:
+                if future.result():
+                    alive.append(cfg)
+            except Exception:
+                continue
+
+    return alive
+
+
 with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
     raw_channels = json.load(f)
 
@@ -240,6 +318,16 @@ for raw_channel in raw_channels:
 with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(list(set(all_configs))))
 print(f"\n📦 فایل all_configs.txt با {len(all_configs)} کانفیگ نوشته شد.")
+
+if TCPING_ENABLED:
+    print(f"\n🔎 در حال بررسی زنده بودن {len(all_configs)} کانفیگ (tcping، بدون سنجش delay)...")
+    unique_configs = list(set(all_configs))
+    alive_configs = filter_alive_configs(unique_configs)
+    with open(ALIVE_CONFIGS_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(alive_configs))
+    print(f"✅ {len(alive_configs)} از {len(unique_configs)} کانفیگ زنده بودن → alive_configs.txt")
+else:
+    print("\n⏭️ بررسی tcping غیرفعاله (TCPING_ENABLED=0).")
 
 with open(INDEX_FILE, "w", encoding="utf-8") as f:
     f.write("0")
