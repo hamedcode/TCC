@@ -25,7 +25,6 @@ RETRY_COUNT = 3
 TCPING_ENABLED = os.getenv("TCPING_ENABLED", "1") == "1"
 TCPING_TIMEOUT = float(os.getenv("TCPING_TIMEOUT", "3"))
 TCPING_WORKERS = int(os.getenv("TCPING_WORKERS", "50"))
-ALIVE_CONFIGS_FILE = "alive_configs.txt"
 
 HEADERS = {
     "User-Agent": (
@@ -320,12 +319,13 @@ with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
 print(f"\n📦 فایل all_configs.txt با {len(all_configs)} کانفیگ نوشته شد.")
 
 if TCPING_ENABLED:
-    print(f"\n🔎 در حال بررسی زنده بودن {len(all_configs)} کانفیگ (tcping، بدون سنجش delay)...")
     unique_configs = list(set(all_configs))
+    print(f"\n🔎 در حال بررسی زنده بودن {len(unique_configs)} کانفیگ (tcping، بدون سنجش delay)...")
     alive_configs = filter_alive_configs(unique_configs)
-    with open(ALIVE_CONFIGS_FILE, "w", encoding="utf-8") as f:
+
+    with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(alive_configs))
-    print(f"✅ {len(alive_configs)} از {len(unique_configs)} کانفیگ زنده بودن → alive_configs.txt")
+    print(f"✅ {len(alive_configs)} از {len(unique_configs)} کانفیگ زنده بودن → all_configs.txt بازنویسی شد.")
 else:
     print("\n⏭️ بررسی tcping غیرفعاله (TCPING_ENABLED=0).")
 
