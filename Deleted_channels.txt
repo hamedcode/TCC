@@ -12,3 +12,4 @@ configt
 "@V2rayBaaz": [],
 
 "@TEHRANARGO": [],
+"@bombvpnn": [],
