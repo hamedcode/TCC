@@ -447,3 +447,13 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFp
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.118.170:22224?encryption=none&security=none&type=tcp#🇺🇸 United States - 08/02 @Config724
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#🇬🇧 United Kingdom - 08/02 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ@108.181.126.122:8388#🇳🇱 The Netherlands - 08/02 @Config724
+vless://4d10c997-4781-4cd9-82c3-15453523e12c@198.41.209.43:443?encryption=none&fp=chrome&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws#🏳️ Unknown - 08/02 @Config724
+trojan://521314@45.67.215.9:443?allowInsecure=1&fp=firefox&host=tjplay.lxdxo.kdns.fr&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&sni=tjplay.lxdxo.kdns.fr&type=ws#🇷🇺 Russia - 08/02 @Config724
+vless://4d10c997-4781-4cd9-82c3-15453523e12c@172.66.44.97:443?encryption=none&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws#🏳️ Unknown - 08/02 @Config724
+vless://29ca503d-e6b8-4509-b666-48133f450857@162.159.8.155:443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#🏳️ Unknown - 08/02 @Config724
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.192.161:443?encryption=none&host=learn00.evany.de5.net&path=%2Ffdip&security=tls&sni=learn00.evany.de5.net&type=ws#🏳️ Unknown - 08/02 @Config724
+vless://29ca503d-e6b8-4509-b666-48133f450857@104.18.37.191:2087?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#🏳️ Unknown - 08/02 @Config724
+vless://4d10c997-4781-4cd9-82c3-15453523e12c@104.26.9.48:443?path=%2Fsg-melbi&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#🏳️ Unknown - 08/02 @Config724
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@162.159.38.119:443?path=%2Fhdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&type=ws&allowInsecure=0&sni=terazhediii.info#🏳️ Unknown - 08/02 @Config724
+vless://dd321f25-8f90-4e7c-a1fa-01883a8988a7@162.159.0.3:443?encryption=none&fp=chrome&host=soucuovls.pages.dev&path=%2Fpyip%3Dproxyip.cmliussss.netfp%3Drandom&security=tls&sni=soucuovls.pages.dev&type=ws#🏳️ Unknown - 08/02 @Config724
+vless://29ca503d-e6b8-4509-b666-48133f450857@172.64.154.5:8443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#🏳️ Unknown - 08/02 @Config724
