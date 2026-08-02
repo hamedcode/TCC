@@ -1,28 +1,34 @@
 import os
-import json
-import base64
 import re
-import shutil
+import json
 import time
-from datetime import datetime, timedelta
-from pyrogram import Client
-
-SESSION_NAME = "pyrogram_config_collector"
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-SESSION_B64 = os.getenv("PYROGRAM_SESSION_B64")
-
-if not all([API_ID, API_HASH, SESSION_B64]):
-    raise Exception("API_ID, API_HASH یا PYROGRAM_SESSION_B64 تعریف نشده است.")
-
-with open(f"{SESSION_NAME}.session", "wb") as f:
-    f.write(base64.b64decode(SESSION_B64))
+import shutil
+import base64
+import requests
+from datetime import datetime, timedelta, timezone
+from bs4 import BeautifulSoup
 
 CHANNEL_FILE = "channels.json"
 OUTPUT_DIR = "output"
 ALL_CONFIGS_FILE = "all_configs.txt"
 INDEX_FILE = "last_index.txt"
 CONFIG_PROTOCOLS = ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "tuic://"]
+
+CUTOFF_HOURS = 8
+MAX_PAGES_PER_CHANNEL = 6  # هر صفحه‌ی t.me/s حدود ۲۰ پیام داره
+REQUEST_TIMEOUT = 15
+RETRY_COUNT = 3
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+DEBUG = os.getenv("DEBUG", "0") == "1"
+cutoff_time = datetime.now(timezone.utc) - timedelta(hours=CUTOFF_HOURS)
 
 # پاکسازی پوشه output
 try:
@@ -62,7 +68,6 @@ def extract_configs_from_text(text):
     # بررسی خط به خط برای موارد base64-encoded (که با پروتکل شروع نمی‌شن)
     lines = text.splitlines()
     for line in lines:
-        # حذف کاراکترهای رایج quote/bullet که ممکنه کاربر دستی اول خط بذاره
         line = line.strip().strip("\"'").lstrip(">«»•-–—▪●◦ \t").strip()
 
         if len(line) >= 30 and re.fullmatch(r"[A-Za-z0-9+/=]+", line):
@@ -75,90 +80,163 @@ def extract_configs_from_text(text):
             except Exception:
                 continue
 
-    # حذف کاراکترهای اضافی رایج که ممکنه به انتهای کانفیگ بچسبن (نقل‌قول، پرانتز و ...)
     found = [c.rstrip("\"'”’)]}.,،؛;") for c in found]
     return found
 
 
-# تابع استخراج کانفیگ‌هایی که پشت لینک مخفی (hidden hyperlink / text_link) قایم شدن
-def extract_configs_from_entities(msg):
+# تابع استخراج کانفیگ‌هایی که پشت لینک مخفی (hidden hyperlink) قایم شدن
+def extract_configs_from_links(text_div):
     found = []
-    entities = (msg.entities or []) + (msg.caption_entities or [])
-    for ent in entities:
-        url = getattr(ent, "url", None)  # فقط MessageEntityType.TEXT_LINK این رو داره
-        if not url:
-            continue
-        url = clean_text(url)
+    if text_div is None:
+        return found
+    for a in text_div.find_all("a", href=True):
+        href = clean_text(a["href"])
         for proto in CONFIG_PROTOCOLS:
-            if url.startswith(proto):
-                found.append(url)
+            if href.startswith(proto):
+                found.append(href.rstrip("\"'”’)]}.,،؛;"))
     return found
 
-cutoff_time = datetime.utcnow() - timedelta(hours=8)
-DEBUG = os.getenv("DEBUG", "0") == "1"
+
+def normalize_channel(raw):
+    ch = str(raw).strip()
+    if ch.startswith("@"):
+        ch = ch[1:]
+    return ch
+
+
+def fetch_page(username, before=None):
+    url = f"https://t.me/s/{username}"
+    if before:
+        url += f"?before={before}"
+
+    last_err = None
+    for attempt in range(RETRY_COUNT):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            if resp.status_code == 200:
+                return resp.text
+            if resp.status_code == 429:
+                # rate limit شدیم؛ کمی صبر و تلاش دوباره
+                time.sleep(3 * (attempt + 1))
+                last_err = f"HTTP 429 (rate limited)"
+                continue
+            raise Exception(f"HTTP {resp.status_code}")
+        except requests.RequestException as e:
+            last_err = str(e)
+            time.sleep(2 * (attempt + 1))
+
+    raise Exception(last_err or "fetch failed")
+
+
+def parse_messages(html):
+    soup = BeautifulSoup(html, "html.parser")
+    messages = []
+
+    for wrap in soup.find_all("div", class_="tgme_widget_message"):
+        post_id_attr = wrap.get("data-post", "")
+        try:
+            msg_id = int(post_id_attr.split("/")[-1])
+        except (ValueError, IndexError):
+            continue
+
+        time_tag = wrap.find("time")
+        msg_date = None
+        if time_tag and time_tag.get("datetime"):
+            try:
+                msg_date = datetime.fromisoformat(time_tag["datetime"])
+            except ValueError:
+                msg_date = None
+
+        text_div = wrap.find("div", class_="tgme_widget_message_text")
+        text_content = text_div.get_text("\n") if text_div else ""
+
+        messages.append({
+            "id": msg_id,
+            "date": msg_date,
+            "text": text_content,
+            "text_div": text_div,
+        })
+
+    return messages
+
 
 with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
-    channels = json.load(f)
+    raw_channels = json.load(f)
 
 all_configs = []
 
-with Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH) as app:
-    for channel in channels:
-        print(f"🔍 بررسی: {channel}")
-        try:
-            messages_iter = app.get_chat_history(channel, limit=50)
-            configs = []
-            total_fetched = 0
-            within_cutoff = 0
+for raw_channel in raw_channels:
+    channel = normalize_channel(raw_channel)
 
-            while True:
-                try:
-                    msg = next(messages_iter)
-                except StopIteration:
-                    break
-                except Exception as fetch_err:
-                    print(f"⚠️ خطا در دریافت پیام بعدی از {channel}: {fetch_err}")
-                    continue
+    # کانال‌های خصوصی (آیدی عددی، بدون یوزرنیم) با این روش قابل اسکرپ نیستن
+    if channel.lstrip("-").isdigit():
+        print(f"⏭️ {raw_channel}: کانال خصوصی/بدون یوزرنیم، رد شد (t.me/s فقط برای کانال‌های عمومی کار می‌کنه).")
+        continue
 
+    print(f"🔍 بررسی: @{channel}")
+    configs = []
+    total_fetched = 0
+    within_cutoff = 0
+    before = None
+    reached_old_message = False
+
+    try:
+        for page in range(MAX_PAGES_PER_CHANNEL):
+            try:
+                html = fetch_page(channel, before)
+            except Exception as fetch_err:
+                print(f"⚠️ خطا در دریافت صفحه از @{channel}: {fetch_err}")
+                break
+
+            messages = parse_messages(html)
+            if not messages:
+                if page == 0:
+                    print(f"⚠️ هیچ پیامی برای @{channel} پیدا نشد (شاید پیش‌نمایش عمومی غیرفعاله یا یوزرنیم اشتباهه).")
+                break
+
+            for m in messages:
                 total_fetched += 1
 
-                try:
-                    if msg.date < cutoff_time:
-                        continue
-                    within_cutoff += 1
-
-                    content = msg.text or msg.caption
-                    if DEBUG:
-                        print(f"   [DEBUG] msg_id={msg.id} date={msg.date} has_text={bool(msg.text)} has_caption={bool(msg.caption)} has_entities={bool(msg.entities)} has_caption_entities={bool(msg.caption_entities)}")
-                        if content:
-                            print(f"   [DEBUG] raw content repr: {repr(str(content))[:500]}")
-
-                    if content:
-                        configs += extract_configs_from_text(str(content))
-
-                    configs += extract_configs_from_entities(msg)
-                except Exception as msg_err:
-                    print(f"⚠️ خطا در پردازش یک پیام از {channel}: {msg_err}")
+                if m["date"] is not None and m["date"] < cutoff_time:
+                    reached_old_message = True
                     continue
 
-            print(f"   ℹ️ {channel}: {total_fetched} پیام fetch شد، {within_cutoff} پیام داخل بازه‌ی زمانی بود.")
+                within_cutoff += 1
 
-            configs = list(set(configs))
+                if DEBUG:
+                    print(f"   [DEBUG] msg_id={m['id']} date={m['date']} text_len={len(m['text'])}")
+                    if m["text"]:
+                        print(f"   [DEBUG] raw content repr: {repr(m['text'])[:500]}")
 
-            if configs:
-                all_configs += configs
-                output_path = os.path.join(OUTPUT_DIR, channel.replace("@", "").replace("-", "") + ".txt")
-                with open(output_path, "w", encoding="utf-8") as f:
-                    f.write("\n".join(configs))
-                print(f"✅ {len(configs)} کانفیگ از {channel} ذخیره شد.")
-            else:
-                print(f"⚠️ کانفیگی در {channel} یافت نشد.")
-        except Exception as e:
-            print(f"❌ خطا در {channel}: {e}")
-        
-        time.sleep(2)  # ⏱️ افزودن تأخیر ۲ ثانیه‌ای بین کانال‌ها
+                configs += extract_configs_from_text(m["text"])
+                configs += extract_configs_from_links(m["text_div"])
 
-# ذخیره‌ی فایل نهایی و ریست ایندکس
+            oldest_id = min(m["id"] for m in messages)
+            before = oldest_id
+
+            if reached_old_message:
+                break
+
+            time.sleep(1)  # فاصله بین صفحات همون کانال
+
+        print(f"   ℹ️ @{channel}: {total_fetched} پیام fetch شد، {within_cutoff} پیام داخل بازه‌ی زمانی بود.")
+
+        configs = list(set(configs))
+
+        if configs:
+            all_configs += configs
+            output_path = os.path.join(OUTPUT_DIR, channel + ".txt")
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write("\n".join(configs))
+            print(f"✅ {len(configs)} کانفیگ از @{channel} ذخیره شد.")
+        else:
+            print(f"⚠️ کانفیگی در @{channel} یافت نشد.")
+
+    except Exception as e:
+        print(f"❌ خطا در @{channel}: {e}")
+
+    time.sleep(2)  # فاصله بین کانال‌ها
+
 with open(ALL_CONFIGS_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(list(set(all_configs))))
 print(f"\n📦 فایل all_configs.txt با {len(all_configs)} کانفیگ نوشته شد.")
