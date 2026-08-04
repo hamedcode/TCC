@@ -8,6 +8,10 @@ import yaml
 SOURCE_URL = "https://raw.githubusercontent.com/hamedcode/TCC/main/sent_configs.txt"
 OUTPUT_FILE = "clash.yml"
 
+LOCAL_CONFIGS_FILE = "sent_configs.txt"  # فایل محلی که داخل ریپو چک‌اوت شده
+MAX_KEEP_IN_FILE    = 100  # حداکثر تعداد کانفیگ که داخل فایل نگه داشته میشه
+USE_FOR_CONVERSION  = 50   # تعداد کانفیگ آخر که واسه ساخت clash.yml استفاده میشه
+
 # ─── Constants ───────────────────────────────────────────────────────────────
 
 VALID_SS_CIPHERS = {
@@ -394,8 +398,25 @@ def parse_trojan(line, seen):
 print(f"[*] Downloading {SOURCE_URL}")
 resp = requests.get(SOURCE_URL, timeout=30)
 resp.raise_for_status()
-lines = resp.text.splitlines()
-print(f"[*] Total lines: {len(lines)}")
+all_lines = [l.strip() for l in resp.text.splitlines() if l.strip()]
+print(f"[*] Total configs in source: {len(all_lines)}")
+
+# ─── نگه‌داری فقط ۱۰۰ کانفیگ آخر داخل فایل محلی ─────────────────────────────
+if len(all_lines) > MAX_KEEP_IN_FILE:
+    trimmed_lines = all_lines[-MAX_KEEP_IN_FILE:]
+    with open(LOCAL_CONFIGS_FILE, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(trimmed_lines) + '\n')
+    print(f"[*] {LOCAL_CONFIGS_FILE} trimmed: {len(all_lines)} -> {len(trimmed_lines)} "
+          f"(removed {len(all_lines) - len(trimmed_lines)} oldest configs)")
+else:
+    trimmed_lines = all_lines
+    with open(LOCAL_CONFIGS_FILE, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(trimmed_lines) + '\n')
+    print(f"[*] {LOCAL_CONFIGS_FILE} unchanged ({len(trimmed_lines)} configs, under limit)")
+
+# ─── فقط ۵۰ کانفیگ آخر واسه تبدیل به clash استفاده میشه ─────────────────────
+lines = trimmed_lines[-USE_FOR_CONVERSION:]
+print(f"[*] Using last {len(lines)} configs for clash conversion")
 
 proxies    = []
 seen_names = set()
