@@ -14,119 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇷🇺 Russia - 08/03 @Config724
-  type: vless
-  server: 78.159.245.32
-  port: 28474
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  tls: true
-  servername: secure.furrycdn.net
-  client-fingerprint: firefox
-- name: 🇷🇺 Russia - 08/03 @Config724 2
-  type: vless
-  server: 217.149.30.124
-  port: 50053
-  uuid: e6acf17c-b19c-45ee-afda-373ba72795ce
-  udp: true
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: X87ukWYsXHjmc-s4vDX0ph6sUoUklkFdtL_lXthn-z0
-    short-id: eb3b7e6bbc66552e
-  servername: rubr7.cheburnetnastalgia1998.com
-- name: 🇲🇺 Mauritius - 08/03 @Config724
-  type: vless
-  server: 45.196.201.129
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  servername: storage.yandex.net
-  flow: xtls-rprx-vision
-- name: 🇷🇺 Russia - 08/03 @Config724 3
-  type: vless
-  server: 217.149.30.124
-  port: 50053
-  uuid: e6acf17c-b19c-45ee-afda-373ba72795ce
-  udp: true
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: X87ukWYsXHjmc-s4vDX0ph6sUoUklkFdtL_lXthn-z0
-    short-id: eb3b7e6bbc66552e
-  servername: rubr7.cheburnetnastalgia1998.com
-- name: 🇺🇸 United States - 08/03 @Config724
-  type: vless
-  server: 186.246.9.44
-  port: 50057
-  uuid: e6acf17c-b19c-45ee-afda-373ba72795ce
-  udp: true
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: rpL009qP-arj5haMdPrIM3csahxln-xlV3PhyvwrhBk
-    short-id: 1c52b34d46469887
-  servername: rubr5.cheburnetnastalgia1998.com
-- name: 🇸🇨 Seychelles - 08/03 @Config724
-  type: vless
-  server: 45.151.101.197
-  port: 30160
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
-  udp: true
-  network: http
-  tls: true
-  reality-opts:
-    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
-    short-id: ''
-  servername: yandex.tr
-- name: 🇷🇺 Russia - 08/03 @Config724 4
-  type: vless
-  server: 5.129.215.87
-  port: 40443
-  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
-    short-id: '3180'
-  servername: deepl.com
-- name: 🇷🇺 Russia - 08/03 @Config724 5
-  type: vless
-  server: 176.123.165.127
-  port: 57836
-  uuid: 943ecfd7-bea6-4520-8898-e1fa536250cc
-  udp: true
-- name: 🏳️ Unknown - 08/03 @Config724
-  type: vless
-  server: 162.159.38.119
-  port: 443
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-  udp: true
-  network: ws
-  ws-opts:
-    path: /carbon
-    headers:
-      Host: oekja.megacitylab-nomt.sbs
-  tls: true
-  servername: oekja.megacitylab-nomt.sbs
-  client-fingerprint: firefox
-- name: 🇷🇺 Russia - 08/03 @Config724 6
-  type: vless
-  server: 51.250.111.183
-  port: 443
-  uuid: 7cea2b9e-bf67-4fd7-9fe5-9461a089230f
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ
-    short-id: 2bb326a463fd1937
-  servername: yandex.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
 - name: 🇺🇸 United States - 08/04 @Config724
   type: vless
   server: 88.218.44.4
@@ -612,22 +499,146 @@ proxies:
   tls: true
   servername: learn00.evany.de5.net
   client-fingerprint: chrome
+- name: 🏳️ Unknown - 08/04 @Config724 15
+  type: vless
+  server: 108.162.195.58
+  port: 443
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
+  tls: true
+  servername: learn00.evany.de5.net
+- name: 🏳️ Unknown - 08/04 @Config724 16
+  type: vless
+  server: 104.25.253.4
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  tls: true
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+- name: 🇳🇱 The Netherlands - 08/04 @Config724
+  type: trojan
+  server: 45.131.5.9
+  port: 443
+  password: '521314'
+  udp: true
+  skip-cert-verify: false
+  sni: tjplay.lxdxo.kdns.fr
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳+@WangCai2
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+- name: 🏳️ Unknown - 08/04 @Config724 17
+  type: vless
+  server: 104.21.44.253
+  port: 8080
+  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiOUhPbnRlV0xaekI1cjciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: billowing-sunset-e340.qaraatayi.workers.dev
+- name: 🇬🇧 United Kingdom - 08/04 @Config724 2
+  type: vless
+  server: 91.193.58.137
+  port: 2096
+  uuid: 400f428f-6ee8-400a-8172-e5ce79949762
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mrhamid.hamidrezaamjady.workers.dev
+  tls: true
+  servername: mrhamid.hamidrezaamjady.workers.dev
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 08/04 @Config724 18
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  udp: true
+  network: ws
+  ws-opts:
+    path: /all
+    headers:
+      Host: feywi.goldleaflab-psr.sbs
+  tls: true
+  servername: feywi.goldleaflab-psr.sbs
+  client-fingerprint: chrome
+  alpn:
+  - h2
+- name: 🇷🇺 Russia - 08/04 @Config724 3
+  type: vless
+  server: 45.142.120.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime08.workers.dev
+- name: 🏳️ Unknown - 08/04 @Config724 19
+  type: vless
+  server: 104.27.107.188
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  tls: true
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 08/04 @Config724 20
+  type: vless
+  server: 188.114.97.3
+  port: 443
+  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vl/14m2B3TtxW5N85ews
+    headers:
+      Host: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+  tls: true
+  servername: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 08/04 @Config724 21
+  type: vless
+  server: 104.21.78.194
+  port: 2087
+  uuid: 20f44487-3735-4b4a-8954-aba28837fddc
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trialbox
+    headers:
+      Host: ist.chalghooz.com
+  tls: true
+  servername: ist.chalghooz.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇷🇺 Russia - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 2
-  - 🇲🇺 Mauritius - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 3
-  - 🇺🇸 United States - 08/03 @Config724
-  - 🇸🇨 Seychelles - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 4
-  - 🇷🇺 Russia - 08/03 @Config724 5
-  - 🏳️ Unknown - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 6
   - 🇺🇸 United States - 08/04 @Config724
   - 🏳️ Unknown - 08/04 @Config724
   - 🇺🇸 United States - 08/04 @Config724 2
@@ -668,19 +679,19 @@ proxy-groups:
   - 🏳️ Unknown - 08/04 @Config724 12
   - 🏳️ Unknown - 08/04 @Config724 13
   - 🏳️ Unknown - 08/04 @Config724 14
+  - 🏳️ Unknown - 08/04 @Config724 15
+  - 🏳️ Unknown - 08/04 @Config724 16
+  - 🇳🇱 The Netherlands - 08/04 @Config724
+  - 🏳️ Unknown - 08/04 @Config724 17
+  - 🇬🇧 United Kingdom - 08/04 @Config724 2
+  - 🏳️ Unknown - 08/04 @Config724 18
+  - 🇷🇺 Russia - 08/04 @Config724 3
+  - 🏳️ Unknown - 08/04 @Config724 19
+  - 🏳️ Unknown - 08/04 @Config724 20
+  - 🏳️ Unknown - 08/04 @Config724 21
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇷🇺 Russia - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 2
-  - 🇲🇺 Mauritius - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 3
-  - 🇺🇸 United States - 08/03 @Config724
-  - 🇸🇨 Seychelles - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 4
-  - 🇷🇺 Russia - 08/03 @Config724 5
-  - 🏳️ Unknown - 08/03 @Config724
-  - 🇷🇺 Russia - 08/03 @Config724 6
   - 🇺🇸 United States - 08/04 @Config724
   - 🏳️ Unknown - 08/04 @Config724
   - 🇺🇸 United States - 08/04 @Config724 2
@@ -721,6 +732,16 @@ proxy-groups:
   - 🏳️ Unknown - 08/04 @Config724 12
   - 🏳️ Unknown - 08/04 @Config724 13
   - 🏳️ Unknown - 08/04 @Config724 14
+  - 🏳️ Unknown - 08/04 @Config724 15
+  - 🏳️ Unknown - 08/04 @Config724 16
+  - 🇳🇱 The Netherlands - 08/04 @Config724
+  - 🏳️ Unknown - 08/04 @Config724 17
+  - 🇬🇧 United Kingdom - 08/04 @Config724 2
+  - 🏳️ Unknown - 08/04 @Config724 18
+  - 🇷🇺 Russia - 08/04 @Config724 3
+  - 🏳️ Unknown - 08/04 @Config724 19
+  - 🏳️ Unknown - 08/04 @Config724 20
+  - 🏳️ Unknown - 08/04 @Config724 21
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
