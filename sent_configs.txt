@@ -779,3 +779,11 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.25:23576?encryption=none
 vless://d8b42cd5-a149-4356-9e61-000000000000@217.79.125.105:2550?encryption=none&security=none&type=tcp#🇬🇧 United Kingdom - 08/05 @Config724
 vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?encryption=none&security=tls&sni=ddc-akn.astralweb.tech&type=tcp#🇰🇷 South Korea - 08/05 @Config724
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.98:23576?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&security=reality&sid=01&sni=fuck.rkn&type=tcp#🇳🇱 The Netherlands - 08/05 @Config724
+trojan://ND91608427@3.68.79.32:443?fp=chrome&sni=large-baboon.rooster465.autos#🇩🇪 Germany - 08/05 @Config724
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@158.173.20.171:443#🇩🇰 Denmark - 08/05 @Config724
+vless://d8b42cd5-a149-4356-9e61-000000000000@95.214.38.159:2550?security=none&encryption=none&headerType=none&type=tcp#🇺🇸 United States - 08/05 @Config724
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.178.153.95:62145?encryption=none&security=none&type=tcp#🇳🇱 The Netherlands - 08/05 @Config724
+trojan://ND91608427@3.124.187.220:443?fp=chrome&sni=rapid-firefly.rooster465.autos#🇩🇪 Germany - 08/05 @Config724
+trojan://ND91608427@54.93.65.133:443?fp=chrome&sni=next-turkey.rooster465.autos#🇩🇪 Germany - 08/05 @Config724
+trojan://ND91608427@next-turkey.rooster465.autos:443#🇩🇪 Germany - 08/05 @Config724
+trojan://ND91608427@gentle-raptor.rooster465.autos:443#🇩🇪 Germany - 08/05 @Config724
