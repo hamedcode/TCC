@@ -10,6 +10,6 @@ DirectVPN
 Outline_Vpn
 configt
 "@V2rayBaaz": [],
-
+"@oneclickvpnkeys": [],
 "@TEHRANARGO": [],
 "@bombvpnn": [],
