@@ -14,74 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🏳️ Unknown - 08/05 @Config724
-  type: vless
-  server: 108.162.195.7
-  port: 2053
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: josni.hoyes.cloudns.ch
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-- name: 🇬🇧 United Kingdom - 08/05 @Config724
-  type: vless
-  server: 91.193.58.27
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-  tls: true
-  servername: free-server.techsonic.dev
-  client-fingerprint: firefox
-- name: 🇺🇸 United States - 08/05 @Config724
-  type: vless
-  server: 170.114.45.6
-  port: 443
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-  tls: true
-  servername: support.zoom.us.yxls.eu.cc
-- name: 🇮🇪 Ireland - 08/05 @Config724
-  type: trojan
-  server: 54.170.212.206
-  port: 443
-  password: ND91608427
-  udp: true
-  skip-cert-verify: false
-  sni: skilled-lioness.rooster465.autos
-  client-fingerprint: chrome
 - name: 🇫🇷 France - 08/05 @Config724
-  type: trojan
-  server: 15.237.49.244
-  port: 443
-  password: ND91608427
-  udp: true
-  skip-cert-verify: false
-  sni: star-kiwi.rooster465.autos
-  client-fingerprint: chrome
-- name: 🇫🇷 France - 08/05 @Config724 2
-  type: vless
-  server: 45.95.233.221
-  port: 8443
-  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
-  udp: true
-  tls: true
-  servername: frx1.braidx.tech
-  client-fingerprint: firefox
-- name: 🇫🇷 France - 08/05 @Config724 3
   type: vless
   server: 151.115.166.53
   port: 8880
@@ -108,7 +41,7 @@ proxies:
     short-id: 64c1fe36c7846400
   servername: anyfile2file.com
   flow: xtls-rprx-vision
-- name: 🏳️ Unknown - 08/05 @Config724 2
+- name: 🏳️ Unknown - 08/05 @Config724
   type: vless
   server: 108.162.198.201
   port: 443
@@ -143,7 +76,7 @@ proxies:
     short-id: 6ba85179e30d4fc2
   servername: enterprisekitten.com
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 08/05 @Config724 2
+- name: 🇺🇸 United States - 08/05 @Config724
   type: vless
   server: support.zoom.us
   port: 443
@@ -157,14 +90,14 @@ proxies:
   tls: true
   servername: support.zoom.us.yxls.eu.cc
   client-fingerprint: chrome
-- name: 🇫🇷 France - 08/05 @Config724 4
+- name: 🇫🇷 France - 08/05 @Config724 2
   type: vless
   server: 151.115.165.172
   port: 8880
   uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
   udp: true
   network: grpc
-- name: 🏳️ Unknown - 08/05 @Config724 4
+- name: 🏳️ Unknown - 08/05 @Config724 3
   type: vless
   server: 188.114.97.3
   port: 443
@@ -178,14 +111,14 @@ proxies:
   tls: true
   servername: support.zoom.us.yxls.eu.cc
   client-fingerprint: chrome
-- name: 🇫🇷 France - 08/05 @Config724 5
+- name: 🇫🇷 France - 08/05 @Config724 3
   type: vless
   server: 151.115.167.198
   port: 8880
   uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
   udp: true
   network: grpc
-- name: 🏳️ Unknown - 08/05 @Config724 5
+- name: 🏳️ Unknown - 08/05 @Config724 4
   type: trojan
   server: 104.16.174.117
   port: 443
@@ -196,7 +129,7 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🏳️ Unknown - 08/05 @Config724 6
+- name: 🏳️ Unknown - 08/05 @Config724 5
   type: vless
   server: 172.67.185.178
   port: 443
@@ -209,7 +142,7 @@ proxies:
       Host: hhlfy.twiladaphne.ndjp.net
   tls: true
   servername: hhlfy.twiladaphne.ndjp.net
-- name: 🇺🇸 United States - 08/05 @Config724 3
+- name: 🇺🇸 United States - 08/05 @Config724 2
   type: vless
   server: 130.49.219.126
   port: 8443
@@ -221,7 +154,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 🇺🇸 United States - 08/05 @Config724 4
+- name: 🇺🇸 United States - 08/05 @Config724 3
   type: vless
   server: 144.31.213.150
   port: 443
@@ -252,7 +185,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QxU3Q3O44spzHBb6z3l4OS
   udp: true
-- name: 🇺🇸 United States - 08/05 @Config724 5
+- name: 🇺🇸 United States - 08/05 @Config724 4
   type: vless
   server: 144.31.0.34
   port: 7443
@@ -264,7 +197,7 @@ proxies:
     short-id: e8ca5079a5e91481
   servername: _custom_
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 08/05 @Config724 6
+- name: 🇺🇸 United States - 08/05 @Config724 5
   type: vless
   server: marzban-node-production--96peb.up.railway.app
   port: 443
@@ -600,36 +533,102 @@ proxies:
   tls: true
   servername: ddc-chr2.astralweb.tech
   client-fingerprint: firefox
+- name: 🇵🇱 Poland - 08/06 @Config724
+  type: vless
+  server: 148.253.211.10
+  port: 443
+  uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: B3MWDjEWGQsObyH-9npa_PlkaoQDBqzwlwURFK1zlE8
+    short-id: 3e0527d94cc8d1
+  servername: vk.me
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 08/06 @Config724 5
+  type: vless
+  server: cxzczx.moritechs.ir
+  port: 2086
+  uuid: 5445e6d0-69b2-4bc5-bc01-28667bbf2278
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - wfwvdfs.moritechs.ir
+- name: 🇸🇪 Sweden - 08/06 @Config724
+  type: vless
+  server: admin.kermanshahi.org
+  port: 1000
+  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
+    short-id: a62d513cd709744a
+  servername: knox.cdn-apple.com
+  client-fingerprint: ios
+- name: 🇷🇴 Romania - 08/06 @Config724
+  type: vless
+  server: 93.114.194.114
+  port: 448
+  uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w
+    short-id: e1bdc95c1554c8eb
+  servername: www.samsung.com
+- name: 🇷🇺 Russia - 08/06 @Config724
+  type: vless
+  server: api.univesalsrv.com
+  port: 443
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: rpc.v2.FeedService
+  tls: true
+  reality-opts:
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: 93762a4ddf178703
+  servername: api.univesalsrv.com
+- name: 🇬🇪 Georgia - 08/06 @Config724
+  type: vless
+  server: ge-x77.pingcentr.ru
+  port: 443
+  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: HEJjjCvVugA6DyRLNL8dTHzBhS1wuaQYizrd_fGiGxA
+    short-id: ''
+  servername: ge-x77.pingcentr.ru
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🏳️ Unknown - 08/05 @Config724
-  - 🇬🇧 United Kingdom - 08/05 @Config724
-  - 🇺🇸 United States - 08/05 @Config724
-  - 🇮🇪 Ireland - 08/05 @Config724
   - 🇫🇷 France - 08/05 @Config724
-  - 🇫🇷 France - 08/05 @Config724 2
-  - 🇫🇷 France - 08/05 @Config724 3
   - 🇰🇷 South Korea - 08/05 @Config724
   - 🇳🇱 The Netherlands - 08/05 @Config724
-  - 🏳️ Unknown - 08/05 @Config724 2
+  - 🏳️ Unknown - 08/05 @Config724
   - 🇨🇭 Switzerland - 08/05 @Config724
   - 🇪🇸 Spain - 08/05 @Config724
-  - 🇺🇸 United States - 08/05 @Config724 2
-  - 🇫🇷 France - 08/05 @Config724 4
+  - 🇺🇸 United States - 08/05 @Config724
+  - 🇫🇷 France - 08/05 @Config724 2
+  - 🏳️ Unknown - 08/05 @Config724 3
+  - 🇫🇷 France - 08/05 @Config724 3
   - 🏳️ Unknown - 08/05 @Config724 4
-  - 🇫🇷 France - 08/05 @Config724 5
   - 🏳️ Unknown - 08/05 @Config724 5
-  - 🏳️ Unknown - 08/05 @Config724 6
+  - 🇺🇸 United States - 08/05 @Config724 2
   - 🇺🇸 United States - 08/05 @Config724 3
-  - 🇺🇸 United States - 08/05 @Config724 4
   - 🇲🇺 Mauritius - 08/05 @Config724
   - 🇮🇱 Israel - 08/05 @Config724
+  - 🇺🇸 United States - 08/05 @Config724 4
   - 🇺🇸 United States - 08/05 @Config724 5
-  - 🇺🇸 United States - 08/05 @Config724 6
   - 🇪🇸 Spain - 08/05 @Config724 2
   - 🇩🇪 Germany - 08/05 @Config724
   - 🇸🇪 Sweden - 08/05 @Config724
@@ -655,33 +654,33 @@ proxy-groups:
   - 🇺🇸 United States - 08/06 @Config724 11
   - 🇬🇧 United Kingdom - 08/06 @Config724 2
   - 🇱🇹 Lithuania - 08/06 @Config724
+  - 🇵🇱 Poland - 08/06 @Config724
+  - 🏳️ Unknown - 08/06 @Config724 5
+  - 🇸🇪 Sweden - 08/06 @Config724
+  - 🇷🇴 Romania - 08/06 @Config724
+  - 🇷🇺 Russia - 08/06 @Config724
+  - 🇬🇪 Georgia - 08/06 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🏳️ Unknown - 08/05 @Config724
-  - 🇬🇧 United Kingdom - 08/05 @Config724
-  - 🇺🇸 United States - 08/05 @Config724
-  - 🇮🇪 Ireland - 08/05 @Config724
   - 🇫🇷 France - 08/05 @Config724
-  - 🇫🇷 France - 08/05 @Config724 2
-  - 🇫🇷 France - 08/05 @Config724 3
   - 🇰🇷 South Korea - 08/05 @Config724
   - 🇳🇱 The Netherlands - 08/05 @Config724
-  - 🏳️ Unknown - 08/05 @Config724 2
+  - 🏳️ Unknown - 08/05 @Config724
   - 🇨🇭 Switzerland - 08/05 @Config724
   - 🇪🇸 Spain - 08/05 @Config724
-  - 🇺🇸 United States - 08/05 @Config724 2
-  - 🇫🇷 France - 08/05 @Config724 4
+  - 🇺🇸 United States - 08/05 @Config724
+  - 🇫🇷 France - 08/05 @Config724 2
+  - 🏳️ Unknown - 08/05 @Config724 3
+  - 🇫🇷 France - 08/05 @Config724 3
   - 🏳️ Unknown - 08/05 @Config724 4
-  - 🇫🇷 France - 08/05 @Config724 5
   - 🏳️ Unknown - 08/05 @Config724 5
-  - 🏳️ Unknown - 08/05 @Config724 6
+  - 🇺🇸 United States - 08/05 @Config724 2
   - 🇺🇸 United States - 08/05 @Config724 3
-  - 🇺🇸 United States - 08/05 @Config724 4
   - 🇲🇺 Mauritius - 08/05 @Config724
   - 🇮🇱 Israel - 08/05 @Config724
+  - 🇺🇸 United States - 08/05 @Config724 4
   - 🇺🇸 United States - 08/05 @Config724 5
-  - 🇺🇸 United States - 08/05 @Config724 6
   - 🇪🇸 Spain - 08/05 @Config724 2
   - 🇩🇪 Germany - 08/05 @Config724
   - 🇸🇪 Sweden - 08/05 @Config724
@@ -707,6 +706,12 @@ proxy-groups:
   - 🇺🇸 United States - 08/06 @Config724 11
   - 🇬🇧 United Kingdom - 08/06 @Config724 2
   - 🇱🇹 Lithuania - 08/06 @Config724
+  - 🇵🇱 Poland - 08/06 @Config724
+  - 🏳️ Unknown - 08/06 @Config724 5
+  - 🇸🇪 Sweden - 08/06 @Config724
+  - 🇷🇴 Romania - 08/06 @Config724
+  - 🇷🇺 Russia - 08/06 @Config724
+  - 🇬🇪 Georgia - 08/06 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
