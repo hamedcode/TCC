@@ -1,0 +1,1 @@
+vless://ef770523-8eb5-403f-9e95-06b328719c87@lucky-sunset-d12e.201-98c.workers.dev:8880?path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=none&encryption=none&type=ws#%40EXPRESSVPN_420
