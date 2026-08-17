@@ -1,2 +1,0 @@
-vless://9934e311-783e-4ae6-91e4-81247b2c3774@sakura.proxy.rlwy.net:53994?mode=auto&path=%2Fassets&security=none&encryption=mlkem768x25519plus.native.0rtt.RXd0cP3r7QmDJbZm-Kc99dqLlP_uj9NAG-wyZTy1Ujk&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%225-70%22%7D&type=xhttp#%40EXPRESSVPN_420
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@62.210.91.10:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#%40EXPRESSVPN_420
