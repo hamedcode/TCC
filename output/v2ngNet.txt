@@ -1,2 +1,1 @@
-vless://052f290d-0939-3046-b6d7-6ca39ddc458f@69.46.46.31:443?path=%2Fws%2F052f290d-0939-3046-b6d7-6ca39ddc458f&security=tls&alpn=http%2F1.1&encryption=none&host=rvg-production-abc0.up.railway.app&fp=ios&type=ws&sni=rvg-production-abc0.up.railway.app#%F0%9F%87%B3%F0%9F%87%B1%20%40V2ngNet
-vless://338dfec6-68bb-d132-9fa4-e679786c5a62@69.46.46.32:443?path=%2Fws%2F338dfec6-68bb-d132-9fa4-e679786c5a62&security=tls&alpn=http%2F1.1&encryption=none&host=rvg-production-2199.up.railway.app&fp=ios&type=ws&sni=rvg-production-2199.up.railway.app#%F0%9F%87%B3%F0%9F%87%B1%20%40V2ngNet
+vless://052f290d-0939-3046-b6d7-6ca39ddc458f@69.46.46.31:443?path=%2Fws%2F052f290d-0939-3046-b6d7-6ca39ddc458f&security=tls&alpn=http%2F1.1&encryption=none&host=rvg…
