@@ -1,0 +1,4 @@
+vless://8ce90db0-2b57-41eb-83f2-f65f68c6409b@5.75.207.94:7190?security=reality&encryption=none&pbk=mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8&headerType=none&fp=qq&type=tcp&sni=pypi.org&sid=7398e0c72f7d5c0e#%40V2RAYROZ%20%F0%9F%8D%AB
+vless://9f82e95c-b9b5-44c8-aba6-c28eb89d0b18@158.94.216.232:9145?security=reality&encryption=none&pbk=Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0&headerType=none&fp=qq&type=tcp&sni=www.python.org&sid=5e06032a9c448538#%40V2RAYROZ%20%F0%9F%8D%AB
+vless://9f82e95c-b9b5-44c8-aba6-c28eb89d0b18@85.17.116.115:9145?security=reality&encryption=none&pbk=Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0&headerType=none&fp=qq&type=tcp&sni=www.python.org&sid=5e06032a9c448538#%40V2RAYROZ%20%F0%9F%8D%AB
+vless://b4b3b4e3-5b3c-48f7-800a-ce69aeb25c51@a2.arshia-nova.ir:443?path=%2F&security=tls&alpn=h2&encryption=none&host=c12.com&fp=firefox&type=ws&sni=ssl.fastly.com#%40V2RAYROZ%20%F0%9F%8D%AB
