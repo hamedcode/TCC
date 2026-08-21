@@ -1,0 +1,2 @@
+vless://914a1c9e-083a-5c86-b277-b6a56017bb54@69.46.46.32:443?path=%2Fws%2F914a1c9e-083a-5c86-b277-b6a56017bb54&security=tls&alpn=http%2F1.1&encryption=none&host=khadem-production.up.railway.app&fp=ios&type=ws&sni=khadem-production.up.railway.app#2%20%F0%9F%87%B3%F0%9F%87%B1%20%40V2ngNet
+vless://cf75d770-3078-7b9c-ac6a-aacb31be3b1a@69.46.46.31:443?path=%2Fws%2Fcf75d770-3078-7b9c-ac6a-aacb31be3b1a&security=tls&alpn=http%2F1.1&encryption=none&host=shingili-production.up.railway.app&fp=ios&type=ws&sni=shingili-production.up.railway.app#1%20%F0%9F%87%B3%F0%9F%87%B1%20%40V2ngNet
