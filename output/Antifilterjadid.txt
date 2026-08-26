@@ -1,6 +1,0 @@
-vless://603819a3-dd65-408a-abab-15d8dc49887f@138.68.103.31:443?encryption=none&headerType=http&host=store.steampowered.com&path=%2F&security=none&type=tcp#%
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.78:8080?encryption=none&security=&sni=&type=ws&alpn=&host=&path=/?ed=2048#%
-vless://603819a3-dd65-408a-abab-15d8dc49887f@188.166.37.82:443?encryption=none&headerType=http&host=store.steampowered.com&path=%2F&security=none&type=tcp#%
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.15.80:8080?encryption=none&security=&sni=&type=ws&alpn=&host=&path=/?ed=2048#%
-vless://603819a3-dd65-408a-abab-15d8dc49887f@64.225.78.190:8880?encryption=none&headerType=http&host=store.steampowered.com&path=%2F&security=none&type=tcp#%
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.55:8080?encryption=none&security=&sni=&type=ws&alpn=&host=&path=/?ed=2048#%
