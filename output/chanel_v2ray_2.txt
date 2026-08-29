@@ -1,2 +1,0 @@
-vless://c7ae1368-b6ca-4d11-beef-bb76f68d1b80@45.151.74.209:8443?mode=auto&path=%2F&security=reality&encryption=none&pbk=VrBVCP2ZeR-D41K9BmaAiMyzWHUAj2N2uHLGVpJv3z0&fp=firefox&spx=%2F&type=xhttp&sni=dl.google.com&sid=c72a5c4a1022f3c9#%40V2RAYROZ%20%F0%9F%8C%B1
-vless://0b0f1f7b-d005-4765-939f-9a2f6a2f3d85@ip1.berzema.ir:6806?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40V2RAYROZ%20%F0%9F%8C%B1
