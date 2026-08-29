@@ -13,3 +13,6 @@ configt
 "@oneclickvpnkeys": [],
 "@TEHRANARGO": [],
 "@bombvpnn": [],
+  "@daily_configs": [],
+"@planB_net": [],
+"@MaSTeRSeRVeR1": [],
