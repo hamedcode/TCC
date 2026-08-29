@@ -1,1 +1,0 @@
-vless://69d8dc73-20ff-4241-bdd8-a9d6d07553b6@w1.beraghsadevs.ir:15001?encryption=none&type=tcp&headerType=none#test
