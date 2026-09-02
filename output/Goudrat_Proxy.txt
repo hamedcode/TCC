@@ -1,0 +1,1 @@
+vless://d2733ae6-44e7-4b14-8c2d-3f5bef74cdec@144.31.157.104:20017?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%D9%85%D8%AA%D8%B5%D9%84%20%D8%AD%D8%AA%DB%8C%20%D8%AF%D8%B1%20%D8%B2%D9%85%D8%A7%D9%86%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84%F0%9F%94%A5%F0%9F%98%8E%0A%40Goudrat_VPN_Bot%20%F0%9F%9A%80
