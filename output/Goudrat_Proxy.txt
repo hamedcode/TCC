@@ -1,0 +1,1 @@
+vless://9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a@192.145.31.5:443?security=none&encryption=none&type=ws#%D8%B1%D8%A8%D8%A7%D8%AA%20%D9%85%D8%B7%D9%85%D8%A6%D9%86%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%0A%F0%9F%8C%90%40Goudrat_VPN_Bot%20%F0%9F%9A%80
