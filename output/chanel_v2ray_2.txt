@@ -1,9 +1,0 @@
-vless://a3558ef4-b843-4b05-8456-495815234c95@199.232.78.159:80?path=%2F&security=none&encryption=none&host=FastSvn.global.ssl.fastly.net&type=ws#%40V2RAYROZ%20%F0%9F%9A%98
-vless://d51ed55c-d6dd-400b-aaf6-017c33969bfe@ww10.levikogjgfdd.ir:55861?security=reality&encryption=none&pbk=t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs&host=Telegram-v2ray26&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.intel.com&sid=7551ed1b#%40V2RAYROZ%20%F0%9F%9A%98
-vless://a3558ef4-b843-4b05-8456-495815234c95@199.232.78.159:80?path=%2F&security=none&encryption=none&host=7wwwspeedtestnet.global.ssl.fastly.net&type=ws#%40V2RAYROZ%20%F0%9F%9A%98
-vless://5d8cf280-e0f4-4539-b35c-7ff90659c0d0@72.56.75.54:443?security=reality&encryption=none&pbk=iTCQz0n0AolvGxU2ZASJIsSVoKOR9PAFbnZVQDnSnF8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=app2.jarvesitw.ru&sid=c481d750#%40V2RAYROZ%20%F0%9F%9A%98
-vless://a3558ef4-b843-4b05-8456-495815234c95@199.232.78.159:80?path=%2F&security=none&encryption=none&host=yaSharClass.global.ssl.fastly.net&type=ws#%40V2RAYROZ%20%F0%9F%9A%98
-vless://02c05088-fcb4-4366-b8d3-98d68c7bdb98@37.221.110.245:2085?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#%40V2RAYROZ%20%F0%9F%9A%98
-vless://b6606cb0-e15d-4813-94af-985028c4b9f3@138.124.123.127:2086?security=none&encryption=none&headerType=none&type=tcp#%40V2RAYROZ%20%F0%9F%9A%98
-vless://a3558ef4-b843-4b05-8456-495815234c95@de13.bexait.ir:2434?security=reality&encryption=none&pbk=yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0&headerType=none&fp=chrome&type=tcp&sni=icloud.com&sid=9de041877612a718#%40V2RAYROZ%20%F0%9F%9A%98
-vless://607f4f6c-2a71-43aa-e047-1ff5b5c23f67@k2.cloud--vpn.site:443?path=%2F&security=tls&alpn=h2&encryption=none&host=c12.com&fp=firefox&type=ws&sni=ssl.fastly.com#%40V2RAYROZ%20%F0%9F%9A%98
