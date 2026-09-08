@@ -1,0 +1,1 @@
+vless://50414e45-4c5f-5a45-5553-00b2a392a159@104.21.104.150:443?path=%2Fstream%2FPANEL_ZEUS%2F00b2a392a159&security=tls&encryption=none&insecure=0&host=9fzcxlewuixs.goodarzev.workers.dev&type=ws&allowInsecure=0&sni=9fzcxlewuixs.goodarzev.workers.dev#VIP.%40AzadNet%20%F0%9F%9A%80
