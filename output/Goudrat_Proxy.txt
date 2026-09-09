@@ -1,1 +1,0 @@
-vless://9343f183-7a16-4bdd-9c65-b0c21feca40b@51.38.70.192:443?security=reality&encryption=none&pbk=YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M&headerType=none&fp=random&type=tcp&sni=play.google.com&sid=98fa0b00d09419f7#%D8%B1%D8%A8%D8%A7%D8%AA%20%D9%85%D8%B7%D9%85%D8%A6%D9%86%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AE%D8%B1%DB%8C%D8%AF%0A%F0%9F%8C%90%40Goudrat_VPN_Bot%20%F0%9F%9A%80
