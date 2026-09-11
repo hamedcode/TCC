@@ -16,3 +16,4 @@ configt
   "@daily_configs": [],
 "@planB_net": [],
 "@MaSTeRSeRVeR1": [],
+  "@V2rayng_Fast": [],
