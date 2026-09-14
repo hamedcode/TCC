@@ -554,6 +554,54 @@ proxies:
   servername: io.ozone.ru
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+- name: 🇳🇱 The Netherlands - 09/13 @Config724
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dey.lnmarketplace.net
+  tls: true
+  servername: dey.lnmarketplace.net
+  client-fingerprint: firefox
+  alpn:
+  - h2
+- name: 🇺🇸 United States - 09/13 @Config724
+  type: trojan
+  server: 167.82.76.7
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net
+- name: 🇳🇱 The Netherlands - 09/13 @Config724 2
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dey.lnmarketplace.net
+  tls: true
+  servername: dey.lnmarketplace.net
+  client-fingerprint: firefox
+  alpn:
+  - h2
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -600,6 +648,9 @@ proxy-groups:
   - 🇲🇩 Moldova - 09/12 @Config724
   - 🇭🇺 Hungary - 09/12 @Config724
   - 🇬🇧 United Kingdom - 09/12 @Config724
+  - 🇳🇱 The Netherlands - 09/13 @Config724
+  - 🇺🇸 United States - 09/13 @Config724
+  - 🇳🇱 The Netherlands - 09/13 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -643,6 +694,9 @@ proxy-groups:
   - 🇲🇩 Moldova - 09/12 @Config724
   - 🇭🇺 Hungary - 09/12 @Config724
   - 🇬🇧 United Kingdom - 09/12 @Config724
+  - 🇳🇱 The Netherlands - 09/13 @Config724
+  - 🇺🇸 United States - 09/13 @Config724
+  - 🇳🇱 The Netherlands - 09/13 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
