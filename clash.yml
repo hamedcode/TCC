@@ -602,6 +602,33 @@ proxies:
   client-fingerprint: firefox
   alpn:
   - h2
+- name: 🇺🇸 United States - 09/14 @Config724
+  type: trojan
+  server: 151.101.56.101
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/des---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+- name: 🏳️ Unknown - 09/14 @Config724
+  type: trojan
+  server: 188.114.97.7
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -651,6 +678,8 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 09/13 @Config724
   - 🇺🇸 United States - 09/13 @Config724
   - 🇳🇱 The Netherlands - 09/13 @Config724 2
+  - 🇺🇸 United States - 09/14 @Config724
+  - 🏳️ Unknown - 09/14 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
@@ -697,6 +726,8 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 09/13 @Config724
   - 🇺🇸 United States - 09/13 @Config724
   - 🇳🇱 The Netherlands - 09/13 @Config724 2
+  - 🇺🇸 United States - 09/14 @Config724
+  - 🏳️ Unknown - 09/14 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
