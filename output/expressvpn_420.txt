@@ -1,1 +1,1 @@
-vless://Tel%3Aarchivd_android@65.109.192.65:9090?security=none&encryption=none&host=play-apps-features.googleusercontent.com&headerType=http&type=tcp#%40EXPRESSVPN_420%F0%9F%8C%A9%EF%B8%8F
+vless://ebd1c0d6-7ff4-4b9f-8692-237517a27a64@195.133.73.65:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=anyfile2file.com&sid=64c1fe36c7846400#%40EXPRESSVPN_420
