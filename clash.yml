@@ -14,132 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇷🇺 Russia - 09/12 @Config724
-  type: vless
-  server: 147.78.182.3
-  port: 8443
-  uuid: 8bf3e040-8ac9-5d0e-304f-9b735e145de8
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-  tls: true
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-    short-id: ''
-  servername: dl.kaspersky.com
-  client-fingerprint: chrome
-- name: 🇷🇺 Russia - 09/12 @Config724 2
-  type: vless
-  server: 147.78.182.3
-  port: 8443
-  uuid: 8bf3e040-8ac9-5d0e-304f-9b735e145de8
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-  tls: true
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-    short-id: ''
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-- name: 🇪🇸 Spain - 09/12 @Config724
-  type: vless
-  server: 194.146.223.231
-  port: 443
-  uuid: bf8c3d34-c16c-423f-8ff0-9341d6621e97
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: CuGfoVwpKbDfXx5Lx657c-RpIyCJgWmd2xXsLgb5AhQ
-    short-id: '273288'
-  servername: blog.api.www.cloudflare.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇩🇪 Germany - 09/12 @Config724
-  type: vless
-  server: 88.216.220.88
-  port: 443
-  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  tls: true
-  reality-opts:
-    public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g
-    short-id: d3b394558cfe0266
-  servername: files.noneok.com
-  client-fingerprint: firefox
-- name: 🇵🇱 Poland - 09/12 @Config724
-  type: vless
-  server: 83.168.71.216
-  port: 443
-  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 2f49bccf11150ef2
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-- name: 🇵🇱 Poland - 09/12 @Config724 2
-  type: vless
-  server: 185.32.6.62
-  port: 443
-  uuid: 0ce122a3-1c91-4cf5-a2cc-67f25e8cb56f
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: xy8AHr_xZCNqFOuLq_t2fe4oLlrv5iu38uCQ1hUJ40w
-    short-id: 954c99065465428d
-  servername: dropbox.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇷🇺 Russia - 09/12 @Config724 3
-  type: vless
-  server: 185.154.193.137
-  port: 443
-  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
-    short-id: 52ccb3687fe0b7ec
-  servername: api8.eaglors.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-- name: 🇲🇩 Moldova - 09/12 @Config724
-  type: vless
-  server: 89.35.14.30
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: hub.v1.RelayService
-  tls: true
-  reality-opts:
-    public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY
-    short-id: 221ba6174224ca5b
-  servername: md1.univesalsrv.com
-  client-fingerprint: firefox
-- name: 🇭🇺 Hungary - 09/12 @Config724
-  type: vless
-  server: 150.40.126.24
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: gw.v1.ObjectService
-  tls: true
-  reality-opts:
-    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-    short-id: 4872856d5489c37d
-  servername: rs5.univesalsrv.com
-  client-fingerprint: firefox
 - name: 🇬🇧 United Kingdom - 09/12 @Config724
   type: vless
   server: 45.91.55.208
@@ -654,21 +528,114 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇩🇪 Germany - 09/17 @Config724
+  type: vless
+  server: 95.179.169.44
+  port: 53224
+  uuid: e4887910-bcfc-48f8-8cd4-abb592e181af
+  udp: true
+- name: 🏳️ Unknown - 09/17 @Config724
+  type: trojan
+  server: 188.114.96.5
+  port: 2083
+  password: nzrc4ma4087c1ukr
+  udp: true
+  skip-cert-verify: false
+  sni: dl2.rahetejarat.com
+  client-fingerprint: chrome
+  network: http
+- name: 🏳️ Unknown - 09/17 @Config724 2
+  type: vless
+  server: 172.67.158.89
+  port: 8443
+  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dl1.rahetejarat.com
+  tls: true
+  servername: dl1.rahetejarat.com
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 09/17 @Config724 3
+  type: vless
+  server: 188.114.97.8
+  port: 8443
+  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dl1.rahetejarat.com
+  tls: true
+  servername: dl1.rahetejarat.com
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 09/17 @Config724 4
+  type: vless
+  server: 104.16.174.81
+  port: 8443
+  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dl1.rahetejarat.com
+  tls: true
+  servername: dl1.rahetejarat.com
+  client-fingerprint: chrome
+- name: 🏳️ Unknown - 09/17 @Config724 5
+  type: trojan
+  server: 188.114.96.1
+  port: 2083
+  password: nzrc4ma4087c1ukr
+  udp: true
+  skip-cert-verify: false
+  sni: dl2.rahetejarat.com
+  client-fingerprint: chrome
+  network: http
+- name: 🏳️ Unknown - 09/17 @Config724 6
+  type: trojan
+  server: 188.114.96.4
+  port: 2083
+  password: nzrc4ma4087c1ukr
+  udp: true
+  skip-cert-verify: false
+  sni: dl2.rahetejarat.com
+  client-fingerprint: chrome
+  network: http
+- name: 🏳️ Unknown - 09/17 @Config724 7
+  type: trojan
+  server: 104.18.154.96
+  port: 2083
+  password: nzrc4ma4087c1ukr
+  udp: true
+  skip-cert-verify: false
+  sni: dl2.rahetejarat.com
+  client-fingerprint: chrome
+  network: http
+- name: 🏳️ Unknown - 09/17 @Config724 8
+  type: vless
+  server: 188.114.97.2
+  port: 8443
+  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dl1.rahetejarat.com
+  tls: true
+  servername: dl1.rahetejarat.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇷🇺 Russia - 09/12 @Config724
-  - 🇷🇺 Russia - 09/12 @Config724 2
-  - 🇪🇸 Spain - 09/12 @Config724
-  - 🇩🇪 Germany - 09/12 @Config724
-  - 🇵🇱 Poland - 09/12 @Config724
-  - 🇵🇱 Poland - 09/12 @Config724 2
-  - 🇷🇺 Russia - 09/12 @Config724 3
-  - 🇲🇩 Moldova - 09/12 @Config724
-  - 🇭🇺 Hungary - 09/12 @Config724
   - 🇬🇧 United Kingdom - 09/12 @Config724
   - 🇳🇱 The Netherlands - 09/13 @Config724
   - 🇺🇸 United States - 09/13 @Config724
@@ -709,18 +676,18 @@ proxy-groups:
   - 🇺🇸 United States - 09/16 @Config724 3
   - 🇺🇸 United States - 09/16 @Config724 4
   - 🇺🇸 United States - 09/16 @Config724 5
+  - 🇩🇪 Germany - 09/17 @Config724
+  - 🏳️ Unknown - 09/17 @Config724
+  - 🏳️ Unknown - 09/17 @Config724 2
+  - 🏳️ Unknown - 09/17 @Config724 3
+  - 🏳️ Unknown - 09/17 @Config724 4
+  - 🏳️ Unknown - 09/17 @Config724 5
+  - 🏳️ Unknown - 09/17 @Config724 6
+  - 🏳️ Unknown - 09/17 @Config724 7
+  - 🏳️ Unknown - 09/17 @Config724 8
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇷🇺 Russia - 09/12 @Config724
-  - 🇷🇺 Russia - 09/12 @Config724 2
-  - 🇪🇸 Spain - 09/12 @Config724
-  - 🇩🇪 Germany - 09/12 @Config724
-  - 🇵🇱 Poland - 09/12 @Config724
-  - 🇵🇱 Poland - 09/12 @Config724 2
-  - 🇷🇺 Russia - 09/12 @Config724 3
-  - 🇲🇩 Moldova - 09/12 @Config724
-  - 🇭🇺 Hungary - 09/12 @Config724
   - 🇬🇧 United Kingdom - 09/12 @Config724
   - 🇳🇱 The Netherlands - 09/13 @Config724
   - 🇺🇸 United States - 09/13 @Config724
@@ -761,6 +728,15 @@ proxy-groups:
   - 🇺🇸 United States - 09/16 @Config724 3
   - 🇺🇸 United States - 09/16 @Config724 4
   - 🇺🇸 United States - 09/16 @Config724 5
+  - 🇩🇪 Germany - 09/17 @Config724
+  - 🏳️ Unknown - 09/17 @Config724
+  - 🏳️ Unknown - 09/17 @Config724 2
+  - 🏳️ Unknown - 09/17 @Config724 3
+  - 🏳️ Unknown - 09/17 @Config724 4
+  - 🏳️ Unknown - 09/17 @Config724 5
+  - 🏳️ Unknown - 09/17 @Config724 6
+  - 🏳️ Unknown - 09/17 @Config724 7
+  - 🏳️ Unknown - 09/17 @Config724 8
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
