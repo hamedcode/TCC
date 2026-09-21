@@ -14,157 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🏳️ Unknown - 09/15 @Config724
-  type: trojan
-  server: 104.18.154.96
-  port: 2083
-  password: nzrc4ma4087c1ukr
-  udp: true
-  skip-cert-verify: false
-  sni: dl2.rahetejarat.com
-  client-fingerprint: chrome
-  network: http
-- name: 🇺🇸 United States - 09/15 @Config724
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: MITIVPN
-  udp: true
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-33s.global.ssl.fastly.net
-- name: 🇺🇸 United States - 09/15 @Config724 2
-  type: vless
-  server: 69.46.46.36
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/Default
-    headers:
-      Host: sys-a32887-c5c00f-production.up.railway.app
-  tls: true
-  servername: sys-a32887-c5c00f-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/15 @Config724 3
-  type: vless
-  server: 69.46.46.35
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/Default
-    headers:
-      Host: web-cbfc1f-b66f1b-production.up.railway.app
-  tls: true
-  servername: web-cbfc1f-b66f1b-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/15 @Config724 4
-  type: vless
-  server: 69.46.46.35
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  tls: true
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/15 @Config724 5
-  type: vless
-  server: 69.46.46.37
-  port: 443
-  uuid: 16bbcad5-a354-c387-11a0-52648d47028f
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/16bbcad5-a354-c387-11a0-52648d47028f
-    headers:
-      Host: miki-production-81cb.up.railway.app
-  tls: true
-  servername: miki-production-81cb.up.railway.app
-  client-fingerprint: ios
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/15 @Config724 6
-  type: vless
-  server: 144.31.76.178
-  port: 443
-  uuid: b9964fbf-7ea3-4883-9a3b-cca80ba8602d
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: LJsl2DgOqknCTlIUAJ9RIp5-2L5chl_sOycmWzmeWgY
-    short-id: ''
-  servername: hb.ru-msk.vkcloud-storage.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇹🇷 Türkiye - 09/15 @Config724
-  type: vless
-  server: 80.91.79.136
-  port: 443
-  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: g9uQwtqcqsPvzqQy2hM4rpvTIGXRQSAt-MAgHpz_gCI
-    short-id: 0b0bf0590fb9c138
-  servername: www.logitech.com
-  flow: xtls-rprx-vision
-- name: 🇬🇧 United Kingdom - 09/15 @Config724
-  type: vless
-  server: 31.76.101.16
-  port: 443
-  uuid: d6b59299-2f48-4e9b-9130-b9e9cb5d0a51
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: nuqkgfdRafYszLg1SzFgXlQkTu0OdV4tes4WTjjcpkI
-    short-id: 414f66403b9f0673
-  servername: mx42.hat.onl
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇩🇪 Germany - 09/15 @Config724
-  type: vless
-  server: 88.99.125.243
-  port: 15036
-  uuid: 783c7211-5349-4c26-8f8f-85f0f4c93ae8
-  udp: true
-- name: 🇨🇴 Colombia - 09/15 @Config724
-  type: vless
-  server: 87.120.106.181
-  port: 8443
-  uuid: 4fa0a993-6003-45c1-991e-4c40eae45d38
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: UNxylQLY4RHp8gIhGvV5o5K_Xj053tFm6hkA6eOpZTM
-    short-id: 641ca295f26e1a25
-  servername: play-apps-features.googleusercontent.com
-  client-fingerprint: edge
-- name: 🇺🇸 United States - 09/15 @Config724 7
-  type: vless
-  server: 153.52.92.95
-  port: 8443
-  uuid: 4fa0a993-6003-45c1-991e-4c40eae45d38
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: SfzKLQcFvQUq9t7zldsfai_gel-u2093qJXvn8sWlXY
-    short-id: e940f4af3553f928
-  servername: play-apps-features.googleusercontent.com
-  client-fingerprint: edge
 - name: 🇫🇮 Finland - 09/15 @Config724
   type: vless
   server: nbsowowujejrir.vipneninet.ir
@@ -563,24 +412,107 @@ proxies:
   client-fingerprint: firefox
   alpn:
   - h2
+- name: 🇺🇸 United States - 09/20 @Config724 2
+  type: vless
+  server: 167.82.76.31
+  port: 443
+  uuid: a602c758-0ddf-4f8e-b58b-4997b691d952
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - chchibie98ik.global.ssl.fastly.net
+  tls: true
+  servername: global.fastly.com
+  client-fingerprint: ios
+  alpn:
+  - h2
+  - http/1.1
+- name: 🇩🇪 Germany - 09/20 @Config724
+  type: trojan
+  server: 78.47.146.151
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇷🇺 Russia - 09/20 @Config724
+  type: vless
+  server: 195.133.73.65
+  port: 443
+  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: 64c1fe36c7846400
+  servername: anyfile2file.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 09/21 @Config724
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: cfvvv-ev1.pages.dev
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+- name: 🇺🇸 United States - 09/21 @Config724
+  type: vless
+  server: 195.123.235.177
+  port: 443
+  uuid: 729dd5f2-f5ff-4070-8c10-863eceded0b1
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI
+    short-id: c85d029f5e8eb393
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/21 @Config724 2
+  type: vless
+  server: us.1905vpn.ru
+  port: 443
+  uuid: 1397981f-401f-4896-a60c-898b359f4bde
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg
+    short-id: 9292a8cb3ba284d3
+  servername: us.1905vpn.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/21 @Config724 3
+  type: vless
+  server: us.1905vpn.ru
+  port: 443
+  uuid: 1397981f-401f-4896-a60c-898b359f4bde
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg
+    short-id: 9292a8cb3ba284d3
+  servername: us.1905vpn.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🏳️ Unknown - 09/15 @Config724
-  - 🇺🇸 United States - 09/15 @Config724
-  - 🇺🇸 United States - 09/15 @Config724 2
-  - 🇺🇸 United States - 09/15 @Config724 3
-  - 🇺🇸 United States - 09/15 @Config724 4
-  - 🇺🇸 United States - 09/15 @Config724 5
-  - 🇺🇸 United States - 09/15 @Config724 6
-  - 🇹🇷 Türkiye - 09/15 @Config724
-  - 🇬🇧 United Kingdom - 09/15 @Config724
-  - 🇩🇪 Germany - 09/15 @Config724
-  - 🇨🇴 Colombia - 09/15 @Config724
-  - 🇺🇸 United States - 09/15 @Config724 7
   - 🇫🇮 Finland - 09/15 @Config724
   - 🇷🇺 Russia - 09/16 @Config724
   - 🇺🇸 United States - 09/16 @Config724
@@ -613,21 +545,16 @@ proxy-groups:
   - 🏳️ Unknown - 09/20 @Config724 3
   - 🏳️ Unknown - 09/20 @Config724 4
   - 🇺🇸 United States - 09/20 @Config724
+  - 🇺🇸 United States - 09/20 @Config724 2
+  - 🇩🇪 Germany - 09/20 @Config724
+  - 🇷🇺 Russia - 09/20 @Config724
+  - 🏳️ Unknown - 09/21 @Config724
+  - 🇺🇸 United States - 09/21 @Config724
+  - 🇺🇸 United States - 09/21 @Config724 2
+  - 🇺🇸 United States - 09/21 @Config724 3
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🏳️ Unknown - 09/15 @Config724
-  - 🇺🇸 United States - 09/15 @Config724
-  - 🇺🇸 United States - 09/15 @Config724 2
-  - 🇺🇸 United States - 09/15 @Config724 3
-  - 🇺🇸 United States - 09/15 @Config724 4
-  - 🇺🇸 United States - 09/15 @Config724 5
-  - 🇺🇸 United States - 09/15 @Config724 6
-  - 🇹🇷 Türkiye - 09/15 @Config724
-  - 🇬🇧 United Kingdom - 09/15 @Config724
-  - 🇩🇪 Germany - 09/15 @Config724
-  - 🇨🇴 Colombia - 09/15 @Config724
-  - 🇺🇸 United States - 09/15 @Config724 7
   - 🇫🇮 Finland - 09/15 @Config724
   - 🇷🇺 Russia - 09/16 @Config724
   - 🇺🇸 United States - 09/16 @Config724
@@ -660,6 +587,13 @@ proxy-groups:
   - 🏳️ Unknown - 09/20 @Config724 3
   - 🏳️ Unknown - 09/20 @Config724 4
   - 🇺🇸 United States - 09/20 @Config724
+  - 🇺🇸 United States - 09/20 @Config724 2
+  - 🇩🇪 Germany - 09/20 @Config724
+  - 🇷🇺 Russia - 09/20 @Config724
+  - 🏳️ Unknown - 09/21 @Config724
+  - 🇺🇸 United States - 09/21 @Config724
+  - 🇺🇸 United States - 09/21 @Config724 2
+  - 🇺🇸 United States - 09/21 @Config724 3
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
