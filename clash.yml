@@ -14,68 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇫🇮 Finland - 09/15 @Config724
-  type: vless
-  server: nbsowowujejrir.vipneninet.ir
-  port: 56231
-  uuid: 56831930-677b-4fdc-aa9a-46c9a77f9f7d
-  udp: true
-  network: http
-- name: 🇷🇺 Russia - 09/16 @Config724
-  type: vless
-  server: 195.133.73.65
-  port: 443
-  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: 64c1fe36c7846400
-  servername: anyfile2file.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 🇺🇸 United States - 09/16 @Config724
-  type: vless
-  server: 69.46.46.42
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  tls: true
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/16 @Config724 2
-  type: vless
-  server: 69.46.46.43
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/Default
-    headers:
-      Host: cloud-532c10-21a241-production.up.railway.app
-  tls: true
-  servername: cloud-532c10-21a241-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/16 @Config724 3
-  type: vless
-  server: 69.46.46.44
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/Default
-    headers:
-      Host: service-8c9ee8-e61fb0-production.up.railway.app
-  tls: true
-  servername: service-8c9ee8-e61fb0-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/16 @Config724 4
   type: vless
   server: 69.46.46.42
   port: 443
@@ -91,7 +30,7 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 🇺🇸 United States - 09/16 @Config724 5
+- name: 🇺🇸 United States - 09/16 @Config724 2
   type: vless
   server: 69.46.46.45
   port: 443
@@ -507,19 +446,87 @@ proxies:
   servername: us.1905vpn.ru
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 09/21 @Config724
+  type: vless
+  server: 94.130.68.139
+  port: 2222
+  uuid: 3874802c-d7fb-43e3-aeed-d4413fe444b2
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: w8-t6jxmbKiLU08_EDO2PMKukZlgZsVJzMfcedEh2GA
+    short-id: 48e751d0b80661
+  servername: prod.pl-node-01.security-sbrf.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇸🇬 Singapore - 09/21 @Config724
+  type: vless
+  server: www.zhonglyu.com
+  port: 443
+  uuid: 9c476864-9f34-47a1-9586-c3394aaac720
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dedxh.irandoc.info
+  tls: true
+  servername: www.zhonglyu.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 🇸🇬 Singapore - 09/21 @Config724 2
+  type: vless
+  server: www.zhonglyu.com
+  port: 443
+  uuid: 45a7ebcb-4a59-4b8f-9e93-eca68968578c
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dedh.irandoc.info
+  tls: true
+  servername: dedh.irandoc.info
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 🇸🇬 Singapore - 09/21 @Config724 3
+  type: vless
+  server: www.zhonglyu.com
+  port: 443
+  uuid: 43ba95ef-234c-4c66-a12b-56217b8ebd0a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /15462/ws
+    headers:
+      Host: dedws.irandoc.info
+  tls: true
+  servername: dedws.irandoc.info
+  client-fingerprint: chrome
+- name: 🇬🇧 United Kingdom - 09/21 @Config724
+  type: vless
+  server: 136.148.71.4
+  port: 443
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
+    short-id: 9d84de9d9f7b85e9
+  servername: de2.edge-9d7c.com
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇫🇮 Finland - 09/15 @Config724
-  - 🇷🇺 Russia - 09/16 @Config724
   - 🇺🇸 United States - 09/16 @Config724
   - 🇺🇸 United States - 09/16 @Config724 2
-  - 🇺🇸 United States - 09/16 @Config724 3
-  - 🇺🇸 United States - 09/16 @Config724 4
-  - 🇺🇸 United States - 09/16 @Config724 5
   - 🇩🇪 Germany - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724 2
@@ -552,16 +559,16 @@ proxy-groups:
   - 🇺🇸 United States - 09/21 @Config724
   - 🇺🇸 United States - 09/21 @Config724 2
   - 🇺🇸 United States - 09/21 @Config724 3
+  - 🇩🇪 Germany - 09/21 @Config724
+  - 🇸🇬 Singapore - 09/21 @Config724
+  - 🇸🇬 Singapore - 09/21 @Config724 2
+  - 🇸🇬 Singapore - 09/21 @Config724 3
+  - 🇬🇧 United Kingdom - 09/21 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇫🇮 Finland - 09/15 @Config724
-  - 🇷🇺 Russia - 09/16 @Config724
   - 🇺🇸 United States - 09/16 @Config724
   - 🇺🇸 United States - 09/16 @Config724 2
-  - 🇺🇸 United States - 09/16 @Config724 3
-  - 🇺🇸 United States - 09/16 @Config724 4
-  - 🇺🇸 United States - 09/16 @Config724 5
   - 🇩🇪 Germany - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724 2
@@ -594,6 +601,11 @@ proxy-groups:
   - 🇺🇸 United States - 09/21 @Config724
   - 🇺🇸 United States - 09/21 @Config724 2
   - 🇺🇸 United States - 09/21 @Config724 3
+  - 🇩🇪 Germany - 09/21 @Config724
+  - 🇸🇬 Singapore - 09/21 @Config724
+  - 🇸🇬 Singapore - 09/21 @Config724 2
+  - 🇸🇬 Singapore - 09/21 @Config724 3
+  - 🇬🇧 United Kingdom - 09/21 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
