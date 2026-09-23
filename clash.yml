@@ -14,97 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇺🇸 United States - 09/16 @Config724
-  type: vless
-  server: 69.46.46.42
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/Default
-    headers:
-      Host: core-400c2d-c73ce2-production.up.railway.app
-  tls: true
-  servername: core-400c2d-c73ce2-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/16 @Config724 2
-  type: vless
-  server: 69.46.46.45
-  port: 443
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/Default
-    headers:
-      Host: core-9c960a-589ace-production.up.railway.app
-  tls: true
-  servername: core-9c960a-589ace-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇩🇪 Germany - 09/17 @Config724
-  type: vless
-  server: 95.179.169.44
-  port: 53224
-  uuid: e4887910-bcfc-48f8-8cd4-abb592e181af
-  udp: true
 - name: 🏳️ Unknown - 09/17 @Config724
-  type: trojan
-  server: 188.114.96.5
-  port: 2083
-  password: nzrc4ma4087c1ukr
-  udp: true
-  skip-cert-verify: false
-  sni: dl2.rahetejarat.com
-  client-fingerprint: chrome
-  network: http
-- name: 🏳️ Unknown - 09/17 @Config724 2
-  type: vless
-  server: 172.67.158.89
-  port: 8443
-  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dl1.rahetejarat.com
-  tls: true
-  servername: dl1.rahetejarat.com
-  client-fingerprint: chrome
-- name: 🏳️ Unknown - 09/17 @Config724 3
-  type: vless
-  server: 188.114.97.8
-  port: 8443
-  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dl1.rahetejarat.com
-  tls: true
-  servername: dl1.rahetejarat.com
-  client-fingerprint: chrome
-- name: 🏳️ Unknown - 09/17 @Config724 4
-  type: vless
-  server: 104.16.174.81
-  port: 8443
-  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dl1.rahetejarat.com
-  tls: true
-  servername: dl1.rahetejarat.com
-  client-fingerprint: chrome
-- name: 🏳️ Unknown - 09/17 @Config724 5
   type: trojan
   server: 188.114.96.1
   port: 2083
@@ -114,7 +24,7 @@ proxies:
   sni: dl2.rahetejarat.com
   client-fingerprint: chrome
   network: http
-- name: 🏳️ Unknown - 09/17 @Config724 6
+- name: 🏳️ Unknown - 09/17 @Config724 2
   type: trojan
   server: 188.114.96.4
   port: 2083
@@ -124,7 +34,7 @@ proxies:
   sni: dl2.rahetejarat.com
   client-fingerprint: chrome
   network: http
-- name: 🏳️ Unknown - 09/17 @Config724 7
+- name: 🏳️ Unknown - 09/17 @Config724 3
   type: trojan
   server: 104.18.154.96
   port: 2083
@@ -134,7 +44,7 @@ proxies:
   sni: dl2.rahetejarat.com
   client-fingerprint: chrome
   network: http
-- name: 🏳️ Unknown - 09/17 @Config724 8
+- name: 🏳️ Unknown - 09/17 @Config724 4
   type: vless
   server: 188.114.97.2
   port: 8443
@@ -519,23 +429,120 @@ proxies:
     short-id: 9d84de9d9f7b85e9
   servername: de2.edge-9d7c.com
   flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 09/22 @Config724
+  type: vless
+  server: 104.21.6.101
+  port: 443
+  uuid: 523e85fa-82b2-4ca5-9ff5-a734a4510197
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - assets-fi1.mirolit.ru
+  tls: true
+  servername: assets-fi1.mirolit.ru
+  client-fingerprint: safari
+- name: 🏳️ Unknown - 09/22 @Config724 2
+  type: vless
+  server: 104.21.61.2
+  port: 443
+  uuid: 2c4374a2-1135-41a6-b1e9-a65964919662
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - 1.ksladoaofkdk.dpdns.org
+  tls: true
+  servername: 1.ksladoaofkdk.dpdns.org
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+- name: 🇩🇪 Germany - 09/22 @Config724
+  type: ss
+  server: 172.104.129.6
+  port: 2087
+  cipher: 2022-blake3-aes-256-gcm
+  password: WAqeGA+dU+HZYSipCio+Jmt7SSVfHjwMH7j8xmsm7/s=:althddZ27iu261I+568pk7HZzBFDCyIx6pvG8H9oXow=
+  udp: true
+- name: 🇫🇮 Finland - 09/22 @Config724
+  type: vless
+  server: 65.109.208.235
+  port: 443
+  uuid: 19ed2624-609a-4090-975a-1c4c416ee323
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: f09CLVED0WnerTVrfS_nZ7UUuTHtT_TIiDeJ0z9WCHY
+    short-id: a96e5dd96c4b902d
+  servername: www.upwork.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇷🇺 Russia - 09/22 @Config724
+  type: vless
+  server: 185.141.227.180
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - dismissaltree.net
+  tls: true
+  servername: dismissaltree.net
+  client-fingerprint: random
+- name: 🇩🇪 Germany - 09/22 @Config724 2
+  type: vless
+  server: 77.42.34.2
+  port: 30558
+  uuid: bd70f457-3ec8-4c93-9e5d-b2299b98cd80
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: GaiQyQDjRBb4FPg89ifTpLhA5eV4J5X0Othj_uZOxRc
+    short-id: 00587e87ebfbad1d
+  servername: play.google.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/22 @Config724
+  type: vless
+  server: tr3.wba-pn.ru
+  port: 443
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+  tls: true
+  servername: tr3.wba-pn.ru
+  client-fingerprint: random
+- name: 🇷🇺 Russia - 09/22 @Config724 2
+  type: vless
+  server: moldova.cdn-europe.org
+  port: 4443
+  uuid: d7c94b82-657a-4bb7-9b24-2ae566669835
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8
+    short-id: 694ee64512cfcbef
+  servername: moldova.cdn-europe.org
+  client-fingerprint: random
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 09/16 @Config724
-  - 🇺🇸 United States - 09/16 @Config724 2
-  - 🇩🇪 Germany - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724 2
   - 🏳️ Unknown - 09/17 @Config724 3
   - 🏳️ Unknown - 09/17 @Config724 4
-  - 🏳️ Unknown - 09/17 @Config724 5
-  - 🏳️ Unknown - 09/17 @Config724 6
-  - 🏳️ Unknown - 09/17 @Config724 7
-  - 🏳️ Unknown - 09/17 @Config724 8
   - 🇷🇺 Russia - 09/18 @Config724
   - 🇰🇿 Kazakhstan - 09/18 @Config724
   - 🇰🇿 Kazakhstan - 09/18 @Config724 2
@@ -564,20 +571,21 @@ proxy-groups:
   - 🇸🇬 Singapore - 09/21 @Config724 2
   - 🇸🇬 Singapore - 09/21 @Config724 3
   - 🇬🇧 United Kingdom - 09/21 @Config724
+  - 🏳️ Unknown - 09/22 @Config724
+  - 🏳️ Unknown - 09/22 @Config724 2
+  - 🇩🇪 Germany - 09/22 @Config724
+  - 🇫🇮 Finland - 09/22 @Config724
+  - 🇷🇺 Russia - 09/22 @Config724
+  - 🇩🇪 Germany - 09/22 @Config724 2
+  - 🇺🇸 United States - 09/22 @Config724
+  - 🇷🇺 Russia - 09/22 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 09/16 @Config724
-  - 🇺🇸 United States - 09/16 @Config724 2
-  - 🇩🇪 Germany - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724
   - 🏳️ Unknown - 09/17 @Config724 2
   - 🏳️ Unknown - 09/17 @Config724 3
   - 🏳️ Unknown - 09/17 @Config724 4
-  - 🏳️ Unknown - 09/17 @Config724 5
-  - 🏳️ Unknown - 09/17 @Config724 6
-  - 🏳️ Unknown - 09/17 @Config724 7
-  - 🏳️ Unknown - 09/17 @Config724 8
   - 🇷🇺 Russia - 09/18 @Config724
   - 🇰🇿 Kazakhstan - 09/18 @Config724
   - 🇰🇿 Kazakhstan - 09/18 @Config724 2
@@ -606,6 +614,14 @@ proxy-groups:
   - 🇸🇬 Singapore - 09/21 @Config724 2
   - 🇸🇬 Singapore - 09/21 @Config724 3
   - 🇬🇧 United Kingdom - 09/21 @Config724
+  - 🏳️ Unknown - 09/22 @Config724
+  - 🏳️ Unknown - 09/22 @Config724 2
+  - 🇩🇪 Germany - 09/22 @Config724
+  - 🇫🇮 Finland - 09/22 @Config724
+  - 🇷🇺 Russia - 09/22 @Config724
+  - 🇩🇪 Germany - 09/22 @Config724 2
+  - 🇺🇸 United States - 09/22 @Config724
+  - 🇷🇺 Russia - 09/22 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
