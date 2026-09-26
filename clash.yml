@@ -14,135 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇷🇺 Russia - 09/18 @Config724
-  type: vless
-  server: 95.182.93.92
-  port: 28313
-  uuid: bc5897e5-2c2e-4774-a659-a5fb38166d43
-  udp: true
-  network: http
-  tls: true
-  reality-opts:
-    public-key: ClghoGlt3rAYCs-PN7LioxT7SLrQv0qRMVCvtxFMJHc
-    short-id: 7d777926ca7279
-  servername: android.com
-  client-fingerprint: chrome
-- name: 🇰🇿 Kazakhstan - 09/18 @Config724
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-  tls: true
-  servername: xi.tbv.ccwu.cc
-- name: 🇰🇿 Kazakhstan - 09/18 @Config724 2
-  type: vless
-  server: 31.43.179.20
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-  tls: true
-  servername: xi.tbv.ccwu.cc
-- name: 🇸🇦 Saudi Arabia - 09/18 @Config724
-  type: vless
-  server: 91.209.253.229
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-  tls: true
-  servername: nb.lovecf.ggff.net
-  client-fingerprint: chrome
-- name: 🇨🇾 Cyprus - 09/18 @Config724
-  type: vless
-  server: 195.26.229.156
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-  tls: true
-  servername: xi.tbv.ccwu.cc
-- name: 🇫🇮 Finland - 09/18 @Config724
-  type: vless
-  server: 212.104.128.206
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-  tls: true
-  servername: xi.tbv.ccwu.cc
-- name: 🇸🇦 Saudi Arabia - 09/18 @Config724 2
-  type: vless
-  server: 91.209.253.119
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-  tls: true
-  servername: nb.lovecf.ggff.net
-  client-fingerprint: chrome
-- name: 🇺🇸 United States - 09/18 @Config724
-  type: vless
-  server: aliopnop-production.up.railway.app
-  port: 443
-  uuid: a038b2f5-e826-4c6f-04d0-16faf5d1c5d9
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws/a038b2f5-e826-4c6f-04d0-16faf5d1c5d9
-    headers:
-      Host: aliopnop-production.up.railway.app
-  tls: true
-  servername: aliopnop-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇧🇷 Brazil - 09/18 @Config724
-  type: vless
-  server: 189.74.117.5
-  port: 443
-  uuid: d097ade5-225a-4a50-9f0e-fae258aa4d0c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  servername: api.videoistok.cc
-  flow: xtls-rprx-vision
-- name: 🇨🇿 Czechia - 09/18 @Config724
-  type: vless
-  server: 95.85.224.17
-  port: 443
-  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-    short-id: ''
-  servername: est1313.ggisopi.su
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/19 @Config724 6
+- name: 🇺🇸 United States - 09/19 @Config724 3
   type: ss
   server: 132.243.175.144
   port: 8388
@@ -544,23 +416,166 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇺🇸 United States - 09/25 @Config724
+  type: vless
+  server: slowkd.sadiepinki.com
+  port: 443
+  uuid: dac0bd30-008f-42c9-b377-bfc0dcfa6f0b
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo
+    short-id: 9c2378562188c3cb
+  servername: slowkd.sadiepinki.com
+  flow: xtls-rprx-vision
+- name: 🇷🇺 Russia - 09/25 @Config724
+  type: vless
+  server: 195.133.73.65
+  port: 443
+  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: 64c1fe36c7846400
+  servername: anyfile2file.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 09/25 @Config724
+  type: ss
+  server: 104.18.26.94
+  port: 80
+  cipher: aes-256-gcm
+  password: ۱۱
+  udp: true
+- name: 🏳️ Unknown - 09/25 @Config724 2
+  type: trojan
+  server: 104.21.8.107
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇳🇱 The Netherlands - 09/25 @Config724
+  type: ss
+  server: 83.217.222.183
+  port: 443
+  cipher: aes-256-gcm
+  password: ۱۱
+  udp: true
+- name: 🇺🇸 United States - 09/25 @Config724 2
+  type: vless
+  server: 144.31.5.64
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  tls: true
+  servername: pl6.moritech.net
+  client-fingerprint: firefox
+  alpn:
+  - h2
+- name: 🏳️ Unknown - 09/26 @Config724
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws?ed#
+    headers:
+      Host: a.cwvps.eu.org
+  tls: true
+  servername: a.cwvps.eu.org
+- name: 🏳️ Unknown - 09/26 @Config724 2
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: 🏳️ Unknown - 09/26 @Config724 3
+  type: trojan
+  server: 188.114.97.7
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇺🇸 United States - 09/26 @Config724
+  type: trojan
+  server: render.com
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: 🇬🇧 United Kingdom - 09/26 @Config724
+  type: vless
+  server: 2.26.11.234
+  port: 9543
+  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: 123abcdf
+  servername: storage.yandexcloud.net
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+- name: 🇮🇶 Iraq - 09/26 @Config724
+  type: vless
+  server: 193.56.135.233
+  port: 9543
+  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: 123abcde
+  servername: storage.yandexcloud.net
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 09/26 @Config724 4
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇷🇺 Russia - 09/18 @Config724
-  - 🇰🇿 Kazakhstan - 09/18 @Config724
-  - 🇰🇿 Kazakhstan - 09/18 @Config724 2
-  - 🇸🇦 Saudi Arabia - 09/18 @Config724
-  - 🇨🇾 Cyprus - 09/18 @Config724
-  - 🇫🇮 Finland - 09/18 @Config724
-  - 🇸🇦 Saudi Arabia - 09/18 @Config724 2
-  - 🇺🇸 United States - 09/18 @Config724
-  - 🇧🇷 Brazil - 09/18 @Config724
-  - 🇨🇿 Czechia - 09/18 @Config724
-  - 🇺🇸 United States - 09/19 @Config724 6
+  - 🇺🇸 United States - 09/19 @Config724 3
   - 🏳️ Unknown - 09/20 @Config724
   - 🏳️ Unknown - 09/20 @Config724 2
   - 🏳️ Unknown - 09/20 @Config724 3
@@ -590,20 +605,23 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 09/24 @Config724
   - 🇳🇱 The Netherlands - 09/24 @Config724 2
   - 🇨🇭 Switzerland - 09/24 @Config724
+  - 🇺🇸 United States - 09/25 @Config724
+  - 🇷🇺 Russia - 09/25 @Config724
+  - 🏳️ Unknown - 09/25 @Config724
+  - 🏳️ Unknown - 09/25 @Config724 2
+  - 🇳🇱 The Netherlands - 09/25 @Config724
+  - 🇺🇸 United States - 09/25 @Config724 2
+  - 🏳️ Unknown - 09/26 @Config724
+  - 🏳️ Unknown - 09/26 @Config724 2
+  - 🏳️ Unknown - 09/26 @Config724 3
+  - 🇺🇸 United States - 09/26 @Config724
+  - 🇬🇧 United Kingdom - 09/26 @Config724
+  - 🇮🇶 Iraq - 09/26 @Config724
+  - 🏳️ Unknown - 09/26 @Config724 4
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇷🇺 Russia - 09/18 @Config724
-  - 🇰🇿 Kazakhstan - 09/18 @Config724
-  - 🇰🇿 Kazakhstan - 09/18 @Config724 2
-  - 🇸🇦 Saudi Arabia - 09/18 @Config724
-  - 🇨🇾 Cyprus - 09/18 @Config724
-  - 🇫🇮 Finland - 09/18 @Config724
-  - 🇸🇦 Saudi Arabia - 09/18 @Config724 2
-  - 🇺🇸 United States - 09/18 @Config724
-  - 🇧🇷 Brazil - 09/18 @Config724
-  - 🇨🇿 Czechia - 09/18 @Config724
-  - 🇺🇸 United States - 09/19 @Config724 6
+  - 🇺🇸 United States - 09/19 @Config724 3
   - 🏳️ Unknown - 09/20 @Config724
   - 🏳️ Unknown - 09/20 @Config724 2
   - 🏳️ Unknown - 09/20 @Config724 3
@@ -633,6 +651,19 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 09/24 @Config724
   - 🇳🇱 The Netherlands - 09/24 @Config724 2
   - 🇨🇭 Switzerland - 09/24 @Config724
+  - 🇺🇸 United States - 09/25 @Config724
+  - 🇷🇺 Russia - 09/25 @Config724
+  - 🏳️ Unknown - 09/25 @Config724
+  - 🏳️ Unknown - 09/25 @Config724 2
+  - 🇳🇱 The Netherlands - 09/25 @Config724
+  - 🇺🇸 United States - 09/25 @Config724 2
+  - 🏳️ Unknown - 09/26 @Config724
+  - 🏳️ Unknown - 09/26 @Config724 2
+  - 🏳️ Unknown - 09/26 @Config724 3
+  - 🇺🇸 United States - 09/26 @Config724
+  - 🇬🇧 United Kingdom - 09/26 @Config724
+  - 🇮🇶 Iraq - 09/26 @Config724
+  - 🏳️ Unknown - 09/26 @Config724 4
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
