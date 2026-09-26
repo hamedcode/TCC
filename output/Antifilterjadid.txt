@@ -1,5 +1,0 @@
-ss://YWVzLTI1Ni1nY20677%2B9Xg@13.39.239.251:22224#%40Antifilterjadid
-ss://YWVzLTI1Ni1nY20627HbsQ@104.18.26.94:80#%40Antifilterjadid
-ss://YWVzLTI1Ni1nY20627HbsQ@83.217.222.183:443#%40Antifilterjadid
-trojan://humanity@104.21.8.107:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%40Antifilterjadid
-vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@144.31.5.64:443?security=tls&alpn=h2&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=pl6.moritech.net#%40Antifilterjadid
