@@ -14,7 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇺🇸 United States - 09/19 @Config724 3
+- name: 🇺🇸 United States - 09/19 @Config724 2
   type: ss
   server: 132.243.175.144
   port: 8388
@@ -569,13 +569,22 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
+- name: 🇦🇺 Australia - 09/26 @Config724
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  udp: true
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 09/19 @Config724 3
+  - 🇺🇸 United States - 09/19 @Config724 2
   - 🏳️ Unknown - 09/20 @Config724
   - 🏳️ Unknown - 09/20 @Config724 2
   - 🏳️ Unknown - 09/20 @Config724 3
@@ -618,10 +627,11 @@ proxy-groups:
   - 🇬🇧 United Kingdom - 09/26 @Config724
   - 🇮🇶 Iraq - 09/26 @Config724
   - 🏳️ Unknown - 09/26 @Config724 4
+  - 🇦🇺 Australia - 09/26 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 09/19 @Config724 3
+  - 🇺🇸 United States - 09/19 @Config724 2
   - 🏳️ Unknown - 09/20 @Config724
   - 🏳️ Unknown - 09/20 @Config724 2
   - 🏳️ Unknown - 09/20 @Config724 3
@@ -664,6 +674,7 @@ proxy-groups:
   - 🇬🇧 United Kingdom - 09/26 @Config724
   - 🇮🇶 Iraq - 09/26 @Config724
   - 🏳️ Unknown - 09/26 @Config724 4
+  - 🇦🇺 Australia - 09/26 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
