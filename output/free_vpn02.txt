@@ -1,2 +1,2 @@
-vless://40084e01-3ab8-4b02-aee2-bcc5088af729@198.105.123.153:2044?security=&encryption=none&headerType=http&type=tcp#https://t.me/AarazV2ray
 vless://40084e01-3ab8-4b02-aee2-bcc5088af729@136.148.77.42:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#https://t.me/FREE_VPN02
+vless://40084e01-3ab8-4b02-aee2-bcc5088af729@198.105.123.153:2044?security=&encryption=none&headerType=http&type=tcp#https://t.me/AarazV2ray
