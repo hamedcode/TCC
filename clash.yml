@@ -14,124 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇺🇸 United States - 09/19 @Config724 2
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🏳️ Unknown - 09/20 @Config724
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-  tls: true
-  servername: nb.lovecf.ggff.net
-- name: 🏳️ Unknown - 09/20 @Config724 2
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /mtmvpn
-    headers:
-      Host: cfvvv-ev1.pages.dev
-  tls: true
-  servername: cfvvv-ev1.pages.dev
-- name: 🏳️ Unknown - 09/20 @Config724 3
-  type: vless
-  server: 104.21.34.106
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cfvvv-ev1.pages.dev
-  tls: true
-  servername: cfvvv-ev1.pages.dev
-- name: 🏳️ Unknown - 09/20 @Config724 4
-  type: trojan
-  server: 172.67.149.60
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: 🇺🇸 United States - 09/20 @Config724
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: firefox
-  alpn:
-  - h2
-- name: 🇺🇸 United States - 09/20 @Config724 2
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: a602c758-0ddf-4f8e-b58b-4997b691d952
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - chchibie98ik.global.ssl.fastly.net
-  tls: true
-  servername: global.fastly.com
-  client-fingerprint: ios
-  alpn:
-  - h2
-  - http/1.1
-- name: 🇩🇪 Germany - 09/20 @Config724
-  type: trojan
-  server: 78.47.146.151
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🇷🇺 Russia - 09/20 @Config724
-  type: vless
-  server: 195.133.73.65
-  port: 443
-  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: 64c1fe36c7846400
-  servername: anyfile2file.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 🏳️ Unknown - 09/21 @Config724
   type: vless
   server: 104.16.10.185
@@ -578,21 +460,196 @@ proxies:
   network: ws
   ws-opts:
     path: /29c8fed7ca22
+- name: 🇬🇧 United Kingdom - 09/27 @Config724
+  type: vless
+  server: 136.148.77.42
+  port: 8080
+  uuid: 40084e01-3ab8-4b02-aee2-bcc5088af729
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇬🇧 United Kingdom - 09/27 @Config724 2
+  type: vless
+  server: 136.148.77.42
+  port: 8080
+  uuid: 40084e01-3ab8-4b02-aee2-bcc5088af729
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+- name: 🇺🇸 United States - 09/27 @Config724
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: a2dad423-4dbe-4f04-a84b-2f5870b6a2c3
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/27 @Config724 2
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 338764e6-0e53-4d51-8057-80ce8d49a963
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/27 @Config724 3
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 5edef725-e2b5-4005-8ce0-161b43a83999
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/27 @Config724 4
+  type: vless
+  server: xray1-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: eccd70d1-ee28-4123-a1dd-4cac94c7139c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/27 @Config724 5
+  type: vless
+  server: xray1-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 73b29bb2-7443-480a-ba47-cea047b231df
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/28 @Config724
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 5b8ce557-47d6-4a57-ada2-097a795a6d19
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - h2
+- name: 🇺🇸 United States - 09/28 @Config724 2
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 5b8ce557-47d6-4a57-ada2-097a795a6d19
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: firefox
+  alpn:
+  - h2
+- name: 🇺🇸 United States - 09/28 @Config724 3
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 338764e6-0e53-4d51-8057-80ce8d49a963
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/28 @Config724 4
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: a2dad423-4dbe-4f04-a84b-2f5870b6a2c3
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/28 @Config724 5
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 5edef725-e2b5-4005-8ce0-161b43a83999
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/28 @Config724 6
+  type: vless
+  server: xray1-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: eccd70d1-ee28-4123-a1dd-4cac94c7139c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/28 @Config724 7
+  type: vless
+  server: xray1-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 73b29bb2-7443-480a-ba47-cea047b231df
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 09/19 @Config724 2
-  - 🏳️ Unknown - 09/20 @Config724
-  - 🏳️ Unknown - 09/20 @Config724 2
-  - 🏳️ Unknown - 09/20 @Config724 3
-  - 🏳️ Unknown - 09/20 @Config724 4
-  - 🇺🇸 United States - 09/20 @Config724
-  - 🇺🇸 United States - 09/20 @Config724 2
-  - 🇩🇪 Germany - 09/20 @Config724
-  - 🇷🇺 Russia - 09/20 @Config724
   - 🏳️ Unknown - 09/21 @Config724
   - 🇺🇸 United States - 09/21 @Config724
   - 🇺🇸 United States - 09/21 @Config724 2
@@ -628,18 +685,23 @@ proxy-groups:
   - 🇮🇶 Iraq - 09/26 @Config724
   - 🏳️ Unknown - 09/26 @Config724 4
   - 🇦🇺 Australia - 09/26 @Config724
+  - 🇬🇧 United Kingdom - 09/27 @Config724
+  - 🇬🇧 United Kingdom - 09/27 @Config724 2
+  - 🇺🇸 United States - 09/27 @Config724
+  - 🇺🇸 United States - 09/27 @Config724 2
+  - 🇺🇸 United States - 09/27 @Config724 3
+  - 🇺🇸 United States - 09/27 @Config724 4
+  - 🇺🇸 United States - 09/27 @Config724 5
+  - 🇺🇸 United States - 09/28 @Config724
+  - 🇺🇸 United States - 09/28 @Config724 2
+  - 🇺🇸 United States - 09/28 @Config724 3
+  - 🇺🇸 United States - 09/28 @Config724 4
+  - 🇺🇸 United States - 09/28 @Config724 5
+  - 🇺🇸 United States - 09/28 @Config724 6
+  - 🇺🇸 United States - 09/28 @Config724 7
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 09/19 @Config724 2
-  - 🏳️ Unknown - 09/20 @Config724
-  - 🏳️ Unknown - 09/20 @Config724 2
-  - 🏳️ Unknown - 09/20 @Config724 3
-  - 🏳️ Unknown - 09/20 @Config724 4
-  - 🇺🇸 United States - 09/20 @Config724
-  - 🇺🇸 United States - 09/20 @Config724 2
-  - 🇩🇪 Germany - 09/20 @Config724
-  - 🇷🇺 Russia - 09/20 @Config724
   - 🏳️ Unknown - 09/21 @Config724
   - 🇺🇸 United States - 09/21 @Config724
   - 🇺🇸 United States - 09/21 @Config724 2
@@ -675,6 +737,20 @@ proxy-groups:
   - 🇮🇶 Iraq - 09/26 @Config724
   - 🏳️ Unknown - 09/26 @Config724 4
   - 🇦🇺 Australia - 09/26 @Config724
+  - 🇬🇧 United Kingdom - 09/27 @Config724
+  - 🇬🇧 United Kingdom - 09/27 @Config724 2
+  - 🇺🇸 United States - 09/27 @Config724
+  - 🇺🇸 United States - 09/27 @Config724 2
+  - 🇺🇸 United States - 09/27 @Config724 3
+  - 🇺🇸 United States - 09/27 @Config724 4
+  - 🇺🇸 United States - 09/27 @Config724 5
+  - 🇺🇸 United States - 09/28 @Config724
+  - 🇺🇸 United States - 09/28 @Config724 2
+  - 🇺🇸 United States - 09/28 @Config724 3
+  - 🇺🇸 United States - 09/28 @Config724 4
+  - 🇺🇸 United States - 09/28 @Config724 5
+  - 🇺🇸 United States - 09/28 @Config724 6
+  - 🇺🇸 United States - 09/28 @Config724 7
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
