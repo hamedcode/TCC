@@ -14,210 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🏳️ Unknown - 09/21 @Config724
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI
-    headers:
-      Host: cfvvv-ev1.pages.dev
-  tls: true
-  servername: cfvvv-ev1.pages.dev
-- name: 🇺🇸 United States - 09/21 @Config724
-  type: vless
-  server: 195.123.235.177
-  port: 443
-  uuid: 729dd5f2-f5ff-4070-8c10-863eceded0b1
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI
-    short-id: c85d029f5e8eb393
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/21 @Config724 2
-  type: vless
-  server: us.1905vpn.ru
-  port: 443
-  uuid: 1397981f-401f-4896-a60c-898b359f4bde
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg
-    short-id: 9292a8cb3ba284d3
-  servername: us.1905vpn.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/21 @Config724 3
-  type: vless
-  server: us.1905vpn.ru
-  port: 443
-  uuid: 1397981f-401f-4896-a60c-898b359f4bde
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg
-    short-id: 9292a8cb3ba284d3
-  servername: us.1905vpn.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇩🇪 Germany - 09/21 @Config724
-  type: vless
-  server: 94.130.68.139
-  port: 2222
-  uuid: 3874802c-d7fb-43e3-aeed-d4413fe444b2
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: w8-t6jxmbKiLU08_EDO2PMKukZlgZsVJzMfcedEh2GA
-    short-id: 48e751d0b80661
-  servername: prod.pl-node-01.security-sbrf.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇸🇬 Singapore - 09/21 @Config724
-  type: vless
-  server: www.zhonglyu.com
-  port: 443
-  uuid: 9c476864-9f34-47a1-9586-c3394aaac720
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dedxh.irandoc.info
-  tls: true
-  servername: www.zhonglyu.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 🇸🇬 Singapore - 09/21 @Config724 2
-  type: vless
-  server: www.zhonglyu.com
-  port: 443
-  uuid: 45a7ebcb-4a59-4b8f-9e93-eca68968578c
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dedh.irandoc.info
-  tls: true
-  servername: dedh.irandoc.info
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 🇸🇬 Singapore - 09/21 @Config724 3
-  type: vless
-  server: www.zhonglyu.com
-  port: 443
-  uuid: 43ba95ef-234c-4c66-a12b-56217b8ebd0a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /15462/ws
-    headers:
-      Host: dedws.irandoc.info
-  tls: true
-  servername: dedws.irandoc.info
-  client-fingerprint: chrome
-- name: 🇬🇧 United Kingdom - 09/21 @Config724
-  type: vless
-  server: 136.148.71.4
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
-  servername: de2.edge-9d7c.com
-  flow: xtls-rprx-vision
-- name: 🏳️ Unknown - 09/22 @Config724
-  type: vless
-  server: 104.21.6.101
-  port: 443
-  uuid: 523e85fa-82b2-4ca5-9ff5-a734a4510197
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - assets-fi1.mirolit.ru
-  tls: true
-  servername: assets-fi1.mirolit.ru
-  client-fingerprint: safari
-- name: 🏳️ Unknown - 09/22 @Config724 2
-  type: vless
-  server: 104.21.61.2
-  port: 443
-  uuid: 2c4374a2-1135-41a6-b1e9-a65964919662
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - 1.ksladoaofkdk.dpdns.org
-  tls: true
-  servername: 1.ksladoaofkdk.dpdns.org
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-- name: 🇩🇪 Germany - 09/22 @Config724
-  type: ss
-  server: 172.104.129.6
-  port: 2087
-  cipher: 2022-blake3-aes-256-gcm
-  password: WAqeGA+dU+HZYSipCio+Jmt7SSVfHjwMH7j8xmsm7/s=:althddZ27iu261I+568pk7HZzBFDCyIx6pvG8H9oXow=
-  udp: true
-- name: 🇫🇮 Finland - 09/22 @Config724
-  type: vless
-  server: 65.109.208.235
-  port: 443
-  uuid: 19ed2624-609a-4090-975a-1c4c416ee323
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: f09CLVED0WnerTVrfS_nZ7UUuTHtT_TIiDeJ0z9WCHY
-    short-id: a96e5dd96c4b902d
-  servername: www.upwork.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇷🇺 Russia - 09/22 @Config724
-  type: vless
-  server: 185.141.227.180
-  port: 2053
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dismissaltree.net
-  tls: true
-  servername: dismissaltree.net
-  client-fingerprint: random
-- name: 🇩🇪 Germany - 09/22 @Config724 2
-  type: vless
-  server: 77.42.34.2
-  port: 30558
-  uuid: bd70f457-3ec8-4c93-9e5d-b2299b98cd80
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: GaiQyQDjRBb4FPg89ifTpLhA5eV4J5X0Othj_uZOxRc
-    short-id: 00587e87ebfbad1d
-  servername: play.google.com
-  client-fingerprint: random
-  flow: xtls-rprx-vision
 - name: 🇺🇸 United States - 09/22 @Config724
   type: vless
   server: tr3.wba-pn.ru
@@ -230,7 +26,7 @@ proxies:
   tls: true
   servername: tr3.wba-pn.ru
   client-fingerprint: random
-- name: 🇷🇺 Russia - 09/22 @Config724 2
+- name: 🇷🇺 Russia - 09/22 @Config724
   type: vless
   server: moldova.cdn-europe.org
   port: 4443
@@ -644,29 +440,221 @@ proxies:
   servername: dl.google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 09/28 @Config724 8
+  type: trojan
+  server: 151.101.56.255
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: mitivpn---nl--s---mitivpn-2.global.ssl.fastly.net
+- name: 🇨🇦 Canada - 09/28 @Config724
+  type: vless
+  server: 151.101.213.199
+  port: 443
+  uuid: c333e2e7-9832-482d-bfc2-ec1f88ec3130
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - ovd9.global.ssl.fastly.net
+  tls: true
+  servername: accounts.fastly.com
+- name: 🇺🇸 United States - 09/28 @Config724 9
+  type: trojan
+  server: 151.101.56.255
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mitivpn---nl--s---mitivpn-2.global.ssl.fastly.net
+- name: 🇳🇱 The Netherlands - 09/28 @Config724
+  type: vless
+  server: 94.237.40.197
+  port: 443
+  uuid: e96896d8-72d1-496f-8d28-b3fa0de4a562
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: RYfzci_ctBzEbBah0jwygnWrGer9_LQfjOgmh9VizQE
+    short-id: f9
+  servername: bazitory.com
+  client-fingerprint: chrome
+- name: 🇳🇱 The Netherlands - 09/28 @Config724 2
+  type: vless
+  server: 94.237.40.197
+  port: 443
+  uuid: e96896d8-72d1-496f-8d28-b3fa0de4a562
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: RYfzci_ctBzEbBah0jwygnWrGer9_LQfjOgmh9VizQE
+    short-id: f9
+  servername: bazitory.com
+  client-fingerprint: chrome
+- name: 🇺🇸 United States - 09/28 @Config724 10
+  type: vless
+  server: 129.101.120.5
+  port: 37951
+  uuid: 25284368-40d5-4abe-9f56-54a07e88a7af
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: O6ZOpoz4sxon8iHxCd5EEvx2K9NUThd4SvOCBEvADEI
+    short-id: a9e21fd097d019c6
+  servername: nl2.dzvn.space
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 09/28 @Config724
+  type: vless
+  server: 91.107.249.200
+  port: 443
+  uuid: f114f195-cf52-474c-83ea-0dcfa84d9258
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 6yOrgIsMRfTe-Gr9TYgyan-0mnKTNfk6fDBxVOiT4HM
+    short-id: 5002b5329814b487
+  servername: 0cc0f6a1.vless-reality-sni.staticedge-delivery.net
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 09/28 @Config724 2
+  type: vless
+  server: 5.75.202.157
+  port: 443
+  uuid: 91f4b813-988b-41ff-9148-b7f0c1189222
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 6yOrgIsMRfTe-Gr9TYgyan-0mnKTNfk6fDBxVOiT4HM
+    short-id: 5002b5329814b487
+  servername: 0cc0f6a1.vless-reality-sni.staticedge-delivery.net
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇷🇺 Russia - 09/28 @Config724
+  type: vless
+  server: 176.108.244.38
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabb
+  servername: dl.google.com
+  client-fingerprint: qq
+- name: 🇷🇺 Russia - 09/29 @Config724
+  type: vless
+  server: 176.108.244.38
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabb
+  servername: dl.google.com
+  client-fingerprint: qq
+- name: 🇷🇺 Russia - 09/29 @Config724 2
+  type: vless
+  server: 176.108.244.178
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  tls: true
+  reality-opts:
+    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: firefox
+- name: 🇷🇺 Russia - 09/29 @Config724 3
+  type: vless
+  server: 176.123.165.180
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: qq
+- name: 🇸🇬 Singapore - 09/29 @Config724
+  type: vless
+  server: 18.140.238.157
+  port: 31870
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: HEaa9lsAxLy1r13R-eB0nZWYj9n4kwxAeZFLFTKF4kc
+    short-id: 2fef6c2f
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 09/29 @Config724
+  type: vless
+  server: dn2.pconnectq.ir
+  port: 443
+  uuid: 9cb18d5e-69e9-4338-9338-de7d523ba4de
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: hiwmkUU64-16Xlxtp8WrbmG6y4j1_RGr09GGXmYbPw4
+    short-id: 012e1adb09710097
+  servername: www.tencent.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 09/29 @Config724
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🏳️ Unknown - 09/21 @Config724
-  - 🇺🇸 United States - 09/21 @Config724
-  - 🇺🇸 United States - 09/21 @Config724 2
-  - 🇺🇸 United States - 09/21 @Config724 3
-  - 🇩🇪 Germany - 09/21 @Config724
-  - 🇸🇬 Singapore - 09/21 @Config724
-  - 🇸🇬 Singapore - 09/21 @Config724 2
-  - 🇸🇬 Singapore - 09/21 @Config724 3
-  - 🇬🇧 United Kingdom - 09/21 @Config724
-  - 🏳️ Unknown - 09/22 @Config724
-  - 🏳️ Unknown - 09/22 @Config724 2
-  - 🇩🇪 Germany - 09/22 @Config724
-  - 🇫🇮 Finland - 09/22 @Config724
-  - 🇷🇺 Russia - 09/22 @Config724
-  - 🇩🇪 Germany - 09/22 @Config724 2
   - 🇺🇸 United States - 09/22 @Config724
-  - 🇷🇺 Russia - 09/22 @Config724 2
+  - 🇷🇺 Russia - 09/22 @Config724
   - 🏳️ Unknown - 09/24 @Config724
   - 🇳🇱 The Netherlands - 09/24 @Config724
   - 🇳🇱 The Netherlands - 09/24 @Config724 2
@@ -699,26 +687,26 @@ proxy-groups:
   - 🇺🇸 United States - 09/28 @Config724 5
   - 🇺🇸 United States - 09/28 @Config724 6
   - 🇺🇸 United States - 09/28 @Config724 7
+  - 🇺🇸 United States - 09/28 @Config724 8
+  - 🇨🇦 Canada - 09/28 @Config724
+  - 🇺🇸 United States - 09/28 @Config724 9
+  - 🇳🇱 The Netherlands - 09/28 @Config724
+  - 🇳🇱 The Netherlands - 09/28 @Config724 2
+  - 🇺🇸 United States - 09/28 @Config724 10
+  - 🇩🇪 Germany - 09/28 @Config724
+  - 🇩🇪 Germany - 09/28 @Config724 2
+  - 🇷🇺 Russia - 09/28 @Config724
+  - 🇷🇺 Russia - 09/29 @Config724
+  - 🇷🇺 Russia - 09/29 @Config724 2
+  - 🇷🇺 Russia - 09/29 @Config724 3
+  - 🇸🇬 Singapore - 09/29 @Config724
+  - 🇩🇪 Germany - 09/29 @Config724
+  - 🏳️ Unknown - 09/29 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🏳️ Unknown - 09/21 @Config724
-  - 🇺🇸 United States - 09/21 @Config724
-  - 🇺🇸 United States - 09/21 @Config724 2
-  - 🇺🇸 United States - 09/21 @Config724 3
-  - 🇩🇪 Germany - 09/21 @Config724
-  - 🇸🇬 Singapore - 09/21 @Config724
-  - 🇸🇬 Singapore - 09/21 @Config724 2
-  - 🇸🇬 Singapore - 09/21 @Config724 3
-  - 🇬🇧 United Kingdom - 09/21 @Config724
-  - 🏳️ Unknown - 09/22 @Config724
-  - 🏳️ Unknown - 09/22 @Config724 2
-  - 🇩🇪 Germany - 09/22 @Config724
-  - 🇫🇮 Finland - 09/22 @Config724
-  - 🇷🇺 Russia - 09/22 @Config724
-  - 🇩🇪 Germany - 09/22 @Config724 2
   - 🇺🇸 United States - 09/22 @Config724
-  - 🇷🇺 Russia - 09/22 @Config724 2
+  - 🇷🇺 Russia - 09/22 @Config724
   - 🏳️ Unknown - 09/24 @Config724
   - 🇳🇱 The Netherlands - 09/24 @Config724
   - 🇳🇱 The Netherlands - 09/24 @Config724 2
@@ -751,6 +739,21 @@ proxy-groups:
   - 🇺🇸 United States - 09/28 @Config724 5
   - 🇺🇸 United States - 09/28 @Config724 6
   - 🇺🇸 United States - 09/28 @Config724 7
+  - 🇺🇸 United States - 09/28 @Config724 8
+  - 🇨🇦 Canada - 09/28 @Config724
+  - 🇺🇸 United States - 09/28 @Config724 9
+  - 🇳🇱 The Netherlands - 09/28 @Config724
+  - 🇳🇱 The Netherlands - 09/28 @Config724 2
+  - 🇺🇸 United States - 09/28 @Config724 10
+  - 🇩🇪 Germany - 09/28 @Config724
+  - 🇩🇪 Germany - 09/28 @Config724 2
+  - 🇷🇺 Russia - 09/28 @Config724
+  - 🇷🇺 Russia - 09/29 @Config724
+  - 🇷🇺 Russia - 09/29 @Config724 2
+  - 🇷🇺 Russia - 09/29 @Config724 3
+  - 🇸🇬 Singapore - 09/29 @Config724
+  - 🇩🇪 Germany - 09/29 @Config724
+  - 🏳️ Unknown - 09/29 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
