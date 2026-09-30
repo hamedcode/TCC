@@ -14,86 +14,6 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇺🇸 United States - 09/22 @Config724
-  type: vless
-  server: tr3.wba-pn.ru
-  port: 443
-  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-  tls: true
-  servername: tr3.wba-pn.ru
-  client-fingerprint: random
-- name: 🇷🇺 Russia - 09/22 @Config724
-  type: vless
-  server: moldova.cdn-europe.org
-  port: 4443
-  uuid: d7c94b82-657a-4bb7-9b24-2ae566669835
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8
-    short-id: 694ee64512cfcbef
-  servername: moldova.cdn-europe.org
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-- name: 🏳️ Unknown - 09/24 @Config724
-  type: vless
-  server: 104.18.26.90
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-  tls: true
-  servername: a.cwvps.eu.org
-- name: 🇳🇱 The Netherlands - 09/24 @Config724
-  type: vless
-  server: 194.87.130.9
-  port: 443
-  uuid: 57a437c4-7eed-4ecf-bf50-5e4e35f71deb
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: pccR04wlWHqbXoRk19m56lzp3CdDFd6RqGEuWj5TrWk
-    short-id: 793bf4b257bbf247
-  servername: www.marktplaats.nl
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-- name: 🇳🇱 The Netherlands - 09/24 @Config724 2
-  type: vless
-  server: 5.253.28.240
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
-  servername: deepl.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇨🇭 Switzerland - 09/24 @Config724
-  type: vless
-  server: uusd66.th3store.ir
-  port: 8443
-  uuid: df2086c8-c706-4fe2-af07-cc5eff272a8d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /hjhjsahsa6sa6sa#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: uusd66.th3store.ir
-  tls: true
-  servername: jjsajajsjjajsjjasjajsjajsjsaj.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
 - name: 🇺🇸 United States - 09/25 @Config724
   type: vless
   server: slowkd.sadiepinki.com
@@ -647,18 +567,42 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
+- name: 🏳️ Unknown - 09/29 @Config724 2
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+  tls: true
+  servername: edgetunnel-4uw.pages.dev
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 09/30 @Config724
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+  tls: true
+  servername: edgetunnel-4uw.pages.dev
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 09/22 @Config724
-  - 🇷🇺 Russia - 09/22 @Config724
-  - 🏳️ Unknown - 09/24 @Config724
-  - 🇳🇱 The Netherlands - 09/24 @Config724
-  - 🇳🇱 The Netherlands - 09/24 @Config724 2
-  - 🇨🇭 Switzerland - 09/24 @Config724
   - 🇺🇸 United States - 09/25 @Config724
   - 🇷🇺 Russia - 09/25 @Config724
   - 🏳️ Unknown - 09/25 @Config724
@@ -702,15 +646,11 @@ proxy-groups:
   - 🇸🇬 Singapore - 09/29 @Config724
   - 🇩🇪 Germany - 09/29 @Config724
   - 🏳️ Unknown - 09/29 @Config724
+  - 🏳️ Unknown - 09/29 @Config724 2
+  - 🏳️ Unknown - 09/30 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 09/22 @Config724
-  - 🇷🇺 Russia - 09/22 @Config724
-  - 🏳️ Unknown - 09/24 @Config724
-  - 🇳🇱 The Netherlands - 09/24 @Config724
-  - 🇳🇱 The Netherlands - 09/24 @Config724 2
-  - 🇨🇭 Switzerland - 09/24 @Config724
   - 🇺🇸 United States - 09/25 @Config724
   - 🇷🇺 Russia - 09/25 @Config724
   - 🏳️ Unknown - 09/25 @Config724
@@ -754,6 +694,8 @@ proxy-groups:
   - 🇸🇬 Singapore - 09/29 @Config724
   - 🇩🇪 Germany - 09/29 @Config724
   - 🏳️ Unknown - 09/29 @Config724
+  - 🏳️ Unknown - 09/29 @Config724 2
+  - 🏳️ Unknown - 09/30 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
