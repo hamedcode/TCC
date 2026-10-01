@@ -1,2 +1,7 @@
-vless://%58pnTeam-57@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
-vless://%58pnTeam-56@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://f8aba8c3-6ab6-4fa0-8815-17e15f4721b1@199.232.78.159:443?security=tls&encryption=none&insecure=0&host=kayko.global.ssl.fastly.net&fp=firefox&type=ws&allowInsecure=0&sni=global.fastly.com#%40mehrosaboran
+vless://f8aba8c3-6ab6-4fa0-8815-17e15f4721b1@199.232.78.159:443?security=tls&encryption=none&insecure=0&host=skyfarst.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=global.fastly.com#%40mehrosaboran
+vless://f8aba8c3-6ab6-4fa0-8815-17e15f4721b1@199.232.246.236:443?security=tls&encryption=none&insecure=0&host=Nonetrap.global.ssl.fastly.net&fp=safari&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://%58pnTeam-58@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://%58pnTeam-59@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://f8aba8c3-6ab6-4fa0-8815-17e15f4721b1@199.232.246.236:443?security=tls&encryption=none&insecure=0&host=teranko.global.ssl.fastly.net&fp=firefox&type=ws&allowInsecure=0&sni=global.fastly.com#%40mehrosaboran
+vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.109.104.103:9881?mode=gun&security=reality&encryption=none&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com#%40mehrosaboran
