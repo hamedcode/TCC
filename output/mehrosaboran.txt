@@ -1,2 +1,4 @@
-vless://36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66@199.232.78.159:443?security=tls&encryption=none&insecure=0&host=pannn1.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
-vless://7fa9cb5f-532a-4fc7-b903-381a125bbb8a@fast.jkerm.com:443?path=%2F&security=tls&encryption=none&insecure=0&host=italyji.global.ssl.fastly.net.&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://%58pnTeam-63@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://26becb32-3d57-4b59-9252-3b046768b1ea@151.101.215.97:443?mode=auto&path=%2F&security=tls&encryption=none&insecure=0&host=ovd13.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=accounts.fastly.com#%40mehrosaboran
+vless://%58pnTeam-64@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
+vless://%58pnTeam-63@151.101.215.97:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
