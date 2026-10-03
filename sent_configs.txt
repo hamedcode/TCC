@@ -98,3 +98,4 @@ vless://%58pnTeam-63@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&en
 vless://26becb32-3d57-4b59-9252-3b046768b1ea@151.101.215.97:443?mode=auto&path=%2F&security=tls&encryption=none&insecure=0&host=ovd13.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=accounts.fastly.com#🇨🇦 Canada - 10/03 @Config724
 vless://%58pnTeam-63@151.101.215.97:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇨🇦 Canada - 10/03 @Config724
 ss://YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA@185.156.47.97:9443#🇨🇦 Canada - 10/03 @Config724
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.182:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#🇺🇸 United States - 10/03 @Config724
