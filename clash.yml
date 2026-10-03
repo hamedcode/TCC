@@ -14,105 +14,14 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇷🇺 Russia - 09/29 @Config724
-  type: vless
-  server: 176.123.165.180
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabbccdd
-  servername: dl.google.com
-  client-fingerprint: qq
-- name: 🇸🇬 Singapore - 09/29 @Config724
-  type: vless
-  server: 18.140.238.157
-  port: 31870
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: HEaa9lsAxLy1r13R-eB0nZWYj9n4kwxAeZFLFTKF4kc
-    short-id: 2fef6c2f
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇩🇪 Germany - 09/29 @Config724
-  type: vless
-  server: dn2.pconnectq.ir
-  port: 443
-  uuid: 9cb18d5e-69e9-4338-9338-de7d523ba4de
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: hiwmkUU64-16Xlxtp8WrbmG6y4j1_RGr09GGXmYbPw4
-    short-id: 012e1adb09710097
-  servername: www.tencent.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🏳️ Unknown - 09/29 @Config724
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🏳️ Unknown - 09/29 @Config724 2
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-  tls: true
-  servername: edgetunnel-4uw.pages.dev
-  alpn:
-  - http/1.1
-- name: 🏳️ Unknown - 09/30 @Config724
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-  tls: true
-  servername: edgetunnel-4uw.pages.dev
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 09/30 @Config724 5
+- name: 🇺🇸 United States - 09/30 @Config724
   type: ss
   server: 64.74.161.148
   port: 17201
   cipher: aes-128-gcm
   password: 1cbb3e347ee86e1980a7c731e9dd00a0
   udp: true
-- name: 🇺🇸 United States - 09/30 @Config724 6
-  type: ss
-  server: 64.74.161.148
-  port: 17201
-  cipher: aes-128-gcm
-  password: 1cbb3e347ee86e1980a7c731e9dd00a0
-  udp: true
-- name: 🇺🇸 United States - 09/30 @Config724 7
+- name: 🇺🇸 United States - 09/30 @Config724 2
   type: vless
   server: 192.142.12.175
   port: 443
@@ -125,7 +34,7 @@ proxies:
   servername: diffoscope.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/30 @Config724 8
+- name: 🇺🇸 United States - 09/30 @Config724 3
   type: vless
   server: 192.142.12.175
   port: 443
@@ -138,7 +47,7 @@ proxies:
   servername: diffoscope.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/30 @Config724 9
+- name: 🇺🇸 United States - 09/30 @Config724 4
   type: vless
   server: 213.178.141.33
   port: 443
@@ -150,7 +59,7 @@ proxies:
     short-id: ''
   servername: germa12.ggisopi.su
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/30 @Config724 10
+- name: 🇺🇸 United States - 09/30 @Config724 5
   type: vless
   server: 192.142.12.175
   port: 443
@@ -163,7 +72,7 @@ proxies:
   servername: diffoscope.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 09/30 @Config724 11
+- name: 🇺🇸 United States - 09/30 @Config724 6
   type: vless
   server: 213.178.141.33
   port: 443
@@ -189,7 +98,7 @@ proxies:
   tls: true
   servername: sub.merky.top
   client-fingerprint: firefox
-- name: 🇺🇸 United States - 09/30 @Config724 12
+- name: 🇺🇸 United States - 09/30 @Config724 7
   type: vless
   server: 169.40.42.184
   port: 443
@@ -477,27 +386,125 @@ proxies:
     short-id: ''
   servername: dl.google.com
   client-fingerprint: firefox
+- name: 🇺🇸 United States - 10/02 @Config724 7
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pannn1.global.ssl.fastly.net
+  tls: true
+  servername: ssl.fastly.com
+- name: 🇺🇸 United States - 10/02 @Config724 8
+  type: vless
+  server: fast.jkerm.com
+  port: 443
+  uuid: 7fa9cb5f-532a-4fc7-b903-381a125bbb8a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: italyji.global.ssl.fastly.net.
+  tls: true
+  servername: ssl.fastly.com
+- name: 🇺🇸 United States - 10/02 @Config724 9
+  type: vless
+  server: 169.40.42.182
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 10/02 @Config724 10
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pannn1.global.ssl.fastly.net
+  tls: true
+  servername: ssl.fastly.com
+- name: 🇨🇦 Canada - 10/02 @Config724
+  type: ss
+  server: 185.156.47.97
+  port: 9443
+  cipher: aes-256-gcm
+  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+  udp: true
+- name: 🇺🇸 United States - 10/02 @Config724 11
+  type: vless
+  server: 169.40.42.182
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 10/02 @Config724 12
+  type: vless
+  server: fast.jkerm.com
+  port: 443
+  uuid: 7fa9cb5f-532a-4fc7-b903-381a125bbb8a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: italyji.global.ssl.fastly.net.
+  tls: true
+  servername: ssl.fastly.com
+- name: 🇨🇦 Canada - 10/03 @Config724
+  type: vless
+  server: 151.101.215.97
+  port: 443
+  uuid: 26becb32-3d57-4b59-9252-3b046768b1ea
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - ovd13.global.ssl.fastly.net
+  tls: true
+  servername: accounts.fastly.com
+- name: 🇨🇦 Canada - 10/03 @Config724 3
+  type: ss
+  server: 185.156.47.97
+  port: 9443
+  cipher: aes-256-gcm
+  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+  udp: true
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇷🇺 Russia - 09/29 @Config724
-  - 🇸🇬 Singapore - 09/29 @Config724
-  - 🇩🇪 Germany - 09/29 @Config724
-  - 🏳️ Unknown - 09/29 @Config724
-  - 🏳️ Unknown - 09/29 @Config724 2
-  - 🏳️ Unknown - 09/30 @Config724
+  - 🇺🇸 United States - 09/30 @Config724
+  - 🇺🇸 United States - 09/30 @Config724 2
+  - 🇺🇸 United States - 09/30 @Config724 3
+  - 🇺🇸 United States - 09/30 @Config724 4
   - 🇺🇸 United States - 09/30 @Config724 5
   - 🇺🇸 United States - 09/30 @Config724 6
-  - 🇺🇸 United States - 09/30 @Config724 7
-  - 🇺🇸 United States - 09/30 @Config724 8
-  - 🇺🇸 United States - 09/30 @Config724 9
-  - 🇺🇸 United States - 09/30 @Config724 10
-  - 🇺🇸 United States - 09/30 @Config724 11
   - 🇩🇪 Germany - 09/30 @Config724
-  - 🇺🇸 United States - 09/30 @Config724 12
+  - 🇺🇸 United States - 09/30 @Config724 7
   - 🇺🇸 United States - 10/01 @Config724 2
   - 🇺🇸 United States - 10/01 @Config724 4
   - 🇷🇺 Russia - 10/01 @Config724
@@ -518,24 +525,26 @@ proxy-groups:
   - 🇺🇸 United States - 10/02 @Config724 4
   - 🇺🇸 United States - 10/02 @Config724 6
   - 🇷🇺 Russia - 10/02 @Config724
+  - 🇺🇸 United States - 10/02 @Config724 7
+  - 🇺🇸 United States - 10/02 @Config724 8
+  - 🇺🇸 United States - 10/02 @Config724 9
+  - 🇺🇸 United States - 10/02 @Config724 10
+  - 🇨🇦 Canada - 10/02 @Config724
+  - 🇺🇸 United States - 10/02 @Config724 11
+  - 🇺🇸 United States - 10/02 @Config724 12
+  - 🇨🇦 Canada - 10/03 @Config724
+  - 🇨🇦 Canada - 10/03 @Config724 3
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇷🇺 Russia - 09/29 @Config724
-  - 🇸🇬 Singapore - 09/29 @Config724
-  - 🇩🇪 Germany - 09/29 @Config724
-  - 🏳️ Unknown - 09/29 @Config724
-  - 🏳️ Unknown - 09/29 @Config724 2
-  - 🏳️ Unknown - 09/30 @Config724
+  - 🇺🇸 United States - 09/30 @Config724
+  - 🇺🇸 United States - 09/30 @Config724 2
+  - 🇺🇸 United States - 09/30 @Config724 3
+  - 🇺🇸 United States - 09/30 @Config724 4
   - 🇺🇸 United States - 09/30 @Config724 5
   - 🇺🇸 United States - 09/30 @Config724 6
-  - 🇺🇸 United States - 09/30 @Config724 7
-  - 🇺🇸 United States - 09/30 @Config724 8
-  - 🇺🇸 United States - 09/30 @Config724 9
-  - 🇺🇸 United States - 09/30 @Config724 10
-  - 🇺🇸 United States - 09/30 @Config724 11
   - 🇩🇪 Germany - 09/30 @Config724
-  - 🇺🇸 United States - 09/30 @Config724 12
+  - 🇺🇸 United States - 09/30 @Config724 7
   - 🇺🇸 United States - 10/01 @Config724 2
   - 🇺🇸 United States - 10/01 @Config724 4
   - 🇷🇺 Russia - 10/01 @Config724
@@ -556,6 +565,15 @@ proxy-groups:
   - 🇺🇸 United States - 10/02 @Config724 4
   - 🇺🇸 United States - 10/02 @Config724 6
   - 🇷🇺 Russia - 10/02 @Config724
+  - 🇺🇸 United States - 10/02 @Config724 7
+  - 🇺🇸 United States - 10/02 @Config724 8
+  - 🇺🇸 United States - 10/02 @Config724 9
+  - 🇺🇸 United States - 10/02 @Config724 10
+  - 🇨🇦 Canada - 10/02 @Config724
+  - 🇺🇸 United States - 10/02 @Config724 11
+  - 🇺🇸 United States - 10/02 @Config724 12
+  - 🇨🇦 Canada - 10/03 @Config724
+  - 🇨🇦 Canada - 10/03 @Config724 3
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
