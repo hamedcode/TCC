@@ -1,3 +1,0 @@
-vless://%58pnTeam-70@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
-vless://10a46e2e-c05e-46c8-c0a6-f55b716d1f1d@94.237.43.11:443?security=reality&encryption=none&pbk=y4EAK3C7BjrAhd2eneXeoBHxA2iATHQ7BmkwWFF6v0E&host=ajax.googleapis.com&headerType=http&fp=safari&spx=%2F&type=tcp&sni=ajax.googleapis.com#%40mehrosaboran
-vless://%58pnTeam-69@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40mehrosaboran
