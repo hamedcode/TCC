@@ -14,140 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇷🇺 Russia - 10/02 @Config724
-  type: vless
-  server: 176.109.104.103
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: firefox
-- name: 🇺🇸 United States - 10/02 @Config724
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pannn1.global.ssl.fastly.net
-  tls: true
-  servername: ssl.fastly.com
-- name: 🇺🇸 United States - 10/02 @Config724 2
-  type: vless
-  server: fast.jkerm.com
-  port: 443
-  uuid: 7fa9cb5f-532a-4fc7-b903-381a125bbb8a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: italyji.global.ssl.fastly.net.
-  tls: true
-  servername: ssl.fastly.com
-- name: 🇺🇸 United States - 10/02 @Config724 3
-  type: vless
-  server: 169.40.42.182
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/02 @Config724 4
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pannn1.global.ssl.fastly.net
-  tls: true
-  servername: ssl.fastly.com
-- name: 🇨🇦 Canada - 10/02 @Config724
-  type: ss
-  server: 185.156.47.97
-  port: 9443
-  cipher: aes-256-gcm
-  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  udp: true
-- name: 🇺🇸 United States - 10/02 @Config724 5
-  type: vless
-  server: 169.40.42.182
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/02 @Config724 6
-  type: vless
-  server: fast.jkerm.com
-  port: 443
-  uuid: 7fa9cb5f-532a-4fc7-b903-381a125bbb8a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: italyji.global.ssl.fastly.net.
-  tls: true
-  servername: ssl.fastly.com
-- name: 🇨🇦 Canada - 10/03 @Config724
-  type: vless
-  server: 151.101.215.97
-  port: 443
-  uuid: 26becb32-3d57-4b59-9252-3b046768b1ea
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - ovd13.global.ssl.fastly.net
-  tls: true
-  servername: accounts.fastly.com
-- name: 🇨🇦 Canada - 10/03 @Config724 3
-  type: ss
-  server: 185.156.47.97
-  port: 9443
-  cipher: aes-256-gcm
-  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  udp: true
-- name: 🇺🇸 United States - 10/03 @Config724 3
-  type: vless
-  server: 169.40.42.182
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-- name: 🏳️ Unknown - 10/03 @Config724 2
+- name: 🏳️ Unknown - 10/03 @Config724
   type: vless
   server: s3.bamans.uk
   port: 443
@@ -175,7 +42,7 @@ proxies:
     short-id: 4164bb3d830b817f
   servername: sberbank.ru
   client-fingerprint: safari
-- name: 🇺🇸 United States - 10/03 @Config724 4
+- name: 🇺🇸 United States - 10/03 @Config724
   type: vless
   server: 13.143.163.148
   port: 443
@@ -415,26 +282,174 @@ proxies:
   servername: diffoscope.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+- name: 🇷🇺 Russia - 10/06 @Config724
+  type: vless
+  server: tgfree.rush-server.com
+  port: 443
+  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: 64c1fe36c7846400
+  servername: anyfile2file.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 10/06 @Config724 2
+  type: vless
+  server: kala.fortresshost.ir
+  port: 443
+  uuid: 9eb6abc0-8423-4ff6-efb3-7603ddfb9636
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - kala.fortresshost.ir
+  tls: true
+  servername: kala.fortresshost.ir
+  client-fingerprint: chrome
+  alpn:
+  - h2
+- name: 🇺🇸 United States - 10/06 @Config724 4
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🏳️ Unknown - 10/06 @Config724
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇮🇪 Ireland - 10/06 @Config724
+  type: vless
+  server: 89.127.211.136
+  port: 443
+  uuid: 43f9d37f-eb1b-422b-95c9-8b871b85cac6
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: B_ECg6QHMzkOBnIooFJF3TmrqTxyi5KZG0hpOdiu3EE
+    short-id: 2defe5aff7b28dea
+  servername: www.sony.co.uk
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 10/06 @Config724 3
+  type: vless
+  server: 195.252.179.1
+  port: 443
+  uuid: 596086c9-3167-0004-97a1-c04311039e06
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  servername: diffoscope.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇬🇧 United Kingdom - 10/06 @Config724
+  type: vless
+  server: 2.27.69.117
+  port: 443
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: -bn-69fLm8-ZIN4AWcFJTvliohVXnevdOK6E0HJF90Y
+    short-id: 123c2bff
+  servername: addons.mozilla.org
+  client-fingerprint: randomized
+  flow: xtls-rprx-vision
+- name: 🇬🇧 United Kingdom - 10/06 @Config724 2
+  type: vless
+  server: 109.104.106.149
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: a_v5l6R-rpVGlENLeONW4sz-GdRwIoDqISOWXGov8nw
+    short-id: 87709fed663228e5
+  servername: d3-ro.cloud-cdn.xyz
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 10/06 @Config724 6
+  type: vless
+  server: 13.143.129.45
+  port: 443
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: CsoM3VUYii1XxgxnrT4VEe-EALgn60k6BaKMJVP9qAM
+    short-id: 7dd08043
+  servername: addons.mozilla.org
+  client-fingerprint: randomized
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 10/06 @Config724 7
+  type: vless
+  server: 131.123.13.93
+  port: 443
+  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
+    short-id: 29455a3a790acbd0
+  servername: 1mcfn.67resserv67.info
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 10/07 @Config724
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🏳️ Unknown - 10/07 @Config724
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇷🇺 Russia - 10/02 @Config724
-  - 🇺🇸 United States - 10/02 @Config724
-  - 🇺🇸 United States - 10/02 @Config724 2
-  - 🇺🇸 United States - 10/02 @Config724 3
-  - 🇺🇸 United States - 10/02 @Config724 4
-  - 🇨🇦 Canada - 10/02 @Config724
-  - 🇺🇸 United States - 10/02 @Config724 5
-  - 🇺🇸 United States - 10/02 @Config724 6
-  - 🇨🇦 Canada - 10/03 @Config724
-  - 🇨🇦 Canada - 10/03 @Config724 3
-  - 🇺🇸 United States - 10/03 @Config724 3
-  - 🏳️ Unknown - 10/03 @Config724 2
+  - 🏳️ Unknown - 10/03 @Config724
   - 🇳🇴 Norway - 10/03 @Config724
-  - 🇺🇸 United States - 10/03 @Config724 4
+  - 🇺🇸 United States - 10/03 @Config724
   - 🇵🇱 Poland - 10/03 @Config724
   - 🇩🇪 Germany - 10/03 @Config724
   - 🏳️ Unknown - 10/04 @Config724
@@ -452,23 +467,24 @@ proxy-groups:
   - 🇷🇺 Russia - 10/04 @Config724
   - 🇱🇹 Lithuania - 10/05 @Config724
   - 🇩🇪 Germany - 10/06 @Config724
+  - 🇷🇺 Russia - 10/06 @Config724
+  - 🇩🇪 Germany - 10/06 @Config724 2
+  - 🇺🇸 United States - 10/06 @Config724 4
+  - 🏳️ Unknown - 10/06 @Config724
+  - 🇮🇪 Ireland - 10/06 @Config724
+  - 🇩🇪 Germany - 10/06 @Config724 3
+  - 🇬🇧 United Kingdom - 10/06 @Config724
+  - 🇬🇧 United Kingdom - 10/06 @Config724 2
+  - 🇺🇸 United States - 10/06 @Config724 6
+  - 🇺🇸 United States - 10/06 @Config724 7
+  - 🇺🇸 United States - 10/07 @Config724
+  - 🏳️ Unknown - 10/07 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇷🇺 Russia - 10/02 @Config724
-  - 🇺🇸 United States - 10/02 @Config724
-  - 🇺🇸 United States - 10/02 @Config724 2
-  - 🇺🇸 United States - 10/02 @Config724 3
-  - 🇺🇸 United States - 10/02 @Config724 4
-  - 🇨🇦 Canada - 10/02 @Config724
-  - 🇺🇸 United States - 10/02 @Config724 5
-  - 🇺🇸 United States - 10/02 @Config724 6
-  - 🇨🇦 Canada - 10/03 @Config724
-  - 🇨🇦 Canada - 10/03 @Config724 3
-  - 🇺🇸 United States - 10/03 @Config724 3
-  - 🏳️ Unknown - 10/03 @Config724 2
+  - 🏳️ Unknown - 10/03 @Config724
   - 🇳🇴 Norway - 10/03 @Config724
-  - 🇺🇸 United States - 10/03 @Config724 4
+  - 🇺🇸 United States - 10/03 @Config724
   - 🇵🇱 Poland - 10/03 @Config724
   - 🇩🇪 Germany - 10/03 @Config724
   - 🏳️ Unknown - 10/04 @Config724
@@ -486,6 +502,18 @@ proxy-groups:
   - 🇷🇺 Russia - 10/04 @Config724
   - 🇱🇹 Lithuania - 10/05 @Config724
   - 🇩🇪 Germany - 10/06 @Config724
+  - 🇷🇺 Russia - 10/06 @Config724
+  - 🇩🇪 Germany - 10/06 @Config724 2
+  - 🇺🇸 United States - 10/06 @Config724 4
+  - 🏳️ Unknown - 10/06 @Config724
+  - 🇮🇪 Ireland - 10/06 @Config724
+  - 🇩🇪 Germany - 10/06 @Config724 3
+  - 🇬🇧 United Kingdom - 10/06 @Config724
+  - 🇬🇧 United Kingdom - 10/06 @Config724 2
+  - 🇺🇸 United States - 10/06 @Config724 6
+  - 🇺🇸 United States - 10/06 @Config724 7
+  - 🇺🇸 United States - 10/07 @Config724
+  - 🏳️ Unknown - 10/07 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
