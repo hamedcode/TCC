@@ -14,223 +14,59 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🏳️ Unknown - 10/03 @Config724
+- name: 🇺🇸 United States - 10/04 @Config724
   type: vless
-  server: s3.bamans.uk
+  server: xray2-direct-mci1-fs-ce.freesocks.work
   port: 443
-  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-  udp: true
-  network: http
-  tls: true
-  servername: s3.bamans.uk
-  alpn:
-  - h2
-- name: 🇳🇴 Norway - 10/03 @Config724
-  type: vless
-  server: 185.90.61.12
-  port: 443
-  uuid: 8ee2927b-1be9-404d-9b96-61dcc51bbd37
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - vk.com
-  tls: true
-  reality-opts:
-    public-key: PlP5L4lWEh_9h53_U-5kqwzl4C-eCrJoA6BF74cdfk8
-    short-id: 4164bb3d830b817f
-  servername: sberbank.ru
-  client-fingerprint: safari
-- name: 🇺🇸 United States - 10/03 @Config724
-  type: vless
-  server: 13.143.163.148
-  port: 443
-  uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
+  uuid: c8f7995a-1da3-4905-b499-d462738b57c1
   udp: true
   tls: true
   reality-opts:
-    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
     short-id: ''
-  servername: gemsubbgem.world
+  servername: dl.google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 🇵🇱 Poland - 10/03 @Config724
+- name: 🇺🇸 United States - 10/04 @Config724 2
   type: vless
-  server: 149.86.227.200
+  server: xray2-direct-mci1-fs-ce.freesocks.work
   port: 443
-  uuid: 0f4081e7-612b-425f-8def-eebf144aedba
+  uuid: ca95a382-3e46-4a18-9fe1-ee3650b87e6b
   udp: true
   tls: true
   reality-opts:
-    public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
-    short-id: 9e15546f267baa64
-  servername: waypoint.connectserverix.com
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 🇩🇪 Germany - 10/03 @Config724
+- name: 🇺🇸 United States - 10/04 @Config724 3
   type: vless
-  server: germanygem.site
+  server: xray2-direct-mci1-fs-ce.freesocks.work
   port: 443
-  uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
+  uuid: aa95ffcc-78b6-47a1-b713-631407e65524
   udp: true
   tls: true
   reality-opts:
-    public-key: JDkmWk05oDq9sMni-vJt_00qVhALtoQ7ynojJqnlvgg
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
     short-id: ''
-  servername: germanygem.site
-  client-fingerprint: qq
+  servername: dl.google.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 🏳️ Unknown - 10/04 @Config724
-  type: trojan
-  server: 188.114.97.6
+- name: 🇺🇸 United States - 10/04 @Config724 4
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
   port: 443
-  password: humanity
+  uuid: 2bcb75b1-2786-4f6a-8bd3-cd0407d3a8dd
   udp: true
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.volumeroot.com
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
 - name: 🇺🇸 United States - 10/04 @Config724 5
-  type: vless
-  server: xray1-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: fa670a1a-71b7-441d-841d-8955f6ed5147
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 6
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: 2bcb75b1-2786-4f6a-8bd3-cd0407d3a8dd
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 7
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: ca95a382-3e46-4a18-9fe1-ee3650b87e6b
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 8
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: c8f7995a-1da3-4905-b499-d462738b57c1
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 9
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: aa95ffcc-78b6-47a1-b713-631407e65524
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇳🇱 The Netherlands - 10/04 @Config724
-  type: vless
-  server: 94.237.43.11
-  port: 443
-  uuid: 10a46e2e-c05e-46c8-c0a6-f55b716d1f1d
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - ajax.googleapis.com
-  tls: true
-  reality-opts:
-    public-key: y4EAK3C7BjrAhd2eneXeoBHxA2iATHQ7BmkwWFF6v0E
-    short-id: ''
-  servername: ajax.googleapis.com
-  client-fingerprint: safari
-- name: 🇺🇸 United States - 10/04 @Config724 14
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: c8f7995a-1da3-4905-b499-d462738b57c1
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 15
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: ca95a382-3e46-4a18-9fe1-ee3650b87e6b
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 16
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: aa95ffcc-78b6-47a1-b713-631407e65524
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 17
-  type: vless
-  server: xray2-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: 2bcb75b1-2786-4f6a-8bd3-cd0407d3a8dd
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/04 @Config724 18
   type: vless
   server: xray1-direct-mci1-fs-ce.freesocks.work
   port: 443
@@ -441,29 +277,249 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+- name: 🇺🇸 United States - 10/07 @Config724 5
+  type: vless
+  server: 141.193.213.172
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  udp: true
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m?ed#Telegram---mehrosaboran
+    headers:
+      Host: s3ws.ragingbull.de5.net
+  tls: true
+  servername: s3ws.ragingbull.de5.net
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 10/07 @Config724 6
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🏳️ Unknown - 10/07 @Config724 2
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - b33ec4a1s226.fuhuovps.xyz
+  tls: true
+  servername: b33ec4a1s226.fuhuovps.xyz
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 🏳️ Unknown - 10/07 @Config724 3
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+  tls: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 10/07 @Config724 7
+  type: vless
+  server: 141.193.213.172
+  port: 443
+  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
+  udp: true
+  network: ws
+  ws-opts:
+    path: /beeline?ed#Telegram---mehrosaboran
+    headers:
+      Host: w2p6.vpnpolar.online
+  tls: true
+  servername: w2p6.vpnpolar.online
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/07 @Config724 4
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---mehrosaboran
+    headers:
+      Host: snip.edgeoneai.cc.cd
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/07 @Config724 5
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+  udp: true
+  skip-cert-verify: false
+  sni: mfyousheng.nl.eu.org
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /tjwsLhx0SFASG4l9FERJ1g?ed#Telegram---mehrosaboran
+    headers:
+      Host: mfyousheng.nl.eu.org
+- name: 🇺🇸 United States - 10/07 @Config724 9
+  type: vless
+  server: 169.40.42.90
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 10/08 @Config724
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+  tls: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/08 @Config724 2
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---mehrosaboran
+    headers:
+      Host: snip.edgeoneai.cc.cd
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/08 @Config724 3
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+  udp: true
+  skip-cert-verify: false
+  sni: mfyousheng.nl.eu.org
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /tjwsLhx0SFASG4l9FERJ1g?ed#Telegram---mehrosaboran
+    headers:
+      Host: mfyousheng.nl.eu.org
+- name: 🏳️ Unknown - 10/08 @Config724 4
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  udp: true
+  network: http
+  http-opts:
+    headers:
+      Host:
+      - b33ec4a1s226.fuhuovps.xyz
+  tls: true
+  servername: b33ec4a1s226.fuhuovps.xyz
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 🇺🇸 United States - 10/08 @Config724 3
+  type: vless
+  server: 141.193.213.172
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  udp: true
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m?ed#Telegram---mehrosaboran
+    headers:
+      Host: s3ws.ragingbull.de5.net
+  tls: true
+  servername: s3ws.ragingbull.de5.net
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 10/08 @Config724 4
+  type: vless
+  server: 141.193.213.172
+  port: 443
+  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
+  udp: true
+  network: ws
+  ws-opts:
+    path: /beeline?ed#Telegram---mehrosaboran
+    headers:
+      Host: w2p6.vpnpolar.online
+  tls: true
+  servername: w2p6.vpnpolar.online
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇺🇸 United States - 10/08 @Config724 5
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🏳️ Unknown - 10/03 @Config724
-  - 🇳🇴 Norway - 10/03 @Config724
-  - 🇺🇸 United States - 10/03 @Config724
-  - 🇵🇱 Poland - 10/03 @Config724
-  - 🇩🇪 Germany - 10/03 @Config724
-  - 🏳️ Unknown - 10/04 @Config724
+  - 🇺🇸 United States - 10/04 @Config724
+  - 🇺🇸 United States - 10/04 @Config724 2
+  - 🇺🇸 United States - 10/04 @Config724 3
+  - 🇺🇸 United States - 10/04 @Config724 4
   - 🇺🇸 United States - 10/04 @Config724 5
-  - 🇺🇸 United States - 10/04 @Config724 6
-  - 🇺🇸 United States - 10/04 @Config724 7
-  - 🇺🇸 United States - 10/04 @Config724 8
-  - 🇺🇸 United States - 10/04 @Config724 9
-  - 🇳🇱 The Netherlands - 10/04 @Config724
-  - 🇺🇸 United States - 10/04 @Config724 14
-  - 🇺🇸 United States - 10/04 @Config724 15
-  - 🇺🇸 United States - 10/04 @Config724 16
-  - 🇺🇸 United States - 10/04 @Config724 17
-  - 🇺🇸 United States - 10/04 @Config724 18
   - 🇷🇺 Russia - 10/04 @Config724
   - 🇱🇹 Lithuania - 10/05 @Config724
   - 🇩🇪 Germany - 10/06 @Config724
@@ -479,26 +535,29 @@ proxy-groups:
   - 🇺🇸 United States - 10/06 @Config724 7
   - 🇺🇸 United States - 10/07 @Config724
   - 🏳️ Unknown - 10/07 @Config724
+  - 🇺🇸 United States - 10/07 @Config724 5
+  - 🇺🇸 United States - 10/07 @Config724 6
+  - 🏳️ Unknown - 10/07 @Config724 2
+  - 🏳️ Unknown - 10/07 @Config724 3
+  - 🇺🇸 United States - 10/07 @Config724 7
+  - 🏳️ Unknown - 10/07 @Config724 4
+  - 🏳️ Unknown - 10/07 @Config724 5
+  - 🇺🇸 United States - 10/07 @Config724 9
+  - 🏳️ Unknown - 10/08 @Config724
+  - 🏳️ Unknown - 10/08 @Config724 2
+  - 🏳️ Unknown - 10/08 @Config724 3
+  - 🏳️ Unknown - 10/08 @Config724 4
+  - 🇺🇸 United States - 10/08 @Config724 3
+  - 🇺🇸 United States - 10/08 @Config724 4
+  - 🇺🇸 United States - 10/08 @Config724 5
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🏳️ Unknown - 10/03 @Config724
-  - 🇳🇴 Norway - 10/03 @Config724
-  - 🇺🇸 United States - 10/03 @Config724
-  - 🇵🇱 Poland - 10/03 @Config724
-  - 🇩🇪 Germany - 10/03 @Config724
-  - 🏳️ Unknown - 10/04 @Config724
+  - 🇺🇸 United States - 10/04 @Config724
+  - 🇺🇸 United States - 10/04 @Config724 2
+  - 🇺🇸 United States - 10/04 @Config724 3
+  - 🇺🇸 United States - 10/04 @Config724 4
   - 🇺🇸 United States - 10/04 @Config724 5
-  - 🇺🇸 United States - 10/04 @Config724 6
-  - 🇺🇸 United States - 10/04 @Config724 7
-  - 🇺🇸 United States - 10/04 @Config724 8
-  - 🇺🇸 United States - 10/04 @Config724 9
-  - 🇳🇱 The Netherlands - 10/04 @Config724
-  - 🇺🇸 United States - 10/04 @Config724 14
-  - 🇺🇸 United States - 10/04 @Config724 15
-  - 🇺🇸 United States - 10/04 @Config724 16
-  - 🇺🇸 United States - 10/04 @Config724 17
-  - 🇺🇸 United States - 10/04 @Config724 18
   - 🇷🇺 Russia - 10/04 @Config724
   - 🇱🇹 Lithuania - 10/05 @Config724
   - 🇩🇪 Germany - 10/06 @Config724
@@ -514,6 +573,21 @@ proxy-groups:
   - 🇺🇸 United States - 10/06 @Config724 7
   - 🇺🇸 United States - 10/07 @Config724
   - 🏳️ Unknown - 10/07 @Config724
+  - 🇺🇸 United States - 10/07 @Config724 5
+  - 🇺🇸 United States - 10/07 @Config724 6
+  - 🏳️ Unknown - 10/07 @Config724 2
+  - 🏳️ Unknown - 10/07 @Config724 3
+  - 🇺🇸 United States - 10/07 @Config724 7
+  - 🏳️ Unknown - 10/07 @Config724 4
+  - 🏳️ Unknown - 10/07 @Config724 5
+  - 🇺🇸 United States - 10/07 @Config724 9
+  - 🏳️ Unknown - 10/08 @Config724
+  - 🏳️ Unknown - 10/08 @Config724 2
+  - 🏳️ Unknown - 10/08 @Config724 3
+  - 🏳️ Unknown - 10/08 @Config724 4
+  - 🇺🇸 United States - 10/08 @Config724 3
+  - 🇺🇸 United States - 10/08 @Config724 4
+  - 🇺🇸 United States - 10/08 @Config724 5
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
