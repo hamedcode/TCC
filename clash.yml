@@ -14,176 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇩🇪 Germany - 10/06 @Config724
-  type: vless
-  server: 195.252.179.1
-  port: 443
-  uuid: 596086c9-3167-0004-97a1-c04311039e06
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  servername: diffoscope.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇬🇧 United Kingdom - 10/06 @Config724
-  type: vless
-  server: 2.27.69.117
-  port: 443
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: -bn-69fLm8-ZIN4AWcFJTvliohVXnevdOK6E0HJF90Y
-    short-id: 123c2bff
-  servername: addons.mozilla.org
-  client-fingerprint: randomized
-  flow: xtls-rprx-vision
-- name: 🇬🇧 United Kingdom - 10/06 @Config724 2
-  type: vless
-  server: 109.104.106.149
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: a_v5l6R-rpVGlENLeONW4sz-GdRwIoDqISOWXGov8nw
-    short-id: 87709fed663228e5
-  servername: d3-ro.cloud-cdn.xyz
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/06 @Config724
-  type: vless
-  server: 13.143.129.45
-  port: 443
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: CsoM3VUYii1XxgxnrT4VEe-EALgn60k6BaKMJVP9qAM
-    short-id: 7dd08043
-  servername: addons.mozilla.org
-  client-fingerprint: randomized
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/06 @Config724 2
-  type: vless
-  server: 131.123.13.93
-  port: 443
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-    short-id: 29455a3a790acbd0
-  servername: 1mcfn.67resserv67.info
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 10/07 @Config724
-  type: trojan
-  server: 141.193.213.172
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
 - name: 🏳️ Unknown - 10/07 @Config724
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇺🇸 United States - 10/07 @Config724 5
-  type: vless
-  server: 141.193.213.172
-  port: 443
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  udp: true
-  network: ws
-  ws-opts:
-    path: /wsrb7k2m?ed#Telegram---mehrosaboran
-    headers:
-      Host: s3ws.ragingbull.de5.net
-  tls: true
-  servername: s3ws.ragingbull.de5.net
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 10/07 @Config724 6
-  type: trojan
-  server: 141.193.213.172
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🏳️ Unknown - 10/07 @Config724 2
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - b33ec4a1s226.fuhuovps.xyz
-  tls: true
-  servername: b33ec4a1s226.fuhuovps.xyz
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: 🏳️ Unknown - 10/07 @Config724 3
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-  tls: true
-  servername: lucasjow.us.ci
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🇺🇸 United States - 10/07 @Config724 7
-  type: vless
-  server: 141.193.213.172
-  port: 443
-  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
-  udp: true
-  network: ws
-  ws-opts:
-    path: /beeline?ed#Telegram---mehrosaboran
-    headers:
-      Host: w2p6.vpnpolar.online
-  tls: true
-  servername: w2p6.vpnpolar.online
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🏳️ Unknown - 10/07 @Config724 4
   type: vless
   server: 188.114.97.6
   port: 443
@@ -199,7 +30,7 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 🏳️ Unknown - 10/07 @Config724 5
+- name: 🏳️ Unknown - 10/07 @Config724 2
   type: trojan
   server: 188.114.97.6
   port: 443
@@ -215,7 +46,7 @@ proxies:
     path: /tjwsLhx0SFASG4l9FERJ1g?ed#Telegram---mehrosaboran
     headers:
       Host: mfyousheng.nl.eu.org
-- name: 🇺🇸 United States - 10/07 @Config724 9
+- name: 🇺🇸 United States - 10/07 @Config724 2
   type: vless
   server: 169.40.42.90
   port: 443
@@ -558,27 +389,189 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇺🇸 United States - 10/09 @Config724 5
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: ''
+  servername: fuck.rkn
+  flow: xtls-rprx-vision
+- name: 🇫🇷 France - 10/09 @Config724
+  type: vless
+  server: 137.74.16.237
+  port: 443
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+    short-id: b390e0a721d242b0
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 10/10 @Config724
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 49ccad64-c854-4f33-b334-793cf0d02b74
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosabiran
+    headers:
+      Host: newcscf.jisucf.cloudns.ch
+  tls: true
+  servername: newcscf.jisucf.cloudns.ch
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/10 @Config724 2
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+  tls: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/10 @Config724 3
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+  tls: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇫🇷 France - 10/10 @Config724
+  type: vless
+  server: 137.74.16.237
+  port: 443
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+    short-id: b390e0a721d242b0
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🏳️ Unknown - 10/10 @Config724 4
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇿🇦 South Africa - 10/10 @Config724
+  type: ss
+  server: 20.87.212.24
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: zlHMpI7N5dkZOHdH
+  udp: true
+- name: 🏳️ Unknown - 10/10 @Config724 5
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 49ccad64-c854-4f33-b334-793cf0d02b74
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosabiran
+    headers:
+      Host: newcscf.jisucf.cloudns.ch
+  tls: true
+  servername: newcscf.jisucf.cloudns.ch
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/10 @Config724 6
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+  tls: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/10 @Config724 7
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+  tls: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🏳️ Unknown - 10/10 @Config724 8
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇿🇦 South Africa - 10/10 @Config724 2
+  type: ss
+  server: 20.87.212.24
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: zlHMpI7N5dkZOHdH
+  udp: true
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇩🇪 Germany - 10/06 @Config724
-  - 🇬🇧 United Kingdom - 10/06 @Config724
-  - 🇬🇧 United Kingdom - 10/06 @Config724 2
-  - 🇺🇸 United States - 10/06 @Config724
-  - 🇺🇸 United States - 10/06 @Config724 2
-  - 🇺🇸 United States - 10/07 @Config724
   - 🏳️ Unknown - 10/07 @Config724
-  - 🇺🇸 United States - 10/07 @Config724 5
-  - 🇺🇸 United States - 10/07 @Config724 6
   - 🏳️ Unknown - 10/07 @Config724 2
-  - 🏳️ Unknown - 10/07 @Config724 3
-  - 🇺🇸 United States - 10/07 @Config724 7
-  - 🏳️ Unknown - 10/07 @Config724 4
-  - 🏳️ Unknown - 10/07 @Config724 5
-  - 🇺🇸 United States - 10/07 @Config724 9
+  - 🇺🇸 United States - 10/07 @Config724 2
   - 🏳️ Unknown - 10/08 @Config724
   - 🏳️ Unknown - 10/08 @Config724 2
   - 🏳️ Unknown - 10/08 @Config724 3
@@ -603,24 +596,25 @@ proxy-groups:
   - 🇧🇷 Brazil - 10/09 @Config724
   - 🏳️ Unknown - 10/09 @Config724
   - 🏳️ Unknown - 10/09 @Config724 2
+  - 🇺🇸 United States - 10/09 @Config724 5
+  - 🇫🇷 France - 10/09 @Config724
+  - 🏳️ Unknown - 10/10 @Config724
+  - 🏳️ Unknown - 10/10 @Config724 2
+  - 🏳️ Unknown - 10/10 @Config724 3
+  - 🇫🇷 France - 10/10 @Config724
+  - 🏳️ Unknown - 10/10 @Config724 4
+  - 🇿🇦 South Africa - 10/10 @Config724
+  - 🏳️ Unknown - 10/10 @Config724 5
+  - 🏳️ Unknown - 10/10 @Config724 6
+  - 🏳️ Unknown - 10/10 @Config724 7
+  - 🏳️ Unknown - 10/10 @Config724 8
+  - 🇿🇦 South Africa - 10/10 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇩🇪 Germany - 10/06 @Config724
-  - 🇬🇧 United Kingdom - 10/06 @Config724
-  - 🇬🇧 United Kingdom - 10/06 @Config724 2
-  - 🇺🇸 United States - 10/06 @Config724
-  - 🇺🇸 United States - 10/06 @Config724 2
-  - 🇺🇸 United States - 10/07 @Config724
   - 🏳️ Unknown - 10/07 @Config724
-  - 🇺🇸 United States - 10/07 @Config724 5
-  - 🇺🇸 United States - 10/07 @Config724 6
   - 🏳️ Unknown - 10/07 @Config724 2
-  - 🏳️ Unknown - 10/07 @Config724 3
-  - 🇺🇸 United States - 10/07 @Config724 7
-  - 🏳️ Unknown - 10/07 @Config724 4
-  - 🏳️ Unknown - 10/07 @Config724 5
-  - 🇺🇸 United States - 10/07 @Config724 9
+  - 🇺🇸 United States - 10/07 @Config724 2
   - 🏳️ Unknown - 10/08 @Config724
   - 🏳️ Unknown - 10/08 @Config724 2
   - 🏳️ Unknown - 10/08 @Config724 3
@@ -645,6 +639,19 @@ proxy-groups:
   - 🇧🇷 Brazil - 10/09 @Config724
   - 🏳️ Unknown - 10/09 @Config724
   - 🏳️ Unknown - 10/09 @Config724 2
+  - 🇺🇸 United States - 10/09 @Config724 5
+  - 🇫🇷 France - 10/09 @Config724
+  - 🏳️ Unknown - 10/10 @Config724
+  - 🏳️ Unknown - 10/10 @Config724 2
+  - 🏳️ Unknown - 10/10 @Config724 3
+  - 🇫🇷 France - 10/10 @Config724
+  - 🏳️ Unknown - 10/10 @Config724 4
+  - 🇿🇦 South Africa - 10/10 @Config724
+  - 🏳️ Unknown - 10/10 @Config724 5
+  - 🏳️ Unknown - 10/10 @Config724 6
+  - 🏳️ Unknown - 10/10 @Config724 7
+  - 🏳️ Unknown - 10/10 @Config724 8
+  - 🇿🇦 South Africa - 10/10 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
