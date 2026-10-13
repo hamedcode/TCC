@@ -14,39 +14,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://8.8.4.4:853
 proxies:
-- name: 🇳🇱 The Netherlands - 10/10 @Config724
-  type: vless
-  server: 206.71.158.124
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  udp: true
-  network: http
-  http-opts:
-    headers:
-      Host:
-      - dey.lnmarketplace.net
-  tls: true
-  servername: dey.lnmarketplace.net
-  client-fingerprint: chrome
-  alpn:
-  - h2
 - name: 🏳️ Unknown - 10/10 @Config724
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: snip.edgeoneai.cc.cd
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-- name: 🏳️ Unknown - 10/10 @Config724 2
   type: vless
   server: 188.114.97.6
   port: 443
@@ -62,7 +30,7 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
-- name: 🇺🇸 United States - 10/10 @Config724 2
+- name: 🇺🇸 United States - 10/10 @Config724
   type: vless
   server: 199.232.78.159
   port: 443
@@ -75,7 +43,7 @@ proxies:
       Host: pan2e.global.ssl.fastly.net
   tls: true
   servername: google.com
-- name: 🏳️ Unknown - 10/10 @Config724 3
+- name: 🏳️ Unknown - 10/10 @Config724 2
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -104,7 +72,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: YF329KNGVTUZ1qrH
   udp: true
-- name: 🇳🇱 The Netherlands - 10/10 @Config724 2
+- name: 🇳🇱 The Netherlands - 10/10 @Config724
   type: vless
   server: 45.82.56.253
   port: 443
@@ -125,7 +93,7 @@ proxies:
   udp: true
   tls: true
   servername: e3k67dwms3-51255166202-direct.tavafog.com
-- name: 🇺🇸 United States - 10/10 @Config724 3
+- name: 🇺🇸 United States - 10/10 @Config724 2
   type: vless
   server: 140.225.208.50
   port: 2083
@@ -599,22 +567,56 @@ proxies:
   servername: passport.yandex.ru
   client-fingerprint: random
   flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 10/12 @Config724 2
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: e0ef0fb4-f18a-4284-bcf3-f5b3e738c594
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pan2e.global.ssl.fastly.net
+  tls: true
+  servername: google.com
+- name: 🇮🇪 Ireland - 10/12 @Config724 2
+  type: ss
+  server: 20.234.97.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: K5sEvZiKmens104B
+  udp: true
+- name: 🏳️ Unknown - 10/12 @Config724 2
+  type: vless
+  server: www.comoiran.ir
+  port: 443
+  uuid: c5d6190b-7286-4b73-a5f4-c23a47a61c74
+  udp: true
+  network: ws
+  ws-opts:
+    path: /api/v1/flights/dest-de/price-stream
+    headers:
+      Host: www.comoiran.ir
+  tls: true
+  servername: www.comoiran.ir
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇳🇱 The Netherlands - 10/10 @Config724
   - 🏳️ Unknown - 10/10 @Config724
+  - 🇺🇸 United States - 10/10 @Config724
   - 🏳️ Unknown - 10/10 @Config724 2
-  - 🇺🇸 United States - 10/10 @Config724 2
-  - 🏳️ Unknown - 10/10 @Config724 3
   - 🇬🇧 United Kingdom - 10/10 @Config724
   - 🇮🇪 Ireland - 10/10 @Config724
-  - 🇳🇱 The Netherlands - 10/10 @Config724 2
+  - 🇳🇱 The Netherlands - 10/10 @Config724
   - 🇫🇷 France - 10/10 @Config724
-  - 🇺🇸 United States - 10/10 @Config724 3
+  - 🇺🇸 United States - 10/10 @Config724 2
   - 🇦🇪 United Arab Emirates - 10/10 @Config724
   - 🇮🇪 Ireland - 10/11 @Config724
   - 🇦🇪 United Arab Emirates - 10/11 @Config724
@@ -650,19 +652,20 @@ proxy-groups:
   - 🇮🇪 Ireland - 10/12 @Config724
   - 🇦🇪 United Arab Emirates - 10/12 @Config724
   - 🇷🇺 Russia - 10/12 @Config724
+  - 🇺🇸 United States - 10/12 @Config724 2
+  - 🇮🇪 Ireland - 10/12 @Config724 2
+  - 🏳️ Unknown - 10/12 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇳🇱 The Netherlands - 10/10 @Config724
   - 🏳️ Unknown - 10/10 @Config724
+  - 🇺🇸 United States - 10/10 @Config724
   - 🏳️ Unknown - 10/10 @Config724 2
-  - 🇺🇸 United States - 10/10 @Config724 2
-  - 🏳️ Unknown - 10/10 @Config724 3
   - 🇬🇧 United Kingdom - 10/10 @Config724
   - 🇮🇪 Ireland - 10/10 @Config724
-  - 🇳🇱 The Netherlands - 10/10 @Config724 2
+  - 🇳🇱 The Netherlands - 10/10 @Config724
   - 🇫🇷 France - 10/10 @Config724
-  - 🇺🇸 United States - 10/10 @Config724 3
+  - 🇺🇸 United States - 10/10 @Config724 2
   - 🇦🇪 United Arab Emirates - 10/10 @Config724
   - 🇮🇪 Ireland - 10/11 @Config724
   - 🇦🇪 United Arab Emirates - 10/11 @Config724
@@ -698,6 +701,9 @@ proxy-groups:
   - 🇮🇪 Ireland - 10/12 @Config724
   - 🇦🇪 United Arab Emirates - 10/12 @Config724
   - 🇷🇺 Russia - 10/12 @Config724
+  - 🇺🇸 United States - 10/12 @Config724 2
+  - 🇮🇪 Ireland - 10/12 @Config724 2
+  - 🏳️ Unknown - 10/12 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
