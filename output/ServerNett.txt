@@ -1,0 +1,1 @@
+vless://0617eade-fb92-422f-9b59-c9a4b65b2906@199.232.239.239:443?path=%2F%3Fed%3D2056&security=tls&alpn=h2&encryption=none&host=mr_anonoijji.global.ssl.fastly.net&fp=firefox&type=ws&sni=speedtest.net#%40SERVERNETT%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%A8%D8%AF%DB%8C%D8%AF
