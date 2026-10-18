@@ -1,2 +1,0 @@
-vless://2346ecc4-8dc1-42f2-ba96-ba7872222fb8@199.232.78.159:443?path=%2FParSashOnaM&security=tls&encryption=none&insecure=0&host=Zardaloo2.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=Bassss.fastly.com#%F0%9F%87%A9%F0%9F%87%AA%40EXPRESSVPN_420%20%7C%20All
-vless://f04cc810-aaf2-4a7b-8cad-356cdd30d394@tg1.cdnphotos.org:443?mode=auto&path=%2Fapi%2Fv1%2F%3Fed%23&security=tls&encryption=none&insecure=0&fp=random&type=xhttp&allowInsecure=0&sni=tg1.cdnphotos.org#%40EXPRESSVPN_420
