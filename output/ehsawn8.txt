@@ -1,0 +1,1 @@
+vless://d4c7937b83242588878da7ab7eb1e9a8@69.46.46.71:443?path=%2Fws%2Fd4c7937b83242588878da7ab7eb1e9a8&security=tls&alpn=http%2F1.1&encryption=none&host=core-166442-d9f37e-production.up.railway.app&fp=chrome&type=ws&sni=core-166442-d9f37e-production.up.railway.app#@ehsawn8
