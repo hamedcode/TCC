@@ -19,40 +19,7 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇷🇺 Russia - 10/18 @Config724
-  type: vless
-  server: tg1.cdnphotos.org
-  port: 443
-  uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
-  udp: true
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/?ed#
-    mode: auto
-  tls: true
-  servername: tg1.cdnphotos.org
-  client-fingerprint: random
-- name: 🇿🇦 South Africa - 10/18 @Config724
-  type: ss
-  server: 20.164.216.208
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: tM0sV3CrjAU0nokd
-  udp: true
 - name: 🏳️ Unknown - 10/18 @Config724
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-  tls: true
-  servername: lucasjow.us.ci
-- name: 🏳️ Unknown - 10/18 @Config724 2
   type: trojan
   server: 188.114.98.0
   port: 443
@@ -68,7 +35,7 @@ proxies:
   alpn:
   - http/1.1
   skip-cert-verify: false
-- name: 🏳️ Unknown - 10/18 @Config724 3
+- name: 🏳️ Unknown - 10/18 @Config724 2
   type: trojan
   server: 188.114.97.6
   port: 443
@@ -81,7 +48,7 @@ proxies:
       Host: www.calmlunch.com
   sni: www.calmlunch.com
   skip-cert-verify: false
-- name: 🏳️ Unknown - 10/18 @Config724 4
+- name: 🏳️ Unknown - 10/18 @Config724 3
   type: vless
   server: 172.67.155.65
   port: 8443
@@ -94,7 +61,7 @@ proxies:
       Host: lucasjow.us.ci
   tls: true
   servername: lucasjow.us.ci
-- name: 🏳️ Unknown - 10/18 @Config724 5
+- name: 🏳️ Unknown - 10/18 @Config724 4
   type: trojan
   server: www.speedtest.net
   port: 443
@@ -107,7 +74,7 @@ proxies:
       Host: www.calmlunch.com
   sni: www.calmlunch.com
   skip-cert-verify: false
-- name: 🇿🇦 South Africa - 10/18 @Config724 2
+- name: 🇿🇦 South Africa - 10/18 @Config724
   type: ss
   server: 20.164.216.208
   port: 443
@@ -608,20 +575,43 @@ proxies:
   alpn:
   - http/1.1
   skip-cert-verify: false
+- name: 🇺🇸 United States - 10/22 @Config724
+  type: vless
+  server: 146.75.59.186
+  port: 443
+  uuid: 153900df-5824-4b55-98c4-418c5baea523
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+  tls: true
+  servername: firefox.com
+- name: 🇺🇸 United States - 10/22 @Config724 2
+  type: vless
+  server: wwww.qarvian.ir
+  port: 443
+  uuid: 153900df-5824-4b55-98c4-418c5baea523
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+  tls: true
+  servername: firefox.com
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇷🇺 Russia - 10/18 @Config724
-  - 🇿🇦 South Africa - 10/18 @Config724
   - 🏳️ Unknown - 10/18 @Config724
   - 🏳️ Unknown - 10/18 @Config724 2
   - 🏳️ Unknown - 10/18 @Config724 3
   - 🏳️ Unknown - 10/18 @Config724 4
-  - 🏳️ Unknown - 10/18 @Config724 5
-  - 🇿🇦 South Africa - 10/18 @Config724 2
+  - 🇿🇦 South Africa - 10/18 @Config724
   - 🏳️ Unknown - 10/19 @Config724
   - 🏳️ Unknown - 10/19 @Config724 2
   - 🏳️ Unknown - 10/19 @Config724 3
@@ -656,17 +646,16 @@ proxy-groups:
   - 🇷🇺 Russia - 10/20 @Config724
   - 🏳️ Unknown - 10/21 @Config724
   - 🏳️ Unknown - 10/21 @Config724 2
+  - 🇺🇸 United States - 10/22 @Config724
+  - 🇺🇸 United States - 10/22 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇷🇺 Russia - 10/18 @Config724
-  - 🇿🇦 South Africa - 10/18 @Config724
   - 🏳️ Unknown - 10/18 @Config724
   - 🏳️ Unknown - 10/18 @Config724 2
   - 🏳️ Unknown - 10/18 @Config724 3
   - 🏳️ Unknown - 10/18 @Config724 4
-  - 🏳️ Unknown - 10/18 @Config724 5
-  - 🇿🇦 South Africa - 10/18 @Config724 2
+  - 🇿🇦 South Africa - 10/18 @Config724
   - 🏳️ Unknown - 10/19 @Config724
   - 🏳️ Unknown - 10/19 @Config724 2
   - 🏳️ Unknown - 10/19 @Config724 3
@@ -701,6 +690,8 @@ proxy-groups:
   - 🇷🇺 Russia - 10/20 @Config724
   - 🏳️ Unknown - 10/21 @Config724
   - 🏳️ Unknown - 10/21 @Config724 2
+  - 🇺🇸 United States - 10/22 @Config724
+  - 🇺🇸 United States - 10/22 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
