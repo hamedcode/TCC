@@ -19,11 +19,40 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇺🇸 United States - 10/28 @Config724
+- name: 🇳🇱 The Netherlands - 10/29 @Config724
+  type: trojan
+  server: 151.101.36.120
+  port: 443
+  password: MiTiVPN
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mitivpn--mitivpn.ac.ir
+  sni: firefox.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+- name: 🇺🇸 United States - 10/29 @Config724
+  type: vless
+  server: 146.75.57.238
+  port: 443
+  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 10/29 @Config724 2
   type: vless
   server: 199.232.78.159
   port: 443
-  uuid: 46cb8a26-0712-4e85-89bf-2538a2788652
+  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
   udp: true
   network: ws
   ws-opts:
@@ -32,39 +61,6 @@ proxies:
       Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
   tls: true
   servername: cdn.akamai.steamstatic.com
-- name: 🇬🇧 United Kingdom - 10/28 @Config724
-  type: ss
-  server: 185.176.206.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 United States - 10/29 @Config724
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-  tls: true
-  servername: firefox.com
-- name: 🇺🇸 United States - 10/29 @Config724 2
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-  tls: true
-  servername: firefox.com
 - name: 🇺🇸 United States - 10/29 @Config724 3
   type: vless
   server: 146.75.57.238
@@ -95,196 +91,6 @@ proxies:
   - http/1.1
   skip-cert-verify: false
 - name: 🇺🇸 United States - 10/29 @Config724 5
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/29 @Config724 6
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/29 @Config724 7
-  type: trojan
-  server: 167.82.64.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 10/29 @Config724 8
-  type: trojan
-  server: 199.232.78.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇳🇱 The Netherlands - 10/29 @Config724
-  type: trojan
-  server: 151.101.36.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 10/29 @Config724 9
-  type: trojan
-  server: 167.82.64.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 10/29 @Config724 10
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-  tls: true
-  servername: firefox.com
-- name: 🇺🇸 United States - 10/29 @Config724 11
-  type: trojan
-  server: 199.232.78.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇳🇱 The Netherlands - 10/29 @Config724 2
-  type: trojan
-  server: 151.101.36.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 10/29 @Config724 12
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/29 @Config724 13
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/29 @Config724 14
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: e9a9d2ba-8c33-4e5e-a903-efa595db2fff
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/29 @Config724 15
-  type: trojan
-  server: 146.75.57.120
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn--mitivpn.ac.ir
-  sni: firefox.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 10/29 @Config724 16
   type: vless
   server: 199.232.78.160
   port: 443
@@ -363,7 +169,7 @@ proxies:
     short-id: 5b8a942318178e7b
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇺🇸 United States - 10/29 @Config724 17
+- name: 🇺🇸 United States - 10/29 @Config724 6
   type: vless
   server: docs.asasin4.ir
   port: 30940
@@ -573,38 +379,193 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
+- name: 🇫🇷 France - 10/31 @Config724
+  type: vless
+  server: 137.74.16.237
+  port: 443
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+    short-id: b390e0a721d242b0
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 10/31 @Config724
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🇺🇸 United States - 10/31 @Config724 6
+  type: vless
+  server: gcore.com
+  port: 443
+  uuid: 76cdb797-1c32-4e14-820b-c36f08f3f2cc
+  udp: true
+  network: xhttp
+  xhttp-opts:
+    path: /sakeneko?ed=2048
+    host: xxxshjhbhzxxx12hysg111xx.gcorecdn.net
+    mode: auto
+    x-padding-bytes: 100-1000
+  tls: true
+  servername: gcore.com
+  alpn:
+  - h2
+- name: 🇫🇷 France - 10/31 @Config724 2
+  type: vless
+  server: 137.74.16.237
+  port: 443
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+    short-id: b390e0a721d242b0
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇩🇪 Germany - 10/31 @Config724 2
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🏳️ Unknown - 11/01 @Config724
+  type: trojan
+  server: 104.16.34.14
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+  sni: www.trusteeforward.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+- name: 🏳️ Unknown - 11/01 @Config724 2
+  type: vmess
+  server: 104.21.15.251
+  port: 443
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.windowssearchtools.com
+  tls: true
+  servername: www.windowssearchtools.com
+- name: 🏳️ Unknown - 11/01 @Config724 3
+  type: trojan
+  server: 104.18.45.38
+  port: 443
+  password: humanity
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+- name: 🇳🇱 The Netherlands - 11/01 @Config724
+  type: vless
+  server: 188.164.248.216
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: edge
+- name: 🇨🇦 Canada - 11/01 @Config724
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇬🇧 United Kingdom - 11/01 @Config724
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 The Netherlands - 11/01 @Config724 2
+  type: vless
+  server: 51.158.206.80
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇳🇱 The Netherlands - 11/01 @Config724 3
+  type: vless
+  server: 51.158.206.26
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇳🇱 The Netherlands - 11/01 @Config724 4
+  type: vless
+  server: 51.158.206.8
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 10/28 @Config724
-  - 🇬🇧 United Kingdom - 10/28 @Config724
+  - 🇳🇱 The Netherlands - 10/29 @Config724
   - 🇺🇸 United States - 10/29 @Config724
   - 🇺🇸 United States - 10/29 @Config724 2
   - 🇺🇸 United States - 10/29 @Config724 3
   - 🇺🇸 United States - 10/29 @Config724 4
   - 🇺🇸 United States - 10/29 @Config724 5
-  - 🇺🇸 United States - 10/29 @Config724 6
-  - 🇺🇸 United States - 10/29 @Config724 7
-  - 🇺🇸 United States - 10/29 @Config724 8
-  - 🇳🇱 The Netherlands - 10/29 @Config724
-  - 🇺🇸 United States - 10/29 @Config724 9
-  - 🇺🇸 United States - 10/29 @Config724 10
-  - 🇺🇸 United States - 10/29 @Config724 11
-  - 🇳🇱 The Netherlands - 10/29 @Config724 2
-  - 🇺🇸 United States - 10/29 @Config724 12
-  - 🇺🇸 United States - 10/29 @Config724 13
-  - 🇺🇸 United States - 10/29 @Config724 14
-  - 🇺🇸 United States - 10/29 @Config724 15
-  - 🇺🇸 United States - 10/29 @Config724 16
   - 🇸🇨 Seychelles - 10/29 @Config724
   - 🇷🇺 Russia - 10/29 @Config724
   - 🇹🇷 Türkiye - 10/29 @Config724
   - 🇹🇷 Türkiye - 10/29 @Config724 2
   - 🇫🇷 France - 10/29 @Config724
-  - 🇺🇸 United States - 10/29 @Config724 17
+  - 🇺🇸 United States - 10/29 @Config724 6
   - 🇨🇭 Switzerland - 10/30 @Config724
   - 🇺🇸 United States - 10/30 @Config724
   - 🇺🇸 United States - 10/30 @Config724 2
@@ -623,35 +584,35 @@ proxy-groups:
   - 🇺🇸 United States - 10/31 @Config724 5
   - 🇳🇱 The Netherlands - 10/31 @Config724
   - 🇳🇱 The Netherlands - 10/31 @Config724 2
+  - 🇫🇷 France - 10/31 @Config724
+  - 🇩🇪 Germany - 10/31 @Config724
+  - 🇺🇸 United States - 10/31 @Config724 6
+  - 🇫🇷 France - 10/31 @Config724 2
+  - 🇩🇪 Germany - 10/31 @Config724 2
+  - 🏳️ Unknown - 11/01 @Config724
+  - 🏳️ Unknown - 11/01 @Config724 2
+  - 🏳️ Unknown - 11/01 @Config724 3
+  - 🇳🇱 The Netherlands - 11/01 @Config724
+  - 🇨🇦 Canada - 11/01 @Config724
+  - 🇬🇧 United Kingdom - 11/01 @Config724
+  - 🇳🇱 The Netherlands - 11/01 @Config724 2
+  - 🇳🇱 The Netherlands - 11/01 @Config724 3
+  - 🇳🇱 The Netherlands - 11/01 @Config724 4
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 10/28 @Config724
-  - 🇬🇧 United Kingdom - 10/28 @Config724
+  - 🇳🇱 The Netherlands - 10/29 @Config724
   - 🇺🇸 United States - 10/29 @Config724
   - 🇺🇸 United States - 10/29 @Config724 2
   - 🇺🇸 United States - 10/29 @Config724 3
   - 🇺🇸 United States - 10/29 @Config724 4
   - 🇺🇸 United States - 10/29 @Config724 5
-  - 🇺🇸 United States - 10/29 @Config724 6
-  - 🇺🇸 United States - 10/29 @Config724 7
-  - 🇺🇸 United States - 10/29 @Config724 8
-  - 🇳🇱 The Netherlands - 10/29 @Config724
-  - 🇺🇸 United States - 10/29 @Config724 9
-  - 🇺🇸 United States - 10/29 @Config724 10
-  - 🇺🇸 United States - 10/29 @Config724 11
-  - 🇳🇱 The Netherlands - 10/29 @Config724 2
-  - 🇺🇸 United States - 10/29 @Config724 12
-  - 🇺🇸 United States - 10/29 @Config724 13
-  - 🇺🇸 United States - 10/29 @Config724 14
-  - 🇺🇸 United States - 10/29 @Config724 15
-  - 🇺🇸 United States - 10/29 @Config724 16
   - 🇸🇨 Seychelles - 10/29 @Config724
   - 🇷🇺 Russia - 10/29 @Config724
   - 🇹🇷 Türkiye - 10/29 @Config724
   - 🇹🇷 Türkiye - 10/29 @Config724 2
   - 🇫🇷 France - 10/29 @Config724
-  - 🇺🇸 United States - 10/29 @Config724 17
+  - 🇺🇸 United States - 10/29 @Config724 6
   - 🇨🇭 Switzerland - 10/30 @Config724
   - 🇺🇸 United States - 10/30 @Config724
   - 🇺🇸 United States - 10/30 @Config724 2
@@ -670,6 +631,20 @@ proxy-groups:
   - 🇺🇸 United States - 10/31 @Config724 5
   - 🇳🇱 The Netherlands - 10/31 @Config724
   - 🇳🇱 The Netherlands - 10/31 @Config724 2
+  - 🇫🇷 France - 10/31 @Config724
+  - 🇩🇪 Germany - 10/31 @Config724
+  - 🇺🇸 United States - 10/31 @Config724 6
+  - 🇫🇷 France - 10/31 @Config724 2
+  - 🇩🇪 Germany - 10/31 @Config724 2
+  - 🏳️ Unknown - 11/01 @Config724
+  - 🏳️ Unknown - 11/01 @Config724 2
+  - 🏳️ Unknown - 11/01 @Config724 3
+  - 🇳🇱 The Netherlands - 11/01 @Config724
+  - 🇨🇦 Canada - 11/01 @Config724
+  - 🇬🇧 United Kingdom - 11/01 @Config724
+  - 🇳🇱 The Netherlands - 11/01 @Config724 2
+  - 🇳🇱 The Netherlands - 11/01 @Config724 3
+  - 🇳🇱 The Netherlands - 11/01 @Config724 4
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
