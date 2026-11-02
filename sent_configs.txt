@@ -109,3 +109,4 @@ vless://d0d3d49c-56e8-40e1-9e83-793d03f83d93@hw7.divarkhaghazi.com:465?path=%2F&
 vless://f04cc810-aaf2-4a7b-8cad-356cdd30d394@tg1.cdnphotos.org:443?mode=auto&path=%2Fapi%2Fv1%2F%3Fed%23&security=tls&encryption=none&insecure=0&fp=random&type=xhttp&allowInsecure=0&sni=tg1.cdnphotos.org#🇷🇺 Russia - 11/01 @Config724
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#🇳🇱 The Netherlands - 11/01 @Config724
 vless://76cdb797-1c32-4e14-820b-c36f08f3f2cc@loos.cksurge.ir:47456?security=none&encryption=mlkem768x25519plus.native.0rtt.Jz-Qc1uO14EZkZNfD1r7GsH5l6ZX6NlBmTLrHkFetzg&headerType=none&type=tcp#🇩🇪 Germany - 11/01 @Config724
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.36:19999#🇳🇱 The Netherlands - 11/02 @Config724
