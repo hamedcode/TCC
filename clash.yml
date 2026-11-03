@@ -19,70 +19,7 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇺🇸 United States - 10/29 @Config724
-  type: vless
-  server: docs.asasin4.ir
-  port: 30940
-  uuid: 2eb8223c-1392-4e4a-ad75-d61a88e1b490
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: pu8u1rdI0UHQfAppyMwbKmKQjTIS0HXmGNUG3UzEdy0
-    short-id: d9cc6f4a
-  servername: dl.google.com
-  client-fingerprint: random
-- name: 🇨🇭 Switzerland - 10/30 @Config724
-  type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
 - name: 🇺🇸 United States - 10/30 @Config724
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/30 @Config724 2
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/30 @Config724 3
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 10/30 @Config724 4
   type: vless
   server: 146.75.59.186
   port: 443
@@ -108,7 +45,7 @@ proxies:
       Host: ccc.010304.xyz
   tls: true
   servername: ccc.010304.xyz
-- name: 🇺🇸 United States - 10/30 @Config724 5
+- name: 🇺🇸 United States - 10/30 @Config724 2
   type: vless
   server: 199.232.78.160
   port: 443
@@ -121,7 +58,7 @@ proxies:
       Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
   tls: true
   servername: firefox.com
-- name: 🇨🇭 Switzerland - 10/30 @Config724 2
+- name: 🇨🇭 Switzerland - 10/30 @Config724
   type: trojan
   server: 185.18.250.252
   port: 443
@@ -519,21 +456,88 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇩🇪 Germany - 11/02 @Config724
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🇺🇸 United States - 11/03 @Config724
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 3b9e1eaf-0b42-41e2-be4f-b60b7f58e0b7
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 11/03 @Config724 2
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: dcd75627-317a-42f6-ac67-1f61ca9f1825
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 11/03 @Config724 3
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 3a7da315-eb80-46d1-a660-c2b2ff21a5a3
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 11/03 @Config724 4
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 0cecaf6a-8879-42c5-87c4-376dc204a042
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 11/03 @Config724 5
+  type: vless
+  server: xray2-direct-mci1-fs-ce.freesocks.work
+  port: 443
+  uuid: 08a6155c-1a77-48c9-940b-fcbc25406925
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
+    short-id: ''
+  servername: dl.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 10/29 @Config724
-  - 🇨🇭 Switzerland - 10/30 @Config724
   - 🇺🇸 United States - 10/30 @Config724
-  - 🇺🇸 United States - 10/30 @Config724 2
-  - 🇺🇸 United States - 10/30 @Config724 3
-  - 🇺🇸 United States - 10/30 @Config724 4
   - 🇱🇹 Lithuania - 10/30 @Config724
-  - 🇺🇸 United States - 10/30 @Config724 5
-  - 🇨🇭 Switzerland - 10/30 @Config724 2
+  - 🇺🇸 United States - 10/30 @Config724 2
+  - 🇨🇭 Switzerland - 10/30 @Config724
   - 🇸🇨 Seychelles - 10/30 @Config724
   - 🏳️ Unknown - 10/30 @Config724
   - 🇺🇸 United States - 10/31 @Config724
@@ -570,18 +574,19 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 11/01 @Config724 8
   - 🇩🇪 Germany - 11/01 @Config724 2
   - 🇳🇱 The Netherlands - 11/02 @Config724
+  - 🇩🇪 Germany - 11/02 @Config724
+  - 🇺🇸 United States - 11/03 @Config724
+  - 🇺🇸 United States - 11/03 @Config724 2
+  - 🇺🇸 United States - 11/03 @Config724 3
+  - 🇺🇸 United States - 11/03 @Config724 4
+  - 🇺🇸 United States - 11/03 @Config724 5
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 10/29 @Config724
-  - 🇨🇭 Switzerland - 10/30 @Config724
   - 🇺🇸 United States - 10/30 @Config724
-  - 🇺🇸 United States - 10/30 @Config724 2
-  - 🇺🇸 United States - 10/30 @Config724 3
-  - 🇺🇸 United States - 10/30 @Config724 4
   - 🇱🇹 Lithuania - 10/30 @Config724
-  - 🇺🇸 United States - 10/30 @Config724 5
-  - 🇨🇭 Switzerland - 10/30 @Config724 2
+  - 🇺🇸 United States - 10/30 @Config724 2
+  - 🇨🇭 Switzerland - 10/30 @Config724
   - 🇸🇨 Seychelles - 10/30 @Config724
   - 🏳️ Unknown - 10/30 @Config724
   - 🇺🇸 United States - 10/31 @Config724
@@ -618,6 +623,12 @@ proxy-groups:
   - 🇳🇱 The Netherlands - 11/01 @Config724 8
   - 🇩🇪 Germany - 11/01 @Config724 2
   - 🇳🇱 The Netherlands - 11/02 @Config724
+  - 🇩🇪 Germany - 11/02 @Config724
+  - 🇺🇸 United States - 11/03 @Config724
+  - 🇺🇸 United States - 11/03 @Config724 2
+  - 🇺🇸 United States - 11/03 @Config724 3
+  - 🇺🇸 United States - 11/03 @Config724 4
+  - 🇺🇸 United States - 11/03 @Config724 5
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
