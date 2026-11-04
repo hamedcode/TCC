@@ -19,96 +19,9 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇺🇸 United States - 10/30 @Config724
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-  tls: true
-  servername: firefox.com
-- name: 🇱🇹 Lithuania - 10/30 @Config724
-  type: vless
-  server: 88.216.69.253
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-  tls: true
-  servername: ccc.010304.xyz
-- name: 🇺🇸 United States - 10/30 @Config724 2
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-  tls: true
-  servername: firefox.com
-- name: 🇨🇭 Switzerland - 10/30 @Config724
-  type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-- name: 🇸🇨 Seychelles - 10/30 @Config724
-  type: trojan
-  server: 45.128.76.242
-  port: 443
-  password: humanity
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-  sni: www.trusteeforward.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🏳️ Unknown - 10/30 @Config724
-  type: vless
-  server: 104.18.37.247
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  tls: true
-  servername: ccc.010304.xyz
 - name: 🇺🇸 United States - 10/31 @Config724
-  type: trojan
-  server: 216.152.155.59
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: false
-- name: 🇨🇦 Canada - 10/31 @Config724
   type: vmess
-  server: 134.195.196.211
+  server: 38.110.1.246
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -131,14 +44,6 @@ proxies:
   cipher: auto
   udp: true
 - name: 🇺🇸 United States - 10/31 @Config724 4
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: 🇺🇸 United States - 10/31 @Config724 5
   type: trojan
   server: 216.152.156.49
   port: 443
@@ -186,7 +91,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: NcAXc0UZI6yQJE1p8QmOv8
   udp: true
-- name: 🇺🇸 United States - 10/31 @Config724 6
+- name: 🇺🇸 United States - 10/31 @Config724 5
   type: vless
   server: gcore.com
   port: 443
@@ -528,29 +433,100 @@ proxies:
   servername: dl.google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 11/03 @Config724 6
+  type: vless
+  server: 146.75.57.111
+  port: 443
+  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/03 @Config724 7
+  type: vless
+  server: 146.75.57.111
+  port: 443
+  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/03 @Config724 8
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/03 @Config724 9
+  type: vless
+  server: 199.232.78.160
+  port: 443
+  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+  tls: true
+  servername: community.fastly.steamstatic.com
+- name: 🇺🇸 United States - 11/03 @Config724 10
+  type: vless
+  server: 146.75.59.186
+  port: 443
+  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+  tls: true
+  servername: community.fastly.steamstatic.com
+- name: 🇳🇱 The Netherlands - 11/03 @Config724
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 The Netherlands - 11/04 @Config724
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 10/30 @Config724
-  - 🇱🇹 Lithuania - 10/30 @Config724
-  - 🇺🇸 United States - 10/30 @Config724 2
-  - 🇨🇭 Switzerland - 10/30 @Config724
-  - 🇸🇨 Seychelles - 10/30 @Config724
-  - 🏳️ Unknown - 10/30 @Config724
   - 🇺🇸 United States - 10/31 @Config724
-  - 🇨🇦 Canada - 10/31 @Config724
   - 🇺🇸 United States - 10/31 @Config724 2
   - 🇺🇸 United States - 10/31 @Config724 3
   - 🇺🇸 United States - 10/31 @Config724 4
-  - 🇺🇸 United States - 10/31 @Config724 5
   - 🇳🇱 The Netherlands - 10/31 @Config724
   - 🇳🇱 The Netherlands - 10/31 @Config724 2
   - 🇫🇷 France - 10/31 @Config724
   - 🇩🇪 Germany - 10/31 @Config724
-  - 🇺🇸 United States - 10/31 @Config724 6
+  - 🇺🇸 United States - 10/31 @Config724 5
   - 🇫🇷 France - 10/31 @Config724 2
   - 🇩🇪 Germany - 10/31 @Config724 2
   - 🏳️ Unknown - 11/01 @Config724
@@ -580,26 +556,25 @@ proxy-groups:
   - 🇺🇸 United States - 11/03 @Config724 3
   - 🇺🇸 United States - 11/03 @Config724 4
   - 🇺🇸 United States - 11/03 @Config724 5
+  - 🇺🇸 United States - 11/03 @Config724 6
+  - 🇺🇸 United States - 11/03 @Config724 7
+  - 🇺🇸 United States - 11/03 @Config724 8
+  - 🇺🇸 United States - 11/03 @Config724 9
+  - 🇺🇸 United States - 11/03 @Config724 10
+  - 🇳🇱 The Netherlands - 11/03 @Config724
+  - 🇳🇱 The Netherlands - 11/04 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 10/30 @Config724
-  - 🇱🇹 Lithuania - 10/30 @Config724
-  - 🇺🇸 United States - 10/30 @Config724 2
-  - 🇨🇭 Switzerland - 10/30 @Config724
-  - 🇸🇨 Seychelles - 10/30 @Config724
-  - 🏳️ Unknown - 10/30 @Config724
   - 🇺🇸 United States - 10/31 @Config724
-  - 🇨🇦 Canada - 10/31 @Config724
   - 🇺🇸 United States - 10/31 @Config724 2
   - 🇺🇸 United States - 10/31 @Config724 3
   - 🇺🇸 United States - 10/31 @Config724 4
-  - 🇺🇸 United States - 10/31 @Config724 5
   - 🇳🇱 The Netherlands - 10/31 @Config724
   - 🇳🇱 The Netherlands - 10/31 @Config724 2
   - 🇫🇷 France - 10/31 @Config724
   - 🇩🇪 Germany - 10/31 @Config724
-  - 🇺🇸 United States - 10/31 @Config724 6
+  - 🇺🇸 United States - 10/31 @Config724 5
   - 🇫🇷 France - 10/31 @Config724 2
   - 🇩🇪 Germany - 10/31 @Config724 2
   - 🏳️ Unknown - 11/01 @Config724
@@ -629,6 +604,13 @@ proxy-groups:
   - 🇺🇸 United States - 11/03 @Config724 3
   - 🇺🇸 United States - 11/03 @Config724 4
   - 🇺🇸 United States - 11/03 @Config724 5
+  - 🇺🇸 United States - 11/03 @Config724 6
+  - 🇺🇸 United States - 11/03 @Config724 7
+  - 🇺🇸 United States - 11/03 @Config724 8
+  - 🇺🇸 United States - 11/03 @Config724 9
+  - 🇺🇸 United States - 11/03 @Config724 10
+  - 🇳🇱 The Netherlands - 11/03 @Config724
+  - 🇳🇱 The Netherlands - 11/04 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
