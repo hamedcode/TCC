@@ -1,0 +1,7 @@
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.40:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.discovergreatjobsandadvanceyourcareer.com#%40FarazV2ray%20
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.237:443?security=tls&insecure=0&headerType=none%20&type=tcp&allowInsecure=0&sni=cdn.explorecreativejobsandenhanceyourcareerportfolio.com#%40FarazV2ray%20
+vless://109852f2-4591-498c-9a96-f1d9206ce804@52.56.166.118:1412?security=reality&encryption=none&pbk=bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.dhl.de&sid=4ea6a183#%40FarazV2ray%20
+ss://YWVzLTI1Ni1nY206Y0NNSmdKVEEzQkE0ODlZVVlyRnE3WEhYU2lTcFdsTGE@46.17.47.58:18443#%40FarazV2ray%20
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cU9IQ0xGNjYrNmZKRlZGdVdQalhaQT09OmlwVVZIbnhndUJDUVZPSEdmaHhtSUE9PQ@do.mufvaz.ir:8080#%40FarazV2ray%20
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.237:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.explorecreativejobsandenhanceyourcareerportfolio.com#%40FarazV2ray%20
+vless://b229d38c-35ec-4a0b-9c86-8fceba243d6c@95.129.234.108:8443?mode=auto&path=%2Fccxf5snr06b8xxb6&security=tls&alpn=h2&encryption=none&insecure=0&host=fafeqdhlett2p5la6d.cdn.cachefleet.com&type=xhttp&allowInsecure=0&sni=hazel-beacon.cdn.cachefleet.com#%40FarazV2ray%20
