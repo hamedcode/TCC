@@ -124,3 +124,7 @@ ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0
 vless://b229d38c-35ec-4a0b-9c86-8fceba243d6c@95.129.234.108:8443?mode=auto&path=%2Fccxf5snr06b8xxb6&security=tls&alpn=h2&encryption=none&insecure=0&host=fafeqdhlett2p5la6d.cdn.cachefleet.com&type=xhttp&allowInsecure=0&sni=hazel-beacon.cdn.cachefleet.com#🇷🇺 Russia - 11/08 @Config724
 ss://YWVzLTI1Ni1nY206Y0NNSmdKVEEzQkE0ODlZVVlyRnE3WEhYU2lTcFdsTGE@46.17.47.58:18443#🇷🇺 Russia - 11/08 @Config724
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cU9IQ0xGNjYrNmZKRlZGdVdQalhaQT09OmlwVVZIbnhndUJDUVZPSEdmaHhtSUE9PQ@do.mufvaz.ir:8080#🇩🇪 Germany - 11/08 @Config724
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.212:443?security=tls&headerType=none&type=tcp&sni=courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com#🇺🇸 United States - 11/08 @Config724
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0%3D@185.215.132.18:19999#🇺🇸 United States - 11/08 @Config724
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.31:443?security=tls&headerType=none&type=tcp&sni=unlockyourfuturefindyourperfectcareer.com#🇺🇸 United States - 11/08 @Config724
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#🇳🇱 The Netherlands - 11/08 @Config724
