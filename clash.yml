@@ -19,83 +19,6 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇺🇸 United States - 11/08 @Config724
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 11/08 @Config724 2
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: MiTiVPN
-  udp: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: Abu.ac.ir
-  sni: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 11/08 @Config724 3
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🏳️ Unknown - 11/08 @Config724
-  type: vmess
-  server: bmi.ir.kolman.com.de
-  port: 80
-  uuid: c18a7a84-d4a9-4a73-bd27-cb00818abe0b
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /f9bGbG7ZNy5L0tzXKZNxSX4q
-    v2ray-http-upgrade: true
-    headers:
-      Host: ypX6qcmrQAl.6.server.marandcity.com.de.
-- name: 🇺🇸 United States - 11/08 @Config724 4
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: aes-128-gcm
-  udp: true
-- name: 🇺🇸 United States - 11/08 @Config724 5
-  type: vless
-  server: 9.247.23.209
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: 🇺🇸 United States - 11/09 @Config724
   type: trojan
   server: 216.152.155.54
@@ -499,18 +422,100 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 🇺🇸 United States - 11/12 @Config724 4
+  type: vless
+  server: 146.75.57.111
+  port: 443
+  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/12 @Config724 5
+  type: vless
+  server: 199.232.78.160
+  port: 443
+  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/12 @Config724 6
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: MiTiVPN
+  udp: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-mitivpn.lifestyle
+  sni: mitivpn.steamstatic.com
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+- name: 🇺🇸 United States - 11/12 @Config724 7
+  type: vless
+  server: 146.75.57.111
+  port: 443
+  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/12 @Config724 8
+  type: vless
+  server: 146.75.59.186
+  port: 443
+  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇺🇸 United States - 11/12 @Config724 9
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+- name: 🇨🇦 Canada - 11/12 @Config724
+  type: ss
+  server: 158.51.121.221
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇺🇸 United States - 11/08 @Config724
-  - 🇺🇸 United States - 11/08 @Config724 2
-  - 🇺🇸 United States - 11/08 @Config724 3
-  - 🏳️ Unknown - 11/08 @Config724
-  - 🇺🇸 United States - 11/08 @Config724 4
-  - 🇺🇸 United States - 11/08 @Config724 5
   - 🇺🇸 United States - 11/09 @Config724
   - 🇺🇸 United States - 11/09 @Config724 2
   - 🇬🇧 United Kingdom - 11/09 @Config724
@@ -545,15 +550,16 @@ proxy-groups:
   - 🇺🇸 United States - 11/12 @Config724 2
   - 🇺🇸 United States - 11/12 @Config724 3
   - 🇩🇪 Germany - 11/12 @Config724
+  - 🇺🇸 United States - 11/12 @Config724 4
+  - 🇺🇸 United States - 11/12 @Config724 5
+  - 🇺🇸 United States - 11/12 @Config724 6
+  - 🇺🇸 United States - 11/12 @Config724 7
+  - 🇺🇸 United States - 11/12 @Config724 8
+  - 🇺🇸 United States - 11/12 @Config724 9
+  - 🇨🇦 Canada - 11/12 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 United States - 11/08 @Config724
-  - 🇺🇸 United States - 11/08 @Config724 2
-  - 🇺🇸 United States - 11/08 @Config724 3
-  - 🏳️ Unknown - 11/08 @Config724
-  - 🇺🇸 United States - 11/08 @Config724 4
-  - 🇺🇸 United States - 11/08 @Config724 5
   - 🇺🇸 United States - 11/09 @Config724
   - 🇺🇸 United States - 11/09 @Config724 2
   - 🇬🇧 United Kingdom - 11/09 @Config724
@@ -588,6 +594,13 @@ proxy-groups:
   - 🇺🇸 United States - 11/12 @Config724 2
   - 🇺🇸 United States - 11/12 @Config724 3
   - 🇩🇪 Germany - 11/12 @Config724
+  - 🇺🇸 United States - 11/12 @Config724 4
+  - 🇺🇸 United States - 11/12 @Config724 5
+  - 🇺🇸 United States - 11/12 @Config724 6
+  - 🇺🇸 United States - 11/12 @Config724 7
+  - 🇺🇸 United States - 11/12 @Config724 8
+  - 🇺🇸 United States - 11/12 @Config724 9
+  - 🇨🇦 Canada - 11/12 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
