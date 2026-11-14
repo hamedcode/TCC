@@ -1,0 +1,1 @@
+vless://baded307-189c-4ffc-a271-9acdab51a324@online.shop.ir.eeso.cc:39653?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=online.shop.ir.eeso.cc#%40Fa
