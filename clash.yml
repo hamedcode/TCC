@@ -20,245 +20,6 @@ dns:
   - system
 proxies:
 - name: 🇺🇸 United States - 11/14 @Config724
-  type: trojan
-  server: 199.232.78.159
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🏳️ Unknown - 11/14 @Config724
-  type: vless
-  server: 172.64.155.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: fs.qicai99.com
-  tls: true
-  servername: fs.qicai99.com
-- name: 🇺🇸 United States - 11/14 @Config724 2
-  type: trojan
-  server: 199.232.78.159
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 11/14 @Config724 3
-  type: vless
-  server: 199.232.78.120
-  port: 443
-  uuid: 685b5831-59a3-4d14-9afe-199880ae43a0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swissijji.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 11/14 @Config724 4
-  type: vless
-  server: 87.120.252.16
-  port: 443
-  uuid: 2c965628-160c-46bf-b676-d57570d1697e
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: ''
-  client-fingerprint: chrome
-- name: 🇺🇸 United States - 11/14 @Config724 5
-  type: trojan
-  server: 199.232.78.159
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 11/14 @Config724 6
-  type: vless
-  server: 199.232.78.120
-  port: 443
-  uuid: 685b5831-59a3-4d14-9afe-199880ae43a0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ushetzijji.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🇺🇸 United States - 11/14 @Config724 7
-  type: trojan
-  server: 199.232.78.159
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 11/14 @Config724 8
-  type: vless
-  server: 199.232.78.120
-  port: 443
-  uuid: 685b5831-59a3-4d14-9afe-199880ae43a0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: polandijji.global.ssl.fastly.net
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  alpn:
-  - h2
-- name: 🇺🇸 United States - 11/14 @Config724 9
-  type: trojan
-  server: 199.232.78.159
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 11/14 @Config724 10
-  type: trojan
-  server: 199.232.78.159
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🇺🇸 United States - 11/14 @Config724 11
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 685b5831-59a3-4d14-9afe-199880ae43a0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pumkin.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  alpn:
-  - h2
-- name: 🇺🇸 United States - 11/14 @Config724 12
-  type: vless
-  server: 199.232.78.120
-  port: 443
-  uuid: 685b5831-59a3-4d14-9afe-199880ae43a0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swissijji.global.ssl.fastly.net.
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-- name: 🏳️ Unknown - 11/14 @Config724 2
-  type: vless
-  server: 172.64.155.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: fs.qicai99.com
-  tls: true
-  servername: fs.qicai99.com
-- name: 🇧🇷 Brazil - 11/14 @Config724
-  type: vless
-  server: 200.102.180.37
-  port: 8443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: bGwVs-Re6vNB1tuKqZZ209x7l361FxZdtPHg0yZLa2Q
-    short-id: 63c4425dacae86cb
-  servername: juniper-canyon.cdn.cachefleet.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 11/14 @Config724 13
-  type: trojan
-  server: fastly2.dunnexa.ir
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  udp: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-- name: 🇸🇪 Sweden - 11/14 @Config724
-  type: trojan
-  server: 95.143.196.97
-  port: 443
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  udp: true
-  sni: connect-se.mimowhat.online
-  skip-cert-verify: false
-- name: 🇩🇪 Germany - 11/14 @Config724
-  type: vless
-  server: online.shop.ir.eeso.cc
-  port: 39653
-  uuid: baded307-189c-4ffc-a271-9acdab51a324
-  udp: true
-  tls: true
-  servername: online.shop.ir.eeso.cc
-- name: 🇺🇸 United States - 11/14 @Config724 14
-  type: vless
-  server: 176.126.122.236
-  port: 443
-  uuid: 7017a6d2-4283-4f78-9bba-aa4109b59688
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: ''
-  servername: worldoftanks.asia
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 11/14 @Config724 15
   type: vless
   server: caudal-reason.freevideochats.org
   port: 443
@@ -271,7 +32,7 @@ proxies:
   servername: eslfast.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 🇺🇸 United States - 11/14 @Config724 16
+- name: 🇺🇸 United States - 11/14 @Config724 2
   type: vless
   server: hiccuped-tacos.sports-streams.org
   port: 443
@@ -475,6 +236,171 @@ proxies:
   servername: dualarrow.net
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+- name: 🇺🇸 United States - 11/16 @Config724
+  type: vless
+  server: 170.114.45.6
+  port: 2096
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pcloud.z-tas.com
+  tls: true
+  servername: pcloud.z-tas.com
+- name: 🇺🇸 United States - 11/16 @Config724 2
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States - 11/16 @Config724 3
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇺🇸 United States - 11/16 @Config724 4
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🏳️ Unknown - 11/16 @Config724
+  type: vmess
+  server: 172.67.156.121
+  port: 443
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.gptcloudai.com
+  tls: true
+  servername: www.gptcloudai.com
+- name: 🇺🇸 United States - 11/16 @Config724 5
+  type: ss
+  server: 193.151.160.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States - 11/16 @Config724 6
+  type: vmess
+  server: 169.197.142.22
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇭 Switzerland - 11/16 @Config724
+  type: vless
+  server: 179.43.187.67
+  port: 443
+  uuid: 9dd38d60-e683-47c6-bd53-d71bdfee78f3
+  udp: true
+  tls: true
+  servername: portal.mavexa.ir
+- name: 🇳🇱 The Netherlands - 11/17 @Config724
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: 🇸🇪 Sweden - 11/17 @Config724
+  type: ss
+  server: 213.176.92.148
+  port: 40647
+  cipher: aes-256-gcm
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+  udp: true
+- name: 🇮🇪 Ireland - 11/17 @Config724
+  type: vless
+  server: 83.141.92.168
+  port: 443
+  uuid: a7595994-695d-484e-bfcb-e9fbb73cfa39
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY
+    short-id: 7a7d19880a9ee786
+  servername: sladovna.russianpiwo.fun
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 🇷🇸 Serbia - 11/17 @Config724
+  type: vless
+  server: bg.spirako.com
+  port: 8443
+  uuid: 081cd1d2-4a06-440b-b68a-1472a6aa69f1
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo
+    short-id: 9ce04f63
+  servername: apple.com
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+- name: 🇨🇦 Canada - 11/17 @Config724
+  type: ss
+  server: 15.235.121.109
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 575hiopq2h28yao6
+  udp: true
+- name: 🇨🇦 Canada - 11/17 @Config724 2
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇺🇸 United States - 11/17 @Config724
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 129.146.77.248
+- name: 🇺🇸 United States - 11/17 @Config724 2
+  type: vless
+  server: 5.253.86.3
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
+    short-id: fa1754221e4c5f9e
+  servername: nl3.gofizz.in
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 Select
   type: select
@@ -482,26 +408,7 @@ proxy-groups:
   - ♻️ Auto
   - DIRECT
   - 🇺🇸 United States - 11/14 @Config724
-  - 🏳️ Unknown - 11/14 @Config724
   - 🇺🇸 United States - 11/14 @Config724 2
-  - 🇺🇸 United States - 11/14 @Config724 3
-  - 🇺🇸 United States - 11/14 @Config724 4
-  - 🇺🇸 United States - 11/14 @Config724 5
-  - 🇺🇸 United States - 11/14 @Config724 6
-  - 🇺🇸 United States - 11/14 @Config724 7
-  - 🇺🇸 United States - 11/14 @Config724 8
-  - 🇺🇸 United States - 11/14 @Config724 9
-  - 🇺🇸 United States - 11/14 @Config724 10
-  - 🇺🇸 United States - 11/14 @Config724 11
-  - 🇺🇸 United States - 11/14 @Config724 12
-  - 🏳️ Unknown - 11/14 @Config724 2
-  - 🇧🇷 Brazil - 11/14 @Config724
-  - 🇺🇸 United States - 11/14 @Config724 13
-  - 🇸🇪 Sweden - 11/14 @Config724
-  - 🇩🇪 Germany - 11/14 @Config724
-  - 🇺🇸 United States - 11/14 @Config724 14
-  - 🇺🇸 United States - 11/14 @Config724 15
-  - 🇺🇸 United States - 11/14 @Config724 16
   - 🇺🇸 United States - 11/15 @Config724
   - 🇮🇷 Iran - 11/15 @Config724
   - 🇺🇸 United States - 11/15 @Config724 2
@@ -522,30 +429,27 @@ proxy-groups:
   - 🇩🇪 Germany - 11/16 @Config724
   - 🇨🇾 Cyprus - 11/16 @Config724
   - 🇷🇺 Russia - 11/16 @Config724
+  - 🇺🇸 United States - 11/16 @Config724
+  - 🇺🇸 United States - 11/16 @Config724 2
+  - 🇺🇸 United States - 11/16 @Config724 3
+  - 🇺🇸 United States - 11/16 @Config724 4
+  - 🏳️ Unknown - 11/16 @Config724
+  - 🇺🇸 United States - 11/16 @Config724 5
+  - 🇺🇸 United States - 11/16 @Config724 6
+  - 🇨🇭 Switzerland - 11/16 @Config724
+  - 🇳🇱 The Netherlands - 11/17 @Config724
+  - 🇸🇪 Sweden - 11/17 @Config724
+  - 🇮🇪 Ireland - 11/17 @Config724
+  - 🇷🇸 Serbia - 11/17 @Config724
+  - 🇨🇦 Canada - 11/17 @Config724
+  - 🇨🇦 Canada - 11/17 @Config724 2
+  - 🇺🇸 United States - 11/17 @Config724
+  - 🇺🇸 United States - 11/17 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
   - 🇺🇸 United States - 11/14 @Config724
-  - 🏳️ Unknown - 11/14 @Config724
   - 🇺🇸 United States - 11/14 @Config724 2
-  - 🇺🇸 United States - 11/14 @Config724 3
-  - 🇺🇸 United States - 11/14 @Config724 4
-  - 🇺🇸 United States - 11/14 @Config724 5
-  - 🇺🇸 United States - 11/14 @Config724 6
-  - 🇺🇸 United States - 11/14 @Config724 7
-  - 🇺🇸 United States - 11/14 @Config724 8
-  - 🇺🇸 United States - 11/14 @Config724 9
-  - 🇺🇸 United States - 11/14 @Config724 10
-  - 🇺🇸 United States - 11/14 @Config724 11
-  - 🇺🇸 United States - 11/14 @Config724 12
-  - 🏳️ Unknown - 11/14 @Config724 2
-  - 🇧🇷 Brazil - 11/14 @Config724
-  - 🇺🇸 United States - 11/14 @Config724 13
-  - 🇸🇪 Sweden - 11/14 @Config724
-  - 🇩🇪 Germany - 11/14 @Config724
-  - 🇺🇸 United States - 11/14 @Config724 14
-  - 🇺🇸 United States - 11/14 @Config724 15
-  - 🇺🇸 United States - 11/14 @Config724 16
   - 🇺🇸 United States - 11/15 @Config724
   - 🇮🇷 Iran - 11/15 @Config724
   - 🇺🇸 United States - 11/15 @Config724 2
@@ -566,6 +470,22 @@ proxy-groups:
   - 🇩🇪 Germany - 11/16 @Config724
   - 🇨🇾 Cyprus - 11/16 @Config724
   - 🇷🇺 Russia - 11/16 @Config724
+  - 🇺🇸 United States - 11/16 @Config724
+  - 🇺🇸 United States - 11/16 @Config724 2
+  - 🇺🇸 United States - 11/16 @Config724 3
+  - 🇺🇸 United States - 11/16 @Config724 4
+  - 🏳️ Unknown - 11/16 @Config724
+  - 🇺🇸 United States - 11/16 @Config724 5
+  - 🇺🇸 United States - 11/16 @Config724 6
+  - 🇨🇭 Switzerland - 11/16 @Config724
+  - 🇳🇱 The Netherlands - 11/17 @Config724
+  - 🇸🇪 Sweden - 11/17 @Config724
+  - 🇮🇪 Ireland - 11/17 @Config724
+  - 🇷🇸 Serbia - 11/17 @Config724
+  - 🇨🇦 Canada - 11/17 @Config724
+  - 🇨🇦 Canada - 11/17 @Config724 2
+  - 🇺🇸 United States - 11/17 @Config724
+  - 🇺🇸 United States - 11/17 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
