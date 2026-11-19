@@ -98,3 +98,6 @@ trojan://auRVImItMy7CqRAY7FC8Wg@ipfast.kingmna.com:443?pcs=cd6e838b9bfe31cab8b3d
 vless://78ff625e-4ce3-45b0-945e-77cd8bb27b3c@94.237.100.29:443?security=reality&encryption=none&pbk=9Ibwd-bQncO3Me_cbkSdttcSLOJW16MBGYGx2VHUlwI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.ormilabs.com&sid=ad429430#🇫🇮 Finland - 11/18 @Config724
 vless://667016ca-f02e-4b5f-bfc3-3d8ed81e9bec@87.248.149.50:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=base.hosamobenl.co.uk#🇮🇷 Iran - 11/18 @Config724
 ss://YWVzLTI1Ni1nY206RGdNeXdYS3FvakhYZXVYWThoT0phWUdQRmNqd2VDSUplRDVjZGcvY1VVWT0@213.176.92.148:40647#🇸🇪 Sweden - 11/18 @Config724
+trojan://FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF@95.143.196.97:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=connect-se.mimowhat.online#🇸🇪 Sweden - 11/19 @Config724
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.164.175.81:19999#🇺🇦 Ukraine - 11/19 @Config724
+vless://34740711-ad28-4639-8b6b-d0c66d5c169e@94.237.100.29:443?security=reality&encryption=none&pbk=9Ibwd-bQncO3Me_cbkSdttcSLOJW16MBGYGx2VHUlwI&headerType=none&f…#🇫🇮 Finland - 11/19 @Config724
