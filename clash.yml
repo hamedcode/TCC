@@ -19,42 +19,6 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇺🇸 United States - 11/16 @Config724
-  type: vless
-  server: 170.114.45.6
-  port: 2096
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pcloud.z-tas.com
-  tls: true
-  servername: pcloud.z-tas.com
-- name: 🇺🇸 United States - 11/16 @Config724 2
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: 🇺🇸 United States - 11/16 @Config724 3
-  type: ss
-  server: 198.98.53.130
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 🇺🇸 United States - 11/16 @Config724 4
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
 - name: 🏳️ Unknown - 11/16 @Config724
   type: vmess
   server: 172.67.156.121
@@ -70,14 +34,14 @@ proxies:
       Host: www.gptcloudai.com
   tls: true
   servername: www.gptcloudai.com
-- name: 🇺🇸 United States - 11/16 @Config724 5
+- name: 🇺🇸 United States - 11/16 @Config724
   type: ss
   server: 193.151.160.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 United States - 11/16 @Config724 6
+- name: 🇺🇸 United States - 11/16 @Config724 2
   type: vmess
   server: 169.197.142.22
   port: 18000
@@ -475,19 +439,70 @@ proxies:
     public-key: 9Ibwd-bQncO3Me_cbkSdttcSLOJW16MBGYGx2VHUlwI
     short-id: ''
   client-fingerprint: chrome
+- name: 🇸🇬 Singapore - 11/20 @Config724
+  type: vless
+  server: www.binodes.com
+  port: 443
+  uuid: ecba79a1-26cc-4aff-8f7e-814c11956f1b
+  udp: true
+  encryption: mlkem768x25519plus.native.0rtt.zOWRRuXj0gGZOcEU4Op5nZis7RKRRsC6j-U12KdZhio
+  network: ws
+  ws-opts:
+    path: /css
+    headers:
+      Host: ded2ws.samcdn.shop
+  tls: true
+  servername: www.binodes.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 🇩🇪 Germany - 11/20 @Config724
+  type: ss
+  server: 62.113.237.3
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: o3-9Eg79umh4CaY8sWC7b3
+  udp: true
+- name: 🇸🇪 Sweden - 11/20 @Config724
+  type: ss
+  server: 213.176.92.148
+  port: 40647
+  cipher: aes-256-gcm
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+  udp: true
+- name: 🇹🇷 Türkiye - 11/20 @Config724
+  type: ss
+  server: 31.210.78.66
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: o3-9Eg79umh4CaY8sWC7b3
+  udp: true
+- name: 🇸🇬 Singapore - 11/20 @Config724 2
+  type: vless
+  server: www.thevicinityapp.cn
+  port: 443
+  uuid: ecba79a1-26cc-4aff-8f7e-814c11956f1b
+  udp: true
+  encryption: mlkem768x25519plus.native.0rtt.zOWRRuXj0gGZOcEU4Op5nZis7RKRRsC6j-U12KdZhio
+  network: ws
+  ws-opts:
+    path: /css
+    headers:
+      Host: ded2ws.samcdn.shop
+  tls: true
+  servername: www.thevicinityapp.cn
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
+  - 🏳️ Unknown - 11/16 @Config724
   - 🇺🇸 United States - 11/16 @Config724
   - 🇺🇸 United States - 11/16 @Config724 2
-  - 🇺🇸 United States - 11/16 @Config724 3
-  - 🇺🇸 United States - 11/16 @Config724 4
-  - 🏳️ Unknown - 11/16 @Config724
-  - 🇺🇸 United States - 11/16 @Config724 5
-  - 🇺🇸 United States - 11/16 @Config724 6
   - 🇨🇭 Switzerland - 11/16 @Config724
   - 🇳🇱 The Netherlands - 11/17 @Config724
   - 🇸🇪 Sweden - 11/17 @Config724
@@ -526,16 +541,17 @@ proxy-groups:
   - 🇸🇪 Sweden - 11/19 @Config724
   - 🇺🇦 Ukraine - 11/19 @Config724
   - 🇫🇮 Finland - 11/19 @Config724
+  - 🇸🇬 Singapore - 11/20 @Config724
+  - 🇩🇪 Germany - 11/20 @Config724
+  - 🇸🇪 Sweden - 11/20 @Config724
+  - 🇹🇷 Türkiye - 11/20 @Config724
+  - 🇸🇬 Singapore - 11/20 @Config724 2
 - name: ♻️ Auto
   type: url-test
   proxies:
+  - 🏳️ Unknown - 11/16 @Config724
   - 🇺🇸 United States - 11/16 @Config724
   - 🇺🇸 United States - 11/16 @Config724 2
-  - 🇺🇸 United States - 11/16 @Config724 3
-  - 🇺🇸 United States - 11/16 @Config724 4
-  - 🏳️ Unknown - 11/16 @Config724
-  - 🇺🇸 United States - 11/16 @Config724 5
-  - 🇺🇸 United States - 11/16 @Config724 6
   - 🇨🇭 Switzerland - 11/16 @Config724
   - 🇳🇱 The Netherlands - 11/17 @Config724
   - 🇸🇪 Sweden - 11/17 @Config724
@@ -574,6 +590,11 @@ proxy-groups:
   - 🇸🇪 Sweden - 11/19 @Config724
   - 🇺🇦 Ukraine - 11/19 @Config724
   - 🇫🇮 Finland - 11/19 @Config724
+  - 🇸🇬 Singapore - 11/20 @Config724
+  - 🇩🇪 Germany - 11/20 @Config724
+  - 🇸🇪 Sweden - 11/20 @Config724
+  - 🇹🇷 Türkiye - 11/20 @Config724
+  - 🇸🇬 Singapore - 11/20 @Config724 2
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
