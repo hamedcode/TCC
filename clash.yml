@@ -19,29 +19,6 @@ dns:
   proxy-server-nameserver:
   - system
 proxies:
-- name: 🇦🇹 Austria - 11/18 @Config724
-  type: vmess
-  server: 154.47.19.225
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-- name: 🇬🇧 United Kingdom - 11/18 @Config724
-  type: vless
-  server: static.224.138.28.2.clients.your-server.de
-  port: 8443
-  uuid: fb5a900b-9678-4182-8972-fe8a095ec157
-  udp: true
-  tls: true
-  servername: static.224.138.28.2.clients.your-server.de
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  flow: xtls-rprx-vision
 - name: 🇩🇪 Germany - 11/18 @Config724
   type: vless
   server: static.107.217.233.167.clients.your-server.de
@@ -597,14 +574,27 @@ proxies:
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
+- name: 🇺🇸 United States - 11/24 @Config724
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: aes-128-gcm
+  udp: true
+- name: 🇺🇸 United States - 11/25 @Config724
+  type: ss
+  server: 135.148.42.13
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
 proxy-groups:
 - name: 🚀 Select
   type: select
   proxies:
   - ♻️ Auto
   - DIRECT
-  - 🇦🇹 Austria - 11/18 @Config724
-  - 🇬🇧 United Kingdom - 11/18 @Config724
   - 🇩🇪 Germany - 11/18 @Config724
   - 🇺🇸 United States - 11/18 @Config724
   - 🇺🇸 United States - 11/18 @Config724 2
@@ -652,11 +642,11 @@ proxy-groups:
   - 🇺🇸 United States - 11/23 @Config724 8
   - 🇬🇧 United Kingdom - 11/23 @Config724
   - 🇺🇸 United States - 11/23 @Config724 9
+  - 🇺🇸 United States - 11/24 @Config724
+  - 🇺🇸 United States - 11/25 @Config724
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇦🇹 Austria - 11/18 @Config724
-  - 🇬🇧 United Kingdom - 11/18 @Config724
   - 🇩🇪 Germany - 11/18 @Config724
   - 🇺🇸 United States - 11/18 @Config724
   - 🇺🇸 United States - 11/18 @Config724 2
@@ -704,6 +694,8 @@ proxy-groups:
   - 🇺🇸 United States - 11/23 @Config724 8
   - 🇬🇧 United Kingdom - 11/23 @Config724
   - 🇺🇸 United States - 11/23 @Config724 9
+  - 🇺🇸 United States - 11/24 @Config724
+  - 🇺🇸 United States - 11/25 @Config724
   url: https://www.gstatic.com/generate_204
   interval: 300
   lazy: false
