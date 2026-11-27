@@ -1,2 +1,0 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSb0FSSkxUbE1KT0ZWSXVR@20.166.121.63:443?type=tcp#%40musicestanband
-vless://37af0181-5598-4aad-a040-d926bcb65757@78.159.240.11:445?mode=gun&security=reality&encryption=none&pbk=VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA&fp=firefox&type=grpc&serviceName=grpc&sni=passport.yandex.ru#%40Antifilterjadid
